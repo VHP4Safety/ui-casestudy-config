@@ -138,7 +138,7 @@
           {
             "label": "NIH dietary supplement label database",
             "description": "",
-            "dsld"
+            "id": "dsld"
           },
           {
             "label": "Sysrev",

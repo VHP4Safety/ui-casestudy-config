@@ -1,16 +1,16 @@
 {
   "step1Contents": {
     "navTitle": "Thyroid Case Study",
-    "navDescription": "[Filler] Two regulatory questions for the thyroid case study. Choose one to explore or scroll for an overview.",
+    "navDescription": "Two regulatory questions for the thyroid case study. Choose one to explore or scroll for an overview.",
     "questions": [
       {
         "label": "Question 1: Compound Information",
-        "description": "What information about a compound do we need to advise women in their early pregnancy to decide whether the compound can be used?",
+        "description": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
         "value": "Q1"
       },
       {
         "label": "Question 2: Fetal Brain Development",
-        "description": "Does compound Z influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?",
+        "description": "DWhat information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
         "value": "Q2"
       }
     ],

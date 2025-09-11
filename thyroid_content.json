@@ -128,7 +128,8 @@
         "tools": [
           {
             "label": "EMA documents",
-            "description": ""
+            "description": "",
+            "id": "ema_documents"
           },
           {
             "label": "Product info leaflets",
@@ -136,12 +137,13 @@
           },
           {
             "label": "NIH dietary supplement label database",
-            "description": ""
+            "description": "",
+            "dsld"
           },
           {
             "label": "Sysrev",
             "description": "",
-            "id": ""
+            "id": "sysrev"
           }
         ],
         "content": "<p>Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day</p><br /><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
@@ -171,11 +173,13 @@
           },
           {
             "label": "WikiPathways",
-            "description": ""
+            "description": "",
+            "id": "wikipathways_aop"
           },
           {
             "label": "BridgeDb",
-            "description": ""
+            "description": "",
+            "id": "bridgedb"
           }
         ],
         "content": "<h2>AOP development: How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases.</p><p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis.</p>"

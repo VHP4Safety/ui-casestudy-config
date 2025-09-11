@@ -113,16 +113,6 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Adverse outcome for Q1.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
         "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       }
     },
@@ -130,16 +120,6 @@
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Chemical characteristics for Q2.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
       },
       "External Exposure": {
@@ -147,8 +127,12 @@
         "navDescription": "External exposure for Q2.",
         "tools": [
           {
-            "label": "Google Search",
+            "label": "EMA documents",
             "description": ""
+          },
+          {
+            "label": "Product info leaflets",
+            "description": "found via Google Search"
           },
           {
             "label": "NIH dietary supplement label database",
@@ -167,19 +151,15 @@
         "navDescription": "[Filler] Kinetics for Q2.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Prediction of maternal systemic and fetail brain concentration",
+            "description": ""
           }
         ],
         "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
       },
       "AOP": {
         "navTitle": "AOP",
-        "navDescription": "[Filler] AOP for Q2.",
+        "navDescription": "AOP Development for Q2",
         "tools": [
           {
             "label": "PubMed",
@@ -202,15 +182,11 @@
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Adverse outcome for Q2.",
+        "navDescription": "Adverse outcome for Q2.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "MCT8 deficient mutant clinical data",
+            "description": ""
           }
         ],
         "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"

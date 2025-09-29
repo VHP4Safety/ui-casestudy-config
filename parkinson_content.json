@@ -70,7 +70,7 @@
         "navDescription": "[Filler] External exposure for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "Exposome generator - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -85,7 +85,7 @@
         "navDescription": "[Filler] Kinetics for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "physB PBK model - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -100,12 +100,37 @@
         "navDescription": "[Filler] AOP for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred - MIE activation",
+            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "qAOP model - Exposure response relationship",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Intracellular calcium imaging",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
+            "description": "Alamar blue assay"
+          },
+          {
+            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
+            "description": "ATP content & Alamar blue assay"
+
+          },
+          {
+            "label": "ROS production LUHMES cells - oxidative stress",
+            "description": "H2DCFDA"
+          },
+          {
+            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
+            "description": ""
           }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
@@ -128,8 +153,8 @@
     },
     "Q2": {
       "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Chemical characteristics for Q2.",
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Chemical characteristics for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -140,14 +165,14 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] External exposure for Q2.",
+        "navTitle": "External Exposure - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] External exposure for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "Exposome generator - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -155,14 +180,14 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Kinetics for Q2.",
+        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Kinetics for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "physB PBK model - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -170,26 +195,51 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Kinetics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] AOP for Q2.",
+        "navTitle": "AOP - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] AOP for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred - MIE activation",
+            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "qAOP model - Exposure response relationship",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Intracellular calcium imaging",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
+            "description": "Alamar blue assay"
+          },
+          {
+            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
+            "description": "ATP content & Alamar blue assay"
+
+          },
+          {
+            "label": "ROS production LUHMES cells - oxidative stress",
+            "description": "H2DCFDA"
+          },
+          {
+            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
+            "description": ""
           }
         ],
-        "content": "<h2>AOP Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Adverse outcome for Q2.",
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Adverse outcome for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -200,7 +250,7 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       }
     }
   }

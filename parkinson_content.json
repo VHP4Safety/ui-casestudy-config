@@ -25,7 +25,6 @@
           "label": "Chemical Characteristics",
           "value": "Chemical Characteristics"
         },
-        { "label": "External Exposure", "value": "External Exposure" },
         { "label": "Kinetics", "value": "Kinetics" },
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
@@ -45,7 +44,7 @@
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>Risk assessment differs from hazard characterization as it also considers the external exposure to the chemical of interest. </p><h3>What endpoints (AOPs, adverse outcomes)</h3><p>Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons.</p><h3>What compounds (chemical characteristics)</h3><p>Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models. Rotenone primarily disrupts mitochondrial function (Complex I inhibition), Dinoseb is known for inducing ER-stress (calcium release) and mitochondrial inhibition, Endosulfan is a known substrate for neurotransmitter receptors leading to overstimulation of neuronal networks, and Mancozeb is known as a source of oxidative stress and disruption of protein homeostasis.  Of these, Dinoseb was chosen as model pesticide to answer question 1. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models.</p><h3>What exposure paradigm (kinetics, chemical characteristics)</h3><p>In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, this case study tested 5 different exposure paradigms ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure.</p><h3>Different routes of exposure</h3><p>External exposure to a compound can lead to internal exposure via three routes: inhalation, dermal penetration or oral intake. The exposure assessment for pesticides considers all major routes of human exposure and includes the magnitude and duration of that exposure. A complete exposure assessment takes into account dietary and non-dietary exposure. These routes are used to calculate aggregate exposure and may also consider cumulative exposure to multiple pesticides with similar mechanisms of action. Special attention can be given to vulnerable groups such as occupationally exposed workers, and children, as their intake relative to body weight or frequency of contact may be higher, increasing potential risk. To answer question 2, occupational- and bystander exposure were considered, taking into account the inhalation and dermal route of exposure, as well as hand-to-mouth contact.</p>"
+      "content": "<h2>Parkinson-related Regulatory Question 2</h2><p>Risk assessment differs from hazard characterization as it also considers the external exposure to the chemical of interest. Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons. Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models (Rotenone, Dinoseb, Endosulfan and Mancozeb.  For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models. To better reflect human exposure, the study compared five exposure paradigms - acute, repeated, and chronic treatments - to assess how different exposure patterns influence outcomes in cell models. </p><h3>Different routes of exposure</h3><p>External exposure to a compound can lead to internal exposure via three routes: inhalation, dermal penetration or oral intake. The exposure assessment for pesticides considers all major routes of human exposure and includes the magnitude and duration of that exposure. A complete exposure assessment takes into account dietary and non-dietary exposure. These routes are used to calculate aggregate exposure and may also consider cumulative exposure to multiple pesticides with similar mechanisms of action. Special attention can be given to vulnerable groups such as occupationally exposed workers, and children, as their intake relative to body weight or frequency of contact may be higher, increasing potential risk. To answer question 2, occupational- and bystander exposure were considered, taking into account the inhalation and dermal route of exposure, as well as hand-to-mouth contact.</p><h3>Modelling approaches</h3><p>Modelling approaches are required to translate in vitro findings to human effect levels. This includes quantitative-in vitro-in vivo-extrapolation (qIVIVE) and physiologically based kinetic (PBK) modelling. </p><h3>What exposure paradigm (kinetics, chemical characteristics)</h3><p>In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, this case study tested 5 different exposure paradigms ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure.</p><h3>Groups of extra risk to develop Parkinson's Disease </h3><p>Certain genetic factors may define an individual or subpopulation at increased risk to develop pesticide-induced Parkinson's disease. Identified biological factors related to increased susceptibility can support New Approach Methodologies (NAMs)-based hazard and risk assessment while considering known sources of interindividual variability. </p>"
     }
   },
   "step3Contents": {
@@ -65,21 +64,6 @@
         ],
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
-      "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
-          {
-            "label": "Exposome generator - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Kinetics for Q1.",
@@ -97,40 +81,19 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
-        "tools": [
+        "navDescription": "AOP for Q1.",
+        "steps": [
           {
-            "label": "QSPRPred - MIE activation",
-            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
+            "label": "AOP development", "value": "AOP development"
           },
           {
-            "label": "qAOP model - Exposure response relationship",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred", "value": "QSPRPred"
           },
           {
-            "label": "Intracellular calcium imaging",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Effects on key event relationships", "value": "Effects on key event relationships"
           },
           {
-            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
-            "description": "Alamar blue assay"
-          },
-          {
-            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
-            "description": "ATP content & Alamar blue assay"
-
-          },
-          {
-            "label": "ROS production LUHMES cells - oxidative stress",
-            "description": "H2DCFDA"
-          },
-          {
-            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
-            "description": ""
+            "label": "qAOP model", "value": "qAOP model"
           }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
@@ -153,8 +116,8 @@
     },
     "Q2": {
       "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Chemical characteristics for Q1.",
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Chemical characteristics for Q2.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -168,23 +131,16 @@
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
-          {
-            "label": "Exposome generator - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
+        "navTitle": "External Exposure - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] External exposure for Q2.",
+        "steps": [
+          { "label": "Exposome generator", "value": "Exposome generator" }
         ],
         "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Kinetics for Q1.",
+        "navTitle": "Kinetics - Tools and Workflow (Q2)",
+        "navDescription": "Kinetics for Q2.",
         "tools": [
           {
             "label": "physB PBK model - Short description",
@@ -195,51 +151,30 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Kinetics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>The major target organ that is relevant to determine effects for neurodegeneration disease is the brain. It is therefore important to determine the relevant brain concentrations of dinoseb. To determine relevant brain concentrations after dinoseb exposure a population based kinetic modelling platform, PhysB, is used. The PhysB model predicts individual organ weights, blood flows and some respiratory parameters from anthopometric properties, such as gender, age, body height and weight. This allows the model to simulate the effects of inter-individual variation on the estimated internal concentration in the brain. In this case, PhysB, has been used to predict internal brain concentrations of dinoseb for workers (men between 18-60 years of age) and bystanders (men and women between 0-80 years old). External exposure assessment data for agriculture workers and bystanders generated from the exposome generator is used as input for the model. The predicted internal brain concentrations of Dinoseb can be used to design in vitro experiments assessing effects of Dinoseb on neurons. In addition, the estimated concentrations can be compared with the concentration-response concentrations that are derived from the in vitro experiments to determine whether the in vitro models are predictive of real-life scenario’s. </p>"
       },
       "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
-        "tools": [
+        "navTitle": "AOP - Tools and Workflow (Q2)",
+        "navDescription": "AOP for Q2.",
+        "steps": [
           {
-            "label": "QSPRPred - MIE activation",
-            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
+            "label": "AOP development", "value": "AOP development"
           },
           {
-            "label": "qAOP model - Exposure response relationship",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred", "value": "QSPRPred"
           },
           {
-            "label": "Intracellular calcium imaging",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Effects on key event relationships", "value": "Effects on key event relationships"
           },
           {
-            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
-            "description": "Alamar blue assay"
-          },
-          {
-            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
-            "description": "ATP content & Alamar blue assay"
-
-          },
-          {
-            "label": "ROS production LUHMES cells - oxidative stress",
-            "description": "H2DCFDA"
-          },
-          {
-            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
-            "description": ""
+            "label": "qAOP model", "value": "qAOP model"
           }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Adverse outcome for Q1.",
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Adverse outcome for Q2.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -252,6 +187,66 @@
         ],
         "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       }
+    }
+  },
+  "step4Contents": {
+    "Q1": {
+      "step4content": "true",
+      "AOP": {
+        "QSPRPred": {
+          "navTitle": "QSPRPred",
+          "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
+          "content":"[Filler]"
+        },
+        "AOP development": {
+          "navTitle": "AOP development",
+          "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\" width=\"500\"s>",
+          "content":"Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464>AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+        },
+        "Effects on key event relationships": {
+          "navTitle": "Effects on key event relationships",
+          "navDescription":"[Filler]",
+          "content":"<p>The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions:  <ul><li>The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay</li><li>The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assay</li><li>The effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.</li><li>The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. </li></ul>Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides.</p>"
+        },
+        "qAOP model": {
+          "navTitle": "qAOP model",
+          "navDescription":"[Filler]",
+          "content": "[Filler]"
+        }
+      }
+    },
+    "Q2": {
+      "step4content": "true",
+      "External Exposure": {
+        "Exposome generator": {
+          "navTitle": "Exposome generator",
+          "navDescription": "[Filler] Link through to inputs and outputs coming soon",
+          "content": "<p>The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways. This tool combines existing models, newly developed computational approaches, and curated datasets to generate exposure distributions that can be used in risk assessment and further modeling within the VHP4S framework. The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods.</p><p>To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.</p><p>The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios.</p><p>Outputs include:</p><ul><li>Occupational exposure levels (µg/kg bw) across protection levels and application practices.</li><li>Environmental exposure values at different distances from treated fields, expressed as µg/kg bw.</li><li>Dietary exposure distributions for different food categories and population subgroups, expressed as µg/kg bw per day.</li></ul><p>Dinoseb was selected as a proof-of-concept substance. It serves as a representative pesticide to demonstrate the functionality of the exposome generator across occupational, environmental, and dietary exposure pathways. Estimated external exposure is further linked to a specific Dinoseb PBPK modelling framework. </p>"
+        }
+      },
+      "AOP": {
+        "QSPRPred": {
+          "navTitle": "QSPRPred",
+          "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
+          "content":"[Filler]"
+        },
+        "AOP development": {
+          "navTitle": "AOP development",
+          "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\" width=\"500\">",
+          "content":"Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464>AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+        },
+        "Effects on key event relationships": {
+          "navTitle": "Effects on key event relationships",
+          "navDescription":"[Filler]",
+          "content":"<p>The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions:  <ul><li>The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay</li><li>The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assay</li><li>The effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.</li><li>The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. </li></ul>Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides.</p>"
+        },
+        "qAOP model": {
+          "navTitle": "qAOP model",
+          "navDescription":"[Filler]",
+          "content": "[Filler]"
+        }
+
+    }
     }
   }
 }

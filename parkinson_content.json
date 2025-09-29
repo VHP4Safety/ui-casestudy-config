@@ -40,7 +40,6 @@
           "label": "Chemical Characteristics",
           "value": "Chemical Characteristics"
         },
-        { "label": "External Exposure", "value": "External Exposure" },
         { "label": "Kinetics", "value": "Kinetics" },
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }

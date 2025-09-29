@@ -65,14 +65,6 @@
         ],
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
-      "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
-        "steps": [
-          { "label": "Exposome generator", "value": "Exposome generator" }
-        ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Kinetics for Q1.",

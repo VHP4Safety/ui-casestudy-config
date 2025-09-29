@@ -69,8 +69,8 @@
         "navDescription": "[Filler] Kinetics for Q1.",
         "tools": [
           {
-            "label": "physB PBK model - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "physB PBK model - population based kinetic modelling platform",
+            "description": "PhysB, a population based kinetic modelling platform, which can also predict variation within a population. Factors like age and gender influence the physiological characteristics of an individual such as relative tissue weights. By taking into account such variations, one can simulate the effects of such variation on the estimated internal concentration in the brain. For instance, workers: men between 18-60 years of age, consumers and bystanders: men and women between 0-80 years old. PhysB is available outside of VHP4Safety, a link to how to use the PhysB will be incorporated within the platform. Link to paper: https://doi.org/10.3109/10408444.2012.709225"
           },
           {
             "label": "Tool B - Short description",
@@ -143,8 +143,8 @@
         "navDescription": "Kinetics for Q2.",
         "tools": [
           {
-            "label": "physB PBK model - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "physB PBK model - population based kinetic modelling platform",
+            "description": "PhysB, a population based kinetic modelling platform, which can also predict variation within a population. Factors like age and gender influence the physiological characteristics of an individual such as relative tissue weights. By taking into account such variations, one can simulate the effects of such variation on the estimated internal concentration in the brain. For instance, workers: men between 18-60 years of age, consumers and bystanders: men and women between 0-80 years old. PhysB is available outside of VHP4Safety, a link to how to use the PhysB will be incorporated within the platform. Link to paper: https://doi.org/10.3109/10408444.2012.709225"
           },
           {
             "label": "Tool B - Short description",
@@ -245,8 +245,7 @@
           "navDescription":"[Filler]",
           "content": "[Filler]"
         }
-
-    }
+      }
     }
   }
 }

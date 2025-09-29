@@ -198,7 +198,7 @@
             {
               "label": "QPSRPred",
               "description": "QPSRPred"
-            },
+            }
           ],
           "content": "<h2></h2><p></p>"
         },
@@ -223,7 +223,7 @@
             }
           ],
           "content": "<h2></h2><p></p>"
-        },
+        }
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",

@@ -93,10 +93,7 @@
         "navTitle": "AOP - Tools and Workflow (Q1)",
         "navDescription": "[Filler] AOP for Q1.",
         "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
+          { "label": "qAOP", "value": "qAOP" },
           {
             "label": "Tool B - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."

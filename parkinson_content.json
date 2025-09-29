@@ -1,20 +1,20 @@
 {
   "step1Contents": {
     "navTitle": "Parkinson Case Study",
-    "navDescription": "[Filler] Two regulatory questions for the parkinson case study. Choose one to explore or scroll for an overview.",
+    "navDescription": "Two regulatory questions for the parkinson case study. Choose one to explore or scroll for an overview.",
     "questions": [
       {
-        "label": "Question 1: Disease Causation",
+        "label": "Question 1: Hazard",
         "description": "Can compound X cause Parkinson’s Disease?",
         "value": "Q1"
       },
       {
-        "label": "Question 2: Disease Progression",
-        "description": "Can we identify groups at extra risk of developing Parkinson’s Disease after exposure to compound Y?",
+        "label": "Question 2: Risk",
+        "description": "What level of exposure to compound X leads to risk for developing Parkinsons disease? ",
         "value": "Q2"
       }
     ],
-    "content": "<h2>Case Study Overview</h2><p>[Filler] This is a placeholder for the parkinson case study overview. More details will be added soon.</p>"
+    "content": "<h2>Case Study Overview</h2><p>In this case study we studied life course exposure to pesticides by modelling neurodegeneration (i.e. Parkinson’s disease) in the VHP. Neurodegenerative diseases are a major cause of death in humans and have substantial impact on society, including health care costs and quality of life. Neurodegeneration cannot be adequately tested in animal studies, since the final health outcomes such as cognitive decline and motor function, are difficult to measure in rodents. Little is known on the effect of exposure to chemicals and the onset and progression of neurodegenerative disease in humans. For some compounds, including Paraquat, Rotenone and Mancozeb, there are indications of a causal relationship between exposure and neurodegenerative disease. This case study focussed on the putative relationship between pesticide exposure and Parkinson’s Disease, by mapping the critical pathways and mechanisms underlying the disease, as well as the exposure in human biomonitoring studies. Within the case study we created an AOP network for Parkinson’s disease and determined dose-response relationships for several pesticides in relevant in vitro models.</p>"
   },
   "step2Contents": {
     "Q1": {
@@ -30,7 +30,7 @@
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>[Filler] Content for regulatory question 1. More info coming soon.</p>"
+      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>Hazard characterization is an important first step towards risk assessment of pesticides. This step describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease.</p><h3>What endpoints (AOPs, adverse outcomes)</h3><p>Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons.</p>"
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",

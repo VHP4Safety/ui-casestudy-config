@@ -254,9 +254,9 @@
         },
         "AOP development": {
           "navTitle": "AOP development",
-          "navDescription": "AOP development"
-        },
+          "navDescription": "AOP development",
         "content": "<p>An Adverse Outcome Pathway (AOP) is a structured framework that links a molecular-level event caused by a stressor (tacrolimus) through a series of measurable biological changes, leading to an adverse outcome at the individual or population level. Developing an AOP aids in the selection of relevant models that address important key events necessary to answer regulatory questions. An AOP for tacrolimus, linking tacrolimus exposure to kidney failure, has been developed by gathering and organizing scientific information from PubMed. Mechanistic evidence for KEs and KERs in this AOP primarily comes from rodent studies, immortalized kidney cell lines and limited clinical evidence. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. In this AOP, although the sequence of KEs is depicted linearly, we propose that the KEs of ROS production, oxidative stress, and mitochondrial dysfunction are fundamentally interconnected and dynamic processes that occur simultaneously. This simultaneity complicates the assessment of whether one event precedes another or if they occur concurrently and made it impossible to identify a specific molecular initiating event.</p>"
+        }
       }
     }
   }

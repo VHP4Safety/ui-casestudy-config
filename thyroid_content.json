@@ -48,7 +48,7 @@
             "value": "Exposure Scenario"
           }
         ],
-        "content": ""
+        "content": "<p>The mayor route of silychristin exposure in humans will be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</a> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day.</p><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
       },
       "Kinetics": {
         "navTitle": "Kinetics (Q2)",
@@ -59,7 +59,7 @@
             "value": "Prediction of maternal systemic and fetail brain concentration"
           }
         ],
-        "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Prediction of maternal systemic concentration and concentration at MIE</h2><p>From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to model how much silychristin will reach the brain. A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and  concentrations at the fetal brain after a oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model.</p>"
       },
       "AOP": {
         "navTitle": "AOP",
@@ -169,7 +169,7 @@
               "id": "bridgedb"
             }
           ],
-          "content": "<h2>AOP development: How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases.</p><p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis.</p>"
+          "content": "<h2>How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>Pubmed</b> and <b>Scopus</b> databases.</p></p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis. </p>"
         },
         "MIE activation": {
           "navTitle": "MIE activation",
@@ -200,7 +200,7 @@
               "description": "QPSRPred"
             }
           ],
-          "content": "<h2></h2><p></p>"
+          "content": "<h2>Characterization of silychristin exposure to MIE activation</h2><p>Molecular initiation events (MIEs) are interaction between chemicals and biological targets at the molecular levels. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. These MIEs are grouped in categories describing the effects of chemicals on TH transport, deiodinase activity and TH receptor activation.</p><p>A combination of in vitro assays and computational tools were used to assess the effects of silychristin exposure on the activation of these MIEs. The effects of silychristin exposure to these molecular initiating events have been tested in three cell lines representing <b>astrocytes (H4)</b>, <b>neurons (SK-N-AS)</b> and <b>oligodendrocytes (MO3.13)</b>. A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>Activation of TH receptors</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells.</p><p>In addition to the cell lines, computational tools were employed to assess the effects of silychristin on binding to key molecular targets for thyroid mediated neurodevelopment. A quantitative structure-activity relationship model (<b>QSPRpred</b>) was employed to estimate the binding of silychristin to TRα1 and TRβ1 directly. Moreover, a <b>protein-binding model</b> was developed to estimate the binding affinity of silychristin to MCT8.</p>"
         },
         "Effects on Key Event Relationships": {
           "navTitle": "Effects on Key Event Relationships",
@@ -211,7 +211,7 @@
               "description": "Neuronal stem cells"
             }
           ],
-          "content": "<h2></h2><p></p>"
+          "content": "<h2>Characterization of downstream key event effects of silychristin exposure</h2><p>A <b>neuronal stem cell model</b> was used to further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity. </p>"
         },
         "Exposure response relationship": {
           "navTitle": "Exposure response relationship",
@@ -234,7 +234,7 @@
             "description": ""
           }
         ],
-        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Exposure-response modelling of silychristin exposure to adverse outcomes</h2><p>A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available.</p>"
       }
     }
   }

@@ -163,15 +163,8 @@
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q1)",
         "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
-          {
-            "label": "Exposome generator - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
+        "steps": [
+          { "label": "Exposome generator", "value": "Exposome generator" }
         ],
         "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
@@ -248,7 +241,7 @@
     }
   },
   "step4Contents": {
-    "Q1": {
+    "Q2": {
       "step4content": "true",
       "External Exposure": {
         "Exposome generator": {

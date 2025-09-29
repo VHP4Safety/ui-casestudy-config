@@ -37,6 +37,7 @@
     }
   },
   "step3Contents": {
+    "Q1": {},
     "Q2": {
       "External Exposure": {
         "navTitle": "External Exposure (Q2)",
@@ -97,37 +98,35 @@
     }
   },
   "step4Contents": {
+    "Q1": {},
     "Q2": {
-      "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Chemical characteristics for Q2.",
-        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
-      },
-      "Exposure Scenario": {
-        "navTitle": "Exposure Scenario (Q2)",
-        "navDescription": "Exposure Scenario for Q2.",
-        "tools": [
-          {
-            "label": "EMA documents",
-            "description": "",
-            "id": "ema_documents"
-          },
-          {
-            "label": "Product info leaflets",
-            "description": "found via Google Search"
-          },
-          {
-            "label": "NIH dietary supplement label database",
-            "description": "",
-            "id": "dsld"
-          },
-          {
-            "label": "Sysrev",
-            "description": "",
-            "id": "sysrev"
-          }
-        ],
-        "content": "<p>Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day</p><br /><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
+      "External Exposure": {
+        "Exposure Scenario": {
+          "navTitle": "Exposure Scenario (Q2)",
+          "navDescription": "Exposure Scenario for Q2.",
+          "tools": [
+            {
+              "label": "EMA documents",
+              "description": "",
+              "id": "ema_documents"
+            },
+            {
+              "label": "Product info leaflets",
+              "description": "found via Google Search"
+            },
+            {
+              "label": "NIH dietary supplement label database",
+              "description": "",
+              "id": "dsld"
+            },
+            {
+              "label": "Sysrev",
+              "description": "",
+              "id": "sysrev"
+            }
+          ],
+          "content": "<p>Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day</p><br /><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
+        }
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",

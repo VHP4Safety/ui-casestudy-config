@@ -91,7 +91,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1. Test",
+        "navDescription": "AOP for Q1",
         "tools": [
           { "label": "qAOP", "value": "qAOP" },
           {
@@ -99,7 +99,8 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
+          
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",

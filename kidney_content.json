@@ -19,7 +19,7 @@
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -72,7 +72,7 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>Human relevant exposure of tacrolimus, a frequently prescribed drug in patients after organ transplantation, is based on available pharmaceutical information Farmacotherapeutisch Kompas (https://www.farmacotherapeutischkompas.nl) the gold standard used in clinics as well as Therapeutic Drug Monitoring and <a href=\"https://tdm-monografie.org/tacrolimus/\">Pharmacogenetic Monographics</a>.</p>"
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",

@@ -9,8 +9,8 @@
         "value": "Q1"
       },
       {
-        "label": "Question 2: Fetal Brain Development",
-        "description": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
+        "label": "Question 2",
+        "description": "Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?",
         "value": "Q2"
       }
     ],
@@ -21,25 +21,13 @@
       "navTitle": "Process Flow Steps (Q1)",
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
-        {
-          "label": "Chemical Characteristics",
-          "value": "Chemical Characteristics"
-        },
-        { "label": "External Exposure", "value": "External Exposure" },
-        { "label": "Kinetics", "value": "Kinetics" },
-        { "label": "AOP", "value": "AOP" },
-        { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>Thyroid-related Regulatory Question 1</h2><p>[Filler] Content for regulatory question 1. More info coming soon.</p>"
+      "content": "<h2>What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?</h2><p>This regulatory question has not been completely worked out yet.</p>"
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
-        {
-          "label": "Chemical Characteristics",
-          "value": "Chemical Characteristics"
-        },
         { "label": "External Exposure", "value": "External Exposure" },
         { "label": "Kinetics", "value": "Kinetics" },
         { "label": "AOP", "value": "AOP" },
@@ -49,73 +37,6 @@
     }
   },
   "step3Contents": {
-    "Q1": {
-      "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Chemical characteristics for Q1.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
-      "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
-      "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Kinetics for Q1.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": "<h2>Kinetics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
-      "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      },
-      "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Adverse outcome for Q1.",
-        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
-      }
-    },
     "Q2": {
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",

@@ -38,6 +38,66 @@
   },
   "step3Contents": {
     "Q2": {
+      "External Exposure": {
+        "navTitle": "External Exposure (Q2)",
+        "navDescription": "External exposure for Q2.",
+        "steps": [
+          {
+            "label": "Exposure Scenario",
+            "description": ""
+          }
+        ],
+        "content": ""
+      },
+      "Kinetics": {
+        "navTitle": "Kinetics (Q2)",
+        "navDescription": "[Filler] Kinetics for Q2.",
+        "steps": [
+          {
+            "label": "Prediction of maternal systemic and fetail brain concentration",
+            "description": ""
+          }
+        ],
+        "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
+      },
+      "AOP": {
+        "navTitle": "AOP",
+        "navDescription": "AOP Q2",
+        "steps": [
+          {
+            "label": "AOP Development",
+            "description": ""
+          },
+          {
+            "label": "MIE activiation",
+            "description": ""
+          },
+          {
+            "label": "Effects on Key Event Relationships",
+            "description": ""
+          },
+          {
+            "label": "Exposure response relationship",
+            "description": ""
+          }
+        ],
+        "content": "<h2></h2><p></p>"
+      },
+      "Adverse Outcome": {
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
+        "navDescription": "Adverse outcome for Q2.",
+        "tools": [
+          {
+            "label": "MCT8 deficient mutant clinical data",
+            "description": ""
+          }
+        ],
+        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+      }
+    }
+  },
+  "step4Contents": {
+    "Q2": {
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Chemical characteristics for Q2.",

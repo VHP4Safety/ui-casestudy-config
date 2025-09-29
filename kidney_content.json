@@ -91,7 +91,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
+        "navDescription": "[Filler] AOP for Q1. Test",
         "tools": [
           { "label": "qAOP", "value": "qAOP" },
           {

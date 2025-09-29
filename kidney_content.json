@@ -171,7 +171,8 @@
         "navDescription": "[Filler] AOP for Q2.",
         "steps": [
           { "label": "MIE activation", "value": "MIE activation" },
-          { "label": "AOP development", "value": "AOP development" }
+          { "label": "AOP development", "value": "AOP development" },
+          { "label": "qAOP", "value": "qAOP" }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 2</h2><p>In order investigate the hazard of tacrolimus treatment we aimed to identify the key biological targets that are associated with tacrolimus-induced nephrotoxicity. For this reason, the AOP below was constructed. During the AOP development we could not find a MIE and therefore an advanced in vitro platform consisting of several relevant models was developed to identify novel molecular initiating events and validate the current AOP key events.</p>"
       },
@@ -218,7 +219,14 @@
           ]
         },
         "content": "<h2>Oral</h2><p>[Filler] Details coming soon.</p>"
-      }
+      },
+      "AOP": {
+          "qAOP": {
+            "navTitle": "qAOP",
+            "navDescription": "qAOP",
+          "content": "<p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
+          }
+        }
     },
     "Q2": {
       "step4content": "true",

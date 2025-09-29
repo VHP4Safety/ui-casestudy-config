@@ -129,40 +129,101 @@
         }
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Kinetics for Q2.",
-        "tools": [
-          {
-            "label": "Prediction of maternal systemic and fetail brain concentration",
-            "description": ""
-          }
-        ],
-        "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "Prediction of maternal systemic and fetail brain concentration": {
+          "navTitle": "Prediction of maternal systemic and fetail brain concentration - Tools and Workflow (Q2)",
+          "navDescription": "[Filler] Kinetics for Q2.",
+          "tools": [
+            {
+              "label": "PBK silychristin model",
+              "description": "PBK silychristin model"
+            },
+            {
+              "label": "In vitro intestine model",
+              "description": "In vitro intestine model"
+            }
+          ],
+          "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
+        }
       },
       "AOP": {
-        "navTitle": "AOP",
-        "navDescription": "AOP Development for Q2",
-        "tools": [
-          {
-            "label": "PubMed",
-            "description": ""
-          },
-          {
-            "label": "Scopus",
-            "description": ""
-          },
-          {
-            "label": "WikiPathways",
-            "description": "",
-            "id": "wikipathways_aop"
-          },
-          {
-            "label": "BridgeDb",
-            "description": "",
-            "id": "bridgedb"
-          }
-        ],
-        "content": "<h2>AOP development: How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases.</p><p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis.</p>"
+        "AOP Development": {
+          "navTitle": "AOP",
+          "navDescription": "AOP Development for Q2",
+          "tools": [
+            {
+              "label": "PubMed",
+              "description": ""
+            },
+            {
+              "label": "hNPT transcriptomic data",
+              "description": ""
+            },
+            {
+              "label": "WikiPathways",
+              "description": "",
+              "id": "wikipathways_aop"
+            },
+            {
+              "label": "BridgeDb",
+              "description": "",
+              "id": "bridgedb"
+            }
+          ],
+          "content": "<h2>AOP development: How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases.</p><p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis.</p>"
+        },
+        "MIE activation": {
+          "navTitle": "MIE activation",
+          "navDescription": "MIE activation Q2",
+          "tools": [
+            {
+              "label": "MCT8/OATP1C1 modified cell line",
+              "description": "MCT8/OATP1C1 modified cell line"
+            },
+            {
+              "label": "H4 astrocytic cell line",
+              "description": "H4 astrocytic cell line"
+            },
+            {
+              "label": "MO3.13 oligodendric cell line",
+              "description": "MO3.13 oligodendric cell line"
+            },
+            {
+              "label": "protein-ligand docking",
+              "description": "protein-ligand docking"
+            },
+            {
+              "label": "SKNAS neuronal cell line",
+              "description": "SKNAS neuronal cell line"
+            },
+            {
+              "label": "QPSRPred",
+              "description": "QPSRPred"
+            },
+          ],
+          "content": "<h2></h2><p></p>"
+        },
+        "Effects on Key Event Relationships": {
+          "navTitle": "Effects on Key Event Relationships",
+          "navDescription": "Effects on Key Event Relationships Q2",
+          "tools": [
+            {
+              "label": "Neuronal stem cells",
+              "description": "Neuronal stem cells"
+            }
+          ],
+          "content": "<h2></h2><p></p>"
+        },
+        "Exposure response relationship": {
+          "navTitle": "Exposure response relationship",
+          "navDescription": "Exposure response relationship Q2",
+          "tools": [
+            {
+              "label": "qAOP APP",
+              "description": "qAOP APP (silychristin)"
+            }
+          ],
+          "content": "<h2></h2><p></p>"
+        },
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",

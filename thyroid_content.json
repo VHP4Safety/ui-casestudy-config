@@ -44,7 +44,7 @@
         "steps": [
           {
             "label": "Exposure Scenario",
-            "value": ""
+            "value": "Exposure Scenario"
           }
         ],
         "content": ""
@@ -55,7 +55,7 @@
         "steps": [
           {
             "label": "Prediction of maternal systemic and fetail brain concentration",
-            "value": ""
+            "value": "Prediction of maternal systemic and fetail brain concentration"
           }
         ],
         "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
@@ -66,19 +66,19 @@
         "steps": [
           {
             "label": "AOP Development",
-            "value": ""
+            "value": "AOP Development"
           },
           {
             "label": "MIE activiation",
-            "value": ""
+            "value": "MIE activiation"
           },
           {
             "label": "Effects on Key Event Relationships",
-            "value": ""
+            "value": "Effects on Key Event Relationships"
           },
           {
             "label": "Exposure response relationship",
-            "value": ""
+            "value": "Exposure response relationship"
           }
         ],
         "content": "<h2></h2><p></p>"
@@ -103,9 +103,9 @@
         "navDescription": "[Filler] Chemical characteristics for Q2.",
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
       },
-      "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "External exposure for Q2.",
+      "Exposure Scenario": {
+        "navTitle": "Exposure Scenario (Q2)",
+        "navDescription": "Exposure Scenario for Q2.",
         "tools": [
           {
             "label": "EMA documents",

@@ -167,11 +167,10 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] AOP for Q2.",
+        "navDescription": "AOP for Q2.",
         "steps": [
           { "label": "MIE activation", "value": "MIE activation" },
-          { "label": "AOP development", "value": "AOP development" },
-          { "label": "qAOP", "value": "qAOP" }
+          { "label": "AOP development", "value": "AOP development" }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 2</h2><p>In order investigate the hazard of tacrolimus treatment we aimed to identify the key biological targets that are associated with tacrolimus-induced nephrotoxicity. For this reason, the AOP below was constructed. During the AOP development we could not find a MIE and therefore an advanced in vitro platform consisting of several relevant models was developed to identify novel molecular initiating events and validate the current AOP key events.</p>"
       },
@@ -255,8 +254,8 @@
       },
       "AOP": {
         "MIE activation": {
-          "navTitle": "MIE activitation",
-          "navDescription": "MIE activitation",
+          "navTitle": "MIE activation",
+          "navDescription": "MIE activation",
         "content": "<p>Molecular initiating events (MIEs) are chemical interactions with biological targets that trigger cascades leading to adverse outcomes, but the MIE underlying tacrolimus-induced nephrotoxicity remains unknown. To address this, advanced in vitro kidney models—including iPSC-derived organoids (proximal nephron), ASC-derived tubuloids (distal nephron), and organoid-derived proximal tubule cells—were used to characterize the MIE and downstream key events. Dose–response relationships were determined with LDH assays to establish IC10 and IC50 values for subsequent analyses. In proximal tubule cells, transcriptomics (bulk RNA-seq) indicated CD44 upregulation as a potential MIE, while fluorescence-based assays revealed ROS production, altered intracellular pH, disrupted mitochondrial function, and organelle changes following tacrolimus exposure. Complementary transcriptomics and immunofluorescence in iPSC-derived organoids identified dysregulated pathways, epithelial injury, fibrosis, and senescence, and analyses in ASC-derived tubuloids extended insights to distal nephron toxicity. Finally, CRISPR/Cas9-edited iPSC organoids with pgp mutations were generated to mimic patient variability, enabling assessment of dose–response relationships under different pgp expression conditions.</p>"
         },
         "AOP development": {

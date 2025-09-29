@@ -193,7 +193,7 @@
           {
             "label": "QSPRPred", "value": "QSPRPred"
           },
-
+          {"label": "Effects on key event relationships", "value": "Effects on key event relationships"},
           {
             "label": "qAOP model - Exposure response relationship",
             "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
@@ -261,8 +261,18 @@
         },
         "AOP development": {
           "navTitle": "AOP development",
-          "navDescription": "Test <img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\">",
+          "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\">",
           "content":"Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464>AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+        },
+        "QSPRPred": {
+          "navTitle": "Effects on key event relationships",
+          "navDescription":"[Filler]",
+          "content":"The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions"
+        },
+        "QSPRPred": {
+          "navTitle": "QSPRPred",
+          "navDescription":"[Filler]",
+          "content":"<ul><li>The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay</li><li>The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assay</li><li>The effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.</li><li>The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. </li></ul>"
         }
       }
     }

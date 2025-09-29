@@ -93,7 +93,7 @@
             "description": ""
           }
         ],
-        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Exposure-response modelling of silychristin exposure to adverse outcomes</h2><p>A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available.</p>"
       }
     }
   },
@@ -224,17 +224,6 @@
           ],
           "content": "<h2></h2><p></p>"
         }
-      },
-      "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "Adverse outcome for Q2.",
-        "tools": [
-          {
-            "label": "MCT8 deficient mutant clinical data",
-            "description": ""
-          }
-        ],
-        "content": "<h2>Exposure-response modelling of silychristin exposure to adverse outcomes</h2><p>A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available.</p>"
       }
     }
   }

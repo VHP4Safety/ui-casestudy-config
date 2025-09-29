@@ -44,7 +44,7 @@
         "steps": [
           {
             "label": "Exposure Scenario",
-            "description": ""
+            "value": ""
           }
         ],
         "content": ""
@@ -55,7 +55,7 @@
         "steps": [
           {
             "label": "Prediction of maternal systemic and fetail brain concentration",
-            "description": ""
+            "value": ""
           }
         ],
         "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
@@ -66,19 +66,19 @@
         "steps": [
           {
             "label": "AOP Development",
-            "description": ""
+            "value": ""
           },
           {
             "label": "MIE activiation",
-            "description": ""
+            "value": ""
           },
           {
             "label": "Effects on Key Event Relationships",
-            "description": ""
+            "value": ""
           },
           {
             "label": "Exposure response relationship",
-            "description": ""
+            "value": ""
           }
         ],
         "content": "<h2></h2><p></p>"

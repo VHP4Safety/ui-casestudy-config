@@ -149,7 +149,7 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>Human relevant exposure of tacrolimus, a frequently prescribed drug in patients after organ transplantation, is based on available pharmaceutical information <a href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> the gold standard used in clinics as well as Therapeutic Drug Monitoring and <a href=\"https://tdm-monografie.org/tacrolimus/\">Pharmacogenetic Monographics</a>.</p>"
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>Human relevant exposure of tacrolimus, a frequently prescribed drug in patients after organ transplantation, is based on available pharmaceutical information <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> the gold standard used in clinics as well as Therapeutic Drug Monitoring and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Pharmacogenetic Monographics</a>.</p>"
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",

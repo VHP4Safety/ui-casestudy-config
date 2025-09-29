@@ -101,7 +101,8 @@
           }
         ],
         "steps": [
-          { "label": "qAOP", "description": "Concerns ODE-based qAOP models and response-response models", "value": "qAOP" }
+          { "label": "qAOP", "value": "qAOP" },
+          { "label": "QVIVE", "value": "QVIVE"}
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
           
@@ -224,8 +225,12 @@
       "AOP": {
           "qAOP": {
             "navTitle": "qAOP",
-            "navDescription": "qAOP",
+            "navDescription": "Concerns ODE-based qAOP models and response-response models",
           "content": "<p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
+          },
+          "QVIVE":{
+            "navTitle": "QIVIVE - quantitative in vitro to in vivo extrapolations",
+            "navDescription": "Tool for translating in vitro exposure response data to the in vivo situation."
           }
         }
     },

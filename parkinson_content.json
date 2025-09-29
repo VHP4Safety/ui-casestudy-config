@@ -1,25 +1,25 @@
 {
   "step1Contents": {
     "navTitle": "Parkinson Case Study",
-    "navDescription": "[Filler] Two regulatory questions for the parkinson case study. Choose one to explore or scroll for an overview.",
+    "navDescription": "Two regulatory questions for the parkinson case study. Choose one to explore or scroll for an overview.",
     "questions": [
       {
-        "label": "Question 1: Disease Causation",
+        "label": "Question 1: Hazard",
         "description": "Can compound X cause Parkinson’s Disease?",
         "value": "Q1"
       },
       {
-        "label": "Question 2: Disease Progression",
-        "description": "Can we identify groups at extra risk of developing Parkinson’s Disease after exposure to compound Y?",
+        "label": "Question 2: Risk",
+        "description": "What level of exposure to compound X leads to risk for developing Parkinsons disease? ",
         "value": "Q2"
       }
     ],
-    "content": "<h2>Case Study Overview</h2><p>[Filler] This is a placeholder for the parkinson case study overview. More details will be added soon.</p>"
+    "content": "<h2>Case Study Overview</h2><p>In this case study we studied life course exposure to pesticides by modelling neurodegeneration (i.e. Parkinson’s disease) in the VHP. Neurodegenerative diseases are a major cause of death in humans and have substantial impact on society, including health care costs and quality of life. Neurodegeneration cannot be adequately tested in animal studies, since the final health outcomes such as cognitive decline and motor function, are difficult to measure in rodents. Little is known on the effect of exposure to chemicals and the onset and progression of neurodegenerative disease in humans. For some compounds, including Paraquat, Rotenone and Mancozeb, there are indications of a causal relationship between exposure and neurodegenerative disease. This case study focussed on the putative relationship between pesticide exposure and Parkinson’s Disease, by mapping the critical pathways and mechanisms underlying the disease, as well as the exposure in human biomonitoring studies. Within the case study we created an AOP network for Parkinson’s disease and determined dose-response relationships for several pesticides in relevant in vitro models.</p>"
   },
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -30,11 +30,11 @@
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>[Filler] Content for regulatory question 1. More info coming soon.</p>"
+      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>Hazard characterization is an important first step towards risk assessment of pesticides. This step describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease.</p><h3>What endpoints (AOPs, adverse outcomes)</h3><p>Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons.</p><h3>What compounds (chemical characteristics)</h3><p>Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models. Rotenone primarily disrupts mitochondrial function (Complex I inhibition), Dinoseb is known for inducing ER-stress (calcium release) and mitochondrial inhibition, Endosulfan is a known substrate for neurotransmitter receptors leading to overstimulation of neuronal networks, and Mancozeb is known as a source of oxidative stress and disruption of protein homeostasis.  Of these, Dinoseb was chosen as model pesticide to answer question 1. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models.</p><h3>What exposure paradigm (kinetics, chemical characteristics)</h3><p>In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, this case study tested 5 different exposure paradigms ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure.</p>"
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -45,7 +45,7 @@
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>Parkinson-related Regulatory Question 2</h2><p>[Filler] Content for regulatory question 2. More info coming soon.</p>"
+      "content": "<h2>Parkinson-related Regulatory Question 1</h2><p>Risk assessment differs from hazard characterization as it also considers the external exposure to the chemical of interest. </p><h3>What endpoints (AOPs, adverse outcomes)</h3><p>Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons.</p><h3>What compounds (chemical characteristics)</h3><p>Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models. Rotenone primarily disrupts mitochondrial function (Complex I inhibition), Dinoseb is known for inducing ER-stress (calcium release) and mitochondrial inhibition, Endosulfan is a known substrate for neurotransmitter receptors leading to overstimulation of neuronal networks, and Mancozeb is known as a source of oxidative stress and disruption of protein homeostasis.  Of these, Dinoseb was chosen as model pesticide to answer question 1. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models.</p><h3>What exposure paradigm (kinetics, chemical characteristics)</h3><p>In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, this case study tested 5 different exposure paradigms ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure.</p><h3>Different routes of exposure</h3><p>External exposure to a compound can lead to internal exposure via three routes: inhalation, dermal penetration or oral intake. The exposure assessment for pesticides considers all major routes of human exposure and includes the magnitude and duration of that exposure. A complete exposure assessment takes into account dietary and non-dietary exposure. These routes are used to calculate aggregate exposure and may also consider cumulative exposure to multiple pesticides with similar mechanisms of action. Special attention can be given to vulnerable groups such as occupationally exposed workers, and children, as their intake relative to body weight or frequency of contact may be higher, increasing potential risk. To answer question 2, occupational- and bystander exposure were considered, taking into account the inhalation and dermal route of exposure, as well as hand-to-mouth contact.</p>"
     }
   },
   "step3Contents": {
@@ -70,7 +70,7 @@
         "navDescription": "[Filler] External exposure for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "Exposome generator - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -85,7 +85,7 @@
         "navDescription": "[Filler] Kinetics for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "physB PBK model - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -100,12 +100,37 @@
         "navDescription": "[Filler] AOP for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred - MIE activation",
+            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "qAOP model - Exposure response relationship",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Intracellular calcium imaging",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
+            "description": "Alamar blue assay"
+          },
+          {
+            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
+            "description": "ATP content & Alamar blue assay"
+
+          },
+          {
+            "label": "ROS production LUHMES cells - oxidative stress",
+            "description": "H2DCFDA"
+          },
+          {
+            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
+            "description": ""
           }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
@@ -128,8 +153,8 @@
     },
     "Q2": {
       "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Chemical characteristics for Q2.",
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Chemical characteristics for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -140,14 +165,14 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] External exposure for Q2.",
+        "navTitle": "External Exposure - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] External exposure for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "Exposome generator - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -155,14 +180,14 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Kinetics for Q2.",
+        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Kinetics for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
+            "label": "physB PBK model - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
@@ -170,26 +195,51 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Kinetics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] AOP for Q2.",
+        "navTitle": "AOP - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] AOP for Q1.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred - MIE activation",
+            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "qAOP model - Exposure response relationship",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Intracellular calcium imaging",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
+            "description": "Alamar blue assay"
+          },
+          {
+            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
+            "description": "ATP content & Alamar blue assay"
+
+          },
+          {
+            "label": "ROS production LUHMES cells - oxidative stress",
+            "description": "H2DCFDA"
+          },
+          {
+            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
+            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
+            "description": ""
           }
         ],
-        "content": "<h2>AOP Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Adverse outcome for Q2.",
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Adverse outcome for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -200,7 +250,7 @@
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       }
     }
   }

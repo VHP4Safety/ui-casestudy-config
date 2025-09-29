@@ -81,40 +81,19 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
-        "tools": [
+        "navDescription": "AOP for Q1.",
+        "steps": [
           {
-            "label": "QSPRPred - MIE activation",
-            "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
+            "label": "AOP development", "value": "AOP development"
           },
           {
-            "label": "qAOP model - Exposure response relationship",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QSPRPred", "value": "QSPRPred"
           },
           {
-            "label": "Intracellular calcium imaging",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Effects on key event relationships", "value": "Effects on key event relationships"
           },
           {
-            "label": "Mitochondrial activity SHSY5Y cells - mitochondrial activity",
-            "description": "Alamar blue assay"
-          },
-          {
-            "label": "Mitochondrial activity LUHMES cells - - mitochondrial activity",
-            "description": "ATP content & Alamar blue assay"
-
-          },
-          {
-            "label": "ROS production LUHMES cells - oxidative stress",
-            "description": "H2DCFDA"
-          },
-          {
-            "label": "Cytotoxicity LUHMES cells (LDH CFDA assay) - dopaminergic neuron cell death",
-            "description": "Longer description about the assay and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Cytotoxicity SHSY5Y cells (LDH assay) - dopaminergic neuron cell death",
-            "description": ""
+            "label": "qAOP model", "value": "qAOP model"
           }
         ],
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
@@ -137,8 +116,8 @@
     },
     "Q2": {
       "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Chemical characteristics for Q1.",
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Chemical characteristics for Q2.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -152,8 +131,8 @@
         "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
+        "navTitle": "External Exposure - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] External exposure for Q2.",
         "steps": [
           { "label": "Exposome generator", "value": "Exposome generator" }
         ],
@@ -194,8 +173,8 @@
         "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Adverse outcome for Q1.",
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Adverse outcome for Q2.",
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -211,6 +190,26 @@
     }
   },
   "step4Contents": {
+    "Q1": {
+      "step4content": "true",
+      "AOP": {
+        "QSPRPred": {
+          "navTitle": "QSPRPred",
+          "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
+          "content":"[Filler]"
+        },
+        "AOP development": {
+          "navTitle": "AOP development",
+          "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\">",
+          "content":"Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464>AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+        },
+        "Effects on key event relationship": {
+          "navTitle": "Effects on key event relationship",
+          "navDescription":"[Filler]",
+          "content":"<p>The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions:  <ul><li>The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay</li><li>The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assay</li><li>The effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.</li><li>The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. </li></ul>Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides.</p>"
+        }
+      }
+    },
     "Q2": {
       "step4content": "true",
       "External Exposure": {

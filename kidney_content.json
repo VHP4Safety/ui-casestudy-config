@@ -45,7 +45,7 @@
         { "label": "AOP", "value": "AOP" },
         { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": "<h2>What is the intrinsic hazard of tacrolimus for nephrotoxicity?</h2><p>Tacrolimus is a potent immunosuppressant that is commonly used to prevent organ rejection after transplantation. Recent data indicated that tacrolimus exposure is linked to kidney toxicity in 20-40% of patients treated with this drug. A better understanding of the molecular mechanisms that lead to kidney injury and failure upon tacrolimus exposure is crucial for risk assessment and decision making in the clinic.</p><img src=\"../ui-design/static/images/AOP_diagram.png\" alt=\"AOP diagram at level of organization from macromolecular to cell/tissue to organ\">"
+      "content": "<h2>What is the intrinsic hazard of tacrolimus for nephrotoxicity?</h2><p>Tacrolimus is a potent immunosuppressant that is commonly used to prevent organ rejection after transplantation. Recent data indicated that tacrolimus exposure is linked to kidney toxicity in 20-40% of patients treated with this drug. A better understanding of the molecular mechanisms that lead to kidney injury and failure upon tacrolimus exposure is crucial for risk assessment and decision making in the clinic.</p><img src=\"https://github.com/VHP4Safety/ui-design/blob/main/static/images/AOP_diagram.png\" alt=\"AOP diagram at level of organization from macromolecular to cell/tissue to organ\">"
     }
   },
   "step3Contents": {

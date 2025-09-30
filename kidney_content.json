@@ -19,7 +19,7 @@
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -91,18 +91,21 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] AOP for Q1.",
+        "navDescription": "AOP for Q1",
         "tools": [
+          { "label": "qAOP",
+            "description": "Concerns ODE-based qAOP models and response-response models" },
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "QIVIVE - quantitative in vitro to in vivo extrapolations",
+            "description": "Tool for translating in vitro exposure response data to the in vivo situation."
           }
         ],
-        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
+        "steps": [
+          { "label": "qAOP", "value": "qAOP" },
+          { "label": "QVIVE", "value": "QVIVE"}
+        ],
+        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
+          
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
@@ -138,18 +141,18 @@
       },
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] External exposure for Q2.",
+        "navDescription": "External exposure for Q2.",
         "tools": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
+            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus."
           },
           {
             "label": "Tool B - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": "<h2>External Exposure Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>Human relevant exposure of tacrolimus, a frequently prescribed drug in patients after organ transplantation, is based on available pharmaceutical information <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> the gold standard used in clinics as well as Therapeutic Drug Monitoring and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Pharmacogenetic Monographics</a>. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels). (Source: Farmacotherapeutisch Kompas and Therapeutic Drug Monitoring and Pharmacogenetic Monographics)) </p>"
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
@@ -168,7 +171,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] AOP for Q2.",
+        "navDescription": "AOP for Q2.",
         "steps": [
           { "label": "MIE activation", "value": "MIE activation" },
           { "label": "AOP development", "value": "AOP development" }
@@ -218,7 +221,18 @@
           ]
         },
         "content": "<h2>Oral</h2><p>[Filler] Details coming soon.</p>"
-      }
+      },
+      "AOP": {
+          "qAOP": {
+            "navTitle": "qAOP",
+            "navDescription": "Concerns ODE-based qAOP models and response-response models",
+          "content": "<p>We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models.</p>"
+          },
+          "QVIVE":{
+            "navTitle": "QIVIVE - quantitative in vitro to in vivo extrapolations",
+            "navDescription": "Tool for translating in vitro exposure response data to the in vivo situation."
+          }
+        }
     },
     "Q2": {
       "step4content": "true",
@@ -248,15 +262,15 @@
       },
       "AOP": {
         "MIE activation": {
-          "navTitle": "MIE activitation",
-          "navDescription": "MIE activitation",
+          "navTitle": "MIE activation",
+          "navDescription": "MIE activation",
         "content": "<p>Molecular initiating events (MIEs) are chemical interactions with biological targets that trigger cascades leading to adverse outcomes, but the MIE underlying tacrolimus-induced nephrotoxicity remains unknown. To address this, advanced in vitro kidney models—including iPSC-derived organoids (proximal nephron), ASC-derived tubuloids (distal nephron), and organoid-derived proximal tubule cells—were used to characterize the MIE and downstream key events. Dose–response relationships were determined with LDH assays to establish IC10 and IC50 values for subsequent analyses. In proximal tubule cells, transcriptomics (bulk RNA-seq) indicated CD44 upregulation as a potential MIE, while fluorescence-based assays revealed ROS production, altered intracellular pH, disrupted mitochondrial function, and organelle changes following tacrolimus exposure. Complementary transcriptomics and immunofluorescence in iPSC-derived organoids identified dysregulated pathways, epithelial injury, fibrosis, and senescence, and analyses in ASC-derived tubuloids extended insights to distal nephron toxicity. Finally, CRISPR/Cas9-edited iPSC organoids with pgp mutations were generated to mimic patient variability, enabling assessment of dose–response relationships under different pgp expression conditions.</p>"
         },
         "AOP development": {
           "navTitle": "AOP development",
-          "navDescription": "AOP development"
-        },
+          "navDescription": "AOP development",
         "content": "<p>An Adverse Outcome Pathway (AOP) is a structured framework that links a molecular-level event caused by a stressor (tacrolimus) through a series of measurable biological changes, leading to an adverse outcome at the individual or population level. Developing an AOP aids in the selection of relevant models that address important key events necessary to answer regulatory questions. An AOP for tacrolimus, linking tacrolimus exposure to kidney failure, has been developed by gathering and organizing scientific information from PubMed. Mechanistic evidence for KEs and KERs in this AOP primarily comes from rodent studies, immortalized kidney cell lines and limited clinical evidence. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. In this AOP, although the sequence of KEs is depicted linearly, we propose that the KEs of ROS production, oxidative stress, and mitochondrial dysfunction are fundamentally interconnected and dynamic processes that occur simultaneously. This simultaneity complicates the assessment of whether one event precedes another or if they occur concurrently and made it impossible to identify a specific molecular initiating event.</p>"
+        }
       }
     }
   }

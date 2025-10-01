@@ -87,7 +87,7 @@
             "label": "AOP development", "value": "AOP development"
           },
           {
-            "label": "QSPRPred", "value": "QSPRPred"
+            "label": "QSPRpred", "value": "QSPRpred"
           },
           {
             "label": "Effects on key event relationships", "value": "Effects on key event relationships"
@@ -158,7 +158,7 @@
             "label": "AOP development", "value": "AOP development"
           },
           {
-            "label": "QSPRPred", "value": "QSPRPred"
+            "label": "QSPRpred", "value": "QSPRpred"
           },
           {
             "label": "Effects on key event relationships", "value": "Effects on key event relationships"
@@ -187,10 +187,10 @@
     "Q1": {
       "step4content": "true",
       "AOP": {
-        "QSPRPred": {
-          "navTitle": "QSPRPred",
+        "QSPRpred": {
+          "navTitle": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://qsprpred.cloud.vhp4safety.nl/\">QSPRpred</a>",
           "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
-          "content":"[Filler]"
+          "content":"<p>For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models.</p>"
         },
         "AOP development": {
           "navTitle": "AOP development",
@@ -214,10 +214,10 @@
         }
       },
       "AOP": {
-        "QSPRPred": {
-          "navTitle": "QSPRPred",
+        "QSPRpred": {
+          "navTitle": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://qsprpred.cloud.vhp4safety.nl/\">QSPRpred</a>",
           "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
-          "content":"[Filler]"
+          "content":"<p>For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models.</p>"
         },
         "AOP development": {
           "navTitle": "AOP development",

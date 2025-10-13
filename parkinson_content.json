@@ -320,7 +320,7 @@
       "step4content": "true",
       "AOP": {
         "QSPRpred": {
-          "navTitle": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://qsprpred.cloud.vhp4safety.nl/\">QSPRpred</a>",
+          "navTitle": "<a target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-decoration-none link-vhpblue\" href=\"https://qsprpred.cloud.vhp4safety.nl/\">QSPRpred</a>",
           "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
           "content": [
             {

@@ -14,26 +14,55 @@
         "value": "Q2"
       }
     ],
-    "content": "<h2>Case Study Introduction</h2><p>Thyroid hormones (THs), mainly thyroxine (T4) and triiodothyronine (T3), are essential regulators of neurological processes and play a crucial role in fetal brain development. Deficiencies in TH levels during critical periods of neurodevelopment have been associated with severe and irreversible neurodevelopmental problems later in life. TH concentrations in the brain are therefore carefully maintained through negative feedback loops and local control mechanisms, including thyroid hormone transmembrane transporters, which regulate cellular influx and efflux; deiodinases, which regulate the activation and inactivation of THs; and thyroid hormone receptors, which bind to TH-responsive elements, thereby regulating the transcription of TH-responsive genes. This complex regulatory system can be disrupted by chemicals that interfere with TH signaling, potentially resulting in severe neurodevelopmental problems.</p><p>Internationally validated and accepted OECD test methods for TH-disrupting chemicals mainly consist of animal studies, which only assess TH system disrupting effects through histopathological changes in the thyroid gland or changes in serum TH levels. However, TH-system disrupting effects are not always reflected in these endpoints and these regulatory test methods currently lack the ability to test for specific molecular mechanisms of TH-system disrupting effects. Moreover, species differences between rodents and humans hamper the evaluation of chemical safety for humans through the use of animal studies.</p><p>The VHP4safety project aims to address these issues by developing a human-based assessment of a known TH-disrupting chemical, silychristin, using a combination of in silico and in vitro methods. Two regulatory questions were posed to determine whether non-animal methods could be used to assess the chemical safety of TH-disrupting chemicals:</p><ol><li>Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?</li><li>What information about a compound do we need to advise women in their pregnancy to decide whether the compound can be used?</li></ol>"
+    "content": [
+      {
+        "headingType": "h2",
+        "section": "Case Study Introduction",
+        "description": "Thyroid hormones (THs), mainly thyroxine (T4) and triiodothyronine (T3), are essential regulators of neurological processes and play a crucial role in fetal brain development. Deficiencies in TH levels during critical periods of neurodevelopment have been associated with severe and irreversible neurodevelopmental problems later in life. TH concentrations in the brain are therefore carefully maintained through negative feedback loops and local control mechanisms, including thyroid hormone transmembrane transporters, which regulate cellular influx and efflux; deiodinases, which regulate the activation and inactivation of THs; and thyroid hormone receptors, which bind to TH-responsive elements, thereby regulating the transcription of TH-responsive genes. This complex regulatory system can be disrupted by chemicals that interfere with TH signaling, potentially resulting in severe neurodevelopmental problems.Internationally validated and accepted OECD test methods for TH-disrupting chemicals mainly consist of animal studies, which only assess TH system disrupting effects through histopathological changes in the thyroid gland or changes in serum TH levels. However, TH-system disrupting effects are not always reflected in these endpoints and these regulatory test methods currently lack the ability to test for specific molecular mechanisms of TH-system disrupting effects. Moreover, species differences between rodents and humans hamper the evaluation of chemical safety for humans through the use of animal studies.The VHP4safety project aims to address these issues by developing a human-based assessment of a known TH-disrupting chemical, silychristin, using a combination of in silico and in vitro methods. Two regulatory questions were posed to determine whether non-animal methods could be used to assess the chemical safety of TH-disrupting chemicals:Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?What information about a compound do we need to advise women in their pregnancy to decide whether the compound can be used?"
+      }
+    ]
   },
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
-      "steps": [
-      ],
-      "content": "<h2>What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?</h2><p>This regulatory question has not been completely worked out yet.</p>"
+      "steps": [],
+      "content": [
+        {
+          "headingType": "h2",
+          "section": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
+          "description": "This regulatory question has not been completely worked out yet."
+        }
+      ]
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
-        { "label": "External Exposure", "value": "External Exposure" },
-        { "label": "Kinetics", "value": "Kinetics" },
-        { "label": "AOP", "value": "AOP" },
-        { "label": "Adverse Outcome", "value": "Adverse Outcome" }
+        {
+          "label": "External Exposure",
+          "value": "External Exposure"
+        },
+        {
+          "label": "Kinetics",
+          "value": "Kinetics"
+        },
+        {
+          "label": "AOP",
+          "value": "AOP"
+        },
+        {
+          "label": "Adverse Outcome",
+          "value": "Adverse Outcome"
+        }
       ],
-      "content": "<h2>Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?</h2><p>Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin  is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone ￼transmembrane transporter regulating TH transport into the brain. In humans, a lack of MCT8 has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used a model compound in scientific research to study the effects of MCT8 inhibitions, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations have been conducted for silychristin.</p><p>The current regulatory test methods for TH-system disrupting chemicals most probably cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. It is known that traditionally used rodent models are less sensitive to the loss of function of MCT8 compared to human patients. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based approach, through a combination of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus.</p>"
+      "content": [
+        {
+          "headingType": "h2",
+          "section": "Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?",
+          "description": "Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone ￼transmembrane transporter regulating TH transport into the brain. In humans, a lack of MCT8 has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used a model compound in scientific research to study the effects of MCT8 inhibitions, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations have been conducted for silychristin.The current regulatory test methods for TH-system disrupting chemicals most probably cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. It is known that traditionally used rodent models are less sensitive to the loss of function of MCT8 compared to human patients. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based approach, through a combination of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
+        }
+      ]
     }
   },
   "step3Contents": {
@@ -48,7 +77,13 @@
             "value": "Exposure Scenario"
           }
         ],
-        "content": "<p>The mayor route of silychristin exposure in humans will be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day.</p><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
+        "content": [
+          {
+            "headingType": "p",
+            "section": "",
+            "description": "The mayor route of silychristin exposure in humans will be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day.Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin."
+          }
+        ]
       },
       "Kinetics": {
         "navTitle": "Kinetics (Q2)",
@@ -59,7 +94,13 @@
             "value": "Prediction of maternal systemic and fetail brain concentration"
           }
         ],
-        "content": "<h2>Prediction of maternal systemic concentration and concentration at MIE</h2><p>From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to model how much silychristin will reach the brain. A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and  concentrations at the fetal brain after a oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model.</p>"
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Prediction of maternal systemic concentration and concentration at MIE",
+            "description": "From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to model how much silychristin will reach the brain. A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and  concentrations at the fetal brain after a oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model."
+          }
+        ]
       },
       "AOP": {
         "navTitle": "AOP",
@@ -82,7 +123,7 @@
             "value": "Exposure response relationship"
           }
         ],
-        "content": "<h2></h2><p></p>"
+        "content": []
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
@@ -93,7 +134,7 @@
             "description": ""
           }
         ],
-        "content": ""
+        "content": []
       }
     }
   },
@@ -125,7 +166,13 @@
               "id": "sysrev"
             }
           ],
-          "content": "<p>Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day</p><br /><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day\nMost food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin."
+            }
+          ]
         }
       },
       "Kinetics": {
@@ -142,7 +189,13 @@
               "description": "In vitro intestine model"
             }
           ],
-          "content": "<h2></h2><p>[Filler] Details coming soon.</p>"
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "",
+              "description": "[Filler] Details coming soon."
+            }
+          ]
         }
       },
       "AOP": {
@@ -169,7 +222,13 @@
               "id": "bridgedb"
             }
           ],
-          "content": "<h2>How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>Pubmed</b> and <b>Scopus</b> databases.</p></p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis. </p>"
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
+              "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>Pubmed</b> and <b>Scopus</b> databases.A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis."
+            }
+          ]
         },
         "MIE activation": {
           "navTitle": "MIE activation",
@@ -200,7 +259,13 @@
               "description": "QPSRPred"
             }
           ],
-          "content": "<h2>Characterization of silychristin exposure to MIE activation</h2><p>Molecular initiation events (MIEs) are interaction between chemicals and biological targets at the molecular levels. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. These MIEs are grouped in categories describing the effects of chemicals on TH transport, deiodinase activity and TH receptor activation.</p><p>A combination of in vitro assays and computational tools were used to assess the effects of silychristin exposure on the activation of these MIEs. The effects of silychristin exposure to these molecular initiating events have been tested in three cell lines representing <b>astrocytes (H4)</b>, <b>neurons (SK-N-AS)</b> and <b>oligodendrocytes (MO3.13)</b>. A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>Activation of TH receptors</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells.</p><p>In addition to the cell lines, computational tools were employed to assess the effects of silychristin on binding to key molecular targets for thyroid mediated neurodevelopment. A quantitative structure-activity relationship model (<b>QSPRpred</b>) was employed to estimate the binding of silychristin to TRα1 and TRβ1 directly. Moreover, a <b>protein-binding model</b> was developed to estimate the binding affinity of silychristin to MCT8.</p>"
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Characterization of silychristin exposure to MIE activation",
+              "description": "Molecular initiation events (MIEs) are interaction between chemicals and biological targets at the molecular levels. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. These MIEs are grouped in categories describing the effects of chemicals on TH transport, deiodinase activity and TH receptor activation.A combination of in vitro assays and computational tools were used to assess the effects of silychristin exposure on the activation of these MIEs. The effects of silychristin exposure to these molecular initiating events have been tested in three cell lines representing <b>astrocytes (H4)</b>, <b>neurons (SK-N-AS)</b> and <b>oligodendrocytes (MO3.13)</b>. A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>Activation of TH receptors</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells.In addition to the cell lines, computational tools were employed to assess the effects of silychristin on binding to key molecular targets for thyroid mediated neurodevelopment. A quantitative structure-activity relationship model (<b>QSPRpred</b>) was employed to estimate the binding of silychristin to TRα1 and TRβ1 directly. Moreover, a <b>protein-binding model</b> was developed to estimate the binding affinity of silychristin to MCT8."
+            }
+          ]
         },
         "Effects on Key Event Relationships": {
           "navTitle": "Effects on Key Event Relationships",
@@ -211,7 +276,13 @@
               "description": "Neuronal stem cells"
             }
           ],
-          "content": "<h2>Characterization of downstream key event effects of silychristin exposure</h2><p>A <b>neuronal stem cell model</b> was used to further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity. </p>"
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Characterization of downstream key event effects of silychristin exposure",
+              "description": "A <b>neuronal stem cell model</b> was used to further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity."
+            }
+          ]
         },
         "Exposure response relationship": {
           "navTitle": "Exposure response relationship",
@@ -222,7 +293,13 @@
               "description": "qAOP APP (silychristin)"
             }
           ],
-          "content": "<h2>Exposure-response modelling of silychristin exposure to adverse outcomes</h2><p>A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available.</p>"
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Exposure-response modelling of silychristin exposure to adverse outcomes",
+              "description": "A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available."
+            }
+          ]
         }
       }
     }

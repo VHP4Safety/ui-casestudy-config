@@ -7,13 +7,13 @@
         "label": "Question 1: Cisplatin Dose",
         "description": "What is the safe cisplatin dose in cancer patients?",
         "value": "Q1",
-        "type": "regulatory question"
+        "type": "regulatory-question"
       },
       {
         "label": "Question 2: P-glycoprotein Variability",
         "description": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
         "value": "Q2",
-        "type": "regulatory question"
+        "type": "regulatory-question"
       }
     ],
     "content": [
@@ -33,32 +33,32 @@
           "label": "Hazard / Chemical Characteristics",
           "value": "Chemical Characteristics",
           "state": "disabled",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "(External) Exposure",
           "value": "External Exposure",
-          "type": "workflow substep"
+          "type": "workflow-substep"
         },
         {
           "label": "(Toxicol) Kinetics",
           "value": "Kinetics",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "(Internal) Exposure",
           "value": "Internal Exposure",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics / AOP",
           "value": "AOP",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
-          "type": "process flow step"
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -76,33 +76,33 @@
         {
           "label": "Hazard / Chemical Characteristics",
           "value": "Chemical Characteristics",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "(External) Exposure",
           "value": "External Exposure",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "(Toxicol) Kinetics",
           "value": "Kinetics",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "(Internal) Exposure",
           "value": "Internal Exposure",
           "state": "disabled",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics / AOP",
           "value": "AOP",
-          "type": "process flow step"
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
-          "type": "process flow step"
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -123,12 +123,12 @@
           {
             "label": "Parenteral",
             "value": "Parenteral",
-            "type": "workflow step"
+            "type": "workflow-step"
           },
           {
             "label": "Oral",
             "value": "Oral",
-            "type": "workflow step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -309,12 +309,12 @@
           {
             "label": "MIE activation",
             "value": "MIE activation",
-            "type": "workflow step"
+            "type": "workflow-step"
           },
           {
             "label": "AOP development",
             "value": "AOP development",
-            "type": "workflow step"
+            "type": "workflow-step"
           }
         ],
         "content": [

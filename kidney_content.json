@@ -28,7 +28,7 @@
       "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Hazard/Chemical Characteristics",
+          "label": "Hazard / Chemical Characteristics",
           "value": "Chemical Characteristics"
         },
         {
@@ -36,11 +36,15 @@
           "value": "External Exposure"
         },
         {
-          "label": "(Toxicol)Kinetics",
+          "label": "(Toxicol) Kinetics",
           "value": "Kinetics"
         },
         {
-          "label": "Toxicodynamics/AOP",
+          "label": "(Internal) Exposure",
+          "value": "Internal Exposure"
+        },
+        {
+          "label": "Toxicodynamics / AOP",
           "value": "AOP"
         },
         {

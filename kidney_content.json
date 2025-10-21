@@ -165,7 +165,8 @@
           {
             "label": "qAOP",
             "description": "Concerns ODE-based qAOP models and response-response models",
-            "type": "tool"
+            "type": "tool",
+            "id": "qaop_app"
           },
           {
             "label": "QIVIVE - quantitative in vitro to in vivo extrapolations",
@@ -338,27 +339,15 @@
             },
             {
               "label": "Oral",
-              "description": "....",
+              "value": "Oral",
               "type": "workflow substep"
-            }
-          ]
-        },
-        "Oral": {
-          "navTitle": "Oral",
-          "navDescription": "Oral",
-          "steps": [
-            {
-              "label": "Tool A - Farmacotherapeutisch Kompas",
-              "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas",
-              "type": "tool"
             }
           ]
         },
         "content": [
           {
             "headingType": "h2",
-            "section": "Oral",
+            "section": "Current Dose levels",
             "description": "[Filler] Details coming soon."
           }
         ]
@@ -456,6 +445,17 @@
                 "type": "workflow substep"
               }
             ]
+          },
+          "Oral": {
+            "navTitle": "Oral",
+            "navDescription": "xxx  xxx xxx",
+            "steps": [
+              {
+                "label": "Prescription levels",
+                "value": "Prescription levels",
+                "type": "workflow substep"
+              }
+            ]
           }
         }
       }
@@ -473,9 +473,23 @@
               "steps": [
                 {
                   "label": "Literature",
-                  "value": "Found via Google Scholar or Europe PMC",
+                  "description": "Found via Google Scholar or Europe PMC",
                   "type": "tool",
                   "id": "gscholar"
+                }
+              ]
+            }
+          },
+          "Oral": {
+            "Prescription levels": {
+              "navTitle": "Prescription levels",
+              "navDescription": "xxx  xxx xxx",
+              "steps": [
+                {
+                  "label": "Farmeceutisch Kompas",
+                  "description": "xxx",
+                  "type": "tool",
+                  "id": "farmacokompas"
                 }
               ]
             }

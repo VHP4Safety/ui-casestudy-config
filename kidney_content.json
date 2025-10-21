@@ -334,12 +334,12 @@
             {
               "label": "Parenteral",
               "value": "Parenteral",
-              "type": "workflow subset"
+              "type": "workflow substep"
             },
             {
               "label": "Oral",
               "description": "....",
-              "type": "workflow subset"
+              "type": "workflow substep"
             }
           ]
         },
@@ -453,7 +453,7 @@
               {
                 "label": "Plasma levels",
                 "value": "Plasma levels",
-                "type": "workflow subset"
+                "type": "workflow substep"
               }
             ]
           }

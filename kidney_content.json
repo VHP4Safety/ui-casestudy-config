@@ -140,14 +140,16 @@
         "navDescription": "[Filler] Kinetics for Q1.",
         "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "tool"
+            "label": "Plasma and tissue concentrations",
+            "value": "Plasma and tissue concentrations",
+            "description": "Prediction of plasma and tissue concentraion of cisplatin (compared with in vivo concentrations).",
+            "type": "workflow step"
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "tool"
+            "label": "In vitro modelling",
+            "value": "PBK model",
+            "description": "In vitro modelling (PBK model).",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -341,6 +343,47 @@
               "label": "Oral",
               "value": "Oral",
               "type": "workflow substep"
+            }
+          ]
+        },
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Current Dose levels",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
+      "Kinetics": {
+        "Plasma and tissue concentrations": {
+          "navTitle": "Plasma and tissue concentrations",
+          "navDescription": "xxx",
+          "steps": [
+            {
+              "label": "Cell viability data",
+              "value": "Cell viability",
+              "type": "tool"
+            },
+            {
+              "label": "PBK cisplatin model",
+              "value": "PBK model",
+              "type": "tool"
+            }
+          ]
+        },
+        "In vitro modelling": {
+          "navTitle": "In vitro modelling",
+          "navDescription": "xxx",
+          "steps": [
+            {
+              "label": "PBK cisplatin model",
+              "value": "PBK model",
+              "type": "tool"
+            },
+            {
+              "label": "In vitro models",
+              "value": "In vitro models",
+              "type": "tool"
             }
           ]
         },

@@ -443,7 +443,7 @@
   },
   "step5Contents": {
     "Q1": {
-      "step4content": "true",
+      "step5content": "true",
       "External Exposure": {
         "Current Dose levels": {
           "Parenteral": {
@@ -463,7 +463,7 @@
   },
   "step6Contents": {
     "Q1": {
-      "step4content": "true",
+      "step6content": "true",
       "External Exposure": {
         "Current Dose levels": {
           "Parenteral": {

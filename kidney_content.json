@@ -6,12 +6,14 @@
       {
         "label": "Question 1: Cisplatin Dose",
         "description": "What is the safe cisplatin dose in cancer patients?",
-        "value": "Q1"
+        "value": "Q1",
+        "type": "regulatory-question"
       },
       {
         "label": "Question 2: P-glycoprotein Variability",
         "description": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
-        "value": "Q2"
+        "value": "Q2",
+        "type": "regulatory-question"
       }
     ],
     "content": [
@@ -28,24 +30,36 @@
       "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Chemical Characteristics",
-          "value": "Chemical Characteristics"
+          "label": "Hazard / Chemical Characteristics",
+          "value": "Chemical Characteristics",
+          "state": "disabled",
+          "type": "process-flow-step"
         },
         {
-          "label": "External Exposure",
-          "value": "External Exposure"
+          "label": "(External) Exposure",
+          "value": "External Exposure",
+          "type": "process-flow-step"
         },
         {
-          "label": "Kinetics",
-          "value": "Kinetics"
+          "label": "(Toxicol) Kinetics",
+          "value": "Kinetics",
+          "type": "process-flow-step"
         },
         {
-          "label": "AOP",
-          "value": "AOP"
+          "label": "(Internal) Exposure",
+          "value": "Internal Exposure",
+          "type": "process-flow-step",
+          "state": "disabled"
+        },
+        {
+          "label": "Toxicodynamics / AOP",
+          "value": "AOP",
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -61,24 +75,35 @@
       "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Chemical Characteristics",
-          "value": "Chemical Characteristics"
+          "label": "Hazard / Chemical Characteristics",
+          "value": "Chemical Characteristics",
+          "type": "process-flow-step"
         },
         {
-          "label": "External Exposure",
-          "value": "External Exposure"
+          "label": "(External) Exposure",
+          "value": "External Exposure",
+          "type": "process-flow-step"
         },
         {
-          "label": "Kinetics",
-          "value": "Kinetics"
+          "label": "(Toxicol) Kinetics",
+          "value": "Kinetics",
+          "type": "process-flow-step"
         },
         {
-          "label": "AOP",
-          "value": "AOP"
+          "label": "(Internal) Exposure",
+          "value": "Internal Exposure",
+          "state": "disabled",
+          "type": "process-flow-step"
+        },
+        {
+          "label": "Toxicodynamics / AOP",
+          "value": "AOP",
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -92,38 +117,15 @@
   },
   "step3Contents": {
     "Q1": {
-      "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Chemical characteristics for Q1.",
-        "steps": [
-          {
-            "label": "Parenteral",
-            "value": "Parenteral"
-          },
-          {
-            "label": "Oral",
-            "value": "Oral"
-          }
-        ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Chemical Characteristics Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
-          }
-        ]
-      },
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q1)",
         "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
+        "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Current Dose levels",
+            "value": "Current Dose levels",
+            "description": "Estimation of current dose levels (compare with derived safe dose levels",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -137,14 +139,18 @@
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Kinetics for Q1.",
-        "tools": [
+        "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Plasma and tissue concentrations",
+            "value": "Plasma and tissue concentrations",
+            "description": "Prediction of plasma and tissue concentraion of cisplatin (compared with in vivo concentrations).",
+            "type": "workflow step"
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "In vitro modelling",
+            "value": "PBK model",
+            "description": "In vitro modelling (PBK model).",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -158,24 +164,17 @@
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
         "navDescription": "AOP for Q1",
-        "tools": [
-          {
-            "label": "qAOP",
-            "description": "Concerns ODE-based qAOP models and response-response models"
-          },
-          {
-            "label": "QIVIVE - quantitative in vitro to in vivo extrapolations",
-            "description": "Tool for translating in vitro exposure response data to the in vivo situation."
-          }
-        ],
         "steps": [
           {
             "label": "qAOP",
-            "value": "qAOP"
+            "description": "Concerns ODE-based qAOP models and response-response models",
+            "type": "tool",
+            "id": "qaop_app"
           },
           {
-            "label": "QVIVE",
-            "value": "QVIVE"
+            "label": "QIVIVE - quantitative in vitro to in vivo extrapolations",
+            "description": "Tool for translating in vitro exposure response data to the in vivo situation.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -189,14 +188,12 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Adverse outcome for Q1.",
-        "tools": [
+        "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Health outcomes in patients",
+            "value": "Health outcomes",
+            "description": "Identification of health outcomes in patients.",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -212,14 +209,16 @@
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Chemical characteristics for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -233,14 +232,16 @@
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
         "navDescription": "External exposure for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
-            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus."
+            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -254,14 +255,16 @@
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Kinetics for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -278,11 +281,13 @@
         "steps": [
           {
             "label": "MIE activation",
-            "value": "MIE activation"
+            "value": "MIE activation",
+            "type": "workflow-step"
           },
           {
             "label": "AOP development",
-            "value": "AOP development"
+            "value": "AOP development",
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -296,14 +301,16 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Adverse outcome for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -319,32 +326,68 @@
   "step4Contents": {
     "Q1": {
       "step4content": "true",
-      "Chemical Characteristics": {
-        "Parenteral": {
-          "navTitle": "Parenteral",
-          "navDescription": "Parenteral",
-          "tools": [
+      "External Exposure": {
+        "Current Dose levels": {
+          "navTitle": "Current Dose levels",
+          "navDescription": "xxx",
+          "steps": [
             {
-              "label": "Tool A - TDM",
-              "description": "...."
-            }
-          ]
-        },
-        "Oral": {
-          "navTitle": "Oral",
-          "navDescription": "Oral",
-          "tools": [
+              "label": "Parenteral",
+              "value": "Parenteral",
+              "type": "workflow substep"
+            },
             {
-              "label": "Tool A - Farmacotherapeutisch Kompas",
-              "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas"
+              "label": "Oral",
+              "value": "Oral",
+              "type": "workflow substep"
             }
           ]
         },
         "content": [
           {
             "headingType": "h2",
-            "section": "Oral",
+            "section": "Current Dose levels",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
+      "Kinetics": {
+        "Plasma and tissue concentrations": {
+          "navTitle": "Plasma and tissue concentrations",
+          "navDescription": "xxx",
+          "steps": [
+            {
+              "label": "Cell viability data",
+              "value": "Cell viability",
+              "type": "tool"
+            },
+            {
+              "label": "PBK cisplatin model",
+              "value": "PBK model",
+              "type": "tool"
+            }
+          ]
+        },
+        "In vitro modelling": {
+          "navTitle": "In vitro modelling",
+          "navDescription": "xxx",
+          "steps": [
+            {
+              "label": "PBK cisplatin model",
+              "value": "PBK model",
+              "type": "tool"
+            },
+            {
+              "label": "In vitro models",
+              "value": "In vitro models",
+              "type": "tool"
+            }
+          ]
+        },
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Current Dose levels",
             "description": "[Filler] Details coming soon."
           }
         ]
@@ -365,6 +408,26 @@
           "navTitle": "QIVIVE - quantitative in vitro to in vivo extrapolations",
           "navDescription": "Tool for translating in vitro exposure response data to the in vivo situation."
         }
+      },
+      "Adverse Outcome": {
+        "Health outcomes": {
+          "navTitle": "Health outcomes",
+          "navDescription": "...",
+          "steps": [
+            {
+            "label": "Clinical data",
+            "description": "...",
+            "type": "tool"
+            }
+          ]
+        },
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
       }
     },
     "Q2": {
@@ -373,21 +436,23 @@
         "Parenteral": {
           "navTitle": "Parenteral",
           "navDescription": "Parenteral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - TDM",
-              "description": "...."
+              "description": "....",
+              "type": "tool"
             }
           ]
         },
         "Oral": {
           "navTitle": "Oral",
           "navDescription": "Oral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
               "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas"
+              "id": "farmacokompas",
+              "type": "tool"
             }
           ]
         },
@@ -421,6 +486,74 @@
               "description": "An Adverse Outcome Pathway (AOP) is a structured framework that links a molecular-level event caused by a stressor (tacrolimus) through a series of measurable biological changes, leading to an adverse outcome at the individual or population level. Developing an AOP aids in the selection of relevant models that address important key events necessary to answer regulatory questions. An AOP for tacrolimus, linking tacrolimus exposure to kidney failure, has been developed by gathering and organizing scientific information from PubMed. Mechanistic evidence for KEs and KERs in this AOP primarily comes from rodent studies, immortalized kidney cell lines and limited clinical evidence. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. In this AOP, although the sequence of KEs is depicted linearly, we propose that the KEs of ROS production, oxidative stress, and mitochondrial dysfunction are fundamentally interconnected and dynamic processes that occur simultaneously. This simultaneity complicates the assessment of whether one event precedes another or if they occur concurrently and made it impossible to identify a specific molecular initiating event."
             }
           ]
+        }
+      }
+    }
+  },
+  "step5Contents": {
+    "Q1": {
+      "step5content": "true",
+      "External Exposure": {
+        "Current Dose levels": {
+          "Parenteral": {
+            "navTitle": "Parenteral",
+            "navDescription": "xxx  xxx xxx",
+            "steps": [
+              {
+                "label": "Plasma levels",
+                "value": "Plasma levels",
+                "type": "workflow substep"
+              }
+            ]
+          },
+          "Oral": {
+            "navTitle": "Oral",
+            "navDescription": "xxx  xxx xxx",
+            "steps": [
+              {
+                "label": "Prescription levels",
+                "value": "Prescription levels",
+                "type": "workflow substep"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "step6Contents": {
+    "Q1": {
+      "step6content": "true",
+      "External Exposure": {
+        "Current Dose levels": {
+          "Parenteral": {
+            "Plasma levels": {
+              "navTitle": "Plasma levels",
+              "navDescription": "xxx  xxx xxx",
+              "steps": [
+                {
+                  "label": "Literature",
+                  "description": "Found via Google Scholar or Europe PMC",
+                  "type": "tool",
+                  "id": "gscholar"
+                }
+              ]
+            }
+          },
+          "Oral": {
+            "Prescription levels": {
+              "navTitle": "Prescription levels",
+              "navDescription": "xxx  xxx xxx",
+              "steps": [
+                {
+                  "label": "Farmeceutisch Kompas",
+                  "description": "xxx",
+                  "type": "tool",
+                  "id": "farmacokompas"
+                }
+              ]
+            }
+          }
         }
       }
     }

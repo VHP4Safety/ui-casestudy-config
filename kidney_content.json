@@ -38,7 +38,7 @@
         {
           "label": "(External) Exposure",
           "value": "External Exposure",
-          "type": "workflow-substep"
+          "type": "process-flow-step"
         },
         {
           "label": "(Toxicol) Kinetics",
@@ -142,7 +142,7 @@
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q1)",
         "navDescription": "[Filler] External exposure for Q1.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -165,7 +165,7 @@
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Kinetics for Q1.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -188,7 +188,7 @@
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
         "navDescription": "AOP for Q1",
-        "tools": [
+        "steps": [
           {
             "label": "qAOP",
             "description": "Concerns ODE-based qAOP models and response-response models",
@@ -211,7 +211,7 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Adverse outcome for Q1.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -236,7 +236,7 @@
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Chemical characteristics for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -259,7 +259,7 @@
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
         "navDescription": "External exposure for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
             "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus.",
@@ -282,7 +282,7 @@
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Kinetics for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -328,7 +328,7 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Adverse outcome for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
@@ -357,7 +357,7 @@
         "Parenteral": {
           "navTitle": "Parenteral",
           "navDescription": "Parenteral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - TDM",
               "description": "....",
@@ -368,7 +368,7 @@
         "Oral": {
           "navTitle": "Oral",
           "navDescription": "Oral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
               "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
@@ -409,7 +409,7 @@
         "Parenteral": {
           "navTitle": "Parenteral",
           "navDescription": "Parenteral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - TDM",
               "description": "....",
@@ -420,7 +420,7 @@
         "Oral": {
           "navTitle": "Oral",
           "navDescription": "Oral",
-          "tools": [
+          "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
               "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",

@@ -12,7 +12,8 @@
       {
         "label": "Question 2: P-glycoprotein Variability",
         "description": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
-        "value": "Q2"
+        "value": "Q2",
+        "type": "regulatory question"
       }
     ],
     "content": [
@@ -31,27 +32,33 @@
         {
           "label": "Hazard / Chemical Characteristics",
           "value": "Chemical Characteristics",
-          "state": "disabled"
+          "state": "disabled",
+          "type": "process flow step"
         },
         {
           "label": "(External) Exposure",
-          "value": "External Exposure"
+          "value": "External Exposure",
+          "type": "process flow step"
         },
         {
           "label": "(Toxicol) Kinetics",
-          "value": "Kinetics"
+          "value": "Kinetics",
+          "type": "process flow step"
         },
         {
           "label": "(Internal) Exposure",
-          "value": "Internal Exposure"
+          "value": "Internal Exposure",
+          "type": "process flow step"
         },
         {
           "label": "Toxicodynamics / AOP",
-          "value": "AOP"
+          "value": "AOP",
+          "type": "process flow step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process flow step"
         }
       ],
       "content": [
@@ -68,28 +75,34 @@
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics"
+          "value": "Chemical Characteristics",
+          "type": "process flow step"
         },
         {
           "label": "(External) Exposure",
-          "value": "External Exposure"
+          "value": "External Exposure",
+          "type": "process flow step"
         },
         {
           "label": "(Toxicol) Kinetics",
-          "value": "Kinetics"
+          "value": "Kinetics",
+          "type": "process flow step"
         },
         {
           "label": "(Internal) Exposure",
           "value": "Internal Exposure",
-          "state": "disabled"
+          "state": "disabled",
+          "type": "process flow step"
         },
         {
           "label": "Toxicodynamics / AOP",
-          "value": "AOP"
+          "value": "AOP",
+          "type": "process flow step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process flow step"
         }
       ],
       "content": [
@@ -132,11 +145,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -153,11 +168,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -174,21 +191,13 @@
         "tools": [
           {
             "label": "qAOP",
-            "description": "Concerns ODE-based qAOP models and response-response models"
+            "description": "Concerns ODE-based qAOP models and response-response models",
+            "type": "tool"
           },
           {
             "label": "QIVIVE - quantitative in vitro to in vivo extrapolations",
-            "description": "Tool for translating in vitro exposure response data to the in vivo situation."
-          }
-        ],
-        "steps": [
-          {
-            "label": "qAOP",
-            "value": "qAOP"
-          },
-          {
-            "label": "QVIVE",
-            "value": "QVIVE"
+            "description": "Tool for translating in vitro exposure response data to the in vivo situation.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -205,11 +214,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -251,11 +262,13 @@
         "tools": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
-            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus."
+            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -272,11 +285,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -316,11 +331,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -343,7 +360,8 @@
           "tools": [
             {
               "label": "Tool A - TDM",
-              "description": "...."
+              "description": "....",
+              "type": "tool"
             }
           ]
         },
@@ -354,7 +372,8 @@
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
               "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas"
+              "id": "farmacokompas",
+              "type": "tool"
             }
           ]
         },
@@ -393,7 +412,8 @@
           "tools": [
             {
               "label": "Tool A - TDM",
-              "description": "...."
+              "description": "....",
+              "type": "tool"
             }
           ]
         },
@@ -404,7 +424,8 @@
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
               "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas"
+              "id": "farmacokompas",
+              "type": "tool"
             }
           ]
         },

@@ -6,7 +6,9 @@
       {
         "label": "Question 1: Cisplatin Dose",
         "description": "What is the safe cisplatin dose in cancer patients?",
-        "value": "Q1"
+        "value": "Q1",
+        "type": "regulatory question",
+        "state": "disabled"
       },
       {
         "label": "Question 2: P-glycoprotein Variability",

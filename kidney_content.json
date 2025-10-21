@@ -48,7 +48,8 @@
         {
           "label": "(Internal) Exposure",
           "value": "Internal Exposure",
-          "type": "process-flow-step"
+          "type": "process-flow-step",
+          "state": "disabled"
         },
         {
           "label": "Toxicodynamics / AOP",
@@ -189,14 +190,10 @@
         "navDescription": "[Filler] Adverse outcome for Q1.",
         "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "tool"
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "tool"
+            "label": "Health outcomes in patients",
+            "value": "Health outcomes",
+            "description": "Identification of health outcomes in patients.",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -411,6 +408,26 @@
           "navTitle": "QIVIVE - quantitative in vitro to in vivo extrapolations",
           "navDescription": "Tool for translating in vitro exposure response data to the in vivo situation."
         }
+      },
+      "Adverse Outcome": {
+        "Health outcomes": {
+          "navTitle": "Health outcomes",
+          "navDescription": "...",
+          "steps": [
+            {
+            "label": "Clinical data",
+            "description": "...",
+            "type": "tool"
+            }
+          ],
+        },
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
       }
     },
     "Q2": {

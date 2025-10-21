@@ -38,7 +38,7 @@
         {
           "label": "(External) Exposure",
           "value": "External Exposure",
-          "type": "process flow step"
+          "type": "workflow substep"
         },
         {
           "label": "(Toxicol) Kinetics",

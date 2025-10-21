@@ -7,8 +7,7 @@
         "label": "Question 1: Cisplatin Dose",
         "description": "What is the safe cisplatin dose in cancer patients?",
         "value": "Q1",
-        "type": "regulatory question",
-        "state": "disabled"
+        "type": "regulatory question"
       },
       {
         "label": "Question 2: P-glycoprotein Variability",
@@ -31,7 +30,8 @@
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics"
+          "value": "Chemical Characteristics",
+          "state": "disabled"
         },
         {
           "label": "(External) Exposure",
@@ -109,11 +109,13 @@
         "steps": [
           {
             "label": "Parenteral",
-            "value": "Parenteral"
+            "value": "Parenteral",
+            "type": "workflow step"
           },
           {
             "label": "Oral",
-            "value": "Oral"
+            "value": "Oral",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -226,11 +228,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "tool"
           }
         ],
         "content": [
@@ -289,11 +293,13 @@
         "steps": [
           {
             "label": "MIE activation",
-            "value": "MIE activation"
+            "value": "MIE activation",
+            "type": "workflow step"
           },
           {
             "label": "AOP development",
-            "value": "AOP development"
+            "value": "AOP development",
+            "type": "workflow step"
           }
         ],
         "content": [

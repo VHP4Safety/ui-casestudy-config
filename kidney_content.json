@@ -474,7 +474,8 @@
                 {
                   "label": "Literature",
                   "value": "Found via Google Scholar or Europe PMC",
-                  "type": "tool"
+                  "type": "tool",
+                  "id": "gscholar"
                 }
               ]
             }

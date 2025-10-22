@@ -10,7 +10,7 @@
         "type": "regulatory-question"
       },
       {
-        "label": "Question 2: P-glycoprotein Variability",
+        "label": "Question 2: Tacrolimus toxicity",
         "description": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
         "value": "Q2",
         "type": "regulatory-question"
@@ -20,7 +20,7 @@
       {
         "headingType": "h2",
         "section": "Introduction",
-        "description": "<b>Nephrotoxicity</b> refers to kidney damage or impaired kidney function caused by exposure to toxic substances, including certain medications. Since the kidneys play a central role in filtering waste products, regulating electrolytes, and maintaining overall fluid balance, any drug-induced injury can significantly affect health. Evaluating kidney toxicity during drug development and treatment is crucial because as (drug-induced) kidney failure is becoming the 5<sup>th</sup> leading cause of death worldwide. Animal models do not truthfully recapitulate nor are able to predict nephrotoxicity and therefore there is a need for human-based relevant models for risk assessment."
+        "description": "<b>Nephrotoxicity</b> refers to kidney damage or impaired kidney function caused by exposure to toxic substances, including certain medications. Since the kidneys play a central role in filtering waste products, regulating electrolytes, and maintaining overall fluid balance, any drug-induced kidney injury can significantly affect health. Moreover, as the kidneys are responsible for the excretion of many exogenous toxic compounds, they often are a primary target organ for drugs. Evaluating nephrotoxicity during drug development and treatment is crucial as exposure to pharmaceutical drugs is one of the leading causes of nephrotoxicity. However, the safety assessments on drugs induced nephrotoxicity remains challenging, mainly due a lack of understanding the pathological pathways, lack of suitable non-clinical models and intra- and individual pharmacokinetic differences. In this case study, we tried to improve the safety assessment of two well-known nephrotoxic pharmaceutical compounds, cisplatin and tacrolimus, using a variety of in vitro and in silico tools. "
       }
     ]
   },
@@ -110,7 +110,7 @@
         {
           "headingType": "h2",
           "section": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
-          "description": "Tacrolimus is a potent immunosuppressant that is commonly used to prevent organ rejection after transplantation. Recent data indicated that tacrolimus exposure is linked to kidney toxicity in 20-40% of patients treated with this drug. A better understanding of the molecular mechanisms that lead to kidney injury and failure upon tacrolimus exposure is crucial for risk assessment and decision making in the clinic."
+          "description": "Tacrolimus is one of the most widely used  immunosuppressant that is commonly to prevent organ rejection after transplantations. Recent data indicated that tacrolimus exposure is linked to nephrotoxicity in 20-40% of patients treated with this drug. Managing the risk of nephrotoxicity after tacrolimus use remains difficult due to its narrow therapeutic window. Several cases have been reported of people developing nephrotoxicity even when treated in dose ranges considered to be safe. The molecular mechanisms of tacrolimus induced nephrotoxicity are currently poorly understood, which hampers the risk assessment and limits the use of tacrolimus in the clinic."
         }
       ]
     }
@@ -239,8 +239,8 @@
             "type": "tool"
           },
           {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "label": "Farmacotherapeutisch Kompas",
+            "description": "Farmacotherapeutisch Kompas is a Dutch evidence-based drug information guide that provides doctors, pharmacists, and other healthcare professionals with up-to-date information about medicines. It includes details on drug indications, dosing, side effects, interactions, and therapeutic guidelines.",
             "type": "tool"
           }
         ],
@@ -248,7 +248,7 @@
           {
             "headingType": "h2",
             "section": "External Exposure Workflow for Regulatory Question 1",
-            "description": "Human relevant exposure of tacrolimus, a frequently prescribed drug in patients after organ transplantation, is based on available pharmaceutical information <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> the gold standard used in clinics as well as Therapeutic Drug Monitoring and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Pharmacogenetic Monographics</a>. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels). (Source: Farmacotherapeutisch Kompas and Therapeutic Drug Monitoring and Pharmacogenetic Monographics))"
+            "description": "Tacrolimus is a frequently prescribed drug in patients after organ transplantion. Human relevant exposure to tacrolimus is therefore well described in pharmaceutical information databases. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> is used as the gold standard used by health care professionals as an pharmaceutical information guide, which includes recommended dosing schemes for various drugs. Similarly, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Therapeutic drug monitoring and Pharmacogenetic Monographics</a> are used by hospital pharmacies and in clinical pharmacology, which focus on drug concentrations in the body and recommend dosing regimens. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels). (Source: Farmacotherapeutisch Kompas and Therapeutic Drug Monitoring and Pharmacogenetic Monographics))"
           }
         ]
       },
@@ -294,7 +294,7 @@
           {
             "headingType": "h2",
             "section": "AOP Workflow for Regulatory Question 2",
-            "description": "In order investigate the hazard of tacrolimus treatment we aimed to identify the key biological targets that are associated with tacrolimus-induced nephrotoxicity. For this reason, the AOP below was constructed. During the AOP development we could not find a MIE and therefore an advanced in vitro platform consisting of several relevant models was developed to identify novel molecular initiating events and validate the current AOP key events."
+            "description": "An AOP was constructed in order to investigate the hazard of tacrolimus treatment on nephrotoxicity. Several key biological targets that are associated with tacrolimus-induced nephrotoxicity. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. During the AOP development no clear MIE was identified however and therefore an advanced in vitro platform consisting of several relevant models was developed to identify novel molecular initiating events and validate the current AOP key events."
           }
         ]
       },

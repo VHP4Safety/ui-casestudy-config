@@ -450,7 +450,7 @@
           "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
-              "description": "The Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
+              "description": "Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
               "id": "farmacokompas",
               "type": "tool"
             }

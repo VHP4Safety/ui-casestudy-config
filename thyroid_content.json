@@ -6,12 +6,14 @@
       {
         "label": "Question 1: Compound Information",
         "description": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
-        "value": "Q1"
+        "value": "Q1",
+        "type": "regulatory-question"
       },
       {
         "label": "Question 2",
         "description": "Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?",
-        "value": "Q2"
+        "value": "Q2",
+        "type": "regulatory-question"
       }
     ],
     "content": [
@@ -40,20 +42,30 @@
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
+          "label": "Hazard / Chemical Characteristics",
+          "value": "Chemical Characteristics",
+          "state": "disabled",
+          "type": "process-flow-step"
+        },
+        {
           "label": "External Exposure",
-          "value": "External Exposure"
+          "value": "External Exposure",
+          "type": "process-flow-step"
         },
         {
           "label": "Kinetics",
-          "value": "Kinetics"
+          "value": "Kinetics",
+          "type": "process-flow-step"
         },
         {
           "label": "AOP",
-          "value": "AOP"
+          "value": "AOP",
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -74,7 +86,8 @@
         "steps": [
           {
             "label": "Exposure Scenario",
-            "value": "Exposure Scenario"
+            "value": "Exposure Scenario",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -91,7 +104,8 @@
         "steps": [
           {
             "label": "Prediction of maternal systemic and fetail brain concentration",
-            "value": "Prediction of maternal systemic and fetail brain concentration"
+            "value": "Prediction of maternal systemic and fetail brain concentration",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -108,19 +122,23 @@
         "steps": [
           {
             "label": "AOP Development",
-            "value": "AOP Development"
+            "value": "AOP Development",
+            "type": "workflow step"
           },
           {
             "label": "MIE activation",
-            "value": "MIE activation"
+            "value": "MIE activation",
+            "type": "workflow step"
           },
           {
             "label": "Effects on Key Event Relationships",
-            "value": "Effects on Key Event Relationships"
+            "value": "Effects on Key Event Relationships",
+            "type": "workflow step"
           },
           {
             "label": "Exposure response relationship",
-            "value": "Exposure response relationship"
+            "value": "Exposure response relationship",
+            "type": "workflow step"
           }
         ],
         "content": []
@@ -128,7 +146,7 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
         "navDescription": "Adverse outcome for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "MCT8 deficient mutant clinical data",
             "description": ""
@@ -145,25 +163,29 @@
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario (Q2)",
           "navDescription": "Exposure Scenario for Q2.",
-          "tools": [
+          "steps": [
             {
               "label": "EMA documents",
               "description": "",
-              "id": "ema_documents"
+              "id": "ema_documents",
+              "type": "tool"
             },
             {
               "label": "Product info leaflets",
-              "description": "found via Google Search"
+              "description": "found via Google Search",
+              "type": "tool"
             },
             {
               "label": "NIH dietary supplement label database",
               "description": "",
-              "id": "dsld"
+              "id": "dsld",
+              "type": "tool"
             },
             {
               "label": "Sysrev",
               "description": "",
-              "id": "sysrev"
+              "id": "sysrev",
+              "type": "tool"
             }
           ],
           "content": [
@@ -179,14 +201,16 @@
         "Prediction of maternal systemic and fetail brain concentration": {
           "navTitle": "Prediction of maternal systemic and fetail brain concentration - Tools and Workflow (Q2)",
           "navDescription": "[Filler] Kinetics for Q2.",
-          "tools": [
+          "steps": [
             {
               "label": "PBK silychristin model",
-              "description": "PBK silychristin model"
+              "description": "PBK silychristin model",
+              "type": "tool"
             },
             {
               "label": "In vitro intestine model",
-              "description": "In vitro intestine model"
+              "description": "In vitro intestine model",
+              "type": "tool"
             }
           ],
           "content": [
@@ -202,24 +226,28 @@
         "AOP Development": {
           "navTitle": "AOP",
           "navDescription": "AOP Development for Q2",
-          "tools": [
+          "steps": [
             {
               "label": "PubMed",
-              "description": ""
+              "description": "",
+              "type": "tool"
             },
             {
               "label": "hNPT transcriptomic data",
-              "description": ""
+              "description": "",
+              "type": "tool"
             },
             {
               "label": "WikiPathways",
               "description": "",
-              "id": "wikipathways_aop"
+              "id": "wikipathways_aop",
+              "type": "tool"
             },
             {
               "label": "BridgeDb",
               "description": "",
-              "id": "bridgedb"
+              "id": "bridgedb",
+              "type": "tool"
             }
           ],
           "content": [
@@ -233,30 +261,36 @@
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "MIE activation Q2",
-          "tools": [
+          "steps": [
             {
               "label": "MCT8/OATP1C1 modified cell line",
-              "description": "MCT8/OATP1C1 modified cell line"
+              "description": "MCT8/OATP1C1 modified cell line",
+              "type": "tool"
             },
             {
               "label": "H4 astrocytic cell line",
-              "description": "H4 astrocytic cell line"
+              "description": "H4 astrocytic cell line",
+              "type": "tool"
             },
             {
               "label": "MO3.13 oligodendric cell line",
-              "description": "MO3.13 oligodendric cell line"
+              "description": "MO3.13 oligodendric cell line",
+              "type": "tool"
             },
             {
               "label": "protein-ligand docking",
-              "description": "protein-ligand docking"
+              "description": "protein-ligand docking",
+              "type": "tool"
             },
             {
               "label": "SKNAS neuronal cell line",
-              "description": "SKNAS neuronal cell line"
+              "description": "SKNAS neuronal cell line",
+              "type": "tool"
             },
             {
               "label": "QPSRPred",
-              "description": "QPSRPred"
+              "description": "QPSRPred",
+              "type": "tool"
             }
           ],
           "content": [
@@ -270,10 +304,11 @@
         "Effects on Key Event Relationships": {
           "navTitle": "Effects on Key Event Relationships",
           "navDescription": "Effects on Key Event Relationships Q2",
-          "tools": [
+          "steps": [
             {
               "label": "Neuronal stem cells",
-              "description": "Neuronal stem cells"
+              "description": "Neuronal stem cells",
+              "type": "tool"
             }
           ],
           "content": [
@@ -287,10 +322,11 @@
         "Exposure response relationship": {
           "navTitle": "Exposure response relationship",
           "navDescription": "Exposure response relationship Q2",
-          "tools": [
+          "steps": [
             {
               "label": "qAOP APP",
-              "description": "qAOP APP (silychristin)"
+              "description": "qAOP APP (silychristin)",
+              "type": "tool"
             }
           ],
           "content": [

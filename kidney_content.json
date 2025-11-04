@@ -334,12 +334,12 @@
             {
               "label": "Parenteral",
               "value": "Parenteral",
-              "type": "workflow substep"
+              "type": "workflow step"
             },
             {
               "label": "Oral",
               "value": "Oral",
-              "type": "workflow substep"
+              "type": "workflow step"
             }
           ]
         },

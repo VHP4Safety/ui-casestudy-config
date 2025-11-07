@@ -72,12 +72,12 @@
         {
           "headingType": "h2",
           "section": "Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children?",
-          "description": "Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone ￼transmembrane transporter regulating TH transport into the brain. In humans, a lack of MCT8 has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used a model compound in scientific research to study the effects of MCT8 inhibitions, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations have been conducted for silychristin.The current regulatory test methods for TH-system disrupting chemicals most probably cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. It is known that traditionally used rodent models are less sensitive to the loss of function of MCT8 compared to human patients. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based approach, through a combination of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
+          "description": "Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone transmembrane transporter regulating TH transport into the brain. In humans, a lack of MCT8 has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used as a model compound in scientific research to study the effects of MCT8 inhibitions, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations have been conducted for silychristin. The current regulatory test methods for TH-system disrupting chemicals most probably cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. It is known that traditionally used rodent models are less sensitive to the loss of function of MCT8 compared to human patients. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based approach, through a combination of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
         }
       ]
     }
   },
-  "step3Contents": {
+   "step3Contents": {
     "Q1": {},
     "Q2": {
       "External Exposure": {
@@ -149,7 +149,7 @@
         "steps": [
           {
             "label": "MCT8 deficient mutant clinical data",
-            "description": ""
+            "description": "MCT8 deficient mutant clinical data"
           }
         ],
         "content": []
@@ -166,27 +166,27 @@
           "steps": [
             {
               "label": "EMA documents",
-              "description": "",
+              "value": "EMA documents",
               "id": "ema_documents",
               "type": "tool"
             },
             {
-              "label": "Product info leaflets",
-              "description": "found via Google Search",
-              "type": "tool"
+                "label": "Product info leaflets",
+                "description": "found via Google Search",
+                "type": "tool"
+              },
+            {
+                "label": "NIH dietary supplement label database",
+                "description": "",
+                "id": "dsld",
+                "type": "tool"
             },
             {
-              "label": "NIH dietary supplement label database",
-              "description": "",
-              "id": "dsld",
-              "type": "tool"
-            },
-            {
-              "label": "Sysrev",
-              "description": "",
-              "id": "sysrev",
-              "type": "tool"
-            }
+                "label": "Sysrev",
+                "description": "",
+                "id": "sysrev",
+                "type": "tool"
+              }
           ],
           "content": [
             {
@@ -263,34 +263,19 @@
           "navDescription": "MIE activation Q2",
           "steps": [
             {
-              "label": "MCT8/OATP1C1 modified cell line",
-              "description": "MCT8/OATP1C1 modified cell line",
-              "type": "tool"
+              "label": "TH uptake",
+              "description": "TH uptake",
+              "type": "workflow substep"
             },
             {
-              "label": "H4 astrocytic cell line",
-              "description": "H4 astrocytic cell line",
-              "type": "tool"
+              "label": "Deiodenase activity",
+              "description": "Deiodenase activity",
+              "type": "workflow substep"
             },
             {
-              "label": "MO3.13 oligodendric cell line",
-              "description": "MO3.13 oligodendric cell line",
-              "type": "tool"
-            },
-            {
-              "label": "protein-ligand docking",
-              "description": "protein-ligand docking",
-              "type": "tool"
-            },
-            {
-              "label": "SKNAS neuronal cell line",
-              "description": "SKNAS neuronal cell line",
-              "type": "tool"
-            },
-            {
-              "label": "QPSRPred",
-              "description": "QPSRPred",
-              "type": "tool"
+              "label": "Thyroid hormone receptor inactivation",
+              "description": "Thyroid hormone receptor inactivation",
+              "type": "workflow substep"
             }
           ],
           "content": [
@@ -306,9 +291,19 @@
           "navDescription": "Effects on Key Event Relationships Q2",
           "steps": [
             {
-              "label": "Neuronal stem cells",
-              "description": "Neuronal stem cells",
-              "type": "tool"
+              "label": "Changes in KLF9 expression",
+              "description": "Changes in KLF9 expression",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Changes in BDNF expression",
+              "description": "Changes in BDNF expression",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Neuronal network formation",
+              "description": "Neuronal network formation",
+              "type": "workflow substep"
             }
           ],
           "content": [
@@ -336,6 +331,214 @@
               "description": "A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available."
             }
           ]
+        }
+      }
+    }
+  },
+  "step5Contents": {
+    "Q1": {},
+    "Q2": {
+      "AOP": {
+        "MIE activation": {
+          "TH uptake": {
+            "navTitle": "TH uptake",
+            "navDescription": "TH uptake",
+            "steps": [
+              {
+                "label": "Non-radioactive TH uptake assay",
+                "description": "Non-radioactive TH uptake assay",
+                "type": "tool"
+              },
+              {
+                "label": "Radioactive TH uptake assay",
+                "description": "Radioactive TH uptake assay",
+                "type": "tool"
+              },
+              {
+                "label": "Protein-ligand docking",
+                "description": "Protein-ligand docking",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          },
+          "Deiodenase activity": {
+            "navTitle": "Deiodenase activity",
+            "navDescription": "Deiodenase activity",
+            "steps": [
+              {
+                "label": "Deiodinase assay",
+                "description": "Deiodinase assay",
+                "type": "tool"
+              },
+              {
+                "label": "Whole cell metabolism assay",
+                "description": "Whole cell metabolism assay",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          },
+          "Thyroid hormone receptor inactivation": {
+            "navTitle": "Thyroid hormone receptor inactivation",
+            "navDescription": "Thyroid hormone receptor inactivation",
+            "steps": [
+              {
+                "label": "qPCR",
+                "description": "qPCR",
+                "type": "tool"
+              },
+              {
+                "label": "QSPRpred",
+                "description": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          }
+        }
+      },
+      "Effects on Key Event Relationships": {
+        "Changes in KLF9 expression": {
+          "navTitle": "Changes in KLF9 expression",
+          "navDescription": "Changes in KLF9 expression",
+          "steps": [
+            {
+              "label": "RNAseq",
+              "description": "RNAseq",
+              "type": "tool"
+            }
+          ],
+          "content": []
+        },
+        "Changes in BDNF expression": {
+          "navTitle": "Changes in BDNF expression",
+          "navDescription": "Changes in BDNF expression",
+          "steps": [
+            {
+              "label": "RNAseq",
+              "description": "RNAseq",
+              "type": "tool"
+            }
+          ],
+          "content": []
+        },
+        "Neuronal network formation": {
+          "navTitle": "Neuronal network formation",
+          "navDescription": "Neuronal network formation",
+          "steps": [
+            {
+              "label": "MEA",
+              "description": "MEA",
+              "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "step6Contents": {
+    "Q1": {},
+    "Q2": {
+      "AOP": {
+        "MIE activation": {
+          "TH uptake": {
+            "Non-radioactive TH uptake assay": {
+              "navTitle": "Non-radioactive TH uptake assay",
+              "navDescription": "Non-radioactive TH uptake assay",
+              "steps": [
+                {
+                  "label": "MCT8 overexpressing cell line",
+                  "description": "MCT8 overexpressing cell line",
+                  "type": "tool"
+                }
+              ],
+              "content": []
+            },
+            "Radioactive TH uptake assay": {
+              "navTitle": "Radioactive TH uptake assay",
+              "navDescription": "Radioactive TH uptake assay",
+              "steps": [
+                {
+                  "label": "SKNAS neuronal cell line",
+                  "description": "SKNAS neuronal cell line",
+                  "type": "tool"
+                },
+                {
+                  "label":"H4 astrocytic cell line",
+                  "description":"H4 astrocytic cell line",
+                  "type": "tool"
+                }
+              ],
+              "content": []
+            }
+          },
+          "Deiodenase activity": {
+            "Deiodinase assay": {
+              "navTitle": "Deiodinase assay",
+              "navDescription": "Deiodinase assay",
+              "steps": [
+                {
+                  "label": "H4 astrocytic cell line",
+                  "description": "H4 astrocytic cell line",
+                  "type": "tool"
+                },
+                {
+                  "label": "MO3.13 oligodendric cell line",
+                  "description": "MO3.13 oligodendric cell line",
+                  "type": "tool"
+                }
+              ],
+              "content": []
+            }
+          },
+          "Thyroid hormone receptor inactivation": {
+            "qPCR": {
+              "navTitle": "qPCR",
+              "navDescription": "qPCR",
+              "steps": [
+                {
+                  "label": "SKNAS neuronal cell line",
+                  "description": "SKNAS neuronal cell line",
+                  "type": "tool"
+                }
+              ],
+              "content": []
+            }
+          }
+        },
+        "Effects on Key Event Relationships": {
+          "RNAseq": {
+            "navTitle": "RNAseq",
+            "navDescription": "RNAseq",
+            "steps": [
+              {
+                "label": "Neuronal stem cells",
+                "description": "Neuronal stem cells",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          },
+          "MEA": {
+            "navTitle": "MEA",
+            "navDescription": "MEA",
+            "steps": [
+              {
+                "label": "Neuronal stem cells",
+                "description": "Neuronal stem cells",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          }
         }
       }
     }

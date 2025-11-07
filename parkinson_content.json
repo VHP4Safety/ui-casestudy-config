@@ -5,7 +5,7 @@
     "questions": [
       {
         "label": "Question 1: Hazard",
-        "description": "Can compound X cause Parkinson’s Disease?",
+        "description": "Can compound Dinoseb cause Parkinson’s Disease?",
         "value": "Q1"
       },
       {
@@ -29,11 +29,8 @@
       "steps": [
         {
           "label": "Chemical Characteristics",
+          "state": "disabled",
           "value": "Chemical Characteristics"
-        },
-        {
-          "label": "Kinetics",
-          "value": "Kinetics"
         },
         {
           "label": "AOP",
@@ -139,42 +136,29 @@
           }
         ]
       },
-      "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Kinetics for Q1.",
-        "tools": [
-          {
-            "label": "physB PBK model - population based kinetic modelling platform",
-            "description": "[Filler]"
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
-          }
-        ]
-      },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
         "navDescription": "AOP for Q1.",
         "steps": [
           {
-            "label": "AOP development",
-            "value": "AOP development"
+            "label": "Molecular AOP development",
+            "value": "Molecular AOP development",
+            "type": "workflow-step"
           },
           {
-            "label": "QSPRpred",
-            "value": "QSPRpred"
+            "label": "MIE activation",
+            "value": "MIE activation",
+            "type": "workflow-step"
           },
           {
             "label": "Effects on key event relationships",
-            "value": "Effects on key event relationships"
+            "value": "Effects on key event relationships",
+            "type": "workflow-step"
+          },
+          {
+            "label":"Is pesticide exposure associated with Parkinson's disease?",
+            "value": "Is pesticide exposure associated with Parkinson's disease?",
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -188,14 +172,10 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Adverse outcome for Q1.",
-        "tools": [
+        "steps": [
           {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "Is pesticide exposure associated with Parkinson's disease?",
+            "description": "Is pesticide exposure associated with Parkinson's disease?"
           }
         ],
         "content": [
@@ -295,7 +275,7 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Adverse outcome for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Tool A - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
@@ -319,20 +299,21 @@
     "Q1": {
       "step4content": "true",
       "AOP": {
-        "QSPRpred": {
-          "navTitle": "<a target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-decoration-none link-vhpblue\" href=\"https://qsprpred.cloud.vhp4safety.nl/\">QSPRpred</a>",
-          "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
-          "content": [
+        "Molecular AOP development": {
+          "navTitle": "Molecular AOP development",
+          "navDescription": "",
+          "steps": [
             {
-              "headingType": "p",
-              "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              "label": "AOP-Wiki",
+              "value": "AOP-Wiki",
+              "type": "tool"
+            },
+            {
+              "label":"Rotenone transcriptomic data (LUHMES cells)",
+              "value": "Rotenone transcriptomic data (LUHMES cells)",
+              "type":"tool"
             }
-          ]
-        },
-        "AOP development": {
-          "navTitle": "AOP development",
-          "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\" width=\"500\"s>",
+          ],
           "content": [
             {
               "headingType": "p",
@@ -341,9 +322,69 @@
             }
           ]
         },
+        "MIE activation": {
+          "navTitle": "MIE activation",
+          "navDescription": "MIE activation",
+          "steps": [
+            {
+              "label": "IP₃R activation",
+              "value": "IP₃R activation",
+              "type": "workflow substep"
+            },
+            {
+              "label": "mGLuR activation",
+              "value": "mGLuR activation",
+              "type": "workflow substep"
+            },
+            {
+              "label": "NMDAR activation",
+              "value": "NMDAR activation",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "GABAaR inhibition",
+              "value": "GABAaR inhibition",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "VGCC opening",
+              "value": "VGCC opening",
+              "type": "workflow substep"
+
+            }
+          ]
+        },
         "Effects on key event relationships": {
           "navTitle": "Effects on key event relationships",
           "navDescription": "[Filler]",
+          "steps": [
+            {
+              "label": "Increased intracellular calcium",
+              "value": "Increased intracellular calcium",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Mitochondrial activity",
+              "value": "Mitochondrial activity",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Increased oxidative stress",
+              "value": "Increased oxidative stress",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Dopaminergic neuron cell death",
+              "value": "Dopaminergic neuron cell death",
+              "type": "workflow substep"
+
+            }
+          ],
           "content": [
             {
               "headingType": "p",
@@ -351,6 +392,19 @@
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
             }
           ]
+        },
+        "Is pesticide exposure associated with Parkinson's disease":{
+          "navtitle":"Is pesticide exposure associated with Parkinson's disease",
+          "navdescription":"Is pesticide exposure associated with Parkinson's disease",
+          "steps": [
+            {
+              "label": "Epidemiological data",
+              "value": "Epidemiological data",
+              "type": "tool"
+
+            }
+          ]
+
         }
       }
     },
@@ -375,8 +429,8 @@
           "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
           "content": [
             {
-              "headingType": "p",
-              "section": "",
+              "headingType": "h2",
+              "section": "QSPRpred",
               "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
             }
           ]
@@ -386,7 +440,7 @@
           "navDescription": "<img src=\"https://ars.els-cdn.com/content/image/1-s2.0-S0161813X23001407-gr5_lrg.jpg\"alt=\"Parkinson's Disease AOP\" width=\"500\">",
           "content": [
             {
-              "headingType": "p",
+              "headingType": "h2",
               "section": "",
               "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
             }
@@ -397,9 +451,144 @@
           "navDescription": "[Filler]",
           "content": [
             {
-              "headingType": "p",
+              "headingType": "h2",
               "section": "",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
+            }
+          ]
+        }
+      }
+    }
+  },
+   "step5Contents": {
+    "Q1": {},
+    "Q2": {
+      "AOP": {
+        "MIE activation": {
+          "mGLuR activation": {
+            "navTitle": "mGLuR activation",
+            "navDescription": "mGLuR activation",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "description": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          },
+          "NMDAR activation": {
+            "navTitle": "NMDAR activation",
+            "navDescription": "NMDAR activation",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "description": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          },
+          "GABAar activation": {
+            "navTitle": "GABAar activation",
+            "navDescription": "GABAar activation",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "description": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          }
+        }
+      },
+      "Effects on Key Event Relationships": {
+        "Increased intracellular calcium": {
+          "navTitle": "Increased intracellular calcium",
+          "navDescription": "Increased intracellular calcium",
+          "steps": [
+            {
+              "label": "Intracellular calcium imaging",
+              "description": "Intracellular calcium imaging",
+              "type": "tool"
+            }
+          ],
+          "content": []
+        },
+        "Mitochondrial activity": {
+          "navTitle": "Mitochondrial activity",
+          "navDescription": "Mitochondrial activity",
+          "steps": [
+            {
+              "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+              "description": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+              "type": "tool"
+            },
+            {
+              "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+              "description": "Mitochondrial activit LUHMES cells (ATP content+ Alamar blue assay)",
+              "type": "tool"
+            }
+          ],
+          "content": []
+        },
+        "Increased oxidative stress": {
+          "navTitle": "Increased oxidative stress",
+          "navDescription": "Increased oxidative stress",
+          "steps": [
+            {
+              "label": "ROS production LUHMES cells (H2DCFDA)",
+              "description": "ROS production LUHMES cells (H2DCFDA)",
+              "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+            }
+          ]
+        },
+        "Dopaminergic neuron cell death": {
+          "navTitle": "Dopaminergic neuron cell death",
+          "navDescription": "Dopaminergic neuron cell death",
+          "steps": [
+            {
+              "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+              "description": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+              "type": "tool"
+            },
+            {
+              "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
+              "description": "Cytotoxicity SHSY5Y cells (LDH assay)",
+              "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
             }
           ]
         }

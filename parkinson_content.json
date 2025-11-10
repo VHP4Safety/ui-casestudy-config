@@ -172,7 +172,7 @@
             "type": "workflow-step"
           },
           {
-            "label": "MMIE activation",
+            "label": "MIE activation",
             "value": "MIE activation",
             "type":"workflow-step"
           },
@@ -490,8 +490,7 @@
     }
   },
   "step5Contents": {
-    "Q1": {},
-    "Q2": {
+    "Q1": {
       "AOP": {
         "MIE activation": {
           "mGLuR activation": {
@@ -620,7 +619,8 @@
               "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
             }
           ]
-        }
+        },
+        "Q2": {}
       }
     }
   }

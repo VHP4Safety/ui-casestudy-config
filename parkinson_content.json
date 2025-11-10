@@ -180,6 +180,11 @@
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
             "type":"workflow-step"
+          },
+          {
+            "label": "Is pesticide exposure associated with Parkinson's disease?",
+            "value": "Is pesticide exposure associated with Parkinson's disease?",
+            "type":"workflow-step"
           }
         ],
         "content": [
@@ -280,6 +285,10 @@
           {
             "label": "QSPRpred",
             "value": "QSPRpred"
+          },
+          {
+            "label": "Effects on key event relationships",
+            "value": "Effects on key event relationships"
           },
           {
             "label": "Effects on key event relationships",

@@ -200,8 +200,8 @@
         "navDescription": "[Filler] Adverse outcome for Q1.",
         "steps": [
           {
-            "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "description": "Is pesticide exposure associated with Parkinson's disease?",
+            "label": "Is pesticide exposure associated with Parkinson's disease",
+            "description": "Is pesticide exposure associated with Parkinson's disease",
             "type":"workflow-step"
           }
         ],
@@ -424,9 +424,9 @@
             }
           ]
         },
-        "Is pesticide exposure associated with Parkinson's disease?":{
-          "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
-          "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
+        "Is pesticide exposure associated with Parkinson's disease":{
+          "navtitle":"Is pesticide exposure associated with Parkinson's disease",
+          "navdescription":"Is pesticide exposure associated with Parkinson's disease",
           "steps": [
             {
               "label": "Epidemiological data",

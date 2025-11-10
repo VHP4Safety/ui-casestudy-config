@@ -33,6 +33,11 @@
           "value": "Chemical Characteristics"
         },
         {
+          "label": "Kinetics",
+          "state": "disabled",
+          "value": "Kinetics"
+        },
+        {
           "label": "AOP",
           "value": "AOP"
         },

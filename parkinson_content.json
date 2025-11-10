@@ -424,8 +424,8 @@
           ]
         },
         "Is pesticide exposure associated with Parkinson's disease":{
-          "navtitle":"Is pesticide exposure associated with Parkinson's disease",
-          "navdescription":"Is pesticide exposure associated with Parkinson's disease",
+          "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
+          "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
           "steps": [
             {
               "label": "Epidemiological data",
@@ -573,7 +573,7 @@
             },
             {
               "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-              "value": "Mitochondrial activit LUHMES cells (ATP content+ Alamar blue assay)",
+              "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
               "type": "tool"
             }
           ],

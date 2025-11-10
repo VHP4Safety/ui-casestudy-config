@@ -198,10 +198,11 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Adverse outcome for Q1.",
-        "tools": [
+        "steps": [
           {
             "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "description": "Is pesticide exposure associated with Parkinson's disease?"
+            "description": "Is pesticide exposure associated with Parkinson's disease?",
+            "type":"workflow-step"
           }
         ],
         "content": [
@@ -423,7 +424,7 @@
             }
           ]
         },
-        "Is pesticide exposure associated with Parkinson's disease":{
+        "Is pesticide exposure associated with Parkinson's disease?":{
           "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
           "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
           "steps": [

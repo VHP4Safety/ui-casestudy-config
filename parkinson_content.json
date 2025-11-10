@@ -499,7 +499,7 @@
             "steps": [
               {
                 "label": "QSPRpred",
-                "description": "QSPRpred",
+                "value": "QSPRpred",
                 "type": "tool"
               }
             ],
@@ -517,7 +517,7 @@
             "steps": [
               {
                 "label": "QSPRpred",
-                "description": "QSPRpred",
+                "value": "QSPRpred",
                 "type": "tool"
               }
             ],
@@ -535,7 +535,7 @@
             "steps": [
               {
                 "label": "QSPRpred",
-                "description": "QSPRpred",
+                "value": "QSPRpred",
                 "type": "tool"
               }
             ],
@@ -556,7 +556,7 @@
           "steps": [
             {
               "label": "Intracellular calcium imaging",
-              "description": "Intracellular calcium imaging",
+              "value": "Intracellular calcium imaging",
               "type": "tool"
             }
           ],
@@ -568,12 +568,12 @@
           "steps": [
             {
               "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-              "description": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+              "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
               "type": "tool"
             },
             {
               "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-              "description": "Mitochondrial activit LUHMES cells (ATP content+ Alamar blue assay)",
+              "value": "Mitochondrial activit LUHMES cells (ATP content+ Alamar blue assay)",
               "type": "tool"
             }
           ],
@@ -585,7 +585,7 @@
           "steps": [
             {
               "label": "ROS production LUHMES cells (H2DCFDA)",
-              "description": "ROS production LUHMES cells (H2DCFDA)",
+              "value": "ROS production LUHMES cells (H2DCFDA)",
               "type": "tool"
             }
           ],
@@ -603,12 +603,12 @@
           "steps": [
             {
               "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-              "description": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+              "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
               "type": "tool"
             },
             {
               "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
-              "description": "Cytotoxicity SHSY5Y cells (LDH assay)",
+              "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
               "type": "tool"
             }
           ],

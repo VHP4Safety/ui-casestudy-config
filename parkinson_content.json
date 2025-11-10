@@ -115,6 +115,7 @@
   },
   "step3Contents": {
     "Q1": {
+      "step3content": "true",
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Chemical characteristics for Q1.",

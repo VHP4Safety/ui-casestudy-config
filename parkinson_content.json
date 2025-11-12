@@ -10,7 +10,7 @@
       },
       {
         "label": "Question 2: Risk",
-        "description": "What level of exposure to compound X leads to risk for developing Parkinsons disease? ",
+        "description": "What level of exposure to compound X leads to risk for developing Parkinson’s disease? ",
         "value": "Q2"
       }
     ],
@@ -180,11 +180,6 @@
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
             "type":"workflow-step"
-          },
-          {
-            "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "value": "Is pesticide exposure associated with Parkinson's disease?",
-            "type":"workflow-step"
           }
         ],
         "content": [
@@ -200,8 +195,8 @@
         "navDescription": "[Filler] Adverse outcome for Q1.",
         "steps": [
           {
-            "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "description": "Is pesticide exposure associated with Parkinson's disease?",
+            "label": "Is pesticide exposure associated with Parkinson’s disease?",
+            "value": "Is pesticide exposure associated with Parkinson’s disease?",
             "type":"workflow-step"
           }
         ],
@@ -427,10 +422,12 @@
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
             }
           ]
-        },
-        "Is pesticide exposure associated with Parkinson's disease?":{
-          "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
-          "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
+        }
+      },
+      "Adverse Outcome": {
+        "Is pesticide exposure associated with Parkinson’s disease?":{
+          "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
+          "navdescription":"Is pesticide exposure associated with Parkinson’s disease?",
           "steps": [
             {
               "label": "Epidemiological data",
@@ -535,9 +532,9 @@
               }
             ]
           },
-          "GABAar activation": {
-            "navTitle": "GABAar activation",
-            "navDescription": "GABAar activation",
+          "GABAaR inhibition": {
+            "navTitle": "GABAaR inhibition",
+            "navDescription": "GABAaR inhibition",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -553,80 +550,80 @@
               }
             ]
           }
+        },
+        "Effects on key event relationships": {
+          "Increased intracellular calcium": {
+            "navTitle": "Increased intracellular calcium",
+            "navDescription": "Increased intracellular calcium",
+            "steps": [
+              {
+                "label": "Intracellular calcium imaging",
+                "value": "Intracellular calcium imaging",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          },
+          "Mitochondrial activity": {
+            "navTitle": "Mitochondrial activity",
+            "navDescription": "Mitochondrial activity",
+            "steps": [
+              {
+                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "type": "tool"
+              },
+              {
+                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+                "type": "tool"
+              }
+            ],
+            "content": []
+          },
+          "Increased oxidative stress": {
+            "navTitle": "Increased oxidative stress",
+            "navDescription": "Increased oxidative stress",
+            "steps": [
+              {
+                "label": "ROS production LUHMES cells (H2DCFDA)",
+                "value": "ROS production LUHMES cells (H2DCFDA)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+              }
+            ]
+          },
+          "Dopaminergic neuron cell death": {
+            "navTitle": "Dopaminergic neuron cell death",
+            "navDescription": "Dopaminergic neuron cell death",
+            "steps": [
+              {
+                "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "type": "tool"
+              },
+              {
+                "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+              }
+            ]
+          },
+          "Q2": {}
         }
-      },
-      "Effects on Key Event Relationships": {
-        "Increased intracellular calcium": {
-          "navTitle": "Increased intracellular calcium",
-          "navDescription": "Increased intracellular calcium",
-          "steps": [
-            {
-              "label": "Intracellular calcium imaging",
-              "value": "Intracellular calcium imaging",
-              "type": "tool"
-            }
-          ],
-          "content": []
-        },
-        "Mitochondrial activity": {
-          "navTitle": "Mitochondrial activity",
-          "navDescription": "Mitochondrial activity",
-          "steps": [
-            {
-              "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-              "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-              "type": "tool"
-            },
-            {
-              "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-              "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-              "type": "tool"
-            }
-          ],
-          "content": []
-        },
-        "Increased oxidative stress": {
-          "navTitle": "Increased oxidative stress",
-          "navDescription": "Increased oxidative stress",
-          "steps": [
-            {
-              "label": "ROS production LUHMES cells (H2DCFDA)",
-              "value": "ROS production LUHMES cells (H2DCFDA)",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "",
-              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
-            }
-          ]
-        },
-        "Dopaminergic neuron cell death": {
-          "navTitle": "Dopaminergic neuron cell death",
-          "navDescription": "Dopaminergic neuron cell death",
-          "steps": [
-            {
-              "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-              "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-              "type": "tool"
-            },
-            {
-              "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
-              "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "",
-              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
-            }
-          ]
-        },
-        "Q2": {}
       }
     }
   }

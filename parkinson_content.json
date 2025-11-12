@@ -196,8 +196,7 @@
         "steps": [
           {
             "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "description": "Is pesticide exposure associated with Parkinson's disease?",
-            "type":"workflow-step"
+            "description": "Is pesticide exposure associated with Parkinson's disease?"
           }
         ],
         "content": [
@@ -427,11 +426,11 @@
         "Is pesticide exposure associated with Parkinson's disease?":{
           "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
           "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
-          "steps": [
+          "content": [
             {
               "label": "Epidemiological data",
               "value": "Epidemiological data",
-              "type": "tool"
+              "type":"tool"
 
             }
           ]

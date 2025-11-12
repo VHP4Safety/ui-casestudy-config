@@ -532,9 +532,9 @@
               }
             ]
           },
-          "GABAaR activation": {
-            "navTitle": "GABAaR activation",
-            "navDescription": "GABAaR activation",
+          "GABAaR inhibition": {
+            "navTitle": "GABAaR inhibition",
+            "navDescription": "GABAaR inhibition",
             "steps": [
               {
                 "label": "QSPRpred",

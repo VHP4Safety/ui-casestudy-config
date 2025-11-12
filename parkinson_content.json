@@ -196,7 +196,8 @@
         "steps": [
           {
             "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "description": "Is pesticide exposure associated with Parkinson's disease?"
+            "value": "Is pesticide exposure associated with Parkinson's disease?",
+            "type":"workflow-step"
           }
         ],
         "content": [
@@ -322,6 +323,7 @@
   },
   "step4Contents": {
     "Q1": {
+      "step4content": "true",
       "AOP": {
         "Molecular AOP development": {
           "navTitle": "Molecular AOP development",
@@ -330,12 +332,12 @@
             {
               "label": "AOP-Wiki",
               "value": "AOP-Wiki",
-              "type": "tool"
+              "type":"tool"
             },
             {
               "label":"Rotenone transcriptomic data (LUHMES cells)",
               "value": "Rotenone transcriptomic data (LUHMES cells)",
-              "type": "tool"
+              "type":"tool"
             }
           ],
           "content": [
@@ -386,7 +388,7 @@
         },
         "Effects on key event relationships": {
           "navTitle": "Effects on key event relationships",
-          "navDescription": "Effects one key event relationships",
+          "navDescription": "[Filler]",
           "steps": [
             {
               "label": "Increased intracellular calcium",
@@ -426,11 +428,11 @@
         "Is pesticide exposure associated with Parkinson's disease?":{
           "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
           "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
-          "content": [
+          "steps": [
             {
               "label": "Epidemiological data",
               "value": "Epidemiological data",
-              "type":"tool"
+              "type": "tool"
 
             }
           ]
@@ -530,9 +532,9 @@
               }
             ]
           },
-          "GABAar activation": {
-            "navTitle": "GABAar activation",
-            "navDescription": "GABAar activation",
+          "GABAaR activation": {
+            "navTitle": "GABAaR activation",
+            "navDescription": "GABAaR activation",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -548,81 +550,81 @@
               }
             ]
           }
+        }
+      },
+      "Effects on Key Event Relationships": {
+        "Increased intracellular calcium": {
+          "navTitle": "Increased intracellular calcium",
+          "navDescription": "Increased intracellular calcium",
+          "steps": [
+            {
+              "label": "Intracellular calcium imaging",
+              "value": "Intracellular calcium imaging",
+              "type": "tool"
+            }
+          ],
+          "content": []
         },
-        "Effects on Key Event Relationships": {
-          "Increased intracellular calcium": {
-            "navTitle": "Increased intracellular calcium",
-            "navDescription": "Increased intracellular calcium",
-            "steps": [
-              {
-                "label": "Intracellular calcium imaging",
-                "value": "Intracellular calcium imaging",
-                "type": "tool"
-              }
-            ],
-            "content": []
-          },
-          "Mitochondrial activity": {
-            "navTitle": "Mitochondrial activity",
-            "navDescription": "Mitochondrial activity",
-            "steps": [
-              {
-                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "type": "tool"
-              },
-              {
-                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool"
-              }
-            ],
-            "content": []
-          },
-          "Increased oxidative stress": {
-            "navTitle": "Increased oxidative stress",
-            "navDescription": "Increased oxidative stress",
-            "steps": [
-              {
-                "label": "ROS production LUHMES cells (H2DCFDA)",
-                "value": "ROS production LUHMES cells (H2DCFDA)",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
-              }
-            ]
-          },
-          "Dopaminergic neuron cell death": {
-            "navTitle": "Dopaminergic neuron cell death",
-            "navDescription": "Dopaminergic neuron cell death",
-            "steps": [
-              {
-                "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "type": "tool"
-              },
-              {
-                "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
-              }
-            ]
-          }
-        } 
+        "Mitochondrial activity": {
+          "navTitle": "Mitochondrial activity",
+          "navDescription": "Mitochondrial activity",
+          "steps": [
+            {
+              "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+              "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+              "type": "tool"
+            },
+            {
+              "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+              "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+              "type": "tool"
+            }
+          ],
+          "content": []
+        },
+        "Increased oxidative stress": {
+          "navTitle": "Increased oxidative stress",
+          "navDescription": "Increased oxidative stress",
+          "steps": [
+            {
+              "label": "ROS production LUHMES cells (H2DCFDA)",
+              "value": "ROS production LUHMES cells (H2DCFDA)",
+              "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+            }
+          ]
+        },
+        "Dopaminergic neuron cell death": {
+          "navTitle": "Dopaminergic neuron cell death",
+          "navDescription": "Dopaminergic neuron cell death",
+          "steps": [
+            {
+              "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+              "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+              "type": "tool"
+            },
+            {
+              "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
+              "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
+              "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+            }
+          ]
+        },
+        "Q2": {}
       }
-    },
-    "Q2": {}
+    }
   }
 }

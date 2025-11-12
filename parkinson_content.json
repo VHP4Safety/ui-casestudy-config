@@ -10,7 +10,7 @@
       },
       {
         "label": "Question 2: Risk",
-        "description": "What level of exposure to compound X leads to risk for developing Parkinsons disease? ",
+        "description": "What level of exposure to compound X leads to risk for developing Parkinson’s disease? ",
         "value": "Q2"
       }
     ],
@@ -195,8 +195,8 @@
         "navDescription": "[Filler] Adverse outcome for Q1.",
         "steps": [
           {
-            "label": "Is pesticide exposure associated with Parkinson's disease?",
-            "value": "Is pesticide exposure associated with Parkinson's disease?",
+            "label": "Is pesticide exposure associated with Parkinson’s disease?",
+            "value": "Is pesticide exposure associated with Parkinson’s disease?",
             "type":"workflow-step"
           }
         ],
@@ -425,9 +425,9 @@
         }
       },
       "Adverse Outcome": {
-        "Is pesticide exposure associated with Parkinson's disease?":{
-          "navtitle":"Is pesticide exposure associated with Parkinson's disease?",
-          "navdescription":"Is pesticide exposure associated with Parkinson's disease?",
+        "Is pesticide exposure associated with Parkinson’s disease?":{
+          "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
+          "navdescription":"Is pesticide exposure associated with Parkinson’s disease?",
           "steps": [
             {
               "label": "Epidemiological data",

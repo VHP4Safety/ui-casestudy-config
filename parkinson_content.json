@@ -290,11 +290,6 @@
             "label": "Exposure response relationship",
             "value": "Exposure response relationship",
             "type":"workflow-step"
-          },
-          {
-            "label": "Is pesticide exposure associated with Parkinson’s disease?",
-            "value": "Is pesticide exposure associated with Parkinson’s disease?",
-            "type":"workflow-step"
           }
         ],
         "content": [
@@ -311,7 +306,7 @@
         "tools": [
           {
             "label": "Is pesticide exposure associated with Parkinson’s disease?",
-            "description": "Is pesticide exposure associated with Parkinson’s disease"
+            "description": "Is pesticide exposure associated with Parkinson’s disease?"
           }
         ],
         "content": [
@@ -447,7 +442,7 @@
       "External Exposure": {
         "External exposure scenario": {
           "navTitle": "External exposure scenario",
-          "navDescription": "[Filler] Link through to inputs and outputs coming soon",
+          "navDescription": "External exposure scenario",
           "steps": [
             {
               "label": "Occupational exposure (inhalation, dermal and ingestion routes)",
@@ -565,7 +560,6 @@
               "label": "PROAST benchmark dose modelling",
               "value": "PROAST benchmark dose modelling",
               "type": "tool"
-
             }
           ],
           "content": [
@@ -742,7 +736,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+                "description": ""
               }
             ]
           }

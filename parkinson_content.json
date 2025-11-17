@@ -463,6 +463,13 @@
               "value": "physB PBK model",
               "type": "tool"
             }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "[Filler] Details coming soon."
+            }
           ]
         },
         "In vivo exposure response relationship (QIVIVE)": {
@@ -473,6 +480,13 @@
               "label": "PBK model",
               "value": "PBK model",
               "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "[Filler] Details coming soon."
             }
           ]
         }
@@ -659,7 +673,13 @@
                 "type": "tool"
               }
             ],
-            "content": []
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
           },
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
@@ -676,7 +696,13 @@
                 "type": "tool"
               }
             ],
-            "content": []
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
           },
           "Increased oxidative stress": {
             "navTitle": "Increased oxidative stress",
@@ -692,7 +718,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+                "description": "[Filler] Details coming soon."
               }
             ]
           },
@@ -715,7 +741,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+                "description": "[Filler] Details coming soon."
               }
             ]
           }

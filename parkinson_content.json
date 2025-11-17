@@ -259,8 +259,8 @@
             "type": "workflow-step"
           },
           {
-            "label": "In vivo exposure relationship (QIVIVE)",
-            "value": "In vivo exposure relationship (QIVIVE)",
+            "label": "In vivo exposure response relationship (QIVIVE)",
+            "value": "In vivo exposure response relationship (QIVIVE)",
             "type":"workflow-step"
           }
         ],
@@ -747,7 +747,7 @@
       },
       "Kinetics": {
         "Internal exposure at target site": {
-          "PhysB PBK model": {
+          "physB PBK model": {
             "steps": [
               {
               "label": "iPSC BBB model",
@@ -902,7 +902,7 @@
     "Q1":{},
     "Q2": {
       "External Exposure": {
-        "External exposure scenario":{
+        "External exposure scenario": {
           "Occupational exposure (inhalation, dermal and ingestion routes)": {
             "Exposome generator": {
               "navTitle": "Exposome generator",

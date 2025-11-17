@@ -901,6 +901,7 @@
     }
   },
   "step6content": {
+  "step6content": "true",
     "Q1": {
       "External Exposure": {
         "External exposure scenario":{

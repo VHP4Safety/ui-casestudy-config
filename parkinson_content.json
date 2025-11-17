@@ -554,10 +554,9 @@
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
             }
           ]
-        }
-      },
-      "Exposure response relationship": {
-        "navtitle":"Exposure response relationship",
+        },
+        "Exposure response relationship": {
+          "navtitle":"Exposure response relationship",
           "navdescription":"Exposure response relationship",
           "steps": [
             {
@@ -726,10 +725,10 @@
         }
       }
     },
-    "Q2": {}
-      "External exposure":{
+    "Q2": {
+      "External Exposure": {
         "External exposure scenario": {
-          "Occupational exposure (inhalation, dermal and ingestion routes)":{
+          "Occupational exposure (inhalation, dermal and ingestion routes)": {
             "steps": [
               {
               "label": "Exposome generator",

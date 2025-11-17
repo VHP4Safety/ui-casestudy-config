@@ -726,6 +726,8 @@
       "External Exposure": {
         "External exposure scenario": {
           "Occupational exposure (inhalation, dermal and ingestion routes)": {
+            "navTitle": "Occupational exposure (inhalation, dermal and ingestion routes)",
+            "navDescription": "Occupational exposure (inhalation, dermal and ingestion routes)",
             "steps": [
               {
               "label": "Exposome generator",

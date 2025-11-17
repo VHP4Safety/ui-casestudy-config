@@ -259,8 +259,8 @@
             "type": "workflow-step"
           },
           {
-            "label": "In vivo exposure relationship (IVIVE)",
-            "value": "In vivo exposure relationship (IVIVE)",
+            "label": "In vivo exposure relationship (QIVIVE)",
+            "value": "In vivo exposure relationship (QIVIVE)",
             "type":"workflow-step"
           }
         ],
@@ -303,10 +303,11 @@
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
         "navDescription": "[Filler] Adverse outcome for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Is pesticide exposure associated with Parkinson’s disease?",
-            "description": "Is pesticide exposure associated with Parkinson’s disease?"
+            "value": "Is pesticide exposure associated with Parkinson’s disease?",
+            "type":"workflow-step"
           }
         ],
         "content": [
@@ -896,7 +897,8 @@
   },
   "step6content": {
   "step6content": "true",
-    "Q1": {
+    "Q1":{},
+    "Q2": {
       "External Exposure": {
         "External exposure scenario":{
           "Occupational exposure (inhalation, dermal and ingestion routes)": {

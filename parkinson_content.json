@@ -899,7 +899,7 @@
       }
     }
   },
-  "step6content": {
+  "step6Contents": {
     "step6content": "true",
     "Q1":{},
     "Q2": {
@@ -912,16 +912,18 @@
               "steps": [
                 {
                   "label": "BROWSE software",
-                  "value": "BROWSE software"
+                  "value": "BROWSE software",
+                  "type": "tool"
                 },
                 {
                   "label": "Guassian tilting plume model",
-                  "value": "Guassian tilting plume model"
+                  "value": "Guassian tilting plume model",
+                  "type": "tool"
                 },
                 {
                   "label": "Monte-Carlo simulation",
-                  "value": "Monte-Carlo simulation"
-                 
+                  "value": "Monte-Carlo simulation",
+                  "type": "tool"
                 }
               ]
             }

@@ -907,20 +907,20 @@
             "Exposome generator": {
               "navTitle": "Exposome generator",
               "navDescription": "Exposome generator",
-              "tools": [
+              "steps": [
                 {
                   "label": "BROWSE software",
-                  "description": "BROWSE software",
+                  "value": "BROWSE software",
                   "type": "tool"
                 },
                 {
                   "label": "Guassian tilting plume model",
-                  "description": "Guassian tilting plume model",
+                  "value": "Guassian tilting plume model",
                   "type": "tool"
                 },
                 {
                   "label": "Monte-Carlo simulation",
-                  "description": "Monte-Carlo simulation",
+                  "value": "Monte-Carlo simulation",
                   "type": "tool"
                 }
               ]

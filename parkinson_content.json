@@ -750,10 +750,10 @@
           "physB PBK model": {
             "navTitle": "physB PBK model",
             "navDescription": "physB PBK model",
-            "tools": [
+            "steps": [
               {
               "label": "iPSC BBB model",
-              "description": "iPSC BBB model",
+              "value": "iPSC BBB model",
               "type": "tool"
               }
             ],
@@ -912,18 +912,16 @@
               "steps": [
                 {
                   "label": "BROWSE software",
-                  "value": "BROWSE software",
-                  "type": "tool"
+                  "value": "BROWSE software"
                 },
                 {
                   "label": "Guassian tilting plume model",
-                  "value": "Guassian tilting plume model",
-                  "type": "tool"
+                  "value": "Guassian tilting plume model"
                 },
                 {
                   "label": "Monte-Carlo simulation",
-                  "value": "Monte-Carlo simulation",
-                  "type": "tool"
+                  "value": "Monte-Carlo simulation"
+                 
                 }
               ]
             }

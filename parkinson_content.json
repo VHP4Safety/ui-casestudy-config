@@ -750,10 +750,10 @@
           "physB PBK model": {
             "navTitle": "physB PBK model",
             "navDescription": "physB PBK model",
-            "steps": [
+            "tools": [
               {
               "label": "iPSC BBB model",
-              "value": "iPSC BBB model",
+              "description": "iPSC BBB model",
               "type": "tool"
               }
             ],

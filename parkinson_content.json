@@ -10,7 +10,7 @@
       },
       {
         "label": "Question 2: Risk",
-        "description": "What level of exposure to compound X leads to risk for developing Parkinson’s disease? ",
+        "description": "What level of exposure to compound Dinoseb leads to risk for developing Parkinson’s disease? ",
         "value": "Q2"
       }
     ],
@@ -255,12 +255,13 @@
         "steps": [
           {
             "label": "Internal exposure at target site",
-            "description": "[Filler]",
+            "value": "Internal exposure at target site",
             "type": "workflow-step"
           },
           {
-            "label": "In vivo exposure response relationship (QIVIVE)",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "label": "In vivo exposurre relationship (IVIVE)",
+            "value": "In vivo exposurre relationship (IVIVE)",
+            "type":"workflow-step"
           }
         ],
         "content": [
@@ -462,7 +463,7 @@
           "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
           "steps": [
             {
-              "label": "physB PBK model - population based kinetic modelling platform",
+              "label": "physB PBK model",
               "value": "physB PBK model",
               "type": "tool"
             }
@@ -898,5 +899,11 @@
         }
       }
     }
+  },
+  "step6content": {
+
+
+
+
   }
 }

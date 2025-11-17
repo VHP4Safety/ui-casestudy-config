@@ -252,10 +252,11 @@
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
         "navDescription": "Kinetics for Q2.",
-        "tools": [
+        "steps": [
           {
             "label": "Internal exposure at target site",
-            "description": "[Filler]"
+            "description": "[Filler]",
+            "type": "workflow-step"
           },
           {
             "label": "In vivo exposure response relationship (QIVIVE)",

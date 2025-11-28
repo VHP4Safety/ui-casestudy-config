@@ -172,7 +172,18 @@
             "description": ""
           }
         ],
-        "content": []
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
+            "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis. Using this AOP, we identified molecular initiation events and further downstream key events relevant for thyroid hormone disruption mediated developmental neurotoxicity. "
+          },
+            {
+            "headingType": "h2",
+            "section": "The thyroid hormone disruption mediated developmental neurotoxicity AOP",
+            "description": "The molecular initiating events (MIEs) underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function. "
+          }
+        ]
       }
     }
   },
@@ -288,8 +299,13 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
-              "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>Pubmed</b> and <b>Scopus</b> databases.A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis."
+              "section": "Development on AOP based on literature",
+              "description": "An AOP for thyroid hormone disruption mediated developmental neurotoxicity was developed from published literature collected from <b>Pubmed</b> and <b>Scopus</b> databases. The literature search was conducted based various combinations of thyroid hormone related search terms as described in Dierichs et al. 2025 "
+            },
+             {
+              "headingType": "h2",
+              "section": "Development of a molecular AOP",
+              "description": "A molecular AOP was constructed by mapping the thyroid hormone disruption mediated developmental neurotoxicity AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the <b>human neural progenitor test (hNPT)</b>, where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDB</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis. "
             }
           ]
         },

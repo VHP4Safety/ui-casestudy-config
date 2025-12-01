@@ -6,12 +6,14 @@
       {
         "label": "Question 1: Hazard",
         "description": "Can compound Dinoseb cause Parkinson’s Disease?",
-        "value": "Q1"
+        "value": "Q1",
+        "type": "regulatory-question"
       },
       {
         "label": "Question 2: Risk",
         "description": "What level of exposure to compound Dinoseb leads to risk for developing Parkinson’s disease? ",
-        "value": "Q2"
+        "value": "Q2",
+        "type": "regulatory-question"
       }
     ],
     "content": [

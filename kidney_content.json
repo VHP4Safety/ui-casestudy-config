@@ -519,6 +519,24 @@
           }
         }
       }
+    },
+    "Q2":{
+      "step5content": "true",
+      "AOP": {
+        "MIE activation": {
+          "Upregulation of CD44": {
+            "navTitle": "Upregulation of CD44",
+            "navDescription": "Upregulation of CD44",
+            "steps": [
+              {
+                "label": "RNA-seq",
+                "value": "RNA-seq",
+                "type": "workflow substep"
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "step6Contents": {

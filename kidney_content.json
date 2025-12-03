@@ -301,7 +301,7 @@
           {
             "headingType": "h2",
             "section": "AOP Workflow for Regulatory Question 2",
-            "description": "An AOP was constructed in order to investigate the hazard of tacrolimus treatment on nephrotoxicity. Several key biological targets that are associated with tacrolimus-induced nephrotoxicity. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. During the AOP development no clear MIE was identified however and therefore an advanced in vitro platform consisting of several relevant models was developed to identify novel molecular initiating events and validate the current AOP key events."
+            "description": "Three methodologies can be used to apply Adverse Outcome Pathways (AOPs), focusing on molecular initiating event (MIE) activation, key events (KEs) or general AOP development. In the VHP4safety project, an AOP was developed to investigate tacrolimus-induced nephrotoxicity. Tacrolimus exposure has been shown to activate Nf-Kb and NOX, increasing ROS production and oxidative stress which drive mitochondrial dysfunction, metabolic impairment, aberrant TGF-B signaling, fibrosis, apoptosis, and ultimately kidney failure. No clear MIE was identified which led to the development of an advanced in vitro platform with multiple models to explore potential MIEs and validate KEs. Mechanistic evidence came from rodent studies, kidney cell lines, and limited clinical data. While the AOP depicted KEs linearly, ROS production, oxidative stress, and mitochondrial dysfunction were interconnected and may occur simultaneously, complicating the identification of a specific initiating event. Overall, this AOP framework links molecular-level effects of tacrolimus to adverse kidney outcomes and guides the selection of relevant experimental models for regulatory assessment."
           }
         ]
       },
@@ -493,11 +493,11 @@
         "AOP development": {
           "navTitle": "AOP development",
           "navDescription": "AOP development",
-          "content": [
+          "steps": [
             {
-              "headingType": "p",
-              "section": "",
-              "description": "An Adverse Outcome Pathway (AOP) is a structured framework that links a molecular-level event caused by a stressor (tacrolimus) through a series of measurable biological changes, leading to an adverse outcome at the individual or population level. Developing an AOP aids in the selection of relevant models that address important key events necessary to answer regulatory questions. An AOP for tacrolimus, linking tacrolimus exposure to kidney failure, has been developed by gathering and organizing scientific information from PubMed. Mechanistic evidence for KEs and KERs in this AOP primarily comes from rodent studies, immortalized kidney cell lines and limited clinical evidence. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. In this AOP, although the sequence of KEs is depicted linearly, we propose that the KEs of ROS production, oxidative stress, and mitochondrial dysfunction are fundamentally interconnected and dynamic processes that occur simultaneously. This simultaneity complicates the assessment of whether one event precedes another or if they occur concurrently and made it impossible to identify a specific molecular initiating event."
+              "label": "Pubmed",
+              "value": "Pubmed",
+              "type": "tool"
             }
           ]
         },
@@ -714,7 +714,7 @@
               {
                 "headingType": "h2",
                 "section": "Assays description",
-                "description": "These two assays can be employed for the measurement of increased apoptosis.The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found."
+                "description": "These two assays can be employed for the measurement of increased apoptosis. The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found.The cytotoxicity detection kitPLUS is a non-radioactive colorimetric assay suitable for high-throughput quantification of cell death and cell lysis, based on the measurement of lactate dehydrogenase activity released from the cytosol of damaged cells into the supernatant. Whole iPSC kidney organoids and proximal tubule cells were exposed to a range of tacrolimus doses between 16 uM and 104 uM. In the iPSC kidney organoids cytotoxicity increased in a dose-dependent manner upon 24 hours TAC exposure, with an IC50 of 65.80 μM. In the proximal tubule cells, a sudden peak in LDH release between 40 and 56 μM tacrolimus in combination with an IC50 of 48.11 μM could be observed."
               }
             ]
           }
@@ -730,7 +730,7 @@
           "Parenteral": {
             "Plasma levels": {
               "navTitle": "Plasma levels",
-              "navDescription": "xxx  xxx xxx",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "Literature",

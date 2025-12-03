@@ -496,6 +496,11 @@
           "navDescription": "Effects on Key Events",
           "steps": [
             {
+              "label": "TAC uptake in kidney cells",
+              "value": "TAC uptake in kidney cells",
+              "type": "workflow substep"
+            },
+            {
               "label": "Oxidative stress",
               "value": "Oxidative stress",
               "type": "workflow substep"
@@ -554,7 +559,7 @@
             {
               "headingType": "h2",
               "section": "PubMed",
-              "description": "PubMed."
+              "description": "Placeholder for PubMed description."
             }
           ]
         }
@@ -610,6 +615,46 @@
                 "headingType": "h2",
                 "section": "RNA-seq",
                 "description": "The bulk RNA sequencing technique was used to determine differentially expressed genes in proximal tubule cells sorted from iPSC-derived kidney organoids between untreated and treated with 16 uM tacrolimus. RNA sequencing is a sequencing-based method that quantifies and characterizes all RNA molecules in a sample by converting them into cDNA and sequencing them at high throughput. CD44+ was significantly higher expressed in proximal tubule cells treated with tacrolimus and may be the molecular initiating event that precedes NF-kB upregulation (Key event 1). CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling. "
+              }
+            ]
+          }
+        },
+        "Effects on Key Events": {
+          "TAC Uptake in kidney cells": {
+            "navTitle": "TAC Uptake in kidney cells",
+            "navDescription": "TAC Uptake in kidney cells",
+            "steps": [
+              {
+                "label": "Transmembrane transport of TAC",
+                "value": "Transmembrane transport of TAC",
+                "type": "tool"
+              },
+              {
+                "label": "CalceinAM Assay",
+                "value": "CalceinAM Assay",
+                "type": "tool"
+              },
+              {
+                "label": "P-GP inhibitie",
+                "value": "P-GP inhibitie",
+                "type": "tool"
+              }
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "Transmembrane transport of TAC",
+                "description": "placeholder"
+              },
+              {
+                "headingType": "p",
+                "section": "CalceinAM Assay",
+                "description": "placeholder"
+              },
+              {
+                "headingType": "p",
+                "section": "P-GP inhibitie",
+                "description": "placeholder"
               }
             ]
           }

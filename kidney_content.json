@@ -454,7 +454,7 @@
         },
         "Oral": {
           "navTitle": "Oral",
-          "navDescription": "Oral",
+          "navDescription": "",
           "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
@@ -475,7 +475,7 @@
       "AOP": {
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "Upregulation of CD44",
@@ -493,7 +493,7 @@
         },
         "Effects on Key Events": {
           "navTitle": "Effects on Key Events",
-          "navDescription": "Effects on Key Events",
+          "navDescription": "",
           "steps": [
             {
               "label": "TAC uptake in kidney cells",
@@ -547,7 +547,7 @@
         },
         "AOP development": {
           "navTitle": "AOP development",
-          "navDescription": "AOP development",
+          "navDescription": "",
           "steps": [
             {
               "label": "Pubmed",
@@ -573,7 +573,7 @@
         "Current Dose levels": {
           "Parenteral": {
             "navTitle": "Parenteral",
-            "navDescription": "xxx  xxx xxx",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Plasma levels",
@@ -602,7 +602,7 @@
         "MIE activation": {
           "Upregulation of CD44": {
             "navTitle": "Upregulation of CD44",
-            "navDescription": "Upregulation of CD44",
+            "navDescription": "",
             "steps": [
               {
                 "label": "RNA-seq",
@@ -622,7 +622,7 @@
         "Effects on Key Events": {
           "TAC uptake in kidney cells": {
             "navTitle": "TAC uptake in kidney cells",
-            "navDescription": "TAC uptake in kidney cells",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Transmembrane transport of TAC",
@@ -644,23 +644,23 @@
               {
                 "headingType": "h2",
                 "section": "Transmembrane transport of TAC",
-                "description": "placeholder"
+                "description": "placeholder for text description"
               },
               {
                 "headingType": "p",
                 "section": "CalceinAM Assay",
-                "description": "placeholder"
+                "description": "placeholder for text description"
               },
               {
                 "headingType": "p",
                 "section": "P-GP inhibitie",
-                "description": "placeholder"
+                "description": "placeholder for text description"
               }
             ]
           },
           "Oxidative stress": {
             "navTitle": "Oxidative stress",
-            "navDescription": "Oxidative stress",
+            "navDescription": "",
             "steps": [
               {
                 "label": "CellROX™ Green Reagent for oxidative stress detection",
@@ -683,13 +683,13 @@
               {
                 "headingType": "p",
                 "section": "MitoSox RED assay",
-                "description": "."
+                "description": "To assess mitochondrial superoxide levels, the MitoSOX assay was performed in PTL cells. Oxidation of the MitoSOX reagent by mitochondrial superoxide can be detected as a red dye on an imager. Cells were treated with a range of tacrolimus concentrations (0-100 µM) and mitoSOX red dye. Cells were imaged at 10-minute intervals for 1 hour, which allowed tracking of mitochondrial superoxide production over time. The assay showed an increase in superoxide production after 1 hour of treatment with 80 and 100 µM of tacrolimus, which was not observed in lower doses or controls."
               }
             ]
           },
           "Mitochondrial dysfunction":{
             "navTitle": "Mitochondrial dysfunction",
-            "navDescription": "Mitochondrial dysfunction",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Mitotracker Deep RED FM assay",
@@ -718,7 +718,7 @@
           },
           "Metabolic impairment": {
             "navTitle": "Metabolic impairment",
-            "navDescription": "Metabolic impairment",
+            "navDescription": "",
             "steps": [
               {
                 "label": "LysoTracker Green DND-26",
@@ -736,7 +736,7 @@
           },
           "Increase fibrose": {
             "navTitle": "Increase fibrose",
-            "navDescription": "Increase fibrose",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Immunofluorescent detection of collagen-1",
@@ -754,7 +754,7 @@
           },
           "Increased apoptosis": {
             "navTitle": "Increased apoptosis",
-            "navDescription": "Increased apoptosis",
+            "navDescription": "",
             "steps": [
               {
                 "label": "CellTiter Fluor",

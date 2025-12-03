@@ -59,7 +59,8 @@
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
-          "type": "process-flow-step"
+          "type": "process-flow-step",
+          "state":"disabled"
         }
       ],
       "content": [
@@ -237,12 +238,12 @@
         "steps": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
-            "description": "Therapeutic drug monitoring is a specialty of hospital pharmacy and clinical pharmacology, focusing on measuring drug concentrations in the body and providing dosing recommendations. TDM is valuable for drugs with a narrow therapeutic window, such as tacrolimus.",
+            "value": "",
             "type": "tool"
           },
           {
             "label": "Farmacotherapeutisch Kompas",
-            "description": "Farmacotherapeutisch Kompas is a Dutch evidence-based drug information guide that provides doctors, pharmacists, and other healthcare professionals with up-to-date information about medicines. It includes details on drug indications, dosing, side effects, interactions, and therapeutic guidelines.",
+            "description": "",
             "type": "tool"
           }
         ],
@@ -486,7 +487,7 @@
             {
               "headingType": "h2",
               "section": "Upregulation of CD44",
-              "description": "CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling."
+              "description": "CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling. The upregulation can be measured with tools you can view next."
             }
           ]
         },

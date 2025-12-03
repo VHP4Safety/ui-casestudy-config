@@ -548,7 +548,7 @@
             {
               "headingType": "h2",
               "section": "Effects on Key Events",
-              "description": "The Effects on Key Events can be measured with multiple different tools."
+              "description": "The Effects on Key Events can be measured with different tools and assays depending on the subcategory of the process flow."
             }
           ]
         },
@@ -615,6 +615,67 @@
                 "headingType": "h2",
                 "section": "Introduction",
                 "description": "The bulk RNA sequencing technique was used to determine differentially expressed genes in proximal tubule cells sorted from iPSC-derived kidney organoids between untreated and treated with 16 uM tacrolimus. RNA sequencing is a sequencing-based method that quantifies and characterizes all RNA molecules in a sample by converting them into cDNA and sequencing them at high throughput. CD44+ was significantly higher expressed in proximal tubule cells treated with tacrolimus and may be the molecular initiating event that precedes NF-kB upregulation (Key event 1). CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling. "
+              }
+            ]
+          }
+        },
+        "Effects on Key Events": {
+          "Oxidative stress": {
+            "navTitle": "Oxidative stress",
+            "navDescription": "Oxidative stress",
+            "steps": [
+              {
+                "label": "CellROX™ Green Reagent, for oxidative stress detection",
+                "value": "CellROX™ Green Reagent, for oxidative stress detection",
+                "type": "workflow step"
+              }
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "Introduction",
+                "description": "CellROX Green is a cell-permeant fluorogenic probe that becomes brightly fluorescent upon oxidation by reactive oxygen species (ROS, key event 3) and binding to DNA. 16 uM tacrolimus treated proximale tubule cells showed a modest increase of 7.5% in ROS levels compared to the untreated controls within 340 minutes."
+              }
+            ]
+          },
+          "Mitochondrial dysfunction":{
+            "navTitle": "Mitochondrial dysfunction",
+            "navDescription": "Mitochondrial dysfunction",
+            "steps": [
+              {
+                "label": "Mitotracker Deep RED FM assay",
+                "value": "Mitotracker Deep RED FM assay",
+                "type": "workflow step"
+              },
+              {
+                "label": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
+                "value": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
+                "type": "workflow step"
+              }
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "Assay description",
+                "description": "MitoTracker Deep Red labels mitochondria in live cells as it binds to thiol‐reactive chloromethyl groups in the mitochondrial membrane. Following 16 uM Tacrolimus exposure, an increase of 19.5% was observed in the mitochondrial area compared to untreated controls."
+              }
+            ]
+          },
+          "Metabolic impairment": {
+            "navTitle": "Metabolic impairment",
+            "navDescription": "Metabolic impairment",
+            "steps": [
+              {
+                "label": "LysoTracker Green DND-26",
+                "value": "LysoTracker Green DND-26",
+                "type": "workflow step"
+              }
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "Assay description",
+                "description": "LysoTracker® Green DND-26 is a cell permeable green dye that stains acidic compartments (lysosomes) in live cells. Live-imaging results showed a 57% decrease in the lysosomal area after 16 uM tacrolimus exposure in proximal tubule cells versus untreated proximal tubule cells."
               }
             ]
           }

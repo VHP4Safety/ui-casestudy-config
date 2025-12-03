@@ -620,8 +620,8 @@
             "navDescription": "Oxidative stress",
             "steps": [
               {
-                "label": "CellROX™ Green Reagent, for oxidative stress detection",
-                "value": "CellROX™ Green Reagent, for oxidative stress detection",
+                "label": "CellROX™ Green Reagent for oxidative stress detection",
+                "value": "CellROX™ Green Reagent for oxidative stress detection",
                 "type": "tool"
               }
             ],

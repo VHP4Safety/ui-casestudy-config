@@ -112,7 +112,7 @@
         {
           "headingType": "h2",
           "section": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
-          "description": "Tacrolimus is one of the most widely used  immunosuppressant that is commonly to prevent organ rejection after transplantations. Recent data indicated that tacrolimus exposure is linked to nephrotoxicity in 20-40% of patients treated with this drug. Managing the risk of nephrotoxicity after tacrolimus use remains difficult due to its narrow therapeutic window. Several cases have been reported of people developing nephrotoxicity even when treated in dose ranges considered to be safe. The molecular mechanisms of tacrolimus induced nephrotoxicity are currently poorly understood, which hampers the risk assessment and limits the use of tacrolimus in the clinic."
+          "description": "Tacrolimus is one of the most widely used  immunosuppressant that is commonly to prevent organ rejection after transplantations. Recent data indicated that tacrolimus exposure is linked to nephrotoxicity in 20-40% of patients treated with this drug. Managing the risk of nephrotoxicity after tacrolimus use remains difficult due to its narrow therapeutic window. Several cases have been reported of people developing nephrotoxicity even when treated in dose ranges considered to be safe. The molecular mechanisms of tacrolimus induced nephrotoxicity are currently poorly understood, which hampers the risk assessment and limits the use of tacrolimus in the clinic. By employing the process flow methodology, VHP4safety aims to present a solution."
         }
       ]
     }
@@ -279,7 +279,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "AOP for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "MIE activation",
@@ -547,6 +547,13 @@
               "label": "Pubmed",
               "value": "Pubmed",
               "type": "tool"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Description",
+              "description": "PubMed."
             }
           ]
         }

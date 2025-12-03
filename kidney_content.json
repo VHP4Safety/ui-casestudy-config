@@ -643,7 +643,7 @@
               {
                 "label": "Mitotracker Deep RED FM assay",
                 "value": "Mitotracker Deep RED FM assay",
-                "type": "workflow step"
+                "type": "tool"
               },
               {
                 "label": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
@@ -695,7 +695,7 @@
               }
             ]
           },
-          "increased apoptosis": {
+          "Increased apoptosis": {
             "navTitle": "Increased apoptosis",
             "navDescription": "Increased apoptosis",
             "steps": [
@@ -714,7 +714,7 @@
               {
                 "headingType": "h2",
                 "section": "Assays description",
-                "description": "."
+                "description": "These two assays can be employed for the measurement of increased apoptosis.The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found."
               }
             ]
           }

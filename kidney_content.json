@@ -620,9 +620,9 @@
           }
         },
         "Effects on Key Events": {
-          "TAC Uptake in kidney cells": {
-            "navTitle": "TAC Uptake in kidney cells",
-            "navDescription": "TAC Uptake in kidney cells",
+          "TAC uptake in kidney cells": {
+            "navTitle": "TAC uptake in kidney cells",
+            "navDescription": "TAC uptake in kidney cells",
             "steps": [
               {
                 "label": "Transmembrane transport of TAC",

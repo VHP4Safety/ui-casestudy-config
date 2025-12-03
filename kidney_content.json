@@ -553,7 +553,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Description",
+              "section": "PubMed",
               "description": "PubMed."
             }
           ]
@@ -623,13 +623,24 @@
                 "label": "CellROX™ Green Reagent for oxidative stress detection",
                 "value": "CellROX™ Green Reagent for oxidative stress detection",
                 "type": "tool"
+              },
+               {
+                "label": "MitoSox RED assay",
+                "value": "MitoSox RED assay",
+                "type": "tool"
               }
+
             ],
             "content":[
               {
                 "headingType": "h2",
                 "section": "CellROX Green assay",
                 "description": "CellROX Green is a cell-permeant fluorogenic probe that becomes brightly fluorescent upon oxidation by reactive oxygen species (ROS, key event 3) and binding to DNA. 16 uM tacrolimus treated proximale tubule cells showed a modest increase of 7.5% in ROS levels compared to the untreated controls within 340 minutes."
+              },
+              {
+                "headingType": "p",
+                "section": "MitoSox RED assay",
+                "description": "."
               }
             ]
           },
@@ -651,8 +662,14 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assays description",
-                "description": "These two assays measure the mitochondrial dysfunction. MitoTracker Deep Red labels mitochondria in live cells as it binds to thiol‐reactive chloromethyl groups in the mitochondrial membrane. Following 16 uM Tacrolimus exposure, an increase of 19.5% was observed in the mitochondrial area compared to untreated controls.pHrodo™ Red and Green AM dyes enter live cells in a non-fluorescent form and become fluorescent as they are hydrolyzed by intracellular esterases and exposed to more acidic environments. Their fluorescence intensity increases with decreasing pH, enabling sensitive measurement of intracellular acidification and pH changes. Upon 16 uM tacrolimus exposure, the intensity of the pHrodo Red staining is 90% lower than in the untreated proximal tubule cells. As a lower staining intensity is associated with a higher pH, this difference could indicate a rise in intracellular pH, intracellular alkalinization, upon tacrolimus exposure."
+                "section": "Mitotracker Deep RED FM assay",
+                "description": "MitoTracker Deep Red labels mitochondria in live cells as it binds to thiol‐reactive chloromethyl groups in the mitochondrial membrane. Following 16 uM Tacrolimus exposure, an increase of 19.5% was observed in the mitochondrial area compared to untreated controls."
+              },
+              {
+                "headingType": "p",
+                "section": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
+                "description": "pHrodo™ Red and Green AM dyes enter live cells in a non-fluorescent form and become fluorescent as they are hydrolyzed by intracellular esterases and exposed to more acidic environments. Their fluorescence intensity increases with decreasing pH, enabling sensitive measurement of intracellular acidification and pH changes. Upon 16 uM tacrolimus exposure, the intensity of the pHrodo Red staining is 90% lower than in the untreated proximal tubule cells. As a lower staining intensity is associated with a higher pH, this difference could indicate a rise in intracellular pH, intracellular alkalinization, upon tacrolimus exposure."
+
               }
             ]
           },
@@ -710,8 +727,13 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assays description",
-                "description": "These two assays can be employed for the measurement of increased apoptosis. The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found.The cytotoxicity detection kitPLUS is a non-radioactive colorimetric assay suitable for high-throughput quantification of cell death and cell lysis, based on the measurement of lactate dehydrogenase activity released from the cytosol of damaged cells into the supernatant. Whole iPSC kidney organoids and proximal tubule cells were exposed to a range of tacrolimus doses between 16 uM and 104 uM. In the iPSC kidney organoids cytotoxicity increased in a dose-dependent manner upon 24 hours TAC exposure, with an IC50 of 65.80 μM. In the proximal tubule cells, a sudden peak in LDH release between 40 and 56 μM tacrolimus in combination with an IC50 of 48.11 μM could be observed."
+                "section": "CellTiter Fluor and Cytotoxicity detection KitPlus",
+                "description": "The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found."
+              },
+              {
+                "headingtype": "p",
+                "section": "Cytotoxicity detection KitPlus",
+                "description": "The cytotoxicity detection kitPLUS is a non-radioactive colorimetric assay suitable for high-throughput quantification of cell death and cell lysis, based on the measurement of lactate dehydrogenase activity released from the cytosol of damaged cells into the supernatant. Whole iPSC kidney organoids and proximal tubule cells were exposed to a range of tacrolimus doses between 16 uM and 104 uM. In the iPSC kidney organoids cytotoxicity increased in a dose-dependent manner upon 24 hours TAC exposure, with an IC50 of 65.80 μM. In the proximal tubule cells, a sudden peak in LDH release between 40 and 56 μM tacrolimus in combination with an IC50 of 48.11 μM could be observed."
               }
             ]
           }

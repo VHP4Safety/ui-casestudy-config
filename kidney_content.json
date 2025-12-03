@@ -59,8 +59,7 @@
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
-          "type": "process-flow-step",
-          "state":"disabled"
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -106,7 +105,8 @@
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
-          "type": "process-flow-step"
+          "type": "process-flow-step",
+          "state":"disabled"
         }
       ],
       "content": [

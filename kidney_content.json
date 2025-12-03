@@ -454,7 +454,7 @@
         },
         "Oral": {
           "navTitle": "Oral",
-          "navDescription": "Oral",
+          "navDescription": "",
           "steps": [
             {
               "label": "Tool A - Farmacotherapeutisch Kompas",
@@ -475,7 +475,7 @@
       "AOP": {
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "Upregulation of CD44",
@@ -493,8 +493,13 @@
         },
         "Effects on Key Events": {
           "navTitle": "Effects on Key Events",
-          "navDescription": "Effects on Key Events",
+          "navDescription": "",
           "steps": [
+            {
+              "label": "TAC uptake in kidney cells",
+              "value": "TAC uptake in kidney cells",
+              "type": "workflow substep"
+            },
             {
               "label": "Oxidative stress",
               "value": "Oxidative stress",
@@ -542,7 +547,7 @@
         },
         "AOP development": {
           "navTitle": "AOP development",
-          "navDescription": "AOP development",
+          "navDescription": "",
           "steps": [
             {
               "label": "Pubmed",
@@ -553,8 +558,8 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Description",
-              "description": "PubMed."
+              "section": "PubMed",
+              "description": "Placeholder for PubMed description."
             }
           ]
         }
@@ -568,7 +573,7 @@
         "Current Dose levels": {
           "Parenteral": {
             "navTitle": "Parenteral",
-            "navDescription": "xxx  xxx xxx",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Plasma levels",
@@ -597,7 +602,7 @@
         "MIE activation": {
           "Upregulation of CD44": {
             "navTitle": "Upregulation of CD44",
-            "navDescription": "Upregulation of CD44",
+            "navDescription": "",
             "steps": [
               {
                 "label": "RNA-seq",
@@ -608,34 +613,83 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assay description",
+                "section": "RNA-seq",
                 "description": "The bulk RNA sequencing technique was used to determine differentially expressed genes in proximal tubule cells sorted from iPSC-derived kidney organoids between untreated and treated with 16 uM tacrolimus. RNA sequencing is a sequencing-based method that quantifies and characterizes all RNA molecules in a sample by converting them into cDNA and sequencing them at high throughput. CD44+ was significantly higher expressed in proximal tubule cells treated with tacrolimus and may be the molecular initiating event that precedes NF-kB upregulation (Key event 1). CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling. "
               }
             ]
           }
         },
         "Effects on Key Events": {
-          "Oxidative stress": {
-            "navTitle": "Oxidative stress",
-            "navDescription": "Oxidative stress",
+          "TAC uptake in kidney cells": {
+            "navTitle": "TAC uptake in kidney cells",
+            "navDescription": "",
             "steps": [
               {
-                "label": "CellROX™ Green Reagent, for oxidative stress detection",
-                "value": "CellROX™ Green Reagent, for oxidative stress detection",
+                "label": "Transmembrane transport of TAC",
+                "value": "Transmembrane transport of TAC",
+                "type": "tool"
+              },
+              {
+                "label": "CalceinAM Assay",
+                "value": "CalceinAM Assay",
+                "type": "tool"
+              },
+              {
+                "label": "P-GP inhibitie",
+                "value": "P-GP inhibitie",
                 "type": "tool"
               }
             ],
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assay description",
+                "section": "Transmembrane transport of TAC",
+                "description": "placeholder for text description"
+              },
+              {
+                "headingType": "p",
+                "section": "CalceinAM Assay",
+                "description": "placeholder for text description"
+              },
+              {
+                "headingType": "p",
+                "section": "P-GP inhibitie",
+                "description": "placeholder for text description"
+              }
+            ]
+          },
+          "Oxidative stress": {
+            "navTitle": "Oxidative stress",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "CellROX™ Green Reagent for oxidative stress detection",
+                "value": "CellROX™ Green Reagent for oxidative stress detection",
+                "type": "tool"
+              },
+               {
+                "label": "MitoSox RED assay",
+                "value": "MitoSox RED assay",
+                "type": "tool"
+              }
+
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "CellROX Green assay",
                 "description": "CellROX Green is a cell-permeant fluorogenic probe that becomes brightly fluorescent upon oxidation by reactive oxygen species (ROS, key event 3) and binding to DNA. 16 uM tacrolimus treated proximale tubule cells showed a modest increase of 7.5% in ROS levels compared to the untreated controls within 340 minutes."
+              },
+              {
+                "headingType": "p",
+                "section": "MitoSox RED assay",
+                "description": "To assess mitochondrial superoxide levels, the MitoSOX assay was performed in PTL cells. Oxidation of the MitoSOX reagent by mitochondrial superoxide can be detected as a red dye on an imager. Cells were treated with a range of tacrolimus concentrations (0-100 µM) and mitoSOX red dye. Cells were imaged at 10-minute intervals for 1 hour, which allowed tracking of mitochondrial superoxide production over time. The assay showed an increase in superoxide production after 1 hour of treatment with 80 and 100 µM of tacrolimus, which was not observed in lower doses or controls."
               }
             ]
           },
           "Mitochondrial dysfunction":{
             "navTitle": "Mitochondrial dysfunction",
-            "navDescription": "Mitochondrial dysfunction",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Mitotracker Deep RED FM assay",
@@ -651,14 +705,20 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assays description",
-                "description": "These two assays measure the mitochondrial dysfunction. MitoTracker Deep Red labels mitochondria in live cells as it binds to thiol‐reactive chloromethyl groups in the mitochondrial membrane. Following 16 uM Tacrolimus exposure, an increase of 19.5% was observed in the mitochondrial area compared to untreated controls.pHrodo™ Red and Green AM dyes enter live cells in a non-fluorescent form and become fluorescent as they are hydrolyzed by intracellular esterases and exposed to more acidic environments. Their fluorescence intensity increases with decreasing pH, enabling sensitive measurement of intracellular acidification and pH changes. Upon 16 uM tacrolimus exposure, the intensity of the pHrodo Red staining is 90% lower than in the untreated proximal tubule cells. As a lower staining intensity is associated with a higher pH, this difference could indicate a rise in intracellular pH, intracellular alkalinization, upon tacrolimus exposure."
+                "section": "Mitotracker Deep RED FM assay",
+                "description": "MitoTracker Deep Red labels mitochondria in live cells as it binds to thiol‐reactive chloromethyl groups in the mitochondrial membrane. Following 16 uM Tacrolimus exposure, an increase of 19.5% was observed in the mitochondrial area compared to untreated controls."
+              },
+              {
+                "headingType": "p",
+                "section": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
+                "description": "pHrodo™ Red and Green AM dyes enter live cells in a non-fluorescent form and become fluorescent as they are hydrolyzed by intracellular esterases and exposed to more acidic environments. Their fluorescence intensity increases with decreasing pH, enabling sensitive measurement of intracellular acidification and pH changes. Upon 16 uM tacrolimus exposure, the intensity of the pHrodo Red staining is 90% lower than in the untreated proximal tubule cells. As a lower staining intensity is associated with a higher pH, this difference could indicate a rise in intracellular pH, intracellular alkalinization, upon tacrolimus exposure."
+
               }
             ]
           },
           "Metabolic impairment": {
             "navTitle": "Metabolic impairment",
-            "navDescription": "Metabolic impairment",
+            "navDescription": "",
             "steps": [
               {
                 "label": "LysoTracker Green DND-26",
@@ -669,14 +729,14 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assay description",
+                "section": "LysoTracker® Green DND-26",
                 "description": "LysoTracker® Green DND-26 is a cell permeable green dye that stains acidic compartments (lysosomes) in live cells. Live-imaging results showed a 57% decrease in the lysosomal area after 16 uM tacrolimus exposure in proximal tubule cells versus untreated proximal tubule cells."
               }
             ]
           },
           "Increase fibrose": {
             "navTitle": "Increase fibrose",
-            "navDescription": "Increase fibrose",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Immunofluorescent detection of collagen-1",
@@ -687,14 +747,14 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assay description",
+                "section": "Immunofluorescent detection of collagen-1",
                 "description": "Antibody staining works by using antibodies that bind to target proteins or molecules within cells or tissues. These antibodies can be linked to fluorescent dyes or enzymes, allowing the bound targets to be visualized and quantified. Collagen-1 is a major component of the extracellular matrix that is central to fibrosis. After exposure to tacrolimus in several doses (16, 64 and 88 uM), an overall increase in collagen-1 deposition in the organoids exposed to tacrolimus, particularly at 16 μM, can be found."
               }
             ]
           },
           "Increased apoptosis": {
             "navTitle": "Increased apoptosis",
-            "navDescription": "Increased apoptosis",
+            "navDescription": "",
             "steps": [
               {
                 "label": "CellTiter Fluor",
@@ -710,8 +770,13 @@
             "content":[
               {
                 "headingType": "h2",
-                "section": "Assays description",
-                "description": "These two assays can be employed for the measurement of increased apoptosis. The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found.The cytotoxicity detection kitPLUS is a non-radioactive colorimetric assay suitable for high-throughput quantification of cell death and cell lysis, based on the measurement of lactate dehydrogenase activity released from the cytosol of damaged cells into the supernatant. Whole iPSC kidney organoids and proximal tubule cells were exposed to a range of tacrolimus doses between 16 uM and 104 uM. In the iPSC kidney organoids cytotoxicity increased in a dose-dependent manner upon 24 hours TAC exposure, with an IC50 of 65.80 μM. In the proximal tubule cells, a sudden peak in LDH release between 40 and 56 μM tacrolimus in combination with an IC50 of 48.11 μM could be observed."
+                "section": "CellTiter Fluor and Cytotoxicity detection KitPlus",
+                "description": "The CellTiter-Fluor assay measures cell viability by detecting protease activity that is active only in intact, living cells. A fluorogenic peptide substrate is cleaved inside viable cells to produce a fluorescent signal proportional to cell number, while nonviable cells lose this activity. In ASC-derived kidney organoids, e.g. tubuloids, a dose-dependent loss of viability could be found."
+              },
+              {
+                "headingtype": "p",
+                "section": "Cytotoxicity detection KitPlus",
+                "description": "The cytotoxicity detection kitPLUS is a non-radioactive colorimetric assay suitable for high-throughput quantification of cell death and cell lysis, based on the measurement of lactate dehydrogenase activity released from the cytosol of damaged cells into the supernatant. Whole iPSC kidney organoids and proximal tubule cells were exposed to a range of tacrolimus doses between 16 uM and 104 uM. In the iPSC kidney organoids cytotoxicity increased in a dose-dependent manner upon 24 hours TAC exposure, with an IC50 of 65.80 μM. In the proximal tubule cells, a sudden peak in LDH release between 40 and 56 μM tacrolimus in combination with an IC50 of 48.11 μM could be observed."
               }
             ]
           }

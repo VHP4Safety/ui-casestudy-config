@@ -77,7 +77,8 @@
         {
           "label": "Hazard / Chemical Characteristics",
           "value": "Chemical Characteristics",
-          "type": "process-flow-step"
+          "type": "process-flow-step",
+          "state":"disabled"
         },
         {
           "label": "(External) Exposure",
@@ -87,7 +88,8 @@
         {
           "label": "(Toxicol) Kinetics",
           "value": "Kinetics",
-          "type": "process-flow-step"
+          "type": "process-flow-step",
+          "state":"disabled"
         },
         {
           "label": "(Internal) Exposure",
@@ -282,6 +284,11 @@
           {
             "label": "MIE activation",
             "value": "MIE activation",
+            "type": "workflow-step"
+          },
+          {
+            "label": "Effects on Key Events",
+            "value": "Effects on Key Events",
             "type": "workflow-step"
           },
           {
@@ -480,6 +487,68 @@
               "headingType": "h2",
               "section": "Upregulation of CD44",
               "description": "CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling."
+            }
+          ]
+        },
+        "AOP development": {
+          "navTitle": "AOP development",
+          "navDescription": "AOP development",
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "An Adverse Outcome Pathway (AOP) is a structured framework that links a molecular-level event caused by a stressor (tacrolimus) through a series of measurable biological changes, leading to an adverse outcome at the individual or population level. Developing an AOP aids in the selection of relevant models that address important key events necessary to answer regulatory questions. An AOP for tacrolimus, linking tacrolimus exposure to kidney failure, has been developed by gathering and organizing scientific information from PubMed. Mechanistic evidence for KEs and KERs in this AOP primarily comes from rodent studies, immortalized kidney cell lines and limited clinical evidence. The current AOP suggests that tacrolimus exposure leads to activation of Nf-Kb and NOX, which can lead to increased ROS production and oxidative stress. Increase oxidative stress is associated with increased mitochondrial disfunction eventually resulting in metabolic impairment, aberrant TGF-B, increase in fibrosis and apoptosis in the kidney causing kidney failure. In this AOP, although the sequence of KEs is depicted linearly, we propose that the KEs of ROS production, oxidative stress, and mitochondrial dysfunction are fundamentally interconnected and dynamic processes that occur simultaneously. This simultaneity complicates the assessment of whether one event precedes another or if they occur concurrently and made it impossible to identify a specific molecular initiating event."
+            }
+          ]
+        }
+      },
+      "AOP": {
+        "Effects on Key Events": {
+          "navTitle": "Effects on Key Events",
+          "navDescription": "Effects on Key Events",
+          "steps": [
+            {
+              "label": "Oxidative stress",
+              "value": "Oxidative stress",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Increased ROS",
+              "value": "Increased ROS",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Mitochondrial dysfunction",
+              "value": "Mitochondrial dysfunction",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Metabolic impairment",
+              "value": "Metabolic impairment",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Aberrant TGF-b",
+              "value": "Aberrant TGF-b",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Increase fibrose",
+              "value": "Increase fibrose",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Increased apoptosis",
+              "value": "Increased apoptosis",
+              "type": "workflow substep"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Effects on Key Events",
+              "description": "The Effects on Key Events can be measured with multiple different tools."
             }
           ]
         },

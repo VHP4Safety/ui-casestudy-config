@@ -474,6 +474,13 @@
               "value": "Upregulation of CD44",
               "type": "workflow substep"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Upregulation of CD44",
+              "description": "CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling."
+            }
           ]
         },
         "AOP development": {
@@ -531,7 +538,14 @@
               {
                 "label": "RNA-seq",
                 "value": "RNA-seq",
-                "type": "workflow substep"
+                "type": "workflow step"
+              }
+            ],
+            "content":[
+              {
+                "headingType": "h2",
+                "section": "Introduction",
+                "description": "The bulk RNA sequencing technique was used to determine differentially expressed genes in proximal tubule cells sorted from iPSC-derived kidney organoids between untreated and treated with 16 uM tacrolimus. RNA sequencing is a sequencing-based method that quantifies and characterizes all RNA molecules in a sample by converting them into cDNA and sequencing them at high throughput. CD44+ was significantly higher expressed in proximal tubule cells treated with tacrolimus and may be the molecular initiating event that precedes NF-kB upregulation (Key event 1). CD44+ is a cell-surface glycoprotein that worsen acute kidney injury by disrupting mitochondrial function, fatty acid oxidation, lipid metabolism, and promoting both apoptosis and ferroptosis through MAPK and NF-κB p65 signalling. "
               }
             ]
           }

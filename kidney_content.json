@@ -468,11 +468,11 @@
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "MIE activation",
-          "content": [
+          "steps": [
             {
-              "headingType": "p",
-              "section": "",
-              "description": "Molecular initiating events (MIEs) are chemical interactions with biological targets that trigger cascades leading to adverse outcomes, but the MIE underlying tacrolimus-induced nephrotoxicity remains unknown. To address this, advanced in vitro kidney models—including iPSC-derived organoids (proximal nephron), ASC-derived tubuloids (distal nephron), and organoid-derived proximal tubule cells—were used to characterize the MIE and downstream key events. Dose–response relationships were determined with LDH assays to establish IC10 and IC50 values for subsequent analyses. In proximal tubule cells, transcriptomics (bulk RNA-seq) indicated CD44 upregulation as a potential MIE, while fluorescence-based assays revealed ROS production, altered intracellular pH, disrupted mitochondrial function, and organelle changes following tacrolimus exposure. Complementary transcriptomics and immunofluorescence in iPSC-derived organoids identified dysregulated pathways, epithelial injury, fibrosis, and senescence, and analyses in ASC-derived tubuloids extended insights to distal nephron toxicity. Finally, CRISPR/Cas9-edited iPSC organoids with pgp mutations were generated to mimic patient variability, enabling assessment of dose–response relationships under different pgp expression conditions."
+              "label": "Upregulation of CD44",
+              "value": "Upregulation of CD44",
+              "type": "workflow substep"
             }
           ]
         },

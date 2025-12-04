@@ -234,7 +234,7 @@
       },
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "Tacrolimus is a frequently prescribed drug in patients after organ transplantion. Human relevant exposure to tacrolimus is therefore well described in pharmaceutical information databases.",
+        "navDescription": "Human relevant exposure to tacrolimus is well described in pharmaceutical information databases:",
         "steps": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
@@ -244,6 +244,7 @@
           {
             "label": "Farmacotherapeutisch Kompas",
             "description": "",
+            "id":"farmacokompas",
             "type": "tool"
           }
         ],

@@ -613,7 +613,8 @@
               {
                 "label": "RNA-seq",
                 "value": "RNA-seq",
-                "type": "tool"
+                "type": "tool",
+                "id":"rna_sequencing"
               }
             ],
             "content":[
@@ -643,7 +644,8 @@
               {
                 "label": "P-GP inhibitie",
                 "value": "P-GP inhibitie",
-                "type": "tool"
+                "type": "tool",
+                "id":"p_gp_staining"
               }
             ],
             "content":[
@@ -700,7 +702,8 @@
               {
                 "label": "Mitotracker Deep RED FM assay",
                 "value": "Mitotracker Deep RED FM assay",
-                "type": "tool"
+                "type": "tool",
+                "id":"mitotracker_deep_red_fm_assay"
               },
               {
                 "label": "pHrodo™ Red and Green AM Intracellular pH Indicator Dyes",
@@ -729,7 +732,8 @@
               {
                 "label": "LysoTracker Green DND-26",
                 "value": "LysoTracker Green DND-26",
-                "type": "tool"
+                "type": "tool",
+                "id": "lysotracker_green_dnd_26"
               }
             ],
             "content":[
@@ -747,7 +751,8 @@
               {
                 "label": "Immunofluorescent detection of collagen-1",
                 "value": "Immunofluorescent detection of collagen-1",
-                "type": "tool"
+                "type": "tool",
+                "id":"immunofluorescent_detection_of_collagen___1"
               }
             ],
             "content":[
@@ -765,12 +770,14 @@
               {
                 "label": "CellTiter Fluor",
                 "value": "CellTiter Fluor",
-                "type": "tool"
+                "type": "tool",
+                "id":"cell_titer_fluor"
               },
               {
                 "label": "Cytotoxicity detection KitPlus",
                 "value": "Cytotoxicity detection KitPlus",
-                "type": "tool"
+                "type": "tool",
+                "id":"cytotoxicity_detection_kitplusldh"
               }
             ],
             "content":[

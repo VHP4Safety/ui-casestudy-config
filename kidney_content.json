@@ -122,7 +122,7 @@
     "Q1": {
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] External exposure for Q1.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Current Dose levels",
@@ -141,7 +141,7 @@
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Kinetics for Q1.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Plasma and tissue concentrations",
@@ -166,7 +166,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "AOP for Q1",
+        "navDescription": "",
         "steps": [
           {
             "label": "qAOP",
@@ -190,7 +190,7 @@
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
-        "navDescription": "[Filler] Adverse outcome for Q1.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Health outcomes in patients",
@@ -211,7 +211,7 @@
     "Q2": {
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Chemical characteristics for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Tool A - Short description",
@@ -234,7 +234,7 @@
       },
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "External exposure for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
@@ -250,14 +250,19 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "External Exposure Workflow for Regulatory Question 1",
-            "description": "Tacrolimus is a frequently prescribed drug in patients after organ transplantion. Human relevant exposure to tacrolimus is therefore well described in pharmaceutical information databases. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> is used as the gold standard by health care professionals as an pharmaceutical information guide, which includes recommended dosing schemes for various drugs. For further information, check out the documentation on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cloud.vhp4safety.nl/service/farmacokompas.html\"> this platform</a>. Similarly, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Therapeutic drug monitoring and Pharmacogenetic Monographics</a> are used by hospital pharmacies and in clinical pharmacology, which focus on drug concentrations in the body and recommend dosing regimens. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels). (Source: Farmacotherapeutisch Kompas and Therapeutic Drug Monitoring and Pharmacogenetic Monographics))"
+            "section": "Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
+            "description": "Tacrolimus is a frequently prescribed drug in patients after organ transplantion. Human relevant exposure to tacrolimus is therefore well described in pharmaceutical information databases. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Therapeutic drug monitoring and Pharmacogenetic Monographics</a> are used by hospital pharmacies and in clinical pharmacology, which focus on drug concentrations in the body and recommend dosing regimens. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels). (Source: Farmacotherapeutisch Kompas and Therapeutic Drug Monitoring and Pharmacogenetic Monographics))"
+          },
+          {
+            "headingType": "p",
+            "section": "Farmacotherapeutische Kompas",
+            "description": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> is used as the gold standard by health care professionals as an pharmaceutical information guide, which includes recommended dosing schemes for various drugs. For further information, check out the documentation on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cloud.vhp4safety.nl/service/farmacokompas.html\"> this platform</a>."
           }
         ]
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Kinetics for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Tool A - Short description",
@@ -308,7 +313,7 @@
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] Adverse outcome for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Tool A - Short description",
@@ -337,7 +342,7 @@
       "External Exposure": {
         "Current Dose levels": {
           "navTitle": "Current Dose levels",
-          "navDescription": "xxx",
+          "navDescription": "",
           "steps": [
             {
               "label": "Parenteral",
@@ -362,7 +367,7 @@
       "Kinetics": {
         "Plasma and tissue concentrations": {
           "navTitle": "Plasma and tissue concentrations",
-          "navDescription": "xxx",
+          "navDescription": "",
           "steps": [
             {
               "label": "Cell viability data",
@@ -378,7 +383,7 @@
         },
         "In vitro modelling": {
           "navTitle": "In vitro modelling",
-          "navDescription": "xxx",
+          "navDescription": "",
           "steps": [
             {
               "label": "PBK cisplatin model",
@@ -420,11 +425,11 @@
       "Adverse Outcome": {
         "Health outcomes": {
           "navTitle": "Health outcomes",
-          "navDescription": "...",
+          "navDescription": "",
           "steps": [
             {
             "label": "Clinical data",
-            "description": "...",
+            "description": "Placeholder for WP2/WP3's description + connection to casestudy",
             "type": "tool"
             }
           ]
@@ -433,7 +438,7 @@
           {
             "headingType": "h2",
             "section": "Adverse Outcome Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       }
@@ -806,11 +811,11 @@
           "Oral": {
             "Prescription levels": {
               "navTitle": "Prescription levels",
-              "navDescription": "xxx  xxx xxx",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "Farmeceutisch Kompas",
-                  "description": "xxx",
+                  "description": "",
                   "type": "tool",
                   "id": "farmacokompas"
                 }

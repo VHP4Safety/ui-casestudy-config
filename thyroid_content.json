@@ -132,13 +132,13 @@
           {
             "headingType": "h2",
             "section": "Prediction of maternal systemic concentration and concentration at MIE",
-            "description": "From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to model how much silychristin will reach the brain. A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and concentrations at the fetal brain after an oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model."
+            "description": "From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to model how much silychristin will reach the brain."
           }
         ]
       },
       "AOP": {
         "navTitle": "AOP",
-        "navDescription": "AOP Q2",
+        "navDescription": "",
         "steps": [
           {
             "label": "AOP Development",
@@ -161,15 +161,22 @@
             "type": "workflow step"
           }
         ],
-        "content": []
+        "content": [
+          {
+          "headingType": "AOP",
+          "section": "AOP",
+          "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          }
+        ]
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
-        "navDescription": "Adverse outcome for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "MCT8 deficient mutant clinical data",
-            "description": "MCT8 deficient mutant clinical data"
+            "description": "",
+            "type":"tool"
           }
         ],
         "content": [
@@ -205,7 +212,7 @@
                 "label": "Product info leaflets",
                 "description": "found via Google Search",
                 "type": "tool"
-              },
+            },
             {
                 "label": "NIH dietary supplement label database",
                 "description": "",
@@ -217,7 +224,7 @@
                 "description": "",
                 "id": "sysrev",
                 "type": "tool"
-              }
+            }
           ],
           "content": [
             {
@@ -262,8 +269,13 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "",
-              "description": "[Filler] Details coming soon."
+              "section": "PBK Silychristin model",
+              "description": "A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and concentrations at the fetal brain after an oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model."
+            },
+            {
+              "headingType": "p",
+              "section": "In vitro intestine model",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
         }
@@ -311,21 +323,21 @@
         },
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation Q2",
+          "navDescription": " ",
           "steps": [
             {
               "label": "TH uptake",
-              "description": "TH uptake",
+              "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Deiodenase activity",
-              "description": "Deiodenase activity",
+              "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Thyroid hormone receptor inactivation",
-              "description": "Thyroid hormone receptor inactivation",
+              "description": "",
               "type": "workflow substep"
             }
           ],
@@ -333,7 +345,7 @@
             {
               "headingType": "h2",
               "section": "Characterization of silychristin exposure to MIE activation",
-              "description": "Molecular initiation events (MIEs) are interaction between chemicals and biological targets at the molecular levels. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. These MIEs are grouped in categories describing the effects of chemicals on TH transport, deiodinase activity and TH receptor activation.A combination of in vitro assays and computational tools were used to assess the effects of silychristin exposure on the activation of these MIEs. The effects of silychristin exposure to these molecular initiating events have been tested in three cell lines representing <b>astrocytes (H4)</b>, <b>neurons (SK-N-AS)</b> and <b>oligodendrocytes (MO3.13)</b>. A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>Activation of TH receptors</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells.In addition to the cell lines, computational tools were employed to assess the effects of silychristin on binding to key molecular targets for thyroid mediated neurodevelopment. A quantitative structure-activity relationship model (<b>QSPRpred</b>) was employed to estimate the binding of silychristin to TRα1 and TRβ1 directly. Moreover, a <b>protein-binding model</b> was developed to estimate the binding affinity of silychristin to MCT8."
+              "description": "Molecular initiation events (MIEs) are interaction between chemicals and biological targets at the molecular levels. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. These MIEs are grouped in categories describing the effects of chemicals on TH transport, deiodinase activity and TH receptor activation.A combination of in vitro assays and computational tools were used to assess the effects of silychristin exposure on the activation of these MIEs. The effects of silychristin exposure to these molecular initiating events have been tested in three cell lines representing <b>astrocytes (H4)</b>, <b>neurons (SK-N-AS)</b> and <b>oligodendrocytes (MO3.13)</b>."
             }
           ]
         },
@@ -370,8 +382,9 @@
           "navDescription": "Exposure response relationship Q2",
           "steps": [
             {
-              "label": "qAOP APP",
-              "description": "qAOP APP (silychristin)",
+              "label": "qAOP Predictor Application",
+              "description": "",
+              "id":"qaop_app",
               "type": "tool"
             }
           ],
@@ -393,7 +406,7 @@
         "MIE activation": {
           "TH uptake": {
             "navTitle": "TH uptake",
-            "navDescription": "TH uptake",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Non-radioactive TH uptake assay",
@@ -411,24 +424,66 @@
                 "type": "tool"
               }
             ],
-            "content": []
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "MCT8-MDK1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "OATP1C1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "MCT8-Docking app",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "TH uptake assay",
+                "description": "A TH uptake assay is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin."
+              }
+            ]
           },
           "Deiodenase activity": {
             "navTitle": "Deiodenase activity",
-            "navDescription": "Deiodenase activity",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Deiodinase assay",
-                "description": "Deiodinase assay",
+                "description": "",
                 "type": "tool"
               },
               {
                 "label": "Whole cell metabolism assay",
-                "description": "Whole cell metabolism assay",
+                "description": "",
                 "type": "tool"
               }
             ],
-            "content": []
+            "content": [
+               {
+                "headingType": "h2",
+                "section": "MCT8-MDK1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "OATP1C1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "MCT8-Docking app",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "TH uptake assay",
+                "description": "A TH uptake assay is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin."
+              }
+            ]
           },
           "Thyroid hormone receptor inactivation": {
             "navTitle": "Thyroid hormone receptor inactivation",
@@ -436,61 +491,127 @@
             "steps": [
               {
                 "label": "qPCR",
-                "description": "qPCR",
+                "description": "",
                 "type": "tool"
               },
               {
                 "label": "QSPRpred",
+                "description": "",
+                "id":"qsprpred",
+                "type": "tool"
+              },
+              {
+                "label": "Endocrine disruptome",
+                "description": "",
+                "type": "tool"
+              },
+              {
+                "label": "O-QT",
                 "description": "QSPRpred",
+                "id":"oqt_assistant",
+                "type": "tool"
+              },
+              {
+                "label": "Danish QSARs",
+                "description": "",
                 "type": "tool"
               }
             ],
-            "content": []
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "",
+                "description": "."
+              },
+              {
+                "headingType": "p",
+                "section": "QSprped",
+                "description": "QSPRpred is an open-source software tool that lets you predict MIE activation for your chemical(s) of interest. It provides a unified interface for building QSPR models based on different types of descriptors and machine learning algorithms."
+              },
+              {
+                "headingType": "p",
+                "section": "Endocrine disruptome",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "OECD QSAR Toolbox AI Assistant",
+                "description": "OECD QSAR Toolbox AI Assistant is a multi-agent AI system that automates the process of chemical analysis, hazard assessment and read-across strategy development."
+              },
+              {
+                "headingType": "p",
+                "section": "Danish QSARs",
+                "description": "Placeholder for WP2/WP3 description."
+              }
+
+            ]
           }
-        }
-      },
-      "Effects on Key Event Relationships": {
-        "Changes in KLF9 expression": {
-          "navTitle": "Changes in KLF9 expression",
-          "navDescription": "Changes in KLF9 expression",
-          "steps": [
-            {
-              "label": "RNAseq",
-              "description": "RNAseq",
-              "type": "tool"
-            }
-          ],
-          "content": []
         },
-        "Changes in BDNF expression": {
-          "navTitle": "Changes in BDNF expression",
-          "navDescription": "Changes in BDNF expression",
-          "steps": [
-            {
-              "label": "RNAseq",
-              "description": "RNAseq",
-              "type": "tool"
-            }
-          ],
-          "content": []
-        },
-        "Neuronal network formation": {
-          "navTitle": "Neuronal network formation",
-          "navDescription": "Neuronal network formation",
-          "steps": [
-            {
-              "label": "MEA",
-              "description": "MEA",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "",
-              "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
-            }
-          ]
+        "Effects on Key Event Relationships": {
+          "Changes in KLF9 expression": {
+            "navTitle": "Changes in KLF9 expression",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "RNAseq",
+                "description": "RNAseq",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                  "headingType": "h2",
+                  "section": "RNA sequencing",
+                  "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
+              }
+            ]
+          },
+          "Changes in BDNF expression": {
+            "navTitle": "Changes in BDNF expression",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "RNAseq",
+                "description": "",
+                "type": "tool"
+              },
+              {
+                "label": "ELISA",
+                "description": "",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "RNA sequencing",
+                "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
+              },
+              {
+                "headingType": "h2",
+                "section": "ELISA",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+            ]
+          },
+          "Neuronal network formation": {
+            "navTitle": "Neuronal network formation",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "MEA",
+                "description": "MEA",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "MEA",
+                "description": "Placeholder for WP2/WP3 description + the connection to the casestudy."
+              }
+            ]
+          }
         }
       }
     }

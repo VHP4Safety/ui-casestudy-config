@@ -98,7 +98,26 @@
     }
   },
   "step3Contents": {
-    "Q1": {},
+    "Q1": {
+      "Kinetics": {
+        "navTitle": "Kinetics (Q1)",
+        "navDescription": "Kinetics",
+        "steps": [
+          {
+            "label": "Placeholder",
+            "value": "Placeholder",
+            "type": "workflow step"
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Placeholder",
+            "description": "placeholder."
+          }
+        ]
+      }
+    },
     "Q2": {
       "External Exposure": {
         "navTitle": "External Exposure (Q2)",

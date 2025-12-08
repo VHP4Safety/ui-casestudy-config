@@ -49,7 +49,7 @@
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",
@@ -97,12 +97,12 @@
       ]
     }
   },
-   "step3Contents": {
+  "step3Contents": {
     "Q1": {},
     "Q2": {
       "External Exposure": {
         "navTitle": "External Exposure (Q2)",
-        "navDescription": "External exposure for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Exposure Scenario",
@@ -120,7 +120,7 @@
       },
       "Kinetics": {
         "navTitle": "Kinetics (Q2)",
-        "navDescription": "[Filler] Kinetics for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Prediction of maternal systemic and fetail brain concentration",
@@ -200,7 +200,7 @@
       "External Exposure": {
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario (Q2)",
-          "navDescription": "Exposure Scenario for Q2.",
+          "navDescription": "",
           "steps": [
             {
               "label": "EMA documents",
@@ -253,7 +253,7 @@
       "Kinetics": {
         "Prediction of maternal systemic and fetail brain concentration": {
           "navTitle": "Prediction of maternal systemic and fetail brain concentration - Tools and Workflow (Q2)",
-          "navDescription": "[Filler] Kinetics for Q2.",
+          "navDescription": "",
           "steps": [
             {
               "label": "PBK silychristin model",
@@ -284,7 +284,7 @@
       "AOP": {
         "AOP Development": {
           "navTitle": "AOP",
-          "navDescription": "AOP Development for Q2",
+          "navDescription": "",
           "steps": [
             {
               "label": "PubMed",
@@ -352,7 +352,7 @@
         },
         "Effects on Key Event Relationships": {
           "navTitle": "Effects on Key Event Relationships",
-          "navDescription": "Effects on Key Event Relationships",
+          "navDescription": "",
           "steps": [
             {
               "label": "Changes in KLF9 expression",
@@ -488,7 +488,7 @@
           },
           "Thyroid hormone receptor inactivation": {
             "navTitle": "Thyroid hormone receptor inactivation",
-            "navDescription": "Thyroid hormone receptor inactivation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "qPCR",
@@ -624,7 +624,7 @@
           "TH uptake": {
             "Non-radioactive TH uptake assay": {
               "navTitle": "Non-radioactive TH uptake assay",
-              "navDescription": "Non-radioactive TH uptake assay",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "MCT8 overexpressing cell line",
@@ -636,7 +636,7 @@
             },
             "Radioactive TH uptake assay": {
               "navTitle": "Radioactive TH uptake assay",
-              "navDescription": "Radioactive TH uptake assay",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "SKNAS neuronal cell line",
@@ -655,7 +655,7 @@
           "Deiodenase activity": {
             "Deiodinase assay": {
               "navTitle": "Deiodinase assay",
-              "navDescription": "Deiodinase assay",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "H4 astrocytic cell line",
@@ -674,7 +674,7 @@
           "Thyroid hormone receptor inactivation": {
             "qPCR": {
               "navTitle": "qPCR",
-              "navDescription": "qPCR",
+              "navDescription": "",
               "steps": [
                 {
                   "label": "SKNAS neuronal cell line",
@@ -689,7 +689,7 @@
         "Effects on Key Event Relationships": {
           "RNAseq": {
             "navTitle": "RNAseq",
-            "navDescription": "RNAseq",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Neuronal stem cells",
@@ -701,7 +701,7 @@
           },
           "MEA": {
             "navTitle": "MEA",
-            "navDescription": "MEA",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Neuronal stem cells",

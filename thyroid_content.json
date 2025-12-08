@@ -38,7 +38,34 @@
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
       "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
-      "steps": [],
+      "steps": [
+        {
+          "label": "Hazard / Chemical Characteristics",
+          "value": "Chemical Characteristics",
+          "state": "disabled",
+          "type": "process-flow-step"
+        },
+        {
+          "label": "External Exposure",
+          "value": "External Exposure",
+          "type": "process-flow-step"
+        },
+        {
+          "label": "Kinetics",
+          "value": "Kinetics",
+          "type": "process-flow-step"
+        },
+        {
+          "label": "AOP",
+          "value": "AOP",
+          "type": "process-flow-step"
+        },
+        {
+          "label": "Adverse Outcome",
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
+        }
+      ],
       "content": [
         {
           "headingType": "h2",
@@ -98,7 +125,26 @@
     }
   },
   "step3Contents": {
-    "Q1": {},
+    "Q1": {
+      "Kinetics": {
+        "navTitle": "Kinetics (Q1)",
+        "navDescription": "Kinetics",
+        "steps": [
+          {
+            "label": "Placeholder",
+            "value": "Placeholder",
+            "type": "workflow step"
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Placeholder",
+            "description": "placeholder."
+          }
+        ]
+      }
+    },
     "Q2": {
       "External Exposure": {
         "navTitle": "External Exposure (Q2)",

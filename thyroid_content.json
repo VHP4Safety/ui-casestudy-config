@@ -324,7 +324,7 @@
         },
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": " ",
+          "navDescription": "MIE activation",
           "steps": [
             {
               "label": "TH uptake",
@@ -352,7 +352,7 @@
         },
         "Effects on Key Event Relationships": {
           "navTitle": "Effects on Key Event Relationships",
-          "navDescription": "",
+          "navDescription": "Effects on Key Event Relationships",
           "steps": [
             {
               "label": "Changes in KLF9 expression",

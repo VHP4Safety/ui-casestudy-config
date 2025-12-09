@@ -48,6 +48,7 @@
         {
           "label": "External Exposure",
           "value": "External Exposure",
+          "state":"disabled",
           "type": "process-flow-step"
         },
         {
@@ -196,8 +197,8 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "Placeholder",
-            "value": "Placeholder",
+            "label": "Placeholder 1",
+            "value": "Placeholder 1",
             "type":"workflow-step"
           }
         ],
@@ -380,9 +381,9 @@
         }
       },
       "Adverse Outcome": {
-        "Placeholder":{
-          "navtitle":"Placeholder",
-          "navdescription":"placeholder",
+        "Placeholder 1":{
+          "navtitle":"Placeholder 1",
+          "navdescription":"placeholder 1",
           "steps": [
             {
               "label": "Placeholder 10",

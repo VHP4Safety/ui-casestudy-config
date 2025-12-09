@@ -147,12 +147,33 @@
           }
         ]
       },
+      "External exposure": {
+        "navTitle": "External exposure - Tools and Workflow (Q1)",
+        "navDescription": "",
+        "tools": [
+          {
+            "label": "Tool A - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Tool B - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "",
         "tools": [
           {
-            "label": "physB PBK model - population based kinetic modelling platform",
+            "label": "Tool A - Short description",
             "description": "[Filler]"
           },
           {
@@ -172,11 +193,6 @@
         "navTitle": "AOP - Tools and Workflow (Q1)",
         "navDescription": "",
         "steps": [
-          {
-            "label": "molecular AOP development",
-            "value": "Molecular AOP development",
-            "type": "workflow-step"
-          },
           {
             "label": "MIE activation",
             "value": "MIE activation",
@@ -313,30 +329,6 @@
   "step4Contents": {
     "Q1": {
       "step4content": "true",
-      "AOP": {
-        "Molecular AOP development": {
-          "navTitle": "Molecular AOP development",
-          "navDescription": "filler space for description",
-          "steps": [
-            {
-              "label": "AOP-Wiki",
-              "value": "AOP-Wiki",
-              "type":"tool"
-            },
-            {
-              "label":"Rotenone transcriptomic data (LUHMES cells)",
-              "value": "Rotenone transcriptomic data (LUHMES cells)",
-              "type":"tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "",
-              "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
-            }
-          ]
-        },
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "MIE activation",

@@ -241,8 +241,11 @@
     }
   },
   "step4Contents": {
-    "Q1": {},
+    "Q1": {
+      "step4content": "true"
+    },
     "Q2": {
+      "step4content": "true",
       "External Exposure": {
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario (Q2)",

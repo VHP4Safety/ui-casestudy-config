@@ -147,27 +147,6 @@
           }
         ]
       },
-      "External exposure": {
-        "navTitle": "External exposure - Tools and Workflow (Q1)",
-        "navDescription": "",
-        "tools": [
-          {
-            "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          },
-          {
-            "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
-          }
-        ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
-          }
-        ]
-      },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q1)",
         "navDescription": "",
@@ -329,6 +308,7 @@
   "step4Contents": {
     "Q1": {
       "step4content": "true",
+      "AOP": {
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "MIE activation",
@@ -623,9 +603,9 @@
     "Q1": {
       "AOP": {
         "MIE activation": {
-          "mGLuR activation": {
-            "navTitle": "mGLuR activation",
-            "navDescription": "mGLuR activation",
+          "Placeholder 2": {
+            "navTitle": "Placeholder 2",
+            "navDescription": "Placeholder 2",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -637,13 +617,13 @@
               {
               "headingType": "h2",
               "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
-          "NMDAR activation": {
-            "navTitle": "NMDAR activation",
-            "navDescription": "NMDAR activation",
+          "Placeholder 3": {
+            "navTitle": "Placeholder 3",
+            "navDescription": "Placeholder 3",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -655,13 +635,13 @@
               {
               "headingType": "h2",
               "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
-          "GABAaR inhibition": {
-            "navTitle": "GABAaR inhibition",
-            "navDescription": "GABAaR inhibition",
+          "Placeholder 4": {
+            "navTitle": "Placeholder 4",
+            "navDescription": "Placeholder 4",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -673,15 +653,15 @@
               {
               "headingType": "h2",
               "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           }
         },
         "Effects on key event relationships": {
-          "Increased intracellular calcium": {
-            "navTitle": "Increased intracellular calcium",
-            "navDescription": "Increased intracellular calcium",
+          "Placeholder 7": {
+            "navTitle": "Placeholder 7",
+            "navDescription": "Placeholder 7",
             "steps": [
               {
                 "label": "Intracellular calcium imaging",
@@ -697,9 +677,9 @@
               }
             ]
           },
-          "Mitochondrial activity": {
-            "navTitle": "Mitochondrial activity",
-            "navDescription": "Mitochondrial activity",
+          "Placeholder 8": {
+            "navTitle": "Placeholder 8",
+            "navDescription": "Placeholder 8",
             "steps": [
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
@@ -720,36 +700,13 @@
               }
             ]
           },
-          "Increased oxidative stress": {
-            "navTitle": "Increased oxidative stress",
-            "navDescription": "Increased oxidative stress",
+          "Placeholder 9": {
+            "navTitle": "Placeholder 9",
+            "navDescription": "Placeholder 9",
             "steps": [
               {
                 "label": "ROS production LUHMES cells (H2DCFDA)",
                 "value": "ROS production LUHMES cells (H2DCFDA)",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "",
-                "description": "[Filler] Details coming soon."
-              }
-            ]
-          },
-          "Dopaminergic neuron cell death": {
-            "navTitle": "Dopaminergic neuron cell death",
-            "navDescription": "Dopaminergic neuron cell death",
-            "steps": [
-              {
-                "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "type": "tool"
-              },
-              {
-                "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "type": "tool"
               }
             ],

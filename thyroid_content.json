@@ -133,11 +133,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type": "workflow step"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+             "type": "workflow step"
           }
         ],
         "content": [
@@ -154,11 +156,13 @@
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "[Filler]"
+            "description": "[Filler]",
+            "type": "tool"
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type":"tool"
           }
         ],
         "content": [

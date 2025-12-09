@@ -577,7 +577,7 @@
             {
               "headingType": "h2",
               "section": "Characterization of downstream key event effects of silychristin exposure",
-              "description": "A <b>neuronal stem cell model</b> was used to further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity."
+              "description": "To further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP, a <b>neuronal stem cell model</b> was used. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity."
             }
           ]
         },

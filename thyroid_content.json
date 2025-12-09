@@ -157,12 +157,12 @@
           {
             "label": "Tool A - Short description",
             "description": "[Filler]",
-            "type": "tool"
+            "type": "workflow step"
           },
           {
             "label": "Tool B - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type":"tool"
+            "type":"workflow step"
           }
         ],
         "content": [
@@ -669,8 +669,8 @@
             "navDescription": "Placeholder 7",
             "steps": [
               {
-                "label": "Intracellular calcium imaging",
-                "value": "Intracellular calcium imaging",
+                "label": "Placeholder text",
+                "value": "Placeholder text",
                 "type": "tool"
               }
             ],
@@ -687,13 +687,13 @@
             "navDescription": "Placeholder 8",
             "steps": [
               {
-                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "label": "Placeholder text",
+                "value": "Placeholder text",
                 "type": "tool"
               },
               {
-                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+                "label": "Placeholder text",
+                "value": "Placeholder text",
                 "type": "tool"
               }
             ],
@@ -710,8 +710,8 @@
             "navDescription": "Placeholder 9",
             "steps": [
               {
-                "label": "ROS production LUHMES cells (H2DCFDA)",
-                "value": "ROS production LUHMES cells (H2DCFDA)",
+                "label": "Placeholder text",
+                "value": "Placeholder text",
                 "type": "tool"
               }
             ],
@@ -734,16 +734,46 @@
             "navDescription": "TH uptake",
             "steps": [
               {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
+                "label": "MCT8-MDK1 TH uptake assay",
+                "value": "MCT8-MDK1 TH uptake assay",
+                "type": "tool"
+              },
+              {
+                "label": "OATP1C1 TH uptake assay",
+                "value": "OATP1C1 TH uptake assay",
+                "type": "tool"
+              },
+              {
+                "label": "MCT8-Docking app",
+                "value": "MCT8-Docking app",
+                "type": "tool"
+              },
+              {
+                "label": "TH uptake assay",
+                "value": "TH uptake assay",
                 "type": "tool"
               }
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+                "headingType": "h2",
+                "section": "MCT8-MDK1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "OATP1C1 TH uptake assay",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "MCT8-Docking app",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "TH uptake assay",
+                "description": "A TH uptake assay is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin."
               }
             ]
           },
@@ -752,16 +782,27 @@
             "navDescription": "Deiodinase activity",
             "steps": [
               {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
+                "label": "Deiodinase assay",
+                "value": "Deiodinase assay",
+                "type": "tool"
+              },
+              {
+                "label": "Whole cell metabolism assay",
+                "value": "Whole cell metabolism assay",
                 "type": "tool"
               }
             ],
             "content": [
               {
               "headingType": "h2",
-              "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              "section": "Deiodinase assay",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+              "headingType": "p",
+              "section": "Whole cell metabolism assay",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+
               }
             ]
           },
@@ -770,16 +811,58 @@
             "navDescription": "Thyroid hormone receptor inactivation",
             "steps": [
               {
+                "label": "qPCR",
+                "description": "",
+                "type": "tool"
+              },
+              {
                 "label": "QSPRpred",
-                "value": "QSPRpred",
+                "description": "",
+                "id":"qsprpred",
+                "type": "tool"
+              },
+              {
+                "label": "Endocrine disruptome",
+                "description": "",
+                "type": "tool"
+              },
+              {
+                "label": "O-QT",
+                "description": "QSPRpred",
+                "id":"oqt_assistant",
+                "type": "tool"
+              },
+              {
+                "label": "Danish QSARs",
+                "description": "",
                 "type": "tool"
               }
             ],
             "content": [
+               {
+                "headingType": "h2",
+                "section": "",
+                "description": "."
+              },
               {
-              "headingType": "h2",
-              "section": "",
-              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+                "headingType": "p",
+                "section": "QSprped",
+                "description": "QSPRpred is an open-source software tool that lets you predict MIE activation for your chemical(s) of interest. It provides a unified interface for building QSPR models based on different types of descriptors and machine learning algorithms."
+              },
+              {
+                "headingType": "p",
+                "section": "Endocrine disruptome",
+                "description": "Placeholder for WP2/WP3 description."
+              },
+              {
+                "headingType": "p",
+                "section": "OECD QSAR Toolbox AI Assistant",
+                "description": "OECD QSAR Toolbox AI Assistant is a multi-agent AI system that automates the process of chemical analysis, hazard assessment and read-across strategy development."
+              },
+              {
+                "headingType": "p",
+                "section": "Danish QSARs",
+                "description": "Placeholder for WP2/WP3 description."
               }
             ]
           }

@@ -48,6 +48,7 @@
         {
           "label": "External Exposure",
           "value": "External Exposure",
+          "state":"disabled",
           "type": "process-flow-step"
         },
         {
@@ -126,21 +127,90 @@
   },
   "step3Contents": {
     "Q1": {
-      "Kinetics": {
-        "navTitle": "Kinetics (Q1)",
-        "navDescription": "Kinetics",
-        "steps": [
+      "Chemical Characteristics": {
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
+        "navDescription": "",
+        "tools": [
           {
-            "label": "Placeholder",
-            "value": "Placeholder",
+            "label": "Tool A - Short description",
+            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
             "type": "workflow step"
+          },
+          {
+            "label": "Tool B - Short description",
+            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+             "type": "workflow step"
           }
         ],
         "content": [
           {
             "headingType": "h2",
-            "section": "Placeholder",
-            "description": "placeholder."
+            "section": "Chemical Characteristics Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
+      "Kinetics": {
+        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+        "navDescription": "",
+        "tools": [
+          {
+            "label": "Tool A - Short description",
+            "description": "[Filler]",
+            "type": "workflow step"
+          },
+          {
+            "label": "Tool B - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
+            "type":"workflow step"
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Kinetics Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
+      "AOP": {
+        "navTitle": "AOP - Tools and Workflow (Q1)",
+        "navDescription": "",
+        "steps": [
+          {
+            "label": "MIE activation",
+            "value": "MIE activation",
+            "type":"workflow-step"
+          },
+          {
+            "label": "Effects on key event relationships",
+            "value": "Effects on key event relationships",
+            "type":"workflow-step"
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "AOP Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
+          }
+        ]
+      },
+      "Adverse Outcome": {
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
+        "navDescription": "",
+        "steps": [
+          {
+            "label": "Placeholder 1",
+            "value": "Placeholder 1",
+            "type":"workflow-step"
+          }
+        ],
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "description": "[Filler] Details coming soon."
           }
         ]
       }
@@ -241,7 +311,94 @@
     }
   },
   "step4Contents": {
-    "Q1": {},
+    "Q1": {
+      "step4content": "true",
+      "AOP": {
+        "MIE activation": {
+          "navTitle": "MIE activation",
+          "navDescription": "MIE activation",
+          "steps": [
+            {
+              "label": "Placeholder 2",
+              "value": "Placeholder 2",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Placeholder 3",
+              "value": "Placeholder 3",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Placeholder 4",
+              "value": "Placeholder 4",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Placeholder 5",
+              "value": "Placeholder 5",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Placeholder 6",
+              "value": "Placeholder 6",
+              "type": "workflow substep"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            }
+          ]
+        },
+        "Effects on key event relationships": {
+          "navTitle": "Effects on key event relationships",
+          "navDescription": "[Filler]",
+          "steps": [
+            {
+              "label": "Placeholder 7",
+              "value": "Placeholder 7",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Placeholder 8",
+              "value": "Placeholder 8",
+              "type": "workflow substep"
+
+            },
+            {
+              "label": "Placeholder 9",
+              "value": "Placeholder 9",
+              "type": "workflow substep"
+
+            }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            }
+          ]
+        }
+      },
+      "Adverse Outcome": {
+        "Placeholder 1":{
+          "navtitle":"Placeholder 1",
+          "navdescription":"placeholder 1",
+          "steps": [
+            {
+              "label": "Placeholder 10",
+              "value": "Placeholder 10",
+              "type": "tool"
+
+            }
+          ]
+        }
+      }
+    },
     "Q2": {
       "External Exposure": {
         "Exposure Scenario": {
@@ -378,7 +535,7 @@
               "type": "workflow substep"
             },
             {
-              "label": "Deiodenase activity",
+              "label": "Deiodinase activity",
               "description": "",
               "type": "workflow substep"
             },
@@ -420,7 +577,7 @@
             {
               "headingType": "h2",
               "section": "Characterization of downstream key event effects of silychristin exposure",
-              "description": "A <b>neuronal stem cell model</b> was used to further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity."
+              "description": "To further investigate the effect of silychristin on downstream key events in the neurodevelopmental AOP, a <b>neuronal stem cell model</b> was used. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. These neuron-astrocyte coculture were exposed to different concentrations of silychristin. An RNAseq was performed on the cocultures after exposure to silychristin to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network formation was assessed in neuron-astrocyte coculture models through measurement of spontaneous activity."
             }
           ]
         },
@@ -447,27 +604,153 @@
     }
   },
   "step5Contents": {
-    "Q1": {},
+    "step5content": "true",
+    "Q1": {
+      "AOP": {
+        "MIE activation": {
+          "Placeholder 2": {
+            "navTitle": "Placeholder 2",
+            "navDescription": "Placeholder 2",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+            ]
+          },
+          "Placeholder 3": {
+            "navTitle": "Placeholder 3",
+            "navDescription": "Placeholder 3",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+            ]
+          },
+          "Placeholder 4": {
+            "navTitle": "Placeholder 4",
+            "navDescription": "Placeholder 4",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+            ]
+          }
+        },
+        "Effects on key event relationships": {
+          "Placeholder 7": {
+            "navTitle": "Placeholder 7",
+            "navDescription": "Placeholder 7",
+            "steps": [
+              {
+                "label": "Placeholder text",
+                "value": "Placeholder text",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          },
+          "Placeholder 8": {
+            "navTitle": "Placeholder 8",
+            "navDescription": "Placeholder 8",
+            "steps": [
+              {
+                "label": "Placeholder text",
+                "value": "Placeholder text",
+                "type": "tool"
+              },
+              {
+                "label": "Placeholder text",
+                "value": "Placeholder text",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          },
+          "Placeholder 9": {
+            "navTitle": "Placeholder 9",
+            "navDescription": "Placeholder 9",
+            "steps": [
+              {
+                "label": "Placeholder text",
+                "value": "Placeholder text",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          }
+        }
+      }
+    },
     "Q2": {
       "AOP": {
         "MIE activation": {
           "TH uptake": {
             "navTitle": "TH uptake",
-            "navDescription": "",
+            "navDescription": "TH uptake",
             "steps": [
               {
-                "label": "Non-radioactive TH uptake assay",
-                "description": "Non-radioactive TH uptake assay",
+                "label": "MCT8-MDK1 TH uptake assay",
+                "value": "MCT8-MDK1 TH uptake assay",
                 "type": "tool"
               },
               {
-                "label": "Radioactive TH uptake assay",
-                "description": "Radioactive TH uptake assay",
+                "label": "OATP1C1 TH uptake assay",
+                "value": "OATP1C1 TH uptake assay",
                 "type": "tool"
               },
               {
-                "label": "Protein-ligand docking",
-                "description": "Protein-ligand docking",
+                "label": "MCT8-Docking app",
+                "value": "MCT8-Docking app",
+                "type": "tool"
+              },
+              {
+                "label": "TH uptake assay",
+                "value": "TH uptake assay",
                 "type": "tool"
               }
             ],
@@ -494,47 +777,38 @@
               }
             ]
           },
-          "Deiodenase activity": {
-            "navTitle": "Deiodenase activity",
-            "navDescription": "",
+          "Deiodinase activity": {
+            "navTitle": "Deiodinase activity",
+            "navDescription": "Deiodinase activity",
             "steps": [
               {
                 "label": "Deiodinase assay",
-                "description": "",
+                "value": "Deiodinase assay",
                 "type": "tool"
               },
               {
                 "label": "Whole cell metabolism assay",
-                "description": "",
+                "value": "Whole cell metabolism assay",
                 "type": "tool"
               }
             ],
             "content": [
-               {
-                "headingType": "h2",
-                "section": "MCT8-MDK1 TH uptake assay",
-                "description": "Placeholder for WP2/WP3 description."
+              {
+              "headingType": "h2",
+              "section": "Deiodinase assay",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               },
               {
-                "headingType": "p",
-                "section": "OATP1C1 TH uptake assay",
-                "description": "Placeholder for WP2/WP3 description."
-              },
-              {
-                "headingType": "p",
-                "section": "MCT8-Docking app",
-                "description": "Placeholder for WP2/WP3 description."
-              },
-              {
-                "headingType": "p",
-                "section": "TH uptake assay",
-                "description": "A TH uptake assay is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin."
+              "headingType": "p",
+              "section": "Whole cell metabolism assay",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+
               }
             ]
           },
           "Thyroid hormone receptor inactivation": {
             "navTitle": "Thyroid hormone receptor inactivation",
-            "navDescription": "",
+            "navDescription": "Thyroid hormone receptor inactivation",
             "steps": [
               {
                 "label": "qPCR",
@@ -565,7 +839,7 @@
               }
             ],
             "content": [
-              {
+               {
                 "headingType": "h2",
                 "section": "",
                 "description": "."
@@ -596,169 +870,72 @@
         "Effects on Key Event Relationships": {
           "Changes in KLF9 expression": {
             "navTitle": "Changes in KLF9 expression",
-            "navDescription": "",
+            "navDescription": "Changes in KLF9 expression",
             "steps": [
               {
-                "label": "RNAseq",
-                "description": "RNAseq",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                  "headingType": "h2",
-                  "section": "RNA sequencing",
-                  "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
-              }
-            ]
-          },
-          "Changes in BDNF expression": {
-            "navTitle": "Changes in BDNF expression",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "RNAseq",
-                "description": "",
-                "type": "tool"
-              },
-              {
-                "label": "ELISA",
-                "description": "",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "RNA sequencing",
-                "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
-              },
-              {
-                "headingType": "h2",
-                "section": "ELISA",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "Neuronal network formation": {
-            "navTitle": "Neuronal network formation",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "MEA",
-                "description": "MEA",
+                "label": "RNA-seq",
+                "value": "RNA-seq",
                 "type": "tool"
               }
             ],
             "content": [
               {
                 "headingType": "p",
-                "section": "MEA",
-                "description": "Placeholder for WP2/WP3 description + the connection to the casestudy."
+                "section": "RNA-seq",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+            ]
+          },
+          "Changes in BDNF expression": {
+            "navTitle": "Changes in BDNF expression",
+            "navDescription": "Changes in BDNF expression",
+            "steps": [
+              {
+                "label": "ELISA",
+                "value": "ELISA",
+                "type": "tool"
+              },
+              {
+                "label": "RNA-seq",
+                "value": "RNA-seq",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "ELISA",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "p",
+                "section": "RNA-seq",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              }
+
+            ]
+          },
+          "Neuronal network formation": {
+            "navTitle": "Neuronal network formation",
+            "navDescription": "Neuronal network formation",
+            "steps": [
+              {
+                "label": "MEA",
+                "value": "MEA",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           }
         }
       }
     }
-  },
-  "step6Contents": {
-    "Q1": {},
-    "Q2": {
-      "AOP": {
-        "MIE activation": {
-          "TH uptake": {
-            "Non-radioactive TH uptake assay": {
-              "navTitle": "Non-radioactive TH uptake assay",
-              "navDescription": "",
-              "steps": [
-                {
-                  "label": "MCT8 overexpressing cell line",
-                  "description": "MCT8 overexpressing cell line",
-                  "type": "tool"
-                }
-              ],
-              "content": []
-            },
-            "Radioactive TH uptake assay": {
-              "navTitle": "Radioactive TH uptake assay",
-              "navDescription": "",
-              "steps": [
-                {
-                  "label": "SKNAS neuronal cell line",
-                  "description": "SKNAS neuronal cell line",
-                  "type": "tool"
-                },
-                {
-                  "label":"H4 astrocytic cell line",
-                  "description":"H4 astrocytic cell line",
-                  "type": "tool"
-                }
-              ],
-              "content": []
-            }
-          },
-          "Deiodenase activity": {
-            "Deiodinase assay": {
-              "navTitle": "Deiodinase assay",
-              "navDescription": "",
-              "steps": [
-                {
-                  "label": "H4 astrocytic cell line",
-                  "description": "H4 astrocytic cell line",
-                  "type": "tool"
-                },
-                {
-                  "label": "MO3.13 oligodendric cell line",
-                  "description": "MO3.13 oligodendric cell line",
-                  "type": "tool"
-                }
-              ],
-              "content": []
-            }
-          },
-          "Thyroid hormone receptor inactivation": {
-            "qPCR": {
-              "navTitle": "qPCR",
-              "navDescription": "",
-              "steps": [
-                {
-                  "label": "SKNAS neuronal cell line",
-                  "description": "SKNAS neuronal cell line",
-                  "type": "tool"
-                }
-              ],
-              "content": []
-            }
-          }
-        },
-        "Effects on Key Event Relationships": {
-          "RNAseq": {
-            "navTitle": "RNAseq",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Neuronal stem cells",
-                "description": "Neuronal stem cells",
-                "type": "tool"
-              }
-            ],
-            "content": []
-          },
-          "MEA": {
-            "navTitle": "MEA",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Neuronal stem cells",
-                "description": "Neuronal stem cells",
-                "type": "tool"
-              }
-            ],
-            "content": []
-          }
-        }
-      }
-    }
   }
 }
+ 

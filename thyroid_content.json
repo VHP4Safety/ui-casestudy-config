@@ -449,7 +449,150 @@
   },
   "step5Contents": {
     "step5content": "true",
-    "Q1": {},
+    "Q1": {
+      "AOP": {
+        "MIE activation": {
+          "TH uptake": {
+            "navTitle": "TH uptake",
+            "navDescription": "TH uptake",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          },
+          "NMDAR activation": {
+            "navTitle": "NMDAR activation",
+            "navDescription": "NMDAR activation",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          },
+          "GABAaR inhibition": {
+            "navTitle": "GABAaR inhibition",
+            "navDescription": "GABAaR inhibition",
+            "steps": [
+              {
+                "label": "QSPRpred",
+                "value": "QSPRpred",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+              "headingType": "h2",
+              "section": "",
+              "description": "For the Parkinson’s Disease case study QSAR models were trained for the metabotropic glutamate receptor (mGluR) 1 and 5. These membrane receptors are implicated in the AOP that has been constructed for parkinsonian motor deficits <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. The aim was to construct a method that would be applicable to a wide variety of molecular structures. To this end, docking-derived interaction fingerprints were used as input for the QSAR models."
+              }
+            ]
+          }
+        },
+        "Effects on key event relationships": {
+          "Increased intracellular calcium": {
+            "navTitle": "Increased intracellular calcium",
+            "navDescription": "Increased intracellular calcium",
+            "steps": [
+              {
+                "label": "Intracellular calcium imaging",
+                "value": "Intracellular calcium imaging",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          },
+          "Mitochondrial activity": {
+            "navTitle": "Mitochondrial activity",
+            "navDescription": "Mitochondrial activity",
+            "steps": [
+              {
+                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "type": "tool"
+              },
+              {
+                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          },
+          "Increased oxidative stress": {
+            "navTitle": "Increased oxidative stress",
+            "navDescription": "Increased oxidative stress",
+            "steps": [
+              {
+                "label": "ROS production LUHMES cells (H2DCFDA)",
+                "value": "ROS production LUHMES cells (H2DCFDA)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          },
+          "Dopaminergic neuron cell death": {
+            "navTitle": "Dopaminergic neuron cell death",
+            "navDescription": "Dopaminergic neuron cell death",
+            "steps": [
+              {
+                "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "type": "tool"
+              },
+              {
+                "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "p",
+                "section": "",
+                "description": "[Filler] Details coming soon."
+              }
+            ]
+          }
+        }
+      }
+    },
     "Q2": {
       "AOP": {
         "MIE activation": {

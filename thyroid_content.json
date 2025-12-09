@@ -612,9 +612,9 @@
             ],
             "content": [
               {
-                  "headingType": "h2",
-                  "section": "RNA sequencing",
-                  "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
+                "headingType": "h2",
+                "section": "RNA sequencing",
+                "description": "The bulk RNA sequencing technique was used to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression in a neuronal stem cell model. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture which enabled neuronal network formation assessment."
               }
             ]
           },
@@ -669,8 +669,11 @@
     }
   },
   "step6Contents": {
-    "Q1": {},
+    "Q1": {
+      "step6content": "true"
+    },
     "Q2": {
+      "step6content": "true",
       "AOP": {
         "MIE activation": {
           "TH uptake": {

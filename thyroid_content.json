@@ -241,11 +241,9 @@
     }
   },
   "step4Contents": {
-    "Q1": {
-      "step4content": "true"
-    },
+    "step4content": "true",
+    "Q1": {},
     "Q2": {
-      "step4content": "true",
       "External Exposure": {
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario (Q2)",
@@ -450,11 +448,9 @@
     }
   },
   "step5Contents": {
-    "Q1": {
-      "step5content": "true"
-    },
+    "step5content": "true",
+    "Q1": {},
     "Q2": {
-      "step5content": "true",
       "AOP": {
         "MIE activation": {
           "TH uptake": {
@@ -669,11 +665,9 @@
     }
   },
   "step6Contents": {
-    "Q1": {
-      "step6content": "true"
-    },
+    "step6content": "true",
+    "Q1": {},
     "Q2": {
-      "step6content": "true",
       "AOP": {
         "MIE activation": {
           "TH uptake": {

@@ -873,16 +873,16 @@
             "navDescription": "Changes in KLF9 expression",
             "steps": [
               {
-                "label": "Intracellular calcium imaging",
-                "value": "Intracellular calcium imaging",
+                "label": "RNA-seq",
+                "value": "RNA-seq",
                 "type": "tool"
               }
             ],
             "content": [
               {
                 "headingType": "p",
-                "section": "",
-                "description": "[Filler] Details coming soon."
+                "section": "RNA-seq",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -891,31 +891,37 @@
             "navDescription": "Changes in BDNF expression",
             "steps": [
               {
-                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "label": "ELISA",
+                "value": "ELISA",
                 "type": "tool"
               },
               {
-                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+                "label": "RNA-seq",
+                "value": "RNA-seq",
                 "type": "tool"
               }
             ],
             "content": [
               {
+                "headingType": "h2",
+                "section": "ELISA",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
                 "headingType": "p",
-                "section": "",
-                "description": "[Filler] Details coming soon."
+                "section": "RNA-seq",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
+
             ]
           },
           "Neuronal network formation": {
             "navTitle": "Neuronal network formation",
-            "navDescription": "Increased oxidative stress",
+            "navDescription": "Neuronal network formation",
             "steps": [
               {
-                "label": "ROS production LUHMES cells (H2DCFDA)",
-                "value": "ROS production LUHMES cells (H2DCFDA)",
+                "label": "MEA",
+                "value": "MEA",
                 "type": "tool"
               }
             ],
@@ -923,7 +929,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The major route of silychristin exposure in humans will therefore be through oral ingestion of food supplements..."
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           }

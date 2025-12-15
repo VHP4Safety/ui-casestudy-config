@@ -198,8 +198,8 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "Is pesticide exposure associated with Parkinson’s disease?",
-            "value": "Is pesticide exposure associated with Parkinson’s disease?",
+            "label": "Is pesticide exposure associated with Parkinsons disease?",
+            "value": "Is pesticide exposure associated with Parkinsons disease?",
             "type":"workflow-step"
           }
         ],
@@ -307,8 +307,8 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "Is pesticide exposure associated with Parkinson’s disease?",
-            "value": "Is pesticide exposure associated with Parkinson’s disease?",
+            "label": "Is pesticide exposure associated with Parkinsons disease?",
+            "value": "Is pesticide exposure associated with Parkinsons disease?",
             "type":"workflow-step"
           }
         ],
@@ -433,8 +433,8 @@
         }
       },
       "Adverse Outcome": {
-        "Is pesticide exposure associated with Parkinson’s disease?":{
-          "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
+        "Is pesticide exposure associated with Parkinsons disease?":{
+          "navtitle":"Is pesticide exposure associated with Parkinsons disease?",
           "navdescription":"",
           "steps": [
             {
@@ -610,8 +610,8 @@
         }
       },
       "Adverse Outcome": {
-        "Is pesticide exposure associated with Parkinson’s disease?":{
-          "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
+        "Is pesticide exposure associated with Parkinsons disease?":{
+          "navtitle":"Is pesticide exposure associated with Parkinsons disease?",
           "navdescription":"",
           "steps": [
             {
@@ -716,7 +716,7 @@
           },
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
-            "navDescription": "Mitochondrial activity",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",

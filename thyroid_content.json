@@ -71,7 +71,7 @@
         {
           "headingType": "h2",
           "section": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
-          "description": "This regulatory question has not been completely worked out yet."
+          "description": "This regulatory question has not been completely worked out yet. Therefore structual placeholders have been made for this RQ."
         }
       ]
     },
@@ -217,7 +217,7 @@
     },
     "Q2": {
       "External Exposure": {
-        "navTitle": "External Exposure (Q2)",
+        "navTitle": "External Exposure",
         "navDescription": "",
         "steps": [
           {
@@ -235,7 +235,7 @@
         ]
       },
       "Kinetics": {
-        "navTitle": "Kinetics (Q2)",
+        "navTitle": "Kinetics",
         "navDescription": "",
         "steps": [
           {
@@ -286,7 +286,7 @@
         ]
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
+        "navTitle": "Adverse Outcome",
         "navDescription": "",
         "steps": [
           {
@@ -402,7 +402,7 @@
     "Q2": {
       "External Exposure": {
         "Exposure Scenario": {
-          "navTitle": "Exposure Scenario (Q2)",
+          "navTitle": "Exposure Scenario",
           "navDescription": "",
           "steps": [
             {
@@ -828,7 +828,7 @@
               },
               {
                 "label": "O-QT",
-                "description": "QSPRpred",
+                "description": "",
                 "id":"oqt_assistant",
                 "type": "tool"
               },
@@ -875,7 +875,9 @@
               {
                 "label": "RNA-seq",
                 "value": "RNA-seq",
-                "type": "tool"
+                "type": "tool",
+                "id":"rna_sequencing",
+                "route": "methods"
               }
             ],
             "content": [
@@ -898,7 +900,9 @@
               {
                 "label": "RNA-seq",
                 "value": "RNA-seq",
-                "type": "tool"
+                "type": "tool",
+                "id":"rna_sequencing",
+                "route":"methods"
               }
             ],
             "content": [

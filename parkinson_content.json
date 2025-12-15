@@ -874,6 +874,7 @@
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "type": "tool",
+                "id":"alamar_blue_assay_for_detection_of_mitochondrial_activity",
                 "route": "methods"
               },
               {

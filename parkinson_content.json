@@ -235,7 +235,7 @@
         ]
       },
       "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q2)",
+        "navTitle": "External Exposure",
         "navDescription": "",
         "steps": [
           {
@@ -252,7 +252,7 @@
         ]
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q2)",
+        "navTitle": "Kinetics",
         "navDescription": "",
         "steps": [
           {
@@ -275,7 +275,7 @@
         ]
       },
       "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q2)",
+        "navTitle": "AOP",
         "navDescription": "",
         "steps": [
           {

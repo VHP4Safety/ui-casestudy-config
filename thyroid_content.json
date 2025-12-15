@@ -254,7 +254,7 @@
       },
       "AOP": {
         "navTitle": "AOP",
-        "navDescription": "AOP",
+        "navDescription": "",
         "steps": [
           {
             "label": "AOP Development",
@@ -316,7 +316,7 @@
       "AOP": {
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "Placeholder 2",
@@ -527,7 +527,7 @@
         },
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "TH uptake",
@@ -610,7 +610,7 @@
         "MIE activation": {
           "Placeholder 2": {
             "navTitle": "Placeholder 2",
-            "navDescription": "Placeholder 2",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -628,7 +628,7 @@
           },
           "Placeholder 3": {
             "navTitle": "Placeholder 3",
-            "navDescription": "Placeholder 3",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -646,7 +646,7 @@
           },
           "Placeholder 4": {
             "navTitle": "Placeholder 4",
-            "navDescription": "Placeholder 4",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -666,7 +666,7 @@
         "Effects on key event relationships": {
           "Placeholder 7": {
             "navTitle": "Placeholder 7",
-            "navDescription": "Placeholder 7",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Placeholder text",
@@ -684,7 +684,7 @@
           },
           "Placeholder 8": {
             "navTitle": "Placeholder 8",
-            "navDescription": "Placeholder 8",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Placeholder text",
@@ -707,7 +707,7 @@
           },
           "Placeholder 9": {
             "navTitle": "Placeholder 9",
-            "navDescription": "Placeholder 9",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Placeholder text",
@@ -731,7 +731,7 @@
         "MIE activation": {
           "TH uptake": {
             "navTitle": "TH uptake",
-            "navDescription": "TH uptake",
+            "navDescription": "",
             "steps": [
               {
                 "label": "MCT8-MDK1 TH uptake assay",
@@ -779,7 +779,7 @@
           },
           "Deiodinase activity": {
             "navTitle": "Deiodinase activity",
-            "navDescription": "Deiodinase activity",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Deiodinase assay",
@@ -808,7 +808,7 @@
           },
           "Thyroid hormone receptor inactivation": {
             "navTitle": "Thyroid hormone receptor inactivation",
-            "navDescription": "Thyroid hormone receptor inactivation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "qPCR",
@@ -870,7 +870,7 @@
         "Effects on Key Event Relationships": {
           "Changes in KLF9 expression": {
             "navTitle": "Changes in KLF9 expression",
-            "navDescription": "Changes in KLF9 expression",
+            "navDescription": "",
             "steps": [
               {
                 "label": "RNA-seq",
@@ -890,7 +890,7 @@
           },
           "Changes in BDNF expression": {
             "navTitle": "Changes in BDNF expression",
-            "navDescription": "Changes in BDNF expression",
+            "navDescription": "",
             "steps": [
               {
                 "label": "ELISA",
@@ -921,7 +921,7 @@
           },
           "Neuronal network formation": {
             "navTitle": "Neuronal network formation",
-            "navDescription": "Neuronal network formation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "MEA",

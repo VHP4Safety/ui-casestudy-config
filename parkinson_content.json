@@ -166,8 +166,8 @@
         ]
       },
       "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q1)",
-        "navDescription": "AOP for Q1.",
+        "navTitle": "AOP",
+        "navDescription": "",
         "steps": [
           {
             "label": "molecular AOP development",
@@ -236,7 +236,7 @@
       },
       "External Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "[Filler] External exposure for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "External exposure scenario",
@@ -253,7 +253,7 @@
       },
       "Kinetics": {
         "navTitle": "Kinetics - Tools and Workflow (Q2)",
-        "navDescription": "Kinetics for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "Internal exposure at target site",
@@ -276,7 +276,7 @@
       },
       "AOP": {
         "navTitle": "AOP - Tools and Workflow (Q2)",
-        "navDescription": "AOP for Q2.",
+        "navDescription": "",
         "steps": [
           {
             "label": "MIE activation",
@@ -358,7 +358,7 @@
         },
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "IP₃R activation",
@@ -435,7 +435,7 @@
       "Adverse Outcome": {
         "Is pesticide exposure associated with Parkinson’s disease?":{
           "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
-          "navdescription":"Is pesticide exposure associated with Parkinson’s disease?",
+          "navdescription":"",
           "steps": [
             {
               "label": "Epidemiological data",
@@ -447,7 +447,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "",
+              "section": "Data description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
@@ -459,7 +459,7 @@
       "External Exposure": {
         "External exposure scenario": {
           "navTitle": "External exposure scenario",
-          "navDescription": "External exposure scenario",
+          "navDescription": "",
           "steps": [
             {
               "label": "Occupational exposure (inhalation, dermal and ingestion routes)",
@@ -517,7 +517,7 @@
       "AOP": {
         "MIE activation": {
           "navTitle": "MIE activation",
-          "navDescription": "MIE activation",
+          "navDescription": "",
           "steps": [
             {
               "label": "IP₃R activation",
@@ -612,13 +612,20 @@
       "Adverse Outcome": {
         "Is pesticide exposure associated with Parkinson’s disease?":{
           "navtitle":"Is pesticide exposure associated with Parkinson’s disease?",
-          "navdescription":"Is pesticide exposure associated with Parkinson’s disease?",
+          "navdescription":"",
           "steps": [
             {
               "label": "Epidemiological data",
               "value": "Epidemiological data",
               "type": "tool"
 
+            }
+          ],
+          "content": [
+            {
+            "headingType" : "h2",
+            "section": "Data description",
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
         }
@@ -632,7 +639,7 @@
         "MIE activation": {
           "mGLuR activation": {
             "navTitle": "mGLuR activation",
-            "navDescription": "mGLuR activation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -644,14 +651,14 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "Tool description",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
           "NMDAR activation": {
             "navTitle": "NMDAR activation",
-            "navDescription": "NMDAR activation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -663,14 +670,14 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "Tool description",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
           "GABAaR inhibition": {
             "navTitle": "GABAaR inhibition",
-            "navDescription": "GABAaR inhibition",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -682,7 +689,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "Tool description",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -691,7 +698,7 @@
         "Effects on key event relationships": {
           "Increased intracellular calcium": {
             "navTitle": "Increased intracellular calcium",
-            "navDescription": "Increased intracellular calcium",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Intracellular calcium imaging",
@@ -702,7 +709,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "Tool description",
+                "section": "Assay description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy.."
               }
             ]
@@ -739,7 +746,7 @@
           },
           "Increased oxidative stress": {
             "navTitle": "Increased oxidative stress",
-            "navDescription": "Increased oxidative stress",
+            "navDescription": "",
             "steps": [
               {
                 "label": "ROS production LUHMES cells (H2DCFDA)",
@@ -752,14 +759,14 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "Tool description",
+                "section": "H2DCFDA",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
           "Dopaminergic neuron cell death": {
             "navTitle": "Dopaminergic neuron cell death",
-            "navDescription": "Dopaminergic neuron cell death",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
@@ -778,8 +785,13 @@
             ],
             "content": [
               {
+                "headingType": "h2",
+                "section": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
                 "headingType": "p",
-                "section": "",
+                "section": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -792,7 +804,7 @@
         "External exposure scenario": {
           "Occupational exposure (inhalation, dermal and ingestion routes)": {
             "navTitle": "Occupational exposure (inhalation, dermal and ingestion routes)",
-            "navDescription": "Occupational exposure (inhalation, dermal and ingestion routes)",
+            "navDescription": "",
             "steps": [
               {
               "label": "Exposome generator",
@@ -814,7 +826,7 @@
         "Internal exposure at target site": {
           "physB PBK model": {
             "navTitle": "physB PBK model",
-            "navDescription": "physB PBK model",
+            "navDescription": "",
             "content": [
               {
                 "headingType": "p",
@@ -829,7 +841,7 @@
         "MIE activation": {
           "mGLuR activation": {
             "navTitle": "mGLuR activation",
-            "navDescription": "mGLuR activation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -848,7 +860,7 @@
           },
           "NMDAR activation": {
             "navTitle": "NMDAR activation",
-            "navDescription": "NMDAR activation",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -867,7 +879,7 @@
           },
           "GABAaR inhibition": {
             "navTitle": "GABAaR inhibition",
-            "navDescription": "GABAaR inhibition",
+            "navDescription": "",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -888,7 +900,7 @@
         "Effects on key event relationships": {
           "Increased intracellular calcium": {
             "navTitle": "Increased intracellular calcium",
-            "navDescription": "Increased intracellular calcium",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Intracellular calcium imaging",
@@ -906,7 +918,7 @@
           },
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
-            "navDescription": "Mitochondrial activity",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
@@ -936,7 +948,7 @@
           },
           "Increased oxidative stress": {
             "navTitle": "Increased oxidative stress",
-            "navDescription": "Increased oxidative stress",
+            "navDescription": "",
             "steps": [
               {
                 "label": "ROS production LUHMES cells (H2DCFDA)",
@@ -956,7 +968,7 @@
           },
           "Dopaminergic neuron cell death": {
             "navTitle": "Dopaminergic neuron cell death",
-            "navDescription": "Dopaminergic neuron cell death",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
@@ -999,7 +1011,7 @@
           "Occupational exposure (inhalation, dermal and ingestion routes)": {
             "Exposome generator": {
               "navTitle": "Exposome generator",
-              "navDescription": "Exposome generator",
+              "navDescription": "",
               "content": [
                 {
                 "headingType": "p",

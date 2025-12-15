@@ -449,11 +449,11 @@
       "Chemical Characteristics": {
         "Parenteral": {
           "navTitle": "Parenteral",
-          "navDescription": "Parenteral",
+          "navDescription": "",
           "steps": [
             {
               "label": "Tool A - TDM",
-              "description": "....",
+              "description": "",
               "type": "tool"
             }
           ]

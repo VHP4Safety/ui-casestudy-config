@@ -333,7 +333,8 @@
             {
               "label": "AOP-Wiki",
               "value": "AOP-Wiki",
-              "type":"tool"
+              "type":"tool",
+              "id": "aopwikiapi"
             },
             {
               "label":"Rotenone transcriptomic data (LUHMES cells)",
@@ -797,6 +798,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -871,12 +873,14 @@
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "type": "tool"
+                "type": "tool",
+                "route": "methods"
               },
               {
                 "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
                 "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool"
+                "type": "tool",
+                "route": "methods"
               }
             ],
             "content": [

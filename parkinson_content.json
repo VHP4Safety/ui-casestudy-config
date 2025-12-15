@@ -691,7 +691,6 @@
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "url": "https://platform.vhp4safety.nl/methods/alamar_blue_assay_for_detection_of_mitochondrial_activity",
                 "type": "tool"
               },
               {
@@ -799,6 +798,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -873,12 +873,14 @@
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "type": "tool"
+                "type": "tool",
+                "route": "methods"
               },
               {
                 "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
                 "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool"
+                "type": "tool",
+                "route": "methods"
               }
             ],
             "content": [

@@ -394,8 +394,8 @@
             }
           ]
         },
-        "Effects on Key Event Relationships": {
-          "navTitle": "Effects on Key Event Relationships",
+        "Effects on key event relationships": {
+          "navTitle": "Effects on key event relationships",
           "navDescription": "",
           "steps": [
             {
@@ -443,6 +443,13 @@
               "type": "tool"
 
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            }
           ]
         }
       }
@@ -456,16 +463,23 @@
           "steps": [
             {
               "label": "Occupational exposure (inhalation, dermal and ingestion routes)",
-              "value": "Occupational exposure (inhalation, dermal and ingestion routes)",
+              "value": "",
               "type": "workflow substep"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "",
+              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
           ]
         }
       },
       "Kinetics": {
         "Internal exposure at target site": {
           "navTitle": "Internal exposure at target site",
-          "navDescription": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies.",
+          "navDescription": "",
           "steps": [
             {
               "label": "physB PBK model",
@@ -477,13 +491,13 @@
             {
               "headingType": "p",
               "section": "PhysB PBK model",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
             }
           ]
         },
         "In vivo exposure response relationship (QIVIVE)": {
           "navTitle": "In vivo exposure response relationship (QIVIVE)",
-          "navDescription": "In vivo exposure response relationship (QIVIVE)",
+          "navDescription": "",
           "steps": [
             {
               "label": "PBK model",
@@ -534,7 +548,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "Section",
+              "section": "Description",
               "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
             }
           ]
@@ -578,7 +592,7 @@
         },
         "Exposure response relationship": {
           "navtitle":"Exposure response relationship",
-          "navdescription":"Exposure response relationship",
+          "navdescription":"",
           "steps": [
             {
               "label": "PROAST benchmark dose modelling",
@@ -688,7 +702,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "Assay",
+                "section": "Tool description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy.."
               }
             ]
@@ -738,7 +752,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "",
+                "section": "Tool description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -827,7 +841,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -846,7 +860,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -865,7 +879,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]

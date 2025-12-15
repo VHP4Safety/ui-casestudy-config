@@ -66,7 +66,7 @@
         {
           "headingType": "h2",
           "section": "Kidney-related Regulatory Question 1",
-          "description": "[Filler] Content for regulatory question 1. More info coming soon."
+          "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
         }
       ]
     },
@@ -135,12 +135,12 @@
           {
             "headingType": "h2",
             "section": "External Exposure Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": ""
           }
         ]
       },
       "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+        "navTitle": "Kinetics",
         "navDescription": "",
         "steps": [
           {
@@ -160,7 +160,7 @@
           {
             "headingType": "h2",
             "section": "Kinetics Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -203,7 +203,7 @@
           {
             "headingType": "h2",
             "section": "Adverse Outcome Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       }
@@ -280,7 +280,7 @@
           {
             "headingType": "h2",
             "section": "Kinetics Workflow for Regulatory Question 2",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -331,7 +331,7 @@
           {
             "headingType": "h2",
             "section": "Adverse Outcome Workflow for Regulatory Question 2",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       }
@@ -361,7 +361,7 @@
           {
             "headingType": "h2",
             "section": "Current Dose levels",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -402,7 +402,7 @@
           {
             "headingType": "h2",
             "section": "Current Dose levels",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -474,7 +474,7 @@
           {
             "headingType": "h2",
             "section": "Oral",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },

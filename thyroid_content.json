@@ -37,7 +37,7 @@
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
-      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "",
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",
@@ -146,7 +146,7 @@
           {
             "headingType": "h2",
             "section": "Chemical Characteristics Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
       },
@@ -169,7 +169,7 @@
           {
             "headingType": "h2",
             "section": "Kinetics Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
       },
@@ -192,7 +192,7 @@
           {
             "headingType": "h2",
             "section": "AOP Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
       },
@@ -210,7 +210,7 @@
           {
             "headingType": "h2",
             "section": "Adverse Outcome Workflow for Regulatory Question 1",
-            "description": "[Filler] Details coming soon."
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
       }
@@ -352,9 +352,9 @@
             }
           ]
         },
-        "Effects on key event relationships": {
-          "navTitle": "Effects on key event relationships",
-          "navDescription": "[Filler]",
+        "Effects on Key Event Relationships": {
+          "navTitle": "Effects on Key Event Relationships",
+          "navDescription": "",
           "steps": [
             {
               "label": "Placeholder 7",
@@ -605,7 +605,7 @@
   },
   "step5Contents": {
     "step5content": "true",
-    "Q1": {
+      "Q1": {
       "AOP": {
         "MIE activation": {
           "Placeholder 2": {
@@ -678,7 +678,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "[Filler] Details coming soon."
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -701,7 +701,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "[Filler] Details coming soon."
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -719,7 +719,7 @@
               {
                 "headingType": "p",
                 "section": "",
-                "description": "[Filler] Details coming soon."
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           }

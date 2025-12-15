@@ -617,6 +617,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -635,6 +636,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -653,6 +655,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -691,6 +694,8 @@
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                 "id":"alamar_blue_assay_for_detection_of_mitochondrial_activity",
+                "route": "methods",
                 "type": "tool"
               },
               {
@@ -714,6 +719,8 @@
               {
                 "label": "ROS production LUHMES cells (H2DCFDA)",
                 "value": "ROS production LUHMES cells (H2DCFDA)",
+                "id": "h2dcfda_am_assay_for_detection_of_oxidative_stress_production",
+                "route": "methods",
                 "type": "tool"
               }
             ],
@@ -732,11 +739,15 @@
               {
                 "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
                 "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "id": "5_cfda_assay_to_determine_cytotoxicity",
+                "route": "methods",
                 "type": "tool"
               },
               {
                 "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "id": "cytotoxicity_detection_kitplusldh",
+                "route": "methods",
                 "type": "tool"
               }
             ],
@@ -817,6 +828,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -835,6 +847,7 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
+                "id":"qsprpred",
                 "type": "tool"
               }
             ],
@@ -880,8 +893,7 @@
               {
                 "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
                 "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool",
-                "route": "methods"
+                "type": "tool"
               }
             ],
             "content": [
@@ -899,6 +911,8 @@
               {
                 "label": "ROS production LUHMES cells (H2DCFDA)",
                 "value": "ROS production LUHMES cells (H2DCFDA)",
+                "id": "h2dcfda_am_assay_for_detection_of_oxidative_stress_production",
+                "route": "methods",
                 "type": "tool"
               }
             ],
@@ -917,11 +931,15 @@
               {
                 "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
                 "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
+                "id": "5_cfda_assay_to_determine_cytotoxicity",
+                "route": "methods",
                 "type": "tool"
               },
               {
                 "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
+                "id": "cytotoxicity_detection_kitplusldh",
+                "route": "methods",
                 "type": "tool"
               }
             ],

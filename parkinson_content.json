@@ -333,7 +333,8 @@
             {
               "label": "AOP-Wiki",
               "value": "AOP-Wiki",
-              "type":"tool"
+              "type":"tool",
+              "id": "aopwikiapi"
             },
             {
               "label":"Rotenone transcriptomic data (LUHMES cells)",
@@ -690,6 +691,7 @@
               {
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "id": "alamar_blue_assay_for_detection_of_mitochondrial_activity",
                 "type": "tool"
               },
               {

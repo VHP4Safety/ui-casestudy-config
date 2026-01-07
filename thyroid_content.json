@@ -605,7 +605,7 @@
   },
   "step5Contents": {
     "step5content": "true",
-      "Q1": {
+    "Q1": {
       "AOP": {
         "MIE activation": {
           "Placeholder 2": {
@@ -731,7 +731,7 @@
         "MIE activation": {
           "TH uptake": {
             "navTitle": "TH uptake",
-            "navDescription": "",
+            "navDescription": "TH uptake",
             "steps": [
               {
                 "label": "MCT8-MDK1 TH uptake assay",

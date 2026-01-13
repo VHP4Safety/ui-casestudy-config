@@ -32,20 +32,24 @@
         {
           "label": "Chemical Characteristics",
           "state": "disabled",
-          "value": "Chemical Characteristics"
+          "value": "Chemical Characteristics",
+          "type": "process-flow-step"
         },
         {
           "label": "Kinetics",
           "state": "disabled",
-          "value": "Kinetics"
+          "value": "Kinetics",
+          "type": "process-flow-step"
         },
         {
           "label": "AOP",
-          "value": "AOP"
+          "value": "AOP",
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
         }
       ],
       "content": [
@@ -78,23 +82,28 @@
         {
           "label": "Chemical Characteristics",
           "state":"disabled",
-          "value": "Chemical Characteristics"
+          "value": "Chemical Characteristics",
+          "type": "process-flow-step"
         },
         {
           "label": "External Exposure",
-          "value": "External Exposure"
+          "value": "External Exposure",
+          "type": "process-flow-step"
         },
         {
           "label": "Kinetics",
-          "value": "Kinetics"
+          "value": "Kinetics",
+          "type": "process-flow-step"
         },
         {
           "label": "AOP",
-          "value": "AOP"
+          "value": "AOP",
+          "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "value": "Adverse Outcome"
+          "value": "Adverse Outcome",
+          "type": "process-flow-step"
         }
       ],
       "content": [

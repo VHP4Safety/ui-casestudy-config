@@ -23,12 +23,12 @@
         "description": "Thyroid hormones (THs), mainly thyroxine (T4) and triiodothyronine (T3), are essential regulators of neurological processes and play a crucial role in fetal brain development. Deficiencies in TH levels during critical periods of neurodevelopment have been associated with severe and irreversible neurodevelopmental problems later in life. TH concentrations in the brain are therefore carefully maintained through negative feedback loops and local control mechanisms, including thyroid hormone transmembrane transporters, which regulate cellular influx and efflux; deiodinases, which regulate the activation and inactivation of THs; and thyroid hormone receptors, which bind to TH-responsive elements, thereby regulating the transcription of TH-responsive genes. This complex regulatory system can be disrupted by chemicals that interfere with TH signaling, potentially resulting in severe neurodevelopmental problems."
       },
       {
-        "headingtype": "p",
+        "headingType": "p",
         "section": "Safety Assessment of Thyroid Hormone System Disrupting Chemicals",
         "description": "Internationally validated and accepted OECD test methods for thyroid hormone system disrupting (THSD) chemicals mainly consist of animal studies, which often only assess THSD effects through histopathological changes in the thyroid gland or changes in serum TH levels. However, THSD effects are not always reflected in these endpoints and these regulatory test methods currently lack the ability to test for specific molecular mechanisms of THSD effects. Moreover, species differences between rodents and humans hamper the evaluation of chemical safety for humans through the use of animal studies."
       },
       {
-        "headingtype": "p",
+        "headingType": "p",
         "section": "Aims of the Case Study",
         "description": "This case study focuses on assessing the neurodevelopmental effects of THSD chemicals. The aim of the case study was to develop a human based risk assessment for potential THSD chemicals that are difficult to assess using animal models. Two regulatory questions were formulated to demonstrate how the VHP can be used. In research question 1 the vital information for regulatory bodies to advice women in their early pregnancy on the use of silychristin is gathered. Research question 2 aims to develop a safety assessment for silychristin by integrating in silico and in vitro methods developed in the VHP."
       }
@@ -871,7 +871,7 @@
         "Effects on Key Event Relationships": {
           "Changes in KLF9 expression": {
             "navTitle": "Changes in KLF9 expression",
-            "navDescription": "",
+            "navDescription": "Changes in KLF9 expression",
             "steps": [
               {
                 "label": "RNA-seq",
@@ -891,7 +891,7 @@
           },
           "Changes in BDNF expression": {
             "navTitle": "Changes in BDNF expression",
-            "navDescription": "",
+            "navDescription": "Changes in BDNF expression",
             "steps": [
               {
                 "label": "ELISA",

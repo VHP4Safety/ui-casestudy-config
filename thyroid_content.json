@@ -386,8 +386,8 @@
       },
       "Adverse Outcome": {
         "Placeholder 1":{
-          "navtitle":"Placeholder 1",
-          "navdescription":"placeholder 1",
+          "navTitle":"Placeholder 1",
+          "navDescription":"placeholder 1",
           "steps": [
             {
               "label": "Placeholder 10",

@@ -526,19 +526,18 @@
           "steps": [
             {
               "label": "Epidemiological data",
-              "value": "Epidemiological data",
+              "description": "Epidemiological data",
               "type": "tool"
-
             }
-          ],
-          "content": [
-            {
+          ]
+        },
+        "content": [
+          {
             "headingType" : "h2",
             "section": "Data description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            }
-          ]
-        }
+          }
+        ]
       }
     }
   },

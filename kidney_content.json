@@ -82,7 +82,7 @@
         },
         {
           "label": "(External) Exposure",
-          "value": "External Exposure",
+          "value": "(External) Exposure",
           "type": "process-flow-step"
         },
         {
@@ -135,7 +135,7 @@
           {
             "headingType": "h2",
             "section": "External Exposure Workflow for Regulatory Question 1",
-            "description": ""
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -435,38 +435,6 @@
     },
     "Q2": {
       "step4content": "true",
-      "Chemical Characteristics": {
-        "Parenteral": {
-          "navTitle": "Parenteral",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "Tool A - TDM",
-              "description": "",
-              "type": "tool"
-            }
-          ]
-        },
-        "Oral": {
-          "navTitle": "Oral",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "Tool A - Farmacotherapeutisch Kompas",
-              "description": "Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas",
-              "type": "tool"
-            }
-          ]
-        },
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Oral",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
-          }
-        ]
-      },
       "(External) Exposure": {
         "Exposure scenario":{
           "navTitle": "Exposure scenario",
@@ -590,6 +558,13 @@
                 "value": "Plasma levels",
                 "type": "workflow substep"
               }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WPs description + connection to casestudy."
+              }
             ]
           },
           "Oral": {
@@ -600,6 +575,13 @@
                 "label": "Prescription levels",
                 "value": "Prescription levels",
                 "type": "workflow substep"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WPs description + connection to casestudy."
               }
             ]
           }

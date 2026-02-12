@@ -249,7 +249,8 @@
         "steps": [
           {
             "label": "External exposure scenario",
-            "value": "External exposure scenario"
+            "value": "External exposure scenario",
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -415,15 +416,15 @@
               "value": "Epidemiological data",
               "type": "tool"
             }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "Data description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            }
           ]
-        }
+        },
+        "content": [
+          {
+            "headingType": "h2",
+            "section": "Data description",
+            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          }
+        ]
       }
     },
     "Q2": {
@@ -664,15 +665,15 @@
               "value": "Exposome generator",
               "type": "tool"
               }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Exposome generator description",
-                "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways. This tool combines existing models, newly developed computational approaches, and curated datasets to generate exposure distributions that can be used in risk assessment and further modeling within the VHP4S framework. The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods.To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios.Outputs include:Occupational exposure levels (µg/kg bw) across protection levels and application practices.Environmental exposure values at different distances from treated fields, expressed as µg/kg bw.Dietary exposure distributions for different food categories and population subgroups, expressed as µg/kg bw per day.Dinoseb was selected as a proof-of-concept substance. It serves as a representative pesticide to demonstrate the functionality of the exposome generator across occupational, environmental, and dietary exposure pathways. Estimated external exposure is further linked to a specific Dinoseb PBPK modelling framework."
-              }
             ]
-          }
+          },
+          "content": [
+            {
+              "headingType": "p",
+              "section": "Exposome generator description",
+              "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways. This tool combines existing models, newly developed computational approaches, and curated datasets to generate exposure distributions that can be used in risk assessment and further modeling within the VHP4S framework. The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods.To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios.Outputs include:Occupational exposure levels (µg/kg bw) across protection levels and application practices.Environmental exposure values at different distances from treated fields, expressed as µg/kg bw.Dietary exposure distributions for different food categories and population subgroups, expressed as µg/kg bw per day.Dinoseb was selected as a proof-of-concept substance. It serves as a representative pesticide to demonstrate the functionality of the exposome generator across occupational, environmental, and dietary exposure pathways. Estimated external exposure is further linked to a specific Dinoseb PBPK modelling framework."
+            }
+          ]
         }
       },
       "Kinetics": {

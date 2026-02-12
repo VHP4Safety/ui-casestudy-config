@@ -604,7 +604,6 @@
     }
   },
   "step5Contents": {
-    "step5content": "true",
     "Q1": {
       "AOP": {
         "MIE activation": {
@@ -876,7 +875,7 @@
                 "label": "RNA-seq",
                 "value": "RNA-seq",
                 "type": "tool",
-                "id":"rna_sequencing",
+                "id": "rna_sequencing",
                 "route": "methods"
               }
             ],
@@ -901,7 +900,7 @@
                 "label": "RNA-seq",
                 "value": "RNA-seq",
                 "type": "tool",
-                "id":"rna_sequencing",
+                "id": "rna_sequencing",
                 "route":"methods"
               }
             ],

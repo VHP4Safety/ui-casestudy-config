@@ -36,7 +36,7 @@
           "type": "process-flow-step"
         },
         {
-          "label": "(External) Exposure",
+          "label": "External Exposure",
           "value": "External Exposure",
           "type": "process-flow-step"
         },
@@ -82,7 +82,7 @@
         },
         {
           "label": "(External) Exposure",
-          "value": "External Exposure",
+          "value": "(External) Exposure",
           "type": "process-flow-step"
         },
         {
@@ -135,7 +135,7 @@
           {
             "headingType": "h2",
             "section": "External Exposure Workflow for Regulatory Question 1",
-            "description": ""
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -232,32 +232,21 @@
           }
         ]
       },
-      "External Exposure": {
+      "(External) Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
-        "navDescription": "Human relevant exposure to tacrolimus is well described in pharmaceutical information databases:",
+        "navDescription": "",
         "steps": [
           {
-            "label": "TDM-monographics - Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
+            "label": "Exposure scenario",
             "description": "",
-            "type": "tool"
-          },
-          {
-            "label": "Farmacotherapeutisch Kompas",
-            "description": "",
-            "id":"farmacokompas",
-            "type": "tool"
+            "type": "workflow step"
           }
         ],
         "content": [
           {
             "headingType": "h2",
-            "section": "Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
-            "description": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Therapeutic drug monitoring and Pharmacogenetic Monographics</a> are used by hospital pharmacies and in clinical pharmacology, which focus on drug concentrations in the body and recommend dosing regimens. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels)."
-          },
-          {
-            "headingType": "p",
-            "section": "Farmacotherapeutische Kompas",
-            "description": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.farmacotherapeutischkompas.nl\">Farmacotherapeutisch Kompas</a> is used as the gold standard by health care professionals as an pharmaceutical information guide, which includes recommended dosing schemes for various drugs. For further information, check out the documentation on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cloud.vhp4safety.nl/service/farmacokompas.html\"> this platform</a>."
+            "section": "Description",
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -355,15 +344,15 @@
               "value": "Oral",
               "type": "workflow substep"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Current Dose levels",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            }
           ]
-        },
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Current Dose levels",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
-          }
-        ]
+        }
       },
       "Kinetics": {
         "Plasma and tissue concentrations": {
@@ -446,37 +435,30 @@
     },
     "Q2": {
       "step4content": "true",
-      "Chemical Characteristics": {
-        "Parenteral": {
-          "navTitle": "Parenteral",
+      "(External) Exposure": {
+        "Exposure scenario":{
+          "navTitle": "Exposure scenario",
           "navDescription": "",
           "steps": [
             {
-              "label": "Tool A - TDM",
+              "label": "Plasma levels",
               "description": "",
-              "type": "tool"
-            }
-          ]
-        },
-        "Oral": {
-          "navTitle": "Oral",
-          "navDescription": "",
-          "steps": [
+              "type": "workflow substep"
+            },
             {
-              "label": "Tool A - Farmacotherapeutisch Kompas",
-              "description": "Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands.",
-              "id": "farmacokompas",
-              "type": "tool"
+              "label": "Recommended prescription levels",
+              "description": "",
+              "type": "workflow substep"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Description",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
             }
           ]
-        },
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Oral",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
-          }
-        ]
+        }
       },
       "AOP": {
         "MIE activation": {
@@ -512,11 +494,6 @@
               "type": "workflow substep"
             },
             {
-              "label": "Increased ROS",
-              "value": "Increased ROS",
-              "type": "workflow substep"
-            },
-            {
               "label": "Mitochondrial dysfunction",
               "value": "Mitochondrial dysfunction",
               "type": "workflow substep"
@@ -525,11 +502,6 @@
             {
               "label": "Metabolic impairment",
               "value": "Metabolic impairment",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Aberrant TGF-b",
-              "value": "Aberrant TGF-b",
               "type": "workflow substep"
             },
             {
@@ -586,6 +558,13 @@
                 "value": "Plasma levels",
                 "type": "workflow substep"
               }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WPs description + connection to casestudy."
+              }
             ]
           },
           "Oral": {
@@ -597,6 +576,13 @@
                 "value": "Prescription levels",
                 "type": "workflow substep"
               }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WPs description + connection to casestudy."
+              }
             ]
           }
         }
@@ -604,6 +590,46 @@
     },
     "Q2":{
       "step5content": "true",
+      "(External) Exposure":{
+        "Exposure scenario":{
+          "Plasma levels": {
+           "navTitle": "Plasma levels",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "TDM-monographics",
+                "value": "TDM-monographics",
+                "type": "tool"
+              }
+            ],
+             "content": [
+              {
+                "headingType": "h2",
+                "section": "Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
+                "description": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tdm-monografie.org/tacrolimus/\">Therapeutic drug monitoring and Pharmacogenetic Monographics</a> are used by hospital pharmacies and in clinical pharmacology, which focus on drug concentrations in the body and recommend dosing regimens. Both these databases were used to obtain relevant recommended oral prescription levels for tacrolimus and acquire blood plasma levels after therapeutic use of tacrolimus. Oral dosing: Tacrolimus is given orally 2 times a day. The recommended dose range for adults lies between 0.075-0.3 mg/kg bodyweight and for children 0.05-0.3 mg/kg bodyweight. Dose is adjusted following monitoring of kidney function (via serum urea and creatinine levels)."
+              }
+            ]
+          },
+          "Recommended prescription levels":{
+            "navTitle": "Recommended prescription levels",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "Farmacotherapeutisch Kompas",
+                "value": "Farmacotherapeutisch kompass",
+                "type": "tool"
+              }
+            ],
+             "content": [
+              {
+                "headingType": "h2",
+                "section": "Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
+                "description": "Farmacotherapeutisch Kompas contains a wide spectrum of information on prescribing and pharmacology, among others indications, side effects and costs of the prescription of all pharmaceutical drugs available in the Netherlands."
+              }
+            ]
+          }
+        }
+      },
       "AOP": {
         "MIE activation": {
           "Upregulation of CD44": {
@@ -773,9 +799,24 @@
             "navDescription": "",
             "steps": [
               {
+                "label": "Resazurine assay",
+                "value": "Resarurine assay",
+                "type": "tool"
+              },
+              {
+                "label": "Lactate assay",
+                "value": "Lactate assay",
+                "type": "tool"
+              },
+              {
+                "label": "Toxicity marker imaging",
+                "value": "Toxicity marker imaging",
+                "type": "tool"
+              },
+              {
                 "label": "CellTiter Fluor",
                 "value": "CellTiter Fluor",
-                "id":"cell_titer_fluor",
+                "id": "cell_titer_fluor",
                 "route":"methods",
                 "type": "tool"
               },

@@ -237,7 +237,7 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "Exposure scenario",
+            "label": "Exposure Scenario",
             "description": "",
             "type": "workflow step"
           }
@@ -436,8 +436,8 @@
     "Q2": {
       "step4content": "true",
       "(External) Exposure": {
-        "Exposure scenario":{
-          "navTitle": "Exposure scenario",
+        "Exposure Scenario": {
+          "navTitle": "Exposure Scenario",
           "navDescription": "",
           "steps": [
             {
@@ -591,7 +591,7 @@
     "Q2":{
       "step5content": "true",
       "(External) Exposure":{
-        "Exposure scenario":{
+        "Exposure Scenario":{
           "Plasma levels": {
            "navTitle": "Plasma levels",
             "navDescription": "",

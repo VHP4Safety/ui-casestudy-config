@@ -36,7 +36,7 @@
           "type": "process-flow-step"
         },
         {
-          "label": "(External) Exposure",
+          "label": "External Exposure",
           "value": "External Exposure",
           "type": "process-flow-step"
         },
@@ -482,6 +482,13 @@
               "description": "",
               "type": "workflow substep"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Description",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            }
           ]
         }
       },
@@ -601,7 +608,7 @@
     },
     "Q2":{
       "step5content": "true",
-      "External Exposure":{
+      "(External) Exposure":{
         "Exposure scenario":{
           "Plasma levels": {
            "navTitle": "Plasma levels",

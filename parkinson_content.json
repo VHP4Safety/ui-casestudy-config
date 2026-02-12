@@ -268,11 +268,6 @@
             "label": "Internal exposure at target site",
             "value": "Internal exposure at target site",
             "type": "workflow-step"
-          },
-          {
-            "label": "In vivo exposure response relationship (QIVIVE)",
-            "value": "In vivo exposure response relationship (QIVIVE)",
-            "type":"workflow-step"
           }
         ],
         "content": [
@@ -295,11 +290,6 @@
           {
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
-            "type":"workflow-step"
-          },
-          {
-            "label": "Exposure response relationship",
-            "value": "Exposure response relationship",
             "type":"workflow-step"
           }
         ],
@@ -370,28 +360,8 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "IP₃R activation",
-              "value": "IP₃R activation",
-              "type": "workflow substep"
-            },
-            {
               "label": "mGLuR activation",
               "value": "mGLuR activation",
-              "type": "workflow substep"
-            },
-            {
-              "label": "NMDAR activation",
-              "value": "NMDAR activation",
-              "type": "workflow substep"
-            },
-            {
-              "label": "GABAaR inhibition",
-              "value": "GABAaR inhibition",
-              "type": "workflow substep"
-            },
-            {
-              "label": "VGCC opening",
-              "value": "VGCC opening",
               "type": "workflow substep"
             }
           ],
@@ -407,12 +377,6 @@
           "navTitle": "Effects on key event relationships",
           "navDescription": "",
           "steps": [
-            {
-              "label": "Increased intracellular calcium",
-              "value": "Increased intracellular calcium",
-              "type": "workflow substep"
-
-            },
             {
               "label": "Mitochondrial activity",
               "value": "Mitochondrial activity",
@@ -502,24 +466,6 @@
               "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
             }
           ]
-        },
-        "In vivo exposure response relationship (QIVIVE)": {
-          "navTitle": "In vivo exposure response relationship (QIVIVE)",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "PBK model",
-              "value": "PBK model",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "PBK model",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            }
-          ]
         }
       },
       "AOP": {
@@ -528,28 +474,8 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "IP₃R activation",
-              "value": "IP₃R activation",
-              "type": "workflow substep"
-            },
-            {
               "label": "mGLuR activation",
               "value": "mGLuR activation",
-              "type": "workflow substep"
-            },
-            {
-              "label": "NMDAR activation",
-              "value": "NMDAR activation",
-              "type": "workflow substep"
-            },
-            {
-              "label": "GABAaR inhibition",
-              "value": "GABAaR inhibition",
-              "type": "workflow substep"
-            },
-            {
-              "label": "VGCC opening",
-              "value": "VGCC opening",
               "type": "workflow substep"
             }
           ],
@@ -565,12 +491,6 @@
           "navTitle": "Effects on key event relationships",
           "navDescription": "",
           "steps": [
-            {
-              "label": "Increased intracellular calcium",
-              "value": "Increased intracellular calcium",
-              "type": "workflow substep"
-
-            },
             {
               "label": "Mitochondrial activity",
               "value": "Mitochondrial activity",
@@ -595,24 +515,6 @@
               "headingType": "p",
               "section": "",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
-            }
-          ]
-        },
-        "Exposure response relationship": {
-          "navtitle":"Exposure response relationship",
-          "navdescription":"",
-          "steps": [
-            {
-              "label": "PROAST benchmark dose modelling",
-              "value": "PROAST benchmark dose modelling",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "Tool description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
         }
@@ -663,65 +565,9 @@
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
-          },
-          "NMDAR activation": {
-            "navTitle": "NMDAR activation",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "id":"qsprpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "GABAaR inhibition": {
-            "navTitle": "GABAaR inhibition",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "id":"qsprpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
           }
         },
         "Effects on key event relationships": {
-          "Increased intracellular calcium": {
-            "navTitle": "Increased intracellular calcium",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Intracellular calcium imaging",
-                "value": "Intracellular calcium imaging",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Assay description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy.."
-              }
-            ]
-          },
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
             "navDescription": "",
@@ -865,65 +711,9 @@
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
-          },
-          "NMDAR activation": {
-            "navTitle": "NMDAR activation",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "id":"qsprpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "GABAaR inhibition": {
-            "navTitle": "GABAaR inhibition",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "id":"qsprpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
           }
         },
-        "Effects on key event relationships": {
-          "Increased intracellular calcium": {
-            "navTitle": "Increased intracellular calcium",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Intracellular calcium imaging",
-                "value": "Intracellular calcium imaging",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Assay description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
+        "Effects on key event relationships": {  
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
             "navDescription": "",
@@ -1020,6 +810,23 @@
             "Exposome generator": {
               "navTitle": "Exposome generator",
               "navDescription": "",
+              "steps": [
+                {
+                  "label": "BROWSE software",
+                  "value": "BROWSE software",
+                  "type": "tool"
+                },
+                {
+                  "label": "Guassian tilting plume model",
+                  "value": "Guassian tilting plume model",
+                  "type": "tool"
+                },
+                {
+                  "label": "Monte-Carlo simulation",
+                  "value": "Monte-Carlo simulation",
+                  "type": "tool"
+                }
+              ],
               "content": [
                 {
                 "headingType": "p",

@@ -232,7 +232,7 @@
           }
         ]
       },
-      "External Exposure": {
+      "(External) Exposure": {
         "navTitle": "External Exposure - Tools and Workflow (Q2)",
         "navDescription": "",
         "steps": [
@@ -344,15 +344,15 @@
               "value": "Oral",
               "type": "workflow substep"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Current Dose levels",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            }
           ]
-        },
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Current Dose levels",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
-          }
-        ]
+        }
       },
       "Kinetics": {
         "Plasma and tissue concentrations": {
@@ -467,7 +467,7 @@
           }
         ]
       },
-      "External Exposure": {
+      "(External) Exposure": {
         "Exposure scenario":{
           "navTitle": "Exposure scenario",
           "navDescription": "",

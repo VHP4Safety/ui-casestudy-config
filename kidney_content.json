@@ -876,8 +876,8 @@
               "navDescription": "",
               "steps": [
                 {
-                  "label": "Farmeceutisch Kompas",
-                  "description": "",
+                  "label": "Farmacotherapeutisch Kompas",
+                  "description": "A Dutch online resource for gathering data on the pharmacology, adverse effects, and prices of all pharmaceutical products available in the Netherlands.",
                   "type": "tool",
                   "id": "farmacokompas"
                 }

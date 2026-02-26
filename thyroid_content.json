@@ -37,7 +37,7 @@
   "step2Contents": {
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
-      "navDescription": "",
+      "navDescription": "Follow these steps for the regulatory question: What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used? Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",
@@ -77,7 +77,7 @@
     },
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
-      "navDescription": "Steps for this regulatory question. Click a button or scroll for more info.",
+      "navDescription": "Follow these steps for the regulatory question: Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children? Click a button or scroll for more info.",
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",

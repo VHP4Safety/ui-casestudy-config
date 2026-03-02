@@ -28,6 +28,10 @@
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
       "navDescription": "Follow these steps for this regulatory question: Can compound Dinoseb cause Parkinson's Disease? Click a button or scroll for more info.",
+       "triangleTexts": {
+         "left": "Testing left",
+         "right": "Testing right"
+      },
       "steps": [
         {
           "label": "Chemical Characteristics",

@@ -145,7 +145,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Chemical Characteristics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -168,7 +168,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -191,7 +191,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "AOP Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -209,7 +209,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -378,7 +378,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
@@ -840,8 +840,8 @@
             "content": [
                {
                 "headingType": "h2",
-                "section": "",
-                "description": "."
+                "section": "Description",
+                "description": "Placeholder for WP2/3 description"
               },
               {
                 "headingType": "p",

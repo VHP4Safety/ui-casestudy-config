@@ -59,7 +59,7 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Parkinson-related Regulatory Question 1",
+          "section": "Description",
           "description": "Hazard characterization is an important first step towards risk assessment of pesticides. This step describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease."
         },
         {
@@ -113,7 +113,7 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Parkinson-related Regulatory Question 2",
+          "section": "Description",
           "description": "Risk assessment differs from hazard characterization as it also considers the external exposure to the chemical of interest. Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons. Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models (Rotenone, Dinoseb, Endosulfan and Mancozeb. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models. To better reflect human exposure, the study compared five exposure paradigms - acute, repeated, and chronic treatments - to assess how different exposure patterns influence outcomes in cell models."
         },
         {
@@ -152,7 +152,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Chemical Characteristics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "[Filler] Details coming soon."
           }
         ]
@@ -173,7 +173,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -201,7 +201,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "AOP Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -278,7 +278,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "The major target organ that is relevant to determine effects for neurodegeneration disease is the brain. It is therefore important to determine the relevant brain concentrations of dinoseb. To determine relevant brain concentrations after dinoseb exposure a population based kinetic modelling platform, PhysB, is used. The PhysB model predicts individual organ weights, blood flows and some respiratory parameters from anthopometric properties, such as gender, age, body height and weight. This allows the model to simulate the effects of inter-individual variation on the estimated internal concentration in the brain. In this case, PhysB, has been used to predict internal brain concentrations of dinoseb for workers (men between 18-60 years of age) and bystanders (men and women between 0-80 years old). External exposure assessment data for agriculture workers and bystanders generated from the exposome generator is used as input for the model. The predicted internal brain concentrations of Dinoseb can be used to design in vitro experiments assessing effects of Dinoseb on neurons. In addition, the estimated concentrations can be compared with the concentration-response concentrations that are derived from the in vitro experiments to determine whether the in vitro models are predictive of real-life scenario’s."
           }
         ]
@@ -301,7 +301,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "AOP Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -319,7 +319,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -373,7 +373,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "",
+              "section": "Description",
               "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
             }
           ]
@@ -404,7 +404,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "",
+              "section": "Description",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay. The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
             }
           ]
@@ -424,7 +424,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Data description",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
@@ -447,7 +447,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
@@ -518,7 +518,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "",
+              "section": "Description",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
             }
           ]
@@ -538,7 +538,7 @@
           "content": [
             {
               "headingType" : "h2",
-              "section": "Data description",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]

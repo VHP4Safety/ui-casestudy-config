@@ -422,15 +422,15 @@
             "description": "Placeholder for WP2/WP3's description + connection to casestudy",
             "type": "tool"
             }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Adverse Outcome Workflow for Regulatory Question 1",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            }
           ]
-        },
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 1",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
-          }
-        ]
+        }
       }
     },
     "Q2": {

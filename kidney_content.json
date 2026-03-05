@@ -65,7 +65,7 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Kidney-related Regulatory Question 1",
+          "section": "Description",
           "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
         }
       ]
@@ -112,7 +112,7 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "What is the intrinsic hazard of tacrolimus for nephrotoxicity?",
+          "section": "Description",
           "description": "Tacrolimus is one of the most widely used  immunosuppressant that is commonly to prevent organ rejection after transplantations. Recent data indicated that tacrolimus exposure is linked to nephrotoxicity in 20-40% of patients treated with this drug. Managing the risk of nephrotoxicity after tacrolimus use remains difficult due to its narrow therapeutic window. Several cases have been reported of people developing nephrotoxicity even when treated in dose ranges considered to be safe. The molecular mechanisms of tacrolimus induced nephrotoxicity are currently poorly understood, which hampers the risk assessment and limits the use of tacrolimus in the clinic. By employing the process flow methodology, VHP4safety aims to present a solution."
         }
       ]
@@ -134,7 +134,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "External Exposure Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
@@ -183,7 +183,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "AOP Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models."
           }
         ]
@@ -268,7 +268,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
@@ -319,7 +319,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
@@ -518,7 +518,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Effects on Key Events",
+              "section": "Description",
               "description": "The Effects on Key Events can be measured with different tools and assays depending on the subcategory of the process flow."
             }
           ]
@@ -871,7 +871,7 @@
               "content": [
                 {
                   "headingType": "h2",
-                  "section": "Kidney-related Regulatory Question 1",
+                  "section": "Description",
                   "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
                 }
               ]
@@ -892,7 +892,7 @@
               "content": [
                 {
                   "headingType": "h2",
-                  "section": "Kidney-related Regulatory Question 1",
+                  "section": "Description",
                   "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
                 }
               ]

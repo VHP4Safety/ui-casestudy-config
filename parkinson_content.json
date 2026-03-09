@@ -143,6 +143,10 @@
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Chemical characteristics for Q1.",
+         "InputOutputTexts": {
+           "left": "Testing input texts",
+           "right": "Testing output texts"
+        },
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -337,6 +341,10 @@
         "Molecular AOP development": {
           "navTitle": "Molecular AOP development",
           "navDescription": "",
+           "InputOutputTexts": {
+             "left": "Testing input texts",
+             "right": "Testing output texts"
+          },
           "steps": [
             {
               "label": "AOP-Wiki",
@@ -558,6 +566,10 @@
           "mGLuR activation": {
             "navTitle": "mGLuR activation",
             "navDescription": "",
+             "InputOutputTexts": {
+               "left": "Testing input texts",
+               "right": "Testing output texts"
+            },
             "steps": [
               {
                 "label": "QSPRpred",

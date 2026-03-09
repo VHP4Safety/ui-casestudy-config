@@ -219,7 +219,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -242,7 +242,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Chemical Characteristics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "[Filler] Details coming soon."
           }
         ]
@@ -260,7 +260,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "External Exposure Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]

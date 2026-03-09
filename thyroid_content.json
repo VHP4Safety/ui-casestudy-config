@@ -280,7 +280,7 @@
         "content": [
           {
           "headingType": "AOP",
-          "section": "AOP",
+          "section": "Description",
           "description": "Placeholder for WP2/WP3 description + connection to casestudy."
           }
         ]
@@ -347,7 +347,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             }
           ]
@@ -620,7 +620,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -638,7 +638,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -656,7 +656,7 @@
             "content": [
               {
               "headingType": "h2",
-              "section": "",
+              "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -676,7 +676,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "",
+                "section": "Description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -699,7 +699,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "",
+                "section": "Description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -717,7 +717,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "",
+                "section": "Description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
@@ -931,7 +931,7 @@
             "content": [
               {
                 "headingType": "p",
-                "section": "",
+                "section": "Description",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]

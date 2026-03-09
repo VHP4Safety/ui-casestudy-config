@@ -235,7 +235,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": " *Input: Placeholder \n *Output: Placeholder"
+            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
           }
         ]
       },

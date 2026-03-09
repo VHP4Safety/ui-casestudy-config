@@ -28,10 +28,6 @@
     "Q1": {
       "navTitle": "Process Flow Steps (Q1)",
       "navDescription": "Follow these steps for this regulatory question: Can compound Dinoseb cause Parkinson's Disease? Click a button or scroll for more info.",
-       "InputOutputTexts": {
-         "left": "Testing input texts",
-         "right": "Testing output texts"
-      },
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -82,10 +78,6 @@
     "Q2": {
       "navTitle": "Process Flow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: What level of exposure to compound Dinoseb leads to risk for developing Parkinson's disease? Click a button or scroll for more info.",
-      "InputOutputTexts": {
-         "left": "Testing input texts",
-         "right": "Testing output texts"
-      },
       "steps": [
         {
           "label": "Chemical Characteristics",
@@ -143,10 +135,6 @@
       "Chemical Characteristics": {
         "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
         "navDescription": "[Filler] Chemical characteristics for Q1.",
-         "InputOutputTexts": {
-           "left": "Testing input texts",
-           "right": "Testing output texts"
-        },
         "tools": [
           {
             "label": "Tool A - Short description",
@@ -341,10 +329,6 @@
         "Molecular AOP development": {
           "navTitle": "Molecular AOP development",
           "navDescription": "",
-           "InputOutputTexts": {
-             "left": "Testing input texts",
-             "right": "Testing output texts"
-          },
           "steps": [
             {
               "label": "AOP-Wiki",
@@ -566,10 +550,6 @@
           "mGLuR activation": {
             "navTitle": "mGLuR activation",
             "navDescription": "",
-             "InputOutputTexts": {
-               "left": "Testing input texts",
-               "right": "Testing output texts"
-            },
             "steps": [
               {
                 "label": "QSPRpred",

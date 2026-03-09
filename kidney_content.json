@@ -159,7 +159,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Kinetics Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
@@ -202,7 +202,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Adverse Outcome Workflow for Regulatory Question 1",
+            "section": "Description",
             "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
@@ -227,8 +227,8 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Chemical Characteristics Workflow for Regulatory Question 2",
-            "description": "[Filler] Details coming soon."
+            "section": "Description",
+            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
           }
         ]
       },
@@ -296,7 +296,7 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "AOP Workflow for Regulatory Question 2",
+            "section": "Description",
             "description": "Three methodologies can be used to apply Adverse Outcome Pathways (AOPs), focusing on molecular initiating event (MIE) activation, key events (KEs) or general AOP development. In the VHP4safety project, an AOP was developed to investigate tacrolimus-induced nephrotoxicity. Tacrolimus exposure has been shown to activate Nf-Kb and NOX, increasing ROS production and oxidative stress which drive mitochondrial dysfunction, metabolic impairment, aberrant TGF-B signaling, fibrosis, apoptosis, and ultimately kidney failure. No clear MIE was identified which led to the development of an advanced in vitro platform with multiple models to explore potential MIEs and validate KEs. Mechanistic evidence came from rodent studies, kidney cell lines, and limited clinical data. While the AOP depicted KEs linearly, ROS production, oxidative stress, and mitochondrial dysfunction were interconnected and may occur simultaneously, complicating the identification of a specific initiating event. Overall, this AOP framework links molecular-level effects of tacrolimus to adverse kidney outcomes and guides the selection of relevant experimental models for regulatory assessment."
           }
         ]
@@ -402,7 +402,7 @@
           "content": [
             {
               "headingType": "p",
-              "section": "",
+              "section": "Description",
               "description": "We will create quantitative AOPs (qAOPs) describing the dynamics of subsequent events and adverse outcome within relevant AOPs. qAOPs are described using ordinary differential equations (ODEs) such that they can afterwards be coupled to PBK models for safety prediction within a heterogeneous human population (in collaboration with WP1.2). QAOPs for cisplatin induced nephrotoxicity, based on in vitro RPTEC/TERT1 data and in vivo rat kidney data, have been developed; a qAOP-based QIVIVE technique has been proposed via comparing these two models."
             }
           ]
@@ -426,7 +426,7 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Adverse Outcome Workflow for Regulatory Question 1",
+              "section": "Description",
               "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
             }
           ]

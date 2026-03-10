@@ -509,7 +509,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational model</li><li><strong>Output:</strong> Prediction data</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational model</li><li><strong>Output:</strong>Prediction data</li></ul>"
             }
           ]
         }

@@ -235,7 +235,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Estimated daily intake of Silychristin</li><li><strong>Output:</strong>Estimated daily intake of Silychristin</li></ul>"
           }
         ]
       },
@@ -258,7 +258,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Silychristin physicochemical and kinetic properties</li><li><strong>Output:</strong>Predicted maternal systemic concentration of Silychristin</li></ul>"
           }
         ]
       },
@@ -296,7 +296,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:Placeholder</strong></li></ul>"
           }
         ]
       },
@@ -324,7 +324,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>mapped molecular events leading to functional neurodevelopmental impairment</li></ul>"
           }
         ]
       }
@@ -556,7 +556,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+              "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>Evidence-based refined AOP</li></ul>"
             }
           ]
         },
@@ -589,7 +589,7 @@
             {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Silychristin exposure</li><li><strong>Output:</strong>Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
             }
           ]
         },
@@ -622,7 +622,7 @@
             {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Neuron-astrocyte model measurements</li><li><strong>Output:</strong>Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
             }
           ]
         },
@@ -646,7 +646,7 @@
             {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>qAOP</li><li><strong>Output:</strong>Predicted inhibition of TH uptake by Silychristin</li></ul>"
             }
           ]
         }

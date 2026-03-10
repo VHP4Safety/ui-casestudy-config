@@ -296,7 +296,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:Placeholder</strong></li></ul>"
+            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>placeholder</li></ul>" 
           }
         ]
       },

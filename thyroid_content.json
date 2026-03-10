@@ -292,6 +292,11 @@
           "headingType": "AOP",
           "section": "Description",
           "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
           }
         ]
       },
@@ -315,6 +320,11 @@
             "headingType": "h2",
             "section": "The thyroid hormone disruption mediated developmental neurotoxicity AOP",
             "description": "The molecular initiating events (MIEs) underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function. "
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
           }
         ]
       }
@@ -459,6 +469,11 @@
               "headingType": "p",
               "section": "Calculating a realistic exposure scenario for silychristin intake",
               "description": "Recommended daily intake (RDI) of silymarin were calculated based on dose recommendation from product dietary supplement products. Assuming a pregnant woman at early pregnancy still has a body weight close to the average body weight of women, a bodyweight of 64.1 kg (te Biesebeek et al., 2014) was used to calculate the exposure in mg/kg bw per day. For the recommended daily dose silymarin from product leaflets on the dutch market, this constitutes to an RDI of 0.23 – 6.2 mg/kg bw per day. For the recommended daily dose silymarin from product leaflets in the NIH dietary supplement database, this constitutes to an RDI of 0.12 – 13.2 mg/kg bw per day. RDIs for silychristin were then calculated by determining the silychristin percentages from the RDI’s of silymarin."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
             }
           ]
         }
@@ -490,6 +505,11 @@
               "headingType": "p",
               "section": "In vitro intestine model",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
             }
           ]
         }
@@ -532,6 +552,11 @@
               "headingType": "h2",
               "section": "Development of a molecular AOP",
               "description": "A molecular AOP was constructed by mapping the thyroid hormone disruption mediated developmental neurotoxicity AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the <b>human neural progenitor test (hNPT)</b>, where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDB</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis. "
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
             }
           ]
         },
@@ -617,6 +642,11 @@
               "headingType": "h2",
               "section": "qAOP predictor Application",
               "description": "A <b>quantitative adverse outcome pathways (qAOP) app</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 and BDNF expression. BDNF expression was considered the endpoint of this qAOP, since no silychristin exposure data on further key events or adverse outcomes were available."
+            },
+            {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong> Placeholder</li><li><strong>Output:</strong> Placeholder</li></ul>"
             }
           ]
         }

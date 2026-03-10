@@ -235,7 +235,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Estimated daily intake of Silychristin</li><li><strong>Output:</strong>Estimated daily intake of Silychristin</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Estimated daily intake of Silychristin</li><li><strong>Output:</strong>Silychristin exposure calculation</li></ul>"
           }
         ]
       },
@@ -509,7 +509,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational model</li><li><strong>Output:</strong>Prediction data</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong>Prediction data</li></ul>"
             }
           ]
         }

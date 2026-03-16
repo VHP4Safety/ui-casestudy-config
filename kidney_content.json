@@ -26,7 +26,7 @@
   },
   "step2Contents": {
     "Q1": {
-      "navTitle": "Process Flow Steps (Q1)",
+      "navTitle": "Safety assessment workflow Steps (Q1)",
       "navDescription": "Follow these steps for the regulatory question: What is the safe cisplatin dose in cancer patients? Click a button or scroll for more info.",
       "steps": [
         {
@@ -71,7 +71,7 @@
       ]
     },
     "Q2": {
-      "navTitle": "Process Flow Steps (Q2)",
+      "navTitle": "Safety assessment workflow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: What is the intrinsic hazard of tacrolimus for nephrotoxicity? Click a button or scroll for more info.",
       "steps": [
         {

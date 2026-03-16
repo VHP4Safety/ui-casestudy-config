@@ -36,7 +36,7 @@
   },
   "step2Contents": {
     "Q1": {
-      "navTitle": "Process Flow Steps (Q1)",
+      "navTitle": "Safety assessment workflow Steps (Q1)",
       "navDescription": "Follow these steps for the regulatory question: What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used? Click a button or scroll for more info.",
       "steps": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     "Q2": {
-      "navTitle": "Process Flow Steps (Q2)",
+      "navTitle": "Safety assessment workflow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children? Click a button or scroll for more info.",
       "steps": [
         {
@@ -468,7 +468,7 @@
             {
               "headingType": "p",
               "section": "Calculating a realistic exposure scenario for silychristin intake",
-              "description": "Recommended daily intake (RDI) of silymarin were calculated based on dose recommendation from product dietary supplement products. Assuming a pregnant woman at early pregnancy still has a body weight close to the average body weight of women, a bodyweight of 64.1 kg (te Biesebeek et al., 2014) was used to calculate the exposure in mg/kg bw per day. For the recommended daily dose silymarin from product leaflets on the dutch market, this constitutes to an RDI of 0.23 – 6.2 mg/kg bw per day. For the recommended daily dose silymarin from product leaflets in the NIH dietary supplement database, this constitutes to an RDI of 0.12 – 13.2 mg/kg bw per day. RDIs for silychristin were then calculated by determining the silychristin percentages from the RDI’s of silymarin."
+              "description": "Recommended daily intake (RDI) of silymarin were calculated based on dose recommendations from product dietary supplement products. Assuming a pregnant woman at early pregnancy has a body weight close to the average (64.1 kg, te Biesebeek et al., 2014), the exposure in mg/kg bw per day was calculated.<br><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><caption>Table 1. Calculated RDI intakes of silychristin in mg/kg bw for silymarin-containing dietary supplements on both the Dutch market and the DSLD.</caption><thead><tr><th>Silychristin content</th><th colspan='2'>Dutch Market</th><th colspan='2'>DSLD</th></tr><tr><th></th><th>Low RDI</th><th>High RDI</th><th>Low RDI</th><th>High RDI</th></tr></thead><tbody><tr><td>Low estimate (6%)</td><td>0,014</td><td>0,372</td><td>0,007</td><td>0,786</td></tr><tr><td>Average estimate (17%)</td><td>0,039</td><td>1,054</td><td>0,021</td><td>2,228</td></tr><tr><td>High estimate (31%)</td><td>0,071</td><td>1,922</td><td>0,039</td><td>4,062</td></tr></tbody></table>"
             },
             {
               "headingType": "h2",

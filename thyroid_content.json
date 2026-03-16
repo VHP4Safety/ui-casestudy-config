@@ -78,7 +78,7 @@
     "Q2": {
       "navTitle": "Safety assessment workflow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: Does silychristin influence the thyroid-mediated brain development in the fetus resulting in cognitive impairment in children? Click a button or scroll for more info.",
-      "image": "<img src= 'https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Overview' style='max-width:400px; width:100%; margin:12px 0;'/>",
+      "image": "<img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Step 2 Diagram' style='width:80%; max-width:800px; margin:12px 0; display:block; margin-left:auto; margin-right:auto;'/>"
       "steps": [
         {
           "label": "Hazard / Chemical Characteristics",

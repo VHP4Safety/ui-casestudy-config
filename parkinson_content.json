@@ -150,6 +150,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "[Filler] Details coming soon."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -171,6 +176,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -199,6 +209,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -217,6 +232,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       }
@@ -240,6 +260,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "[Filler] Details coming soon."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -258,6 +283,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -276,6 +306,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "The major target organ that is relevant to determine effects for neurodegeneration disease is the brain. It is therefore important to determine the relevant brain concentrations of dinoseb. To determine relevant brain concentrations after dinoseb exposure a population based kinetic modelling platform, PhysB, is used. The PhysB model predicts individual organ weights, blood flows and some respiratory parameters from anthopometric properties, such as gender, age, body height and weight. This allows the model to simulate the effects of inter-individual variation on the estimated internal concentration in the brain. In this case, PhysB, has been used to predict internal brain concentrations of dinoseb for workers (men between 18-60 years of age) and bystanders (men and women between 0-80 years old). External exposure assessment data for agriculture workers and bystanders generated from the exposome generator is used as input for the model. The predicted internal brain concentrations of Dinoseb can be used to design in vitro experiments assessing effects of Dinoseb on neurons. In addition, the estimated concentrations can be compared with the concentration-response concentrations that are derived from the in vitro experiments to determine whether the in vitro models are predictive of real-life scenario’s."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -299,6 +334,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -317,6 +357,11 @@
             "headingType": "h2",
             "section": "Description",
             "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+          },
+          {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       }
@@ -352,8 +397,12 @@
               "headingType": "p",
               "section": "Rotenone transcriptomic data",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
-
           ]
         },
         "MIE activation": {
@@ -371,6 +420,11 @@
               "headingType": "p",
               "section": "Description",
               "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         },
@@ -402,6 +456,11 @@
               "headingType": "h2",
               "section": "Description",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay. The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -422,6 +481,11 @@
               "headingType": "h2",
               "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -445,6 +509,11 @@
               "headingType": "h2",
               "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
+            {
+            "headingType": "h2",
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -465,6 +534,11 @@
               "headingType": "p",
               "section": "PhysB PBK model",
               "description": "This tool allows users to predict the activity of their chemicals of interest for various endpoints. This prediction is done by target-specific, pretrained QSAR models. These models are specific for endpoints related to molecular initiation events from the VHP4Safety case studies."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -485,6 +559,11 @@
               "headingType": "p",
               "section": "Description",
               "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         },
@@ -516,6 +595,11 @@
               "headingType": "p",
               "section": "Description",
               "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assayThe effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -536,6 +620,11 @@
               "headingType" : "h2",
               "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -563,6 +652,11 @@
               "headingType": "h2",
               "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }
@@ -595,6 +689,11 @@
                 "headingType": "p",
                 "section": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           },
@@ -615,6 +714,11 @@
                 "headingType": "p",
                 "section": "H2DCFDA",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           },
@@ -647,6 +751,11 @@
                 "headingType": "p",
                 "section": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }
@@ -687,6 +796,11 @@
                 "headingType": "p",
                 "section": "Exposome generator description",
                 "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways. This tool combines existing models, newly developed computational approaches, and curated datasets to generate exposure distributions that can be used in risk assessment and further modeling within the VHP4S framework. The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods.To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios.Outputs include:Occupational exposure levels (µg/kg bw) across protection levels and application practices.Environmental exposure values at different distances from treated fields, expressed as µg/kg bw.Dietary exposure distributions for different food categories and population subgroups, expressed as µg/kg bw per day.Dinoseb was selected as a proof-of-concept substance. It serves as a representative pesticide to demonstrate the functionality of the exposome generator across occupational, environmental, and dietary exposure pathways. Estimated external exposure is further linked to a specific Dinoseb PBPK modelling framework."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }
@@ -702,6 +816,11 @@
                 "headingType": "p",
                 "section": "PhysB PBK model",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }
@@ -725,6 +844,11 @@
               "headingType": "h2",
               "section": "QSPRpred",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }
@@ -757,6 +881,11 @@
                 "headingType": "p",
                 "section": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           },
@@ -777,6 +906,11 @@
                 "headingType": "p",
                 "section": "H2DCFDA",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           },
@@ -809,6 +943,11 @@
                 "headingType": "p",
                 "section": "Cytotoxicity SHSY5Y cells (LDH assay)",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           }

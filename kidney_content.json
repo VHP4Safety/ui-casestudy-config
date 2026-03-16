@@ -419,6 +419,18 @@
               "value": "PBK model",
               "type": "tool"
             }
+          ],
+          "content": [
+            {
+              "headingType": "p",
+              "section": "Description",
+              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            },
+            {
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placeholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+            }
           ]
         },
         "In vitro modelling": {
@@ -479,7 +491,7 @@
           "steps": [
             {
             "label": "Clinical data",
-            "description": "Placeholder for WP2/WP3's description + connection to casestudy",
+            "description": "",
             "type": "tool"
             }
           ],

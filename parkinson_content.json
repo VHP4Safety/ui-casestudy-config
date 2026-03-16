@@ -26,7 +26,7 @@
   },
   "step2Contents": {
     "Q1": {
-      "navTitle": "Process Flow Steps (Q1)",
+      "navTitle": "Safety assessment workflow Steps (Q1)",
       "navDescription": "Follow these steps for this regulatory question: Can compound Dinoseb cause Parkinson's Disease? Click a button or scroll for more info.",
       "steps": [
         {
@@ -76,7 +76,7 @@
       ]
     },
     "Q2": {
-      "navTitle": "Process Flow Steps (Q2)",
+      "navTitle": "Safety assessment workflow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: What level of exposure to compound Dinoseb leads to risk for developing Parkinson's disease? Click a button or scroll for more info.",
       "steps": [
         {

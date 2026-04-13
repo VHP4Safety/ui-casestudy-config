@@ -525,8 +525,8 @@
               "type": "tool"
             },
             {
-              "label": "In vitro intestine model",
-              "description": "In vitro intestine model",
+              "label": "inTESTine™ model",
+              "description": "Absorption over human gut tissue",
               "type": "tool"
             }
           ],
@@ -534,12 +534,12 @@
             {
               "headingType": "h2",
               "section": "PBK Silychristin model",
-              "description": "A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and concentrations at the fetal brain after an oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. Specific gut absorption parameters were calculated using an in vitro human and porcine intestine model. Pharmacokinetic data from humans was used to validate the model."
+              "description": "A <b>silychristin specific physiological-based kinetic (PBK) model</b> is used to predict internal systemic silychristin concentrations of the mother and concentrations at the fetal brain after an oral exposure to silychristin. The silychristin PBK model was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. The PBK model was parameterized using pharmacokinetic/literature data. Pharmacokinetic silychristin data from human studies was used to validate the model. The RDI's for silychristin calculated in the exposure scenario were used an input in the PBK model. The resulting modelled fetal brain concentrations can be found in table 1. <br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Calculate fetal brain concentration in uM of silychristin from exposure to dietary supplements.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Silychristin content</th><th colspan=\"2\" style=\"border:1px solid black; padding:6px;\">Dutch Market</th><th colspan=\"2\" style=\"border:1px solid black; padding:6px;\">DSLD</th></tr><tr><th style=\"border:1px solid black; padding:6px;\"></th><th style=\"border:1px solid black; padding:6px;\">Low RDI</th><th style=\"border:1px solid black; padding:6px;\">High RDI</th><th style=\"border:1px solid black; padding:6px;\">Low RDI</th><th style=\"border:1px solid black; padding:6px;\">High RDI</th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">Low estimate (6%)</td><td style=\"border:1px solid black; padding:6px;\">0,009</td><td style=\"border:1px solid black; padding:6px;\">0,252</td><td style=\"border:1px solid black; padding:6px;\">0,005</td><td style=\"border:1px solid black; padding:6px;\">0,536</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">Average estimate (17%)</td><td style=\"border:1px solid black; padding:6px;\">0,027</td><td style=\"border:1px solid black; padding:6px;\">0,721</td><td style=\"border:1px solid black; padding:6px;\">0,014</td><td style=\"border:1px solid black; padding:6px;\">1,542</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">High estimate (31%)</td><td style=\"border:1px solid black; padding:6px;\">0,048</td><td style=\"border:1px solid black; padding:6px;\">1,316</td><td style=\"border:1px solid black; padding:6px;\">0,026</td><td style=\"border:1px solid black; padding:6px;\">2,865</td></tr></tbody></table>.  "
             },
             {
               "headingType": "p",
-              "section": "In vitro intestine model",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              "section": "inTESTine™ model",
+              "description": "The permeability of silychristin and silymarin across the human gut was experimentally measured using the inTESTine™ system, a two compartment barrier model using ex vivo human jejunum tissue. Transport of pure silychristin compound and silychirstin when present in silymarin mixture over the human jejunum was assessed using liquit chromatography-tandem mass spectrophotometry and expressed as an apparent permeability (Papp) value. The results from the inTESTine™ demonstrated, as shown in figure 1, that silychristin is not readily transported over the gut and the transport of silychristin is lowered significantly when preset in a silymarin mixture"
             },
             {
               "headingType": "h2",

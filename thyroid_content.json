@@ -319,8 +319,8 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Understanding the biological effects of compounds like silychristin requires bridging the gap between in vitro findings and real-world organismal responses. Zebrafish, historic mice data and human clinical data are used to relate the effects of silychristin in the safety assessment workflow to observable outcomes at the organism level. This comparison serves to validate the NAM-derived predictions, identifying discrepancies, and ensures our safety assessment workflow aligns with real-world biological responses.",
-            "description": ""
+            "section": "How do the effects seen from in vitro and in silico compare to adverse outcomes in the organism?",
+            "description": "Understanding the biological effects of compounds like silychristin requires bridging the gap between in vitro findings and real-world organismal responses. Zebrafish, historic mice data and human clinical data are used to relate the effects of silychristin in the safety assessment workflow to observable outcomes at the organism level. This comparison serves to validate the NAM-derived predictions, identifying discrepancies, and ensures our safety assessment workflow aligns with real-world biological responses."
           },
           {
             "headingType": "h2",

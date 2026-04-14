@@ -291,8 +291,13 @@
         "content": [
           {
           "headingType": "AOP",
-          "section": "Description",
-          "description": "Placeholder for WP2/WP3 description + connection to casestudy.<br/><img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/AOP.png' alt='AOP' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>"
+          "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
+          "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis and how this interacts with biological targets leading to an adverse outcome. Using this AOP, we identified molecular initiation events (MIEs) and further downstream key events (KEs) relevant for thyroid hormone disruption mediated developmental neurotoxicity."
+          },
+          {
+          "headingType": "h2",
+          "section": "The thyroid hormone mediated developmental neurotoxicity AOP",
+          "description": "Based on literature data and molecular AOP mapping, a thyroid hormone mediated developmental neurotoxicity AOP was developed as depicted in figure 1. The MIEs underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Figure 1.</strong> A schematic overview of the adverse outcome pathways for thyroid hormone mediated developmental neurotoxicity during pregnancy.</p><br/><img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/AOP.png' alt='AOP' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>"
           },
           {
             "headingType": "h2",
@@ -306,26 +311,21 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "MCT8 deficient mutant clinical data",
-            "description": "",
-            "type":"tool"
+            "label": "Silychristin in vivo data",
+            "description": "Relating silychristin effects to whole organism data",
+            "type":"workflow step"
           }
         ],
         "content": [
           {
             "headingType": "h2",
-            "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
-            "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis. Using this AOP, we identified molecular initiation events and further downstream key events relevant for thyroid hormone disruption mediated developmental neurotoxicity. "
-          },
-            {
-            "headingType": "h2",
-            "section": "The thyroid hormone disruption mediated developmental neurotoxicity AOP",
-            "description": "The molecular initiating events (MIEs) underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function. "
+            "section": "Understanding the biological effects of compounds like silychristin requires bridging the gap between in vitro findings and real-world organismal responses. Zebrafish, historic mice data and human clinical data are used to relate the effects of silychristin in the safety assessment workflow to observable outcomes at the organism level. This comparison serves to validate the NAM-derived predictions, identifying discrepancies, and ensures our safety assessment workflow aligns with real-world biological responses.",
+            "description": ""
           },
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>mapped molecular events leading to functional neurodevelopmental impairment</li></ul>"
+            "description": "<ul><li><strong>Input:</strong>Case study predictions from exposure, kinetics and AOP blocks</li><li><strong>Output:silychristin effects on organism level data (zebrafish, clinical data) to contextualize NAM prediction to in vivo effects</strong></li></ul>"
           }
         ]
       }

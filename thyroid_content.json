@@ -54,16 +54,19 @@
         {
           "label": "Kinetics",
           "value": "Kinetics",
+          "state":"disabled",
           "type": "process-flow-step"
         },
         {
           "label": "AOP",
           "value": "AOP",
+          "state":"disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
+          "state":"disabled"
           "type": "process-flow-step"
         }
       ],
@@ -71,7 +74,7 @@
         {
           "headingType": "h2",
           "section": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
-          "description": "This regulatory question has not been completely worked out yet. Therefore structual placeholders have been made for this RQ."
+          "description": "This regulatory question has not been completely worked out yet. Therefore, navigation through this regulatory question is currently not possible. Please see navigate to Thyroid Hormone Case study: regulatory question 2 if you want to see the completed safety assessment workflow."
         }
       ]
     },

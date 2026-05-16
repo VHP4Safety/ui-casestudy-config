@@ -30,35 +30,34 @@
       "navDescription": "Follow these steps for the regulatory question: What is the safe cisplatin dose in cancer patients? Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics",
+          "label": "Chemical characteristics and Hazard Identification",
+          "value": "Chemical characteristics and Hazard Identification",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "state": "disabled",
           "type": "process-flow-step"
         },
         {
-          "label": "External Exposure",
-          "value": "External Exposure",
+          "label": "Exposure",
+          "value": "Exposure",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "type": "process-flow-step"
         },
         {
-          "label": "(Toxicol) Kinetics",
-          "value": "Kinetics",
+          "label": "Toxicokinetics",
+          "value": "Toxicokinetics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step"
         },
         {
-          "label": "(Internal) Exposure",
-          "value": "Internal Exposure",
-          "type": "process-flow-step",
-          "state": "disabled"
-        },
-        {
-          "label": "Toxicodynamics / AOP",
-          "value": "AOP",
+          "label": "Toxicodynamics",
+          "value": "Toxicodynamics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
         }
       ],
@@ -75,36 +74,35 @@
       "navDescription": "Follow these steps for the regulatory question: What is the intrinsic hazard of tacrolimus for nephrotoxicity? Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics",
+          "label": "Chemical characteristics and Hazard Identification",
+          "value": "Chemical characteristics and Hazard Identification",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "type": "process-flow-step",
           "state":"disabled"
         },
         {
-          "label": "(External) Exposure",
-          "value": "(External) Exposure",
+          "label": "Exposure",
+          "value": "Exposure",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "type": "process-flow-step"
         },
         {
-          "label": "(Toxicol) Kinetics",
-          "value": "Kinetics",
+          "label": "Toxicokinetics",
+          "value": "Toxicokinetics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step",
           "state":"disabled"
         },
         {
-          "label": "(Internal) Exposure",
-          "value": "Internal Exposure",
-          "state": "disabled",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Toxicodynamics / AOP",
-          "value": "AOP",
+          "label": "Toxicodynamics",
+          "value": "Toxicodynamics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step",
           "state":"disabled"
         }
@@ -120,8 +118,8 @@
   },
   "step3Contents": {
     "Q1": {
-      "External Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q1)",
+      "Exposure": {
+        "navTitle": "Exposure - Tools and Workflow (Q1)",
         "navDescription": "",
         "steps": [
           {
@@ -144,8 +142,8 @@
           }
         ]
       },
-      "Kinetics": {
-        "navTitle": "Kinetics",
+      "Toxicokinetics": {
+        "navTitle": "Toxicokinetics",
         "navDescription": "",
         "steps": [
           {
@@ -174,8 +172,8 @@
           }
         ]
       },
-      "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q1)",
+      "Toxicodynamics": {
+        "navTitle": "Toxicodynamics - Tools and Workflow (Q1)",
         "navDescription": "",
         "steps": [
           {
@@ -229,8 +227,8 @@
       }
     },
     "Q2": {
-      "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
+      "Chemical characteristics and Hazard Identification": {
+        "navTitle": "Chemical characteristics and Hazard Identification - Tools and Workflow (Q2)",
         "navDescription": "",
         "steps": [
           {
@@ -257,8 +255,8 @@
           }
         ]
       },
-      "(External) Exposure": {
-        "navTitle": "External Exposure - Tools and Workflow (Q2)",
+      "Exposure": {
+        "navTitle": "Exposure - Tools and Workflow (Q2)",
         "navDescription": "",
         "steps": [
           {
@@ -280,8 +278,8 @@
           }
         ]
       },
-      "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q2)",
+      "Toxicokinetics": {
+        "navTitle": "Toxicokinetics - Tools and Workflow (Q2)",
         "navDescription": "",
         "steps": [
           {
@@ -308,8 +306,8 @@
           }
         ]
       },
-      "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q2)",
+      "Toxicodynamics": {
+        "navTitle": "Toxicodynamics - Tools and Workflow (Q2)",
         "navDescription": "",
         "steps": [
           {
@@ -374,7 +372,7 @@
   "step4Contents": {
     "Q1": {
       "step4content": "true",
-      "External Exposure": {
+      "Exposure": {
         "Current Dose levels": {
           "navTitle": "Current Dose levels",
           "navDescription": "",
@@ -404,7 +402,7 @@
           ]
         }
       },
-      "Kinetics": {
+      "Toxicokinetics": {
         "Plasma and tissue concentrations": {
           "navTitle": "Plasma and tissue concentrations",
           "navDescription": "",
@@ -462,7 +460,7 @@
           ]
         }
       },
-      "AOP": {
+      "Toxicodynamics": {
         "qAOP": {
           "navTitle": "qAOP",
           "navDescription": "Concerns ODE-based qAOP models and response-response models",
@@ -512,7 +510,7 @@
     },
     "Q2": {
       "step4content": "true",
-      "(External) Exposure": {
+      "Exposure": {
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario",
           "navDescription": "",
@@ -542,7 +540,7 @@
           ]
         }
       },
-      "AOP": {
+      "Toxicodynamics": {
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "",
@@ -644,7 +642,7 @@
   "step5Contents": {
     "Q1": {
       "step5content": "true",
-      "External Exposure": {
+      "Exposure": {
         "Current Dose levels": {
           "Parenteral": {
             "navTitle": "Parenteral",
@@ -697,7 +695,7 @@
     },
     "Q2":{
       "step5content": "true",
-      "(External) Exposure":{
+      "Exposure":{
         "Exposure Scenario":{
           "Plasma levels": {
            "navTitle": "Plasma levels",
@@ -747,7 +745,7 @@
           }
         }
       },
-      "AOP": {
+      "Toxicodynamics": {
         "MIE activation": {
           "Upregulation of CD44": {
             "navTitle": "Upregulation of CD44",
@@ -999,7 +997,7 @@
   "step6Contents": {
     "Q1": {
       "step6content": "true",
-      "External Exposure": {
+      "Exposure": {
         "Current Dose levels": {
           "Parenteral": {
             "Plasma levels": {

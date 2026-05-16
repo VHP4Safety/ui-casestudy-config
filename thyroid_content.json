@@ -40,32 +40,37 @@
       "navDescription": "Follow these steps for the regulatory question: What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used? Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics",
+          "label": "Chemical characteristics and Hazard Identification",
+          "value": "Chemical characteristics and Hazard Identification",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "state": "disabled",
           "type": "process-flow-step"
         },
         {
-          "label": "External Exposure",
-          "value": "External Exposure",
+          "label": "Exposure",
+          "value": "Exposure",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "state":"disabled",
           "type": "process-flow-step"
         },
         {
-          "label": "Kinetics",
-          "value": "Kinetics",
+          "label": "Toxicokinetics",
+          "value": "Toxicokinetics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "state":"disabled",
           "type": "process-flow-step"
         },
         {
-          "label": "AOP",
-          "value": "AOP",
+          "label": "Toxicodynamics",
+          "value": "Toxicodynamics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "state":"disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "state":"disabled",
           "type": "process-flow-step"
         }
@@ -84,29 +89,34 @@
       "image": "<img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>",
       "steps": [
         {
-          "label": "Hazard / Chemical Characteristics",
-          "value": "Chemical Characteristics",
+          "label": "Chemical characteristics and Hazard Identification",
+          "value": "Chemical characteristics and Hazard Identification",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "state": "disabled",
           "type": "process-flow-step"
         },
         {
-          "label": "External Exposure",
-          "value": "External Exposure",
+          "label": "Exposure",
+          "value": "Exposure",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "type": "process-flow-step"
         },
         {
-          "label": "Kinetics",
-          "value": "Kinetics",
+          "label": "Toxicokinetics",
+          "value": "Toxicokinetics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step"
         },
         {
-          "label": "AOP",
-          "value": "AOP",
+          "label": "Toxicodynamics",
+          "value": "Toxicodynamics",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
+          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
         }
       ],
@@ -131,8 +141,8 @@
   },
   "step3Contents": {
     "Q1": {
-      "Chemical Characteristics": {
-        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
+      "Chemical characteristics and Hazard Identification": {
+        "navTitle": "Chemical characteristics and Hazard Identification - Tools and Workflow (Q1)",
         "navDescription": "",
         "tools": [
           {
@@ -154,8 +164,8 @@
           }
         ]
       },
-      "Kinetics": {
-        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+      "Toxicokinetics": {
+        "navTitle": "Toxicokinetics - Tools and Workflow (Q1)",
         "navDescription": "",
         "tools": [
           {
@@ -177,8 +187,8 @@
           }
         ]
       },
-      "AOP": {
-        "navTitle": "AOP - Tools and Workflow (Q1)",
+      "Toxicodynamics": {
+        "navTitle": "Toxicodynamics - Tools and Workflow (Q1)",
         "navDescription": "",
         "steps": [
           {
@@ -220,8 +230,8 @@
       }
     },
     "Q2": {
-      "External Exposure": {
-        "navTitle": "External Exposure",
+      "Exposure": {
+        "navTitle": "Exposure",
         "navDescription": "",
         "steps": [
           {
@@ -243,8 +253,8 @@
           }
         ]
       },
-      "Kinetics": {
-        "navTitle": "Kinetics",
+      "Toxicokinetics": {
+        "navTitle": "Toxicokinetics",
         "navDescription": "",
         "steps": [
           {
@@ -266,8 +276,8 @@
           }
         ]
       },
-      "AOP": {
-        "navTitle": "AOP",
+      "Toxicodynamics": {
+        "navTitle": "Toxicodynamics",
         "navDescription": "",
         "steps": [
           {
@@ -337,7 +347,7 @@
   "step4Contents": {
     "Q1": {
       "step4content": "true",
-      "AOP": {
+      "Toxicodynamics": {
         "MIE activation": {
           "navTitle": "MIE activation",
           "navDescription": "",
@@ -424,7 +434,7 @@
       }
     },
     "Q2": {
-      "External Exposure": {
+      "Exposure": {
         "Exposure Scenario": {
           "navTitle": "Exposure Scenario",
           "navDescription": "",
@@ -482,7 +492,7 @@
           ]
         }
       },
-      "Kinetics": {
+      "Toxicokinetics": {
         "Prediction of maternal systemic and fetail brain concentration": {
           "navTitle": "Prediction of maternal systemic and fetail brain concentration - Tools and Workflow (Q2)",
           "navDescription": "",
@@ -528,9 +538,9 @@
           ]
         }
       },
-      "AOP": {
+      "Toxicodynamics": {
         "AOP Development": {
-          "navTitle": "AOP",
+          "navTitle": "Toxicodynamics",
           "navDescription": "",
           "steps": [
             {
@@ -679,7 +689,7 @@
   },
   "step5Contents": {
     "Q1": {
-      "AOP": {
+      "Toxicodynamics": {
         "MIE activation": {
           "Placeholder 2": {
             "navTitle": "Placeholder 2",
@@ -800,7 +810,7 @@
       }
     },
     "Q2": {
-      "AOP": {
+      "Toxicodynamics": {
         "MIE activation": {
           "TH uptake": {
             "navTitle": "TH uptake",

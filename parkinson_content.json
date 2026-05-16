@@ -103,7 +103,7 @@
         },
         {
           "label": "Adverse Outcome",
-          "state":"disabled"
+          "state":"disabled",
           "value": "Adverse Outcome",
           "type": "process-flow-step"
         }

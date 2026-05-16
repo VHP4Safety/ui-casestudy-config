@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "obo": "http://purl.obolibrary.org/obo/",
+    "snomed": "http://snomed.info/id/",
+    "slug": "identifier"
+  },
+  "@type": "DataCatalog",
+  "name": "VHP4Safety Case Studies",
+  "url": "https://github.com/VHP4Safety/ui-casestudy-config",
+  "dataset": [
+    {
+      "@id": "#kidney",
+      "@type": "Dataset",
+      "name": "Kidney case study",
+      "description": "To study kidney disease and pharmacovigilance.",
+      "slug": "kidney",
+      "about": {
+        "@type": "MedicalCondition",
+        "@id": "snomed:90708001",
+        "name": "Kidney disease",
+        "sameAs": "obo:MONDO_0005240"
+      },
+      "keywords": ["pharmacovigilance", "kidney disease"],
+      "distribution": {
+        "@type": "DataDownload",
+        "name": "kidney_content.json",
+        "contentUrl": "https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/refs/heads/main/kidney_content.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@id": "#parkinson",
+      "@type": "Dataset",
+      "name": "Parkinson case study",
+      "description": "To study life course pesticide exposure and neurodegenerative disease.",
+      "slug": "parkinson",
+      "about": {
+        "@type": "MedicalCondition",
+        "@id": "snomed:49049000",
+        "name": "Parkinson's disease",
+        "sameAs": "obo:MONDO_0005180"
+      },
+      "keywords": ["pesticide exposure", "neurodegenerative disease", "life course exposure"],
+      "distribution": {
+        "@type": "DataDownload",
+        "name": "parkinson_content.json",
+        "contentUrl": "https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/refs/heads/main/parkinson_content.json",
+        "encodingFormat": "application/json"
+      }
+    },
+    {
+      "@id": "#thyroid",
+      "@type": "Dataset",
+      "name": "Thyroid case study",
+      "description": "To study health effects discriminated by age and sex on thyroid-mediated neurodevelopment.",
+      "slug": "thyroid",
+      "about": {
+        "@type": "MedicalCondition",
+        "@id": "snomed:14304000",
+        "name": "Disorder of thyroid gland",
+        "sameAs": "obo:MONDO_0002654"
+      },
+      "keywords": ["neurodevelopment", "age", "sex differences", "thyroid"],
+      "distribution": {
+        "@type": "DataDownload",
+        "name": "thyroid_content.json",
+        "contentUrl": "https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/refs/heads/main/thyroid_content.json",
+        "encodingFormat": "application/json"
+      }
+    }
+  ]
+}

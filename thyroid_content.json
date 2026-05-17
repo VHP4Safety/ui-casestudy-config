@@ -339,7 +339,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Case study predictions from exposure, kinetics and AOP blocks</li><li><strong>Output:silychristin effects on organism level data (zebrafish, clinical data) to contextualize NAM prediction to in vivo effects</strong></li></ul>"
+            "description": "<ul><li><strong>Input:</strong> Case study predictions from exposure, kinetics and AOP blocks</li><li><strong>Output:</strong> silychristin effects on organism level data (zebrafish, clinical data) to contextualize NAM prediction to in vivo effects</li></ul>"
           }
         ]
       }

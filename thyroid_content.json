@@ -50,28 +50,28 @@
           "label": "Exposure",
           "value": "Exposure",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
-          "state":"disabled",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicokinetics",
           "value": "Toxicokinetics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
-          "state":"disabled",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
-          "state":"disabled",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
-          "state":"disabled",
+          "state": "disabled",
           "type": "process-flow-step"
         }
       ],
@@ -127,14 +127,14 @@
           "description": "Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin  is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone transmembrane transporter regulating TH transport into the brain. In humans, a lack of MCT8 has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used a model compound in scientific research to study the effects of MCT8 inhibitions, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations have been conducted for silychristin."
         },
         {
-        "headingtype": "p",
-        "section": "Silychristin in animal models",
-        "description": "It is known that rodents are less sensitive to the neurodevelopmental effects after a loss of function of MCT8 compared to human patients. The current regulatory test methods for TH-system disrupting chemicals therefore cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based assessment, through the integration of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
-      },
+          "headingtype": "p",
+          "section": "Silychristin in animal models",
+          "description": "It is known that rodents are less sensitive to the neurodevelopmental effects after a loss of function of MCT8 compared to human patients. The current regulatory test methods for TH-system disrupting chemicals therefore cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based assessment, through the integration of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
+        },
         {
-        "headingtype": "p",
-        "section": "Silychristin case study overview",
-        "description": "The scope of this case study was mainly on the direct acute effects of silychristin on neurodevelopment in the fetus. Therefore, the influence of maternally derived TH perturbations are not yet taken into account for the risk assessment. We first derived a realistic exposure scenario for silychristin and subsequently used modelling approaches to determine how silychristin reaches the fetal brain. Then a combination of in silico and in vitro models were employed to assess the potential hazard of silychristin. A bioactivity-exposure response (BER) was calculated to determine if silychristin concentrations in the fetal brain can interfere with MCT8 functioning. The modelled fetal brain silyhchristin concentrations were then used as input in a quantitative AOP (qAOP) to assess whether a realistic exposure could trigger key events that might lead neurodevelopmental adverse effects. Finally, we compare the results from the qAOP to whole organism adverse effects derived from in vivo data. An overview of the safety assessment workflow can be found in figure 1. <img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> Figure 1. An overview of the process flow of the thyroid hormone mediated developmental neurotoxicity safety assessment workflow for silychristin exposure through dietary herbal supplements. The safety assessment workflow steps are shown in purple with the case study specific (sub)steps shown in dashed green boxes. The blue boxes indicate the different methods used for the case study steps are shown in blue."
+          "headingtype": "p",
+          "section": "Silychristin case study overview",
+          "description": "The scope of this case study was mainly on the direct acute effects of silychristin on neurodevelopment in the fetus. Therefore, the influence of maternally derived TH perturbations are not yet taken into account for the risk assessment. We first derived a realistic exposure scenario for silychristin and subsequently used modelling approaches to determine how silychristin reaches the fetal brain. Then a combination of in silico and in vitro models were employed to assess the potential hazard of silychristin. A bioactivity-exposure response (BER) was calculated to determine if silychristin concentrations in the fetal brain can interfere with MCT8 functioning. The modelled fetal brain silyhchristin concentrations were then used as input in a quantitative AOP (qAOP) to assess whether a realistic exposure could trigger key events that might lead neurodevelopmental adverse effects. Finally, we compare the results from the qAOP to whole organism adverse effects derived from in vivo data. An overview of the safety assessment workflow can be found in figure 1. <img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> Figure 1. An overview of the process flow of the thyroid hormone mediated developmental neurotoxicity safety assessment workflow for silychristin exposure through dietary herbal supplements. The safety assessment workflow steps are shown in purple with the case study specific (sub)steps shown in dashed green boxes. The blue boxes indicate the different methods used for the case study steps are shown in blue."
         }
       ]
     }
@@ -153,7 +153,7 @@
           {
             "label": "Tool B - Short description",
             "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-             "type": "workflow step"
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -176,7 +176,7 @@
           {
             "label": "Tool B - Short description",
             "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type":"workflow step"
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -194,12 +194,12 @@
           {
             "label": "MIE activation",
             "value": "MIE activation",
-            "type":"workflow-step"
+            "type": "workflow-step"
           },
           {
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -217,7 +217,7 @@
           {
             "label": "Placeholder 1",
             "value": "Placeholder 1",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -303,19 +303,19 @@
         ],
         "content": [
           {
-          "headingType": "AOP",
-          "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
-          "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis and how this interacts with biological targets leading to an adverse outcome. Using this AOP, we identified molecular initiation events (MIEs) and further downstream key events (KEs) relevant for thyroid hormone disruption mediated developmental neurotoxicity."
+            "headingType": "AOP",
+            "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
+            "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis and how this interacts with biological targets leading to an adverse outcome. Using this AOP, we identified molecular initiation events (MIEs) and further downstream key events (KEs) relevant for thyroid hormone disruption mediated developmental neurotoxicity."
           },
           {
-          "headingType": "h2",
-          "section": "The thyroid hormone mediated developmental neurotoxicity AOP",
-          "description": "Based on literature data and molecular AOP mapping, a thyroid hormone mediated developmental neurotoxicity AOP was developed as depicted in figure 1. The MIEs underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Figure 1.</strong> A schematic overview of the adverse outcome pathways for thyroid hormone mediated developmental neurotoxicity during pregnancy.</p><br/><img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/AOP.png' alt='AOP' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>"
+            "headingType": "h2",
+            "section": "The thyroid hormone mediated developmental neurotoxicity AOP",
+            "description": "Based on literature data and molecular AOP mapping, a thyroid hormone mediated developmental neurotoxicity AOP was developed as depicted in figure 1. The MIEs underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporter), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Figure 1.</strong> A schematic overview of the adverse outcome pathways for thyroid hormone mediated developmental neurotoxicity during pregnancy.</p><br/><img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/AOP.png' alt='AOP' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>"
           },
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>placeholder</li></ul>" 
+            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>placeholder</li></ul>"
           }
         ]
       },
@@ -326,7 +326,7 @@
           {
             "label": "Silychristin in vivo data",
             "description": "Relating silychristin effects to whole organism data",
-            "type":"workflow step"
+            "type": "workflow step"
           }
         ],
         "content": [
@@ -394,19 +394,16 @@
               "label": "Placeholder 7",
               "value": "Placeholder 7",
               "type": "workflow substep"
-
             },
             {
               "label": "Placeholder 8",
               "value": "Placeholder 8",
               "type": "workflow substep"
-
             },
             {
               "label": "Placeholder 9",
               "value": "Placeholder 9",
               "type": "workflow substep"
-
             }
           ],
           "content": [
@@ -419,15 +416,14 @@
         }
       },
       "Adverse Outcome": {
-        "Placeholder 1":{
-          "navTitle":"Placeholder 1",
-          "navDescription":"placeholder 1",
+        "Placeholder 1": {
+          "navTitle": "Placeholder 1",
+          "navDescription": "placeholder 1",
           "steps": [
             {
               "label": "Placeholder 10",
               "value": "Placeholder 10",
               "type": "tool"
-
             }
           ]
         }
@@ -525,7 +521,7 @@
               "section": "Validation of the silychristin PBK model",
               "description": "Human pharmacokinetic data was obtained from three clinical studies in which blood plasma concentrations of silychristin were measured after 24 hours after oral administration of silymarin capsules. The PBK model was ran on a similar silychristin oral intake and exposure window as described in these clinical studies. The reported maximal blood concentration (Cmax) was compared to the predicted PBK Cmax from our model before and after reparameterization of the gut absorption. An overview of the reported and predicted Cmax values can be found in table 1. The predicted Cmax after adjusting the PBK model with the experimentally derived gut absorption factor closely resembled the reported Cmax, within a 5-fold difference."
             },
-             {
+            {
               "headingType": "p",
               "section": "Modelling exposure scenarios with the PBK model",
               "description": "We modelled the maximal fetal brain concentration (CfMax) with the adjusted siychristin PBK model using the previously estimated RDI’s of both the DSLD and the Dutch Market dataset as input data. We used an exposure window of two weeks with dose every 24 hours, which is the maximal recommended dosing regime provided on product leaflets. The resulting distributions, mean, 5th and 95th percentiles of the predicted CfMax in each exposure scenario (low, mid, high) for both the DSLD and Dutch Market dataset can be found in figure 1.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Modelledfetalbrain%20concentrations.png?raw=true’ alt='Daily intake silychristin from DSLD and Dutch Market products' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Distribution of the maximal predicted fetal brain concentrations (CfMax) of the DSLD and Dutch Market datasets. Distributions are shown for each exposure scenario indicating low (red), moderate (green) and high (blue) silychristin content of the supplements. Added tables contain the summary statistics describing the mean, 5th and 95th percentiles for the distributions. Each exposure scenario contained 114 datapoints for the DSLD and 8 data points for the Dutch Market distribution.</p>"
@@ -614,9 +610,9 @@
               "description": "Molecular initiation events (MIEs) describe the interaction between chemicals and biological targets at the molecular level. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. A combination of computational prediction tools and in vitro assays were used to assess which MIEs are triggered upon exposure to silychristin. Concentration-dependent effects of silychristin were established for these MIEs to derive in vitro PoD for relevant MIEs."
             },
             {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Silychristin exposure</li><li><strong>Output:</strong>Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Silychristin exposure</li><li><strong>Output:</strong>Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
             }
           ]
         },
@@ -647,9 +643,9 @@
               "description": "A neuronal stem cell model, called the human neural progenitor test (hNPT), was used to further investigate the effect of decreasing TH concentrations on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. Gene expression analysis using qPCR was performed on the hNPT after exposure to different concentrations of T3 to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network activity was assessed in neuron-astrocyte coculture models using a multi-electrode array. The data generated from these in vitro assays served as the foundation to build a quantitative adverse ourcome pathway (qAOP) model. "
             },
             {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Neuron-astrocyte model measurements</li><li><strong>Output:</strong>Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Neuron-astrocyte model measurements</li><li><strong>Output:</strong>Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
             }
           ]
         },
@@ -660,7 +656,7 @@
             {
               "label": "qAOP Predictor Application",
               "description": "",
-              "id":"qaop_app",
+              "id": "qaop_app",
               "type": "tool"
             },
             {
@@ -681,9 +677,9 @@
               "description": "A <b>quantitative adverse outcome pathways (qAOP) model</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 expression and synaptogenesis. The qAOP model demonstrated that silychristin initially inhibits the T3 accumulation in neuronal cells an causes a decrease in the expression of KLF9, however this effect quickly wanes and KLF9 expression was restored to control levels after 24 hours (Figure 2.). Silychristin was also predicted to have a marginal effect on synaptogenesis, only slightly decreasing the number of electrode bursts. Overall, these data indicate that while silychristin may inhibit the TH transport in neuronal cells, the effect on downstream KE is less severe and might not be significantly altered."
             },
             {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>qAOP</li><li><strong>Output:</strong>Predicted inhibition of TH uptake by Silychristin</li></ul>"
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>qAOP</li><li><strong>Output:</strong>Predicted inhibition of TH uptake by Silychristin</li></ul>"
             }
           ]
         }
@@ -706,9 +702,9 @@
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "Description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -724,9 +720,9 @@
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "Description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -742,9 +738,9 @@
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "Description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "headingType": "h2",
+                "section": "Description",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           }
@@ -866,7 +862,7 @@
                 "section": "Danish (Q)SAR database",
                 "description": "The Danish (Q)SAR database is a collection of structural information and QSAR predictions developed by the DTU National Food Institute. The database contains multiple QSAR prediction tools for TH-mediated developmental neurotoxicity MIEs, such as TRα1, TRβ1, DIO2 and DIO3. "
               },
-               {
+              {
                 "headingType": "p",
                 "section": "MCT8-docking app",
                 "description": "The MCT8-docking app is a phyton-based notebook that performs a docking simulation of a user-provided ligand against a predicted structure of MCT8. It predicts the likelihood of a ligand binding to MCT8 with an affinity threshold of -9.0 kcal/mol for strong inhibitors."
@@ -895,14 +891,14 @@
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "Using in vitro assays to assess MIE activation by silychristin ",
-              "description": "The effect of silychristin on MIE has been tested in three cell lines representing astrocytes (H4), neurons (SK-N-AS) and oligodendrocytes (MO3.13). A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>TH receptor activity</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells."
+                "headingType": "h2",
+                "section": "Using in vitro assays to assess MIE activation by silychristin ",
+                "description": "The effect of silychristin on MIE has been tested in three cell lines representing astrocytes (H4), neurons (SK-N-AS) and oligodendrocytes (MO3.13). A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>TH receptor activity</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells."
               },
               {
-              "headingType": "p",
-              "section": "Conclusions from the in vitro MIE activation assays",
-              "description": "An overview of the effects of 10 µM silychristin on TH-related MIEs in physiological relevant neuronal cells is shown in table 1. There was a significant inhibition of T3 transport in all cell models after exposure to silychristin, although the SK-N-AS cell line was less sensitive to silychristin compared to H4 and MO3.13 cells. No direct effect of silychristin was observed on D3 activity, but D3 activity was significant decrease in MO3.13 and SK-N-AS cells whole cell metabolism likely propagated through the decrease uptake of TH. Similarly, a significant decrease of KLF9 expression was observed after exposure to 10 µM silychristin, while no direct effect on TR activity was observed. These results indicate that the major MIE that is affected by silychristin is TH transport.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Summary of the effects of 10 µM silychristin on various TH related MIEs in neuronal cell models. Data taken from Dierichs et al. 2026a.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Assay</th><th style=\"border:1px solid black; padding:6px;\">H4</th><th style=\"border:1px solid black; padding:6px;\">MO3.13</th><th style=\"border:1px solid black; padding:6px;\">SK-N-AS</th></tr></thead><tbody><tr><td rowspan=\"5\" style=\"border:1px solid black; padding:6px;\"></td><td style=\"border:1px solid black; padding:6px;\">T3 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~20%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">T4 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (cell lysate)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (intact cells)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">KLF9 expression</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease</td></tr></tbody></table></body></html>"
+                "headingType": "p",
+                "section": "Conclusions from the in vitro MIE activation assays",
+                "description": "An overview of the effects of 10 µM silychristin on TH-related MIEs in physiological relevant neuronal cells is shown in table 1. There was a significant inhibition of T3 transport in all cell models after exposure to silychristin, although the SK-N-AS cell line was less sensitive to silychristin compared to H4 and MO3.13 cells. No direct effect of silychristin was observed on D3 activity, but D3 activity was significant decrease in MO3.13 and SK-N-AS cells whole cell metabolism likely propagated through the decrease uptake of TH. Similarly, a significant decrease of KLF9 expression was observed after exposure to 10 µM silychristin, while no direct effect on TR activity was observed. These results indicate that the major MIE that is affected by silychristin is TH transport.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Summary of the effects of 10 µM silychristin on various TH related MIEs in neuronal cell models. Data taken from Dierichs et al. 2026a.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Assay</th><th style=\"border:1px solid black; padding:6px;\">H4</th><th style=\"border:1px solid black; padding:6px;\">MO3.13</th><th style=\"border:1px solid black; padding:6px;\">SK-N-AS</th></tr></thead><tbody><tr><td rowspan=\"5\" style=\"border:1px solid black; padding:6px;\"></td><td style=\"border:1px solid black; padding:6px;\">T3 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~20%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">T4 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (cell lysate)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (intact cells)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">KLF9 expression</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease</td></tr></tbody></table></body></html>"
               }
             ]
           },
@@ -918,7 +914,7 @@
               {
                 "label": "QSPRpred",
                 "description": "",
-                "id":"qsprpred",
+                "id": "qsprpred",
                 "type": "tool"
               },
               {
@@ -929,7 +925,7 @@
               {
                 "label": "O-QT",
                 "description": "",
-                "id":"oqt_assistant",
+                "id": "oqt_assistant",
                 "type": "tool"
               },
               {
@@ -939,25 +935,25 @@
               }
             ],
             "content": [
-               {
-              "headingType": "h2",
-              "section": "Generating concentration-response curves for TH uptake in overexpressing cell lines",
-              "description": "To derive relevant point of departure for silchristin specific effects on TH transport, concentration-dependent effects were measured in cell lines overexpressing specific TH transporters. An MCT8 and OATP1C1-overexpressing cell lines were generated and the TH transport in these assays was measured after exposure to multiple concentrations of silychristin. A benchmark concentration (BMC) was derived from these assays based on a benchmark response of 20%, i.e. the lowest observed effect concentration in the in vitro assays. These BMC20 values were then used together with a Monte-Carlo simulatin approach to generate a distribution of possible in vitro point of departures (PoDs)."
+              {
+                "headingType": "h2",
+                "section": "Generating concentration-response curves for TH uptake in overexpressing cell lines",
+                "description": "To derive relevant point of departure for silchristin specific effects on TH transport, concentration-dependent effects were measured in cell lines overexpressing specific TH transporters. An MCT8 and OATP1C1-overexpressing cell lines were generated and the TH transport in these assays was measured after exposure to multiple concentrations of silychristin. A benchmark concentration (BMC) was derived from these assays based on a benchmark response of 20%, i.e. the lowest observed effect concentration in the in vitro assays. These BMC20 values were then used together with a Monte-Carlo simulatin approach to generate a distribution of possible in vitro point of departures (PoDs)."
               },
-               {
-              "headingType": "h2",
-              "section": "Silychristin effects on TH transport mediated by MCT8",
-              "description": "In this assay, the inhibition of triiodothyronine (T3) uptake via the MCT8 transporter by potential endocrine disrupting chemicals is measured. The assay uses MDCK1 cells stably transfected with human MCT8 combined with a non-radioactive TH uptake assay that utilizes the Sandell-Kolthoff reaction for indirect quantification of TH. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T3 uptake in MCT8-MDCK1 cells, see figure 1. This demonstrates that silychristin effectively inhibits MCT8-mediated T3 transport with a BMC20 (comparable to a LOAEL) of 0.14 µM. The results from this assay provide a possible point of departure for the MCT8-inhibiting capacity of silychristin.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/MCT8%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake. The fraction of T3 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T3 uptake by 20%.</p>"
+              {
+                "headingType": "h2",
+                "section": "Silychristin effects on TH transport mediated by MCT8",
+                "description": "In this assay, the inhibition of triiodothyronine (T3) uptake via the MCT8 transporter by potential endocrine disrupting chemicals is measured. The assay uses MDCK1 cells stably transfected with human MCT8 combined with a non-radioactive TH uptake assay that utilizes the Sandell-Kolthoff reaction for indirect quantification of TH. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T3 uptake in MCT8-MDCK1 cells, see figure 1. This demonstrates that silychristin effectively inhibits MCT8-mediated T3 transport with a BMC20 (comparable to a LOAEL) of 0.14 µM. The results from this assay provide a possible point of departure for the MCT8-inhibiting capacity of silychristin.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/MCT8%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake. The fraction of T3 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T3 uptake by 20%.</p>"
               },
-               {
-              "headingType": "h2",
-              "section": "Silychristin effect on TH transport mediated by OATP1C1 ",
-              "description": "In this assay, the inhibition of thyroxine uptake via the OATP1C1 transporter by potential endocrine disrupting chemicals is measured. The uptake of radioactive labelled T4 isotopes is measured in CHOK1 cells stably transfected with human OATP1C1. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T4 uptake in OATP1C1-CHOK1 cells, see figure 2. This demonstrates that silychristin inhibits OATP1C1-mediated T4 transport in a dose-dependent manner with a BMC20 (comparable to a NOAEL) of 3.78 µM. Inhibition of OATP1C1-mediated T4 transport only occurred at high concentrations of silychristin, which indicates that silychristin is a weak inhibitor of OATP1C1-mediated T4 transport.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/OAPT1C1%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake. The fraction of T4 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T4 uptake by 20%.</p>"
+              {
+                "headingType": "h2",
+                "section": "Silychristin effect on TH transport mediated by OATP1C1 ",
+                "description": "In this assay, the inhibition of thyroxine uptake via the OATP1C1 transporter by potential endocrine disrupting chemicals is measured. The uptake of radioactive labelled T4 isotopes is measured in CHOK1 cells stably transfected with human OATP1C1. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T4 uptake in OATP1C1-CHOK1 cells, see figure 2. This demonstrates that silychristin inhibits OATP1C1-mediated T4 transport in a dose-dependent manner with a BMC20 (comparable to a NOAEL) of 3.78 µM. Inhibition of OATP1C1-mediated T4 transport only occurred at high concentrations of silychristin, which indicates that silychristin is a weak inhibitor of OATP1C1-mediated T4 transport.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/OAPT1C1%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake. The fraction of T4 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T4 uptake by 20%.</p>"
               },
-               {
-              "headingType": "h2",
-              "section": "Monte-carlo simulation of in vitro PoD distributions",
-              "description": "To propagate the uncertainty that exists within the in vitro assays, we performed a Monte-Carlo simulation of the BMC20 values to produce a distribution of possible in vitro PoDs. In this simulation 10.000 possible in vitro PoDs were sampled using a logistic distribution with the center and spread determined by the mean and 95% confidence intervals of the BMC20 values for each in vitro assays. The resulting distribution of in vitro Pods can be found in Figure 3. These distributions can be used to sample a range of possible in vitro PoDs, instead of a single value, preserving the uncertainty that is present in the vitro assays.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/PoD%20Distributions%20MCT8+OATP1C1.png?raw=true’ alt='Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation. Each bar represents the frequency of sampled in vitro PoD values, with the x-axis displaying the concentration (µM) on a logarithmic scale. The median PoD is indicated by a dashed blue line, while the 5th and 95th percentiles are marked by red and purple dashed lines, respectively.</p>"
+              {
+                "headingType": "h2",
+                "section": "Monte-carlo simulation of in vitro PoD distributions",
+                "description": "To propagate the uncertainty that exists within the in vitro assays, we performed a Monte-Carlo simulation of the BMC20 values to produce a distribution of possible in vitro PoDs. In this simulation 10.000 possible in vitro PoDs were sampled using a logistic distribution with the center and spread determined by the mean and 95% confidence intervals of the BMC20 values for each in vitro assays. The resulting distribution of in vitro Pods can be found in Figure 3. These distributions can be used to sample a range of possible in vitro PoDs, instead of a single value, preserving the uncertainty that is present in the vitro assays.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/PoD%20Distributions%20MCT8+OATP1C1.png?raw=true’ alt='Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation. Each bar represents the frequency of sampled in vitro PoD values, with the x-axis displaying the concentration (µM) on a logarithmic scale. The median PoD is indicated by a dashed blue line, while the 5th and 95th percentiles are marked by red and purple dashed lines, respectively.</p>"
               }
             ]
           }
@@ -997,7 +993,7 @@
                 "value": "RNA-seq",
                 "type": "tool",
                 "id": "rna_sequencing",
-                "route":"methods"
+                "route": "methods"
               }
             ],
             "content": [
@@ -1011,7 +1007,6 @@
                 "section": "RNA-seq",
                 "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
-
             ]
           },
           "Neuronal network formation": {
@@ -1037,4 +1032,3 @@
     }
   }
 }
- 

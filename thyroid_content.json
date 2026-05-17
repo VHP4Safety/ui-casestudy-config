@@ -325,6 +325,7 @@
         "steps": [
           {
             "label": "Silychristin in vivo data",
+            "value": "Silychristin in vivo data",
             "description": "Relating silychristin effects to whole organism data",
             "type": "workflow step"
           }

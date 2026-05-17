@@ -590,16 +590,19 @@
           "steps": [
             {
               "label": "TH uptake",
+              "value": "TH uptake",
               "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Deiodinase activity",
+              "value": "Deiodinase activity",
               "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Thyroid hormone receptor inactivation",
+              "value": "Thyroid hormone receptor inactivation",
               "description": "",
               "type": "workflow substep"
             }

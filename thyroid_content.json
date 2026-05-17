@@ -840,7 +840,7 @@
               {
                 "headingType": "h2",
                 "section": "In silico prediction tools",
-                "description": "Multiple in silico tools were run to predict the interaction between silychristin and MIEs. The models were selected based on their relevance to the TH-specific MIEs and on their free public availability. All in silico tools were ran with the smile “COC1=C(C=CC(=C1)[C@H]2[C@@H](C3=C(O2)C(=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)O)CO)O”. The following in silico tools were selected for this case study."
+                "description": "Multiple in silico tools were run to predict the interaction between silychristin and MIEs. The models were selected based on their relevance to the TH-specific MIEs and on their free public availability. All in silico tools were ran with the SMILES “COC1=C(C=CC(=C1)[C@H]2[C@@H](C3=C(O2)C(=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)O)CO)O”. The following in silico tools were selected for this case study."
               },
               {
                 "headingType": "p",

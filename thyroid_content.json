@@ -455,7 +455,7 @@
             },
             {
               "label": "Sysrev",
-              "description": "",
+              "description": "Software to support literature review",
               "id": "sysrev",
               "type": "tool"
             }
@@ -542,7 +542,7 @@
           "steps": [
             {
               "label": "PubMed",
-              "description": "",
+              "description": "American literature database",
               "type": "tool"
             },
             {
@@ -552,13 +552,13 @@
             },
             {
               "label": "WikiPathways",
-              "description": "",
+              "description": "Database with biological pathways",
               "id": "wikipathways_aop",
               "type": "tool"
             },
             {
               "label": "BridgeDb",
-              "description": "",
+              "description": "Identifier mapping tool",
               "id": "bridgedb",
               "type": "tool"
             }
@@ -623,16 +623,19 @@
           "steps": [
             {
               "label": "Changes in KLF9 expression",
+              "value": "Changes in KLF9 expression",
               "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Changes in BDNF expression",
+              "value": "Changes in BDNF expression",
               "description": "",
               "type": "workflow substep"
             },
             {
               "label": "Neuronal network formation",
+              "value": "Neuronal network formation",
               "description": "",
               "type": "workflow substep"
             }

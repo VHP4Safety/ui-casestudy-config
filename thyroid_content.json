@@ -86,7 +86,6 @@
     "Q2": {
       "navTitle": "Safety assessment workflow Steps (Q2)",
       "navDescription": "Follow these steps for the regulatory question: Does silychristin influence the thyroid hormone-mediated brain development in the fetus resulting in cognitive impairment in children? Click a button or scroll for more info.",
-      "image": "<img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/image.png' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/>",
       "steps": [
         {
           "label": "Chemical characteristics and Hazard Identification",
@@ -469,7 +468,7 @@
             {
               "label": "Silychristin daily intake from measured products",
               "description": "Derived from analytically measured silymarin products",
-               "id": "",
+               "id": "10.5281/zenodo.20289679",
               "type": "tool"
             }
           ],
@@ -510,22 +509,25 @@
             {
               "label": "PBK silychristin model",
               "description": "PBK silychristin model",
-              "id": "oppbk_model",
+              "id": "",
               "type": "tool"
             },
             {
               "label": "inTESTine™ model",
               "description": "Absorption over human gut tissue",
+              "id": "",
               "type": "tool"
             },
              {
               "label": "Human pharmacokinetic data",
               "description": "Overview of human pharmacokinetic data of silychristin",
+               "id": "10.5281/zenodo.20308542",
               "type": "tool"
             },
             {
               "label": "Estimated CfMax concentrations",
               "description": "PBK modelled fetal brain concentrations",
+              "id": "10.5281/zenodo.20306850",
               "type": "tool"
             }
           ],
@@ -570,7 +572,8 @@
             },
             {
               "label": "hNPT transcriptomic data",
-              "description": "",
+              "description": "Effects of altered TH levels on hNPT",
+              "id": "S-VHPS20",
               "type": "tool"
             },
             {
@@ -684,8 +687,9 @@
               "type": "tool"
             },
             {
-              "label": "Bioactivity-exposure ratio calculation",
-              "description": "",
+              "label": "Bioactivity-exposure ratio",
+              "description": "Comparison between in vitro PoDs and fetal brain concentrations",
+              "id": "10.5281/zenodo.20306672", 
               "type": "tool"
             }
           ],
@@ -693,7 +697,7 @@
             {
               "headingType": "h2",
               "section": "Bioactivity-exposure ratio calculations",
-              "description": "<b>Bioactivity-Exposure Ratios (BERs)</b> compare an in vitro bioactivity to a realistic exposure concentration to assess risk of adverse effects. For silychristin, we calculated BERs by dividing MCT8/OATP1C1 PoDs from in vitro TH transport inhibition assays by fetal brain concentrations derived from the PBK modelling. A BER < 1 would imply that silychristin levels in fetal brain could inhibit TH transport, potentially leading to adverse neurodevelopmental outcomes. Conversely, a BER > 1 suggests exposure is below the bioactive threshold and that silychristin most likely does not inhibit TH transport at realistic exposures. We randomly sampled from the in vitro PoD distributions of the MCT8 and OATP1C1 datasets and compared this to randomly sampled fetal brain concentrations in each exposure scenario. This resulted in a distribution of possible BERs from 10.000 combinations of randomly sampled in vitro PoD and fetal brain concentration. These BER distributions for both the DSLD and Dutch Market product data set are shown in figure 1. Overall, the results indicate that MCT8-mediated TH transport is predicted to be inhibited at realistic exposures of silychristin from both DSLD and Dutch Market products. OATP1C1-mediated TH transport is not predicted to be affected at realistic exposure scenarios of silychristin. As realistic exposures of silychristin can inhibit TH transport is it necessary to study how silychristin exposure effects further downstream key events.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/BER_simulations.png?raw=true’ alt='Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right)' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right) activation from realistic fetal brain concentrations of silychristin. Data shown the distribution for each exposure scenario of low, moderate and high amount of silychristin percentages per product. The black dashed line indicates a BER of 1.</p>"
+              "description": "<b>Bioactivity-Exposure Ratios (BERs)</b> compare an in vitro bioactivity to a realistic exposure concentration to assess whether exposure to a compound can trigger MIEs. For silychristin, we calculated BERs by dividing MCT8/OATP1C1 PoDs from in vitro TH transport inhibition assays by fetal brain concentrations derived from the PBK modelling. A BER < 1 would imply that silychristin concentrations in the fetal brain could inhibit TH transport, potentially leading to adverse neurodevelopmental outcomes. Conversely, a BER > 1 suggests exposure is below the bioactive threshold and that silychristin most likely does not inhibit TH transport at realistic exposures. We randomly sampled from the in vitro PoD distributions of the MCT8 and OATP1C1 datasets and compared this to randomly sampled fetal brain concentrations in each exposure scenario. This resulted in a distribution of possible BERs from 10.000 combinations of randomly sampled in vitro PoD and fetal brain concentration. These BER distributions for both the DSLD and Dutch Market product data set are shown in figure 1. Overall, the results indicate that MCT8-mediated TH transport is predicted to be inhibited at realistic exposures of silychristin from both DSLD and Dutch Market products. OATP1C1-mediated TH transport is not predicted to be affected at realistic exposure scenarios of silychristin. As realistic exposures of silychristin can inhibit TH transport is it necessary to study how silychristin exposure effects further downstream key events.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/BER_simulations.png?raw=true’ alt='Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right)' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right) activation from realistic fetal brain concentrations of silychristin. Data shown the distribution for each exposure scenario of low, moderate and high amount of silychristin percentages per product. The black dashed line indicates a BER of 1.</p>"
             },
             {
               "headingType": "h2",
@@ -914,13 +918,15 @@
             "navDescription": "",
             "steps": [
               {
-                "label": "Deiodinase assay",
-                "value": "Deiodinase assay",
+                "label": "Deiodinase activity",
+                "value": "Effect of silychristin on deiodinase activity in neural cell lines",
+                "id": "S-VHPS13",
                 "type": "tool"
               },
               {
-                "label": "Whole cell metabolism assay",
-                "value": "Whole cell metabolism assay",
+                "label": "TH transport and TR activation",
+                "value": "Effect of silychristin on TH transport and TR activation in neural cell lines",
+                "id": "S-VHPS22",
                 "type": "tool"
               }
             ],
@@ -963,7 +969,7 @@
                 "description": "Simulated distrubtions of PoD for OATP1C1 inhibition",
                 "id": "19665244",
                 "type": "tool"
-              },
+              }
             ],
             "content": [
               {
@@ -994,11 +1000,17 @@
             "navTitle": "Changes in KLF9 expression",
             "navDescription": "Changes in KLF9 expression",
             "steps": [
+                {
+                "label": "KLF9 and BDNF gene expression",
+                "description": "Dataset for qPCR in neuronal stem cells",
+                "id": "",
+                "type": "tool"
+              },
               {
-                "label": "RNA-seq",
-                "value": "RNA-seq",
+                "label": "qPCR",
+                "value": "qPCR",
                 "type": "tool",
-                "id": "rna_sequencing",
+                "id": "",
                 "route": "methods"
               }
             ],
@@ -1015,15 +1027,16 @@
             "navDescription": "Changes in BDNF expression",
             "steps": [
               {
-                "label": "ELISA",
-                "value": "ELISA",
+                "label": "BDNF protein expression",
+                "description": "",
+                "id": "",
                 "type": "tool"
               },
               {
-                "label": "RNA-seq",
-                "value": "RNA-seq",
+                "label": "ELISA",
+                "value": "ELISA",
                 "type": "tool",
-                "id": "rna_sequencing",
+                "id": "",
                 "route": "methods"
               }
             ],
@@ -1032,11 +1045,6 @@
                 "headingType": "h2",
                 "section": "Changes in BDNF protein expression",
                 "description": "Since BDNF did not show any concentration-dependent effects in gene expression after T3 exposure, the BDNF protein levels in the hNPT were measured using a human BDNF enzyme-linked immunosorbent assay (ELISA) kit. Protein levels of BDNF were significantly elevated after exposure to 0.3 and 3 nM T3 conditions in the hNPT, but not after exposure to the highest concentration 30 nM T3, see figure 2. Because there were no obvious concentration-dependent effects for BDNF expression, we decided not to include this KE in the eventual modelling of the qAOP.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/BDNF%20protein%20exprssion.png?raw=true’ alt='Figure 2. Protein levels of BDNF in hNPT protein extract after 10 days of differentiation corrected for the amount of DNA.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 2. Protein levels of BDNF in hNPT protein extract after 10 days of differentiation corrected for the amount of DNA. Data is represented as the distribution of replicates from one independent experiment. Statistical significance was tested using an one-way ANOVA with Dunnett’s multiple comparisons test (**p<0.01). </p>"
-              },
-              {
-                "headingType": "p",
-                "section": "RNA-seq",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               }
             ]
           },
@@ -1047,6 +1055,14 @@
               {
                 "label": "MEA",
                 "value": "MEA",
+                "type": "tool",
+                "id": "",
+                "route": "methods"
+              },
+               {
+                "label": "Neuronal network activity",
+                 "descriptions": "Generated MEA data of silychristin in neuronal stem cells",
+                "value": "Neuronal network activity",
                 "type": "tool"
               }
             ],

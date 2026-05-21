@@ -612,20 +612,20 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "TH uptake",
-              "value": "TH uptake",
+              "label": "In silico predictions",
+              "value": "In silico predictions",
               "description": "",
               "type": "workflow substep"
             },
             {
-              "label": "Deiodinase activity",
-              "value": "Deiodinase activity",
+              "label": "MIE activation in in vitro models",
+              "value": "MIE activation in in vitro models",
               "description": "",
               "type": "workflow substep"
             },
             {
-              "label": "Thyroid hormone receptor inactivation",
-              "value": "Thyroid hormone receptor inactivation",
+              "label": "Establishing in vitro point of departure",
+              "value": "Establishing in vitro point of departure",
               "description": "",
               "type": "workflow substep"
             }
@@ -648,12 +648,12 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "Changes in KLF9 expression",
+              "label": "Effect on KLF9 and BDNF gene expression",
               "description": "",
               "type": "workflow substep"
             },
             {
-              "label": "Changes in BDNF expression",
+              "label": "Changes in BDNF protein expression",
               "description": "",
               "type": "workflow substep"
             },
@@ -839,9 +839,9 @@
     "Q2": {
       "Toxicodynamics": {
         "MIE activation": {
-          "TH uptake": {
-            "navTitle": "TH uptake",
-            "navDescription": "TH uptake",
+          "In silico predictions": {
+            "navTitle": "In silico predictions",
+            "navDescription": "In silico predictions",
             "steps": [
               {
                 "label": "QSPRpred",
@@ -913,9 +913,9 @@
               }
             ]
           },
-          "Deiodinase activity": {
-            "navTitle": "Deiodinase activity",
-            "navDescription": "",
+          "MIE activation in in vitro models": {
+            "navTitle": "MIE activation in in vitro models",
+            "navDescription": "MIE activation in in vitro models",
             "steps": [
               {
                 "label": "Deiodinase activity",
@@ -943,9 +943,9 @@
               }
             ]
           },
-          "Thyroid hormone receptor inactivation": {
-            "navTitle": "Thyroid hormone receptor inactivation",
-            "navDescription": "",
+          "Establishing in vitro point of departure": {
+            "navTitle": "Establishing in vitro point of departure",
+            "navDescription": "Establishing in vitro point of departure",
             "steps": [
               {
                 "label": "MCT8-MDK1 TH uptake assay",
@@ -996,9 +996,9 @@
           }
         },
         "Effects on Key Event Relationships": {
-          "Changes in KLF9 expression": {
-            "navTitle": "Changes in KLF9 expression",
-            "navDescription": "Changes in KLF9 expression",
+          "Effect on KLF9 and BDNF gene expression": {
+            "navTitle": "Effect on KLF9 and BDNF gene expression",
+            "navDescription": "Effect on KLF9 and BDNF gene expression",
             "steps": [
                 {
                 "label": "KLF9 and BDNF gene expression",
@@ -1022,9 +1022,9 @@
               }
             ]
           },
-          "Changes in BDNF expression": {
-            "navTitle": "Changes in BDNF expression",
-            "navDescription": "Changes in BDNF expression",
+          "Changes in BDNF protein expression": {
+            "navTitle": "Changes in BDNF protein expression",
+            "navDescription": "Changes in BDNF protein expression",
             "steps": [
               {
                 "label": "BDNF protein expression",

@@ -248,7 +248,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Estimated daily intake of Silychristin</li><li><strong>Output:</strong>Silychristin exposure calculation</li></ul>"
+            "description": "<ul><li><strong>Input:</strong> Estimated daily intake of Silychristin</li><li><strong>Output:</strong> Silychristin exposure calculation</li></ul>"
           }
         ]
       },
@@ -271,7 +271,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Silychristin physicochemical and kinetic properties</li><li><strong>Output:</strong>Predicted maternal systemic concentration of Silychristin</li></ul>"
+            "description": "<ul><li><strong>Input:</strong> Silychristin physicochemical and kinetic properties</li><li><strong>Output:</strong> Predicted maternal systemic concentration of Silychristin</li></ul>"
           }
         ]
       },
@@ -314,7 +314,7 @@
           {
             "headingType": "h2",
             "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>placeholder</li></ul>"
+            "description": "<ul><li><strong>Input:</strong> AOP data</li><li><strong>Output:</strong> placeholder</li></ul>"
           }
         ]
       },
@@ -326,7 +326,8 @@
             "label": "Silychristin in vivo data",
             "value": "Silychristin in vivo data",
             "description": "Relating silychristin effects to whole organism data",
-            "type": "workflow step"
+            "type": "workflow step",
+            "state": "disabled"
           }
         ],
         "content": [
@@ -496,7 +497,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>Literature-based exposure information</li><li><strong>Output:</strong>Realistic Silychristin exposure calculation</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Literature-based exposure information</li><li><strong>Output:</strong> Realistic Silychristin exposure calculation</li></ul>"
             }
           ]
         }
@@ -555,7 +556,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong>Prediction data</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> Prediction data</li></ul>"
             }
           ]
         }
@@ -603,7 +604,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>AOP data</li><li><strong>Output:</strong>Evidence-based refined AOP</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> AOP data</li><li><strong>Output:</strong> Evidence-based refined AOP</li></ul>"
             }
           ]
         },
@@ -639,7 +640,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>Silychristin exposure</li><li><strong>Output:</strong>Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Silychristin exposure</li><li><strong>Output:</strong> Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
             }
           ]
         },
@@ -675,7 +676,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>Neuron-astrocyte model measurements</li><li><strong>Output:</strong>Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Neuron-astrocyte model measurements</li><li><strong>Output:</strong> Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
             }
           ]
         },
@@ -710,7 +711,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>qAOP</li><li><strong>Output:</strong>Predicted inhibition of TH uptake by Silychristin</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> qAOP</li><li><strong>Output:</strong> Predicted inhibition of TH uptake by Silychristin</li></ul>"
             }
           ]
         }

@@ -445,8 +445,8 @@
             {
               "label": "Dose recommendations of silychristine",
               "description": "Gathered from product leaflets of the DSLD and Dutch market products",
-              "id": "19086997",
-              "type": "tool"
+              "id": "20289081",
+              "type": "data"
             },
             {
               "label": "NIH dietary supplement label database",

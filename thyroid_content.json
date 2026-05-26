@@ -575,7 +575,7 @@
               "label": "hNPT transcriptomic data",
               "description": "Effects of altered TH levels on hNPT",
               "id": "S-VHPS20",
-              "type": "tool"
+              "type": "data"
             },
             {
               "label": "WikiPathways",
@@ -924,14 +924,14 @@
               {
                 "label": "Deiodinase activity",
                 "value": "Effect of silychristin on deiodinase activity in neural cell lines",
-                "id": "S-VHPS13",
-                "type": "tool"
+                "id": "S-VHPS22",
+                "type": "data"
               },
               {
                 "label": "TH transport and TR activation",
                 "value": "Effect of silychristin on TH transport and TR activation in neural cell lines",
                 "id": "S-VHPS22",
-                "type": "tool"
+                "type": "data"
               }
             ],
             "content": [
@@ -955,24 +955,24 @@
                 "label": "MCT8-MDK1 TH uptake assay",
                 "value": "MCT8-MDK1 TH uptake assay",
                 "id": "S-VHPS21",
-                "type": "tool"
+                "type": "data"
               },
               {
                 "label": "OATP1C1 TH uptake assay",
                 "value": "OATP1C1 TH uptake assay",
                 "id": "S-VHPS26",
-                "type": "tool"
+                "type": "data"
               },
               {
                 "label": "MCT8 PoD Monte-Carlo simulation",
                 "description": "not yet on the platform, but refers to 10.5281/zenodo.19665244",
-                "type": "tool"
+                "type": "data"
               },
               {
                 "label": "OATP1C1 PoD Monte-Carlo simulation",
                 "description": "Simulated distrubtions of PoD for OATP1C1 inhibition",
                 "id": "19665244",
-                "type": "tool"
+                "type": "data"
               }
             ],
             "content": [

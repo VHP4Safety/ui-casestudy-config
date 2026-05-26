@@ -464,13 +464,13 @@
               "label": "Mixture analysis of silymarin supplements",
               "description": "Literature data on the composition of silymarin mixtures",
                "id": "19087369",
-              "type": "tool"
+              "type": "data"
             },
             {
               "label": "Silychristin daily intake from measured products",
               "description": "Derived from analytically measured silymarin products",
-               "id": "10.5281/zenodo.20289679",
-              "type": "tool"
+               "id": "20289679",
+              "type": "data"
             }
           ],
           "content": [
@@ -522,14 +522,14 @@
              {
               "label": "Human pharmacokinetic data",
               "description": "Overview of human pharmacokinetic data of silychristin",
-               "id": "10.5281/zenodo.20308542",
-              "type": "tool"
+               "id": "20308542",
+              "type": "data"
             },
             {
               "label": "Estimated CfMax concentrations",
               "description": "PBK modelled fetal brain concentrations",
-              "id": "10.5281/zenodo.20306850",
-              "type": "tool"
+              "id": "20306850",
+              "type": "data"
             }
           ],
           "content": [
@@ -693,8 +693,8 @@
             {
               "label": "Bioactivity-exposure ratio",
               "description": "Comparison between in vitro PoDs and fetal brain concentrations",
-              "id": "10.5281/zenodo.20306672", 
-              "type": "tool"
+              "id": "20306672", 
+              "type": "data"
             }
           ],
           "content": [

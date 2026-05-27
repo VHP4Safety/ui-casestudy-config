@@ -1001,7 +1001,7 @@
           }
         },
         "Effects on Key Event Relationships": {
-          "Effect on KLF9 and BDNF gene expression": {
+          "Changes in KLF9 expression": {
             "navTitle": "Effect on KLF9 and BDNF gene expression",
             "navDescription": "Effect on KLF9 and BDNF gene expression",
             "steps": [
@@ -1027,7 +1027,7 @@
               }
             ]
           },
-          "Changes in BDNF protein expression": {
+          "Changes in BDNF expression": {
             "navTitle": "Changes in BDNF protein expression",
             "navDescription": "Changes in BDNF protein expression",
             "steps": [

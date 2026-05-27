@@ -235,7 +235,7 @@
         "steps": [
           {
             "label": "Exposure Scenario",
-            "value": "Exposure Scenario",
+            "value": "Exposure_Scenario",
             "type": "workflow step"
           }
         ],

@@ -45,13 +45,14 @@
         },
         {
           "label": "Toxicodynamics",
+          "state": "disabled",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "state":"disabled",
+          "state": "disabled",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
@@ -86,32 +87,35 @@
       "steps": [
         {
           "label": "Chemical characteristics and Hazard Identification",
-          "state":"disabled",
+          "state": "disabled",
           "value": "Chemical characteristics and Hazard Identification",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "type": "process-flow-step"
         },
         {
           "label": "Exposure",
+          "state": "disabled",
           "value": "Exposure",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicokinetics",
+          "state": "disabled",
           "value": "Toxicokinetics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics",
+          "state": "disabled",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
-          "state":"disabled",
+          "state": "disabled",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
@@ -207,12 +211,12 @@
           {
             "label": "MIE activation",
             "value": "MIE activation",
-            "type":"workflow-step"
+            "type": "workflow-step"
           },
           {
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -235,7 +239,7 @@
           {
             "label": "Is pesticide exposure associated with Parkinsons disease?",
             "value": "Is pesticide exposure associated with Parkinsons disease?",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -332,12 +336,12 @@
           {
             "label": "MIE activation",
             "value": "MIE activation",
-            "type":"workflow-step"
+            "type": "workflow-step"
           },
           {
             "label": "Effects on key event relationships",
             "value": "Effects on key event relationships",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -360,7 +364,7 @@
           {
             "label": "Is pesticide exposure associated with Parkinsons disease?",
             "value": "Is pesticide exposure associated with Parkinsons disease?",
-            "type":"workflow-step"
+            "type": "workflow-step"
           }
         ],
         "content": [
@@ -389,13 +393,13 @@
             {
               "label": "AOP-Wiki",
               "value": "AOP-Wiki",
-              "type":"tool",
+              "type": "tool",
               "id": "aopwikiapi"
             },
             {
-              "label":"Rotenone transcriptomic data (LUHMES cells)",
+              "label": "Rotenone transcriptomic data (LUHMES cells)",
               "value": "Rotenone transcriptomic data (LUHMES cells)",
-              "type":"tool"
+              "type": "tool"
             }
           ],
           "content": [
@@ -447,19 +451,16 @@
               "label": "Mitochondrial activity",
               "value": "Mitochondrial activity",
               "type": "workflow substep"
-
             },
             {
               "label": "Increased oxidative stress",
               "value": "Increased oxidative stress",
               "type": "workflow substep"
-
             },
             {
               "label": "Dopaminergic neuron cell death",
               "value": "Dopaminergic neuron cell death",
               "type": "workflow substep"
-
             }
           ],
           "content": [
@@ -477,9 +478,9 @@
         }
       },
       "Adverse Outcome": {
-        "Is pesticide exposure associated with Parkinsons disease?":{
-          "navTitle":"Is pesticide exposure associated with Parkinsons disease?",
-          "navDescription":"",
+        "Is pesticide exposure associated with Parkinsons disease?": {
+          "navTitle": "Is pesticide exposure associated with Parkinsons disease?",
+          "navDescription": "",
           "steps": [
             {
               "label": "Epidemiological data",
@@ -522,9 +523,9 @@
               "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways."
             },
             {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+              "headingType": "h2",
+              "section": "Input and resulting output",
+              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
             }
           ]
         }
@@ -586,19 +587,16 @@
               "label": "Mitochondrial activity",
               "value": "Mitochondrial activity",
               "type": "workflow substep"
-
             },
             {
               "label": "Increased oxidative stress",
               "value": "Increased oxidative stress",
               "type": "workflow substep"
-
             },
             {
               "label": "Dopaminergic neuron cell death",
               "value": "Dopaminergic neuron cell death",
               "type": "workflow substep"
-
             }
           ],
           "content": [
@@ -616,9 +614,9 @@
         }
       },
       "Adverse Outcome": {
-        "Is pesticide exposure associated with Parkinsons disease?":{
-          "navTitle":"Is pesticide exposure associated with Parkinsons disease?",
-          "navDescription":"",
+        "Is pesticide exposure associated with Parkinsons disease?": {
+          "navTitle": "Is pesticide exposure associated with Parkinsons disease?",
+          "navDescription": "",
           "steps": [
             {
               "label": "Epidemiological data",
@@ -628,7 +626,7 @@
           ],
           "content": [
             {
-              "headingType" : "h2",
+              "headingType": "h2",
               "section": "Description",
               "description": "Placeholder for WP2/WP3 description + connection to casestudy."
             },
@@ -654,15 +652,15 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
-                "id":"qsprpred",
+                "id": "qsprpred",
                 "type": "tool"
               }
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "headingType": "h2",
+                "section": "QSPRpred",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               },
               {
                 "headingType": "h2",
@@ -782,9 +780,9 @@
             "navDescription": "",
             "steps": [
               {
-              "label": "Dietary exposure dataset for pesticides",
-              "value": "Dietary exposure dataset for pesticides",
-              "type": "tool"
+                "label": "Dietary exposure dataset for pesticides",
+                "value": "Dietary exposure dataset for pesticides",
+                "type": "tool"
               },
               {
                 "label": "BROWSE software",
@@ -818,7 +816,7 @@
                 "section": "Exposome generator input",
                 "description": "The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods."
               },
-               {
+              {
                 "headingType": "h2",
                 "section": "Modelling approaches in the exposome generator",
                 "description": "To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios."
@@ -866,15 +864,15 @@
               {
                 "label": "QSPRpred",
                 "value": "QSPRpred",
-                "id":"qsprpred",
+                "id": "qsprpred",
                 "type": "tool"
               }
             ],
             "content": [
               {
-              "headingType": "h2",
-              "section": "QSPRpred",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "headingType": "h2",
+                "section": "QSPRpred",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
               },
               {
                 "headingType": "h2",
@@ -884,7 +882,7 @@
             ]
           }
         },
-        "Effects on key event relationships": {  
+        "Effects on key event relationships": {
           "Mitochondrial activity": {
             "navTitle": "Mitochondrial activity",
             "navDescription": "",
@@ -893,7 +891,7 @@
                 "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
                 "type": "tool",
-                "id":"alamar_blue_assay_for_detection_of_mitochondrial_activity",
+                "id": "alamar_blue_assay_for_detection_of_mitochondrial_activity",
                 "route": "methods"
               },
               {

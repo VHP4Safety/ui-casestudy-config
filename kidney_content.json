@@ -40,24 +40,28 @@
           "label": "Exposure",
           "value": "Exposure",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicokinetics",
           "value": "Toxicokinetics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
           "label": "Adverse Outcome",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
+          "state": "disabled",
           "type": "process-flow-step"
         }
       ],
@@ -78,12 +82,13 @@
           "value": "Chemical characteristics and Hazard Identification",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
           "type": "process-flow-step",
-          "state":"disabled"
+          "state": "disabled"
         },
         {
           "label": "Exposure",
           "value": "Exposure",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
@@ -91,12 +96,13 @@
           "value": "Toxicokinetics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step",
-          "state":"disabled"
+          "state": "disabled"
         },
         {
           "label": "Toxicodynamics",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
+          "state": "disabled",
           "type": "process-flow-step"
         },
         {
@@ -104,7 +110,7 @@
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step",
-          "state":"disabled"
+          "state": "disabled"
         }
       ],
       "content": [
@@ -488,9 +494,9 @@
           "navDescription": "",
           "steps": [
             {
-            "label": "Clinical data",
-            "description": "",
-            "type": "tool"
+              "label": "Clinical data",
+              "description": "",
+              "type": "tool"
             }
           ],
           "content": [
@@ -582,7 +588,6 @@
               "label": "Mitochondrial dysfunction",
               "value": "Mitochondrial dysfunction",
               "type": "workflow substep"
-
             },
             {
               "label": "Metabolic impairment",
@@ -669,7 +674,7 @@
           },
           "Oral": {
             "navTitle": "Oral",
-            "navDescription":  "",
+            "navDescription": "",
             "steps": [
               {
                 "label": "Prescription levels",
@@ -693,12 +698,12 @@
         }
       }
     },
-    "Q2":{
+    "Q2": {
       "step5content": "true",
-      "Exposure":{
-        "Exposure Scenario":{
+      "Exposure": {
+        "Exposure Scenario": {
           "Plasma levels": {
-           "navTitle": "Plasma levels",
+            "navTitle": "Plasma levels",
             "navDescription": "",
             "steps": [
               {
@@ -707,7 +712,7 @@
                 "type": "tool"
               }
             ],
-             "content": [
+            "content": [
               {
                 "headingType": "h2",
                 "section": "Therapeutic Drug Monitoring and Pharmacogenetic Monographic",
@@ -720,7 +725,7 @@
               }
             ]
           },
-          "Recommended prescription levels":{
+          "Recommended prescription levels": {
             "navTitle": "Recommended prescription levels",
             "navDescription": "",
             "steps": [
@@ -756,10 +761,10 @@
                 "value": "RNA-seq",
                 "type": "tool",
                 "id": "rna_sequencing",
-                "route":"methods"
+                "route": "methods"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "RNA-seq",
@@ -791,12 +796,12 @@
               {
                 "label": "P-GP inhibitie",
                 "value": "P-GP inhibitie",
-                "id":"p_gp_staining",
-                "route":"methods",
+                "id": "p_gp_staining",
+                "route": "methods",
                 "type": "tool"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "Transmembrane transport of TAC",
@@ -827,7 +832,7 @@
                 "label": "CellROX™ Green Reagent for oxidative stress detection",
                 "value": "CellROX™ Green Reagent for oxidative stress detection",
                 "id": "cellrox__green_reagent_for_oxidative_stress_detection",
-                "route":"methods",
+                "route": "methods",
                 "type": "tool"
               },
               {
@@ -835,9 +840,8 @@
                 "value": "MitoSox RED assay",
                 "type": "tool"
               }
-
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "CellROX Green assay",
@@ -849,13 +853,13 @@
                 "description": "To assess mitochondrial superoxide levels, the MitoSOX assay was performed in PTL cells. Oxidation of the MitoSOX reagent by mitochondrial superoxide can be detected as a red dye on an imager. Cells were treated with a range of tacrolimus concentrations (0-100 µM) and mitoSOX red dye. Cells were imaged at 10-minute intervals for 1 hour, which allowed tracking of mitochondrial superoxide production over time. The assay showed an increase in superoxide production after 1 hour of treatment with 80 and 100 µM of tacrolimus, which was not observed in lower doses or controls."
               },
               {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
               }
             ]
           },
-          "Mitochondrial dysfunction":{
+          "Mitochondrial dysfunction": {
             "navTitle": "Mitochondrial dysfunction",
             "navDescription": "",
             "steps": [
@@ -863,7 +867,7 @@
                 "label": "Mitotracker Deep RED FM assay",
                 "value": "Mitotracker Deep RED FM assay",
                 "id": "mitotracker_deep_red_fm_assay",
-                "route":"methods",
+                "route": "methods",
                 "type": "tool"
               },
               {
@@ -872,7 +876,7 @@
                 "type": "tool"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "Mitotracker Deep RED FM assay",
@@ -898,11 +902,11 @@
                 "label": "LysoTracker Green DND-26",
                 "value": "LysoTracker Green DND-26",
                 "id": "lysotracker_green_dnd_26",
-                "route":"methods",
+                "route": "methods",
                 "type": "tool"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "LysoTracker® Green DND-26",
@@ -925,7 +929,7 @@
                 "type": "tool"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "Immunofluorescent detection of collagen-1",
@@ -961,18 +965,18 @@
                 "label": "CellTiter Fluor",
                 "value": "CellTiter Fluor",
                 "id": "cell_titer_fluor",
-                "route":"methods",
+                "route": "methods",
                 "type": "tool"
               },
               {
                 "label": "Cytotoxicity detection KitPlus",
                 "value": "Cytotoxicity detection KitPlus",
-                "id":"cytotoxicity_detection_kitplusldh",
-                "route":"methods",
+                "id": "cytotoxicity_detection_kitplusldh",
+                "route": "methods",
                 "type": "tool"
               }
             ],
-            "content":[
+            "content": [
               {
                 "headingType": "h2",
                 "section": "CellTiter Fluor and Cytotoxicity detection KitPlus",

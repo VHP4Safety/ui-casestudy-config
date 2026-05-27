@@ -235,7 +235,7 @@
         "steps": [
           {
             "label": "Exposure Scenario",
-            "value": "Exposure_Scenario",
+            "value": "ExposureScenario",
             "type": "workflow step"
           }
         ],
@@ -432,7 +432,7 @@
     },
     "Q2": {
       "Exposure": {
-        "Exposure Scenario": {
+        "ExposureScenario": {
           "navTitle": "Exposure Scenario",
           "navDescription": "",
           "steps": [
@@ -460,16 +460,16 @@
               "id": "sysrev",
               "type": "tool"
             },
-             {
+            {
               "label": "Mixture analysis of silymarin supplements",
               "description": "Literature data on the composition of silymarin mixtures",
-               "id": "19087369",
+              "id": "19087369",
               "type": "data"
             },
             {
               "label": "Silychristin daily intake from measured products",
               "description": "Derived from analytically measured silymarin products",
-               "id": "20289679",
+              "id": "20289679",
               "type": "data"
             }
           ],
@@ -519,10 +519,10 @@
               "id": "",
               "type": "tool"
             },
-             {
+            {
               "label": "Human pharmacokinetic data",
               "description": "Overview of human pharmacokinetic data of silychristin",
-               "id": "20308542",
+              "id": "20308542",
               "type": "data"
             },
             {
@@ -693,7 +693,7 @@
             {
               "label": "Bioactivity-exposure ratio",
               "description": "Comparison between in vitro PoDs and fetal brain concentrations",
-              "id": "20306672", 
+              "id": "20306672",
               "type": "data"
             }
           ],
@@ -1005,7 +1005,7 @@
             "navTitle": "Effect on KLF9 and BDNF gene expression",
             "navDescription": "Effect on KLF9 and BDNF gene expression",
             "steps": [
-                {
+              {
                 "label": "KLF9 and BDNF gene expression",
                 "description": "Dataset for qPCR in neuronal stem cells",
                 "id": "",
@@ -1064,9 +1064,9 @@
                 "id": "",
                 "route": "methods"
               },
-               {
+              {
                 "label": "Neuronal network activity",
-                 "descriptions": "Generated MEA data of silychristin in neuronal stem cells",
+                "descriptions": "Generated MEA data of silychristin in neuronal stem cells",
                 "value": "Neuronal network activity",
                 "type": "tool"
               }

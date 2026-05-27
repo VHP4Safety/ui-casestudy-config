@@ -965,7 +965,8 @@
               },
               {
                 "label": "MCT8 PoD Monte-Carlo simulation",
-                "description": "not yet on the platform, but refers to 10.5281/zenodo.19665244",
+                "description": "Simulated distributions of of PoD for MCT8 inhibition",
+                "id": "19665386"
                 "type": "data"
               },
               {

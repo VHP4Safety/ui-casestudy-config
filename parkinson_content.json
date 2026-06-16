@@ -45,7 +45,6 @@
         },
         {
           "label": "Toxicodynamics",
-          "state": "disabled",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"
@@ -94,21 +93,18 @@
         },
         {
           "label": "Exposure",
-          "state": "disabled",
           "value": "Exposure",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicokinetics",
-          "state": "disabled",
           "value": "Toxicokinetics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
           "type": "process-flow-step"
         },
         {
           "label": "Toxicodynamics",
-          "state": "disabled",
           "value": "Toxicodynamics",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
           "type": "process-flow-step"

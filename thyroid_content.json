@@ -5,13 +5,13 @@
     "questions": [
       {
         "label": "Question 1: Compound Information",
-        "description": "What information about silychristin do we need to give as an advice to women in their early pregnancy to decide whether the substance can be used?",
+        "description": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
         "value": "Q1",
         "type": "regulatory-question"
       },
       {
         "label": "Question 2",
-        "description": "Does silychristin influence the thyroid hormone-mediated brain development in the fetus resulting in cognitive impairment in children?",
+        "description": "Does silychristin influence the thyroid hormone-mediated brain development in the fetuses resulting in congnitive impairment in children?",
         "value": "Q2",
         "type": "regulatory-question"
       }
@@ -36,1050 +36,178 @@
   },
   "step2Contents": {
     "Q1": {
-      "navTitle": "Safety assessment workflow Steps (Q1)",
-      "navDescription": "Follow these steps for the regulatory question: What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used? Click a button or scroll for more info.",
+      "navTitle": "Process Flow Steps (Q1)",
+      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Chemical characteristics and Hazard Identification",
-          "value": "Chemical characteristics and Hazard Identification",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
-          "state": "disabled",
-          "type": "process-flow-step"
+          "label": "Chemical Characteristics",
+          "value": "Chemical Characteristics"
         },
-        {
-          "label": "Exposure",
-          "value": "Exposure",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
-          "state": "disabled",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Toxicokinetics",
-          "value": "Toxicokinetics",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
-          "state": "disabled",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Toxicodynamics",
-          "value": "Toxicodynamics",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
-          "state": "disabled",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Adverse Outcome",
-          "value": "Adverse Outcome",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
-          "state": "disabled",
-          "type": "process-flow-step"
-        }
+        { "label": "External Exposure", "value": "External Exposure" },
+        { "label": "Kinetics", "value": "Kinetics" },
+        { "label": "AOP", "value": "AOP" },
+        { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": [
-        {
-          "headingType": "h2",
-          "section": "What information about silychristin do we need to give an advice to women in their early pregnancy to decide whether the substance can be used?",
-          "description": "This regulatory question has not been completely worked out yet. Therefore, navigation through this regulatory question is currently not possible. Please see navigate to Thyroid Hormone Case study: regulatory question 2 if you want to see the completed safety assessment workflow."
-        }
-      ]
+      "content": "<h2>Thyroid-related Regulatory Question 1</h2><p>[Filler] Content for regulatory question 1. More info coming soon.</p>"
     },
     "Q2": {
-      "navTitle": "Safety assessment workflow Steps (Q2)",
-      "navDescription": "Follow these steps for the regulatory question: Does silychristin influence the thyroid hormone-mediated brain development in the fetus resulting in cognitive impairment in children? Click a button or scroll for more info.",
+      "navTitle": "Process Flow Steps (Q2)",
+      "navDescription": "[Filler] Steps for this regulatory question. Click a button or scroll for more info.",
       "steps": [
         {
-          "label": "Chemical characteristics and Hazard Identification",
-          "value": "Chemical characteristics and Hazard Identification",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000153",
-          "state": "disabled",
-          "type": "process-flow-step"
+          "label": "Chemical Characteristics",
+          "value": "Chemical Characteristics"
         },
-        {
-          "label": "Exposure",
-          "value": "Exposure",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000154",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Toxicokinetics",
-          "value": "Toxicokinetics",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000155",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Toxicodynamics",
-          "value": "Toxicodynamics",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000156",
-          "type": "process-flow-step"
-        },
-        {
-          "label": "Adverse Outcome",
-          "value": "Adverse Outcome",
-          "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
-          "type": "process-flow-step"
-        }
+        { "label": "External Exposure", "value": "External Exposure" },
+        { "label": "Kinetics", "value": "Kinetics" },
+        { "label": "AOP", "value": "AOP" },
+        { "label": "Adverse Outcome", "value": "Adverse Outcome" }
       ],
-      "content": [
-        {
-          "headingType": "h2",
-          "section": "Silychristin and the thyroid hormone system",
-          "description": "Silychristin is one of the main constituents of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin is one of the most widely used dietary herbal supplements in the world and is often sold as a hepatoprotective agent or breast-feeding supplement. Various studies have shown that silychristin is a potent and highly selective inhibitor of MCT8, a crucial thyroid hormone transmembrane transporter regulating TH transport into the brain. In humans, MCT8-deficiency has been associated with a severe neurodevelopment disorder known as Allan-Herndon Dudley syndrome. Silychristin is often used a model compound in scientific research to study the effects of MCT8 inhibition, due to the potency and selectivity towards MCT8. However, despite the widespread use as a supplement no safety evaluations for human exposure have been conducted for silychristin."
-        },
-        {
-          "headingtype": "p",
-          "section": "Silychristin in animal models",
-          "description": "It is known that rodents are less sensitive to the neurodevelopmental effects caused by MCT8-deficiency compared to human patients. The current regulatory test methods for TH system disrupting chemicals therefore cannot properly assess the neurodevelopmental effects of specific MCT8-inhibiting chemicals, such as silychristin. Additionally, the lack of brain-specific endpoints in current regulatory test methods further hamper the evaluation of MCT8-inhibition of TH-mediated neurodevelopment. The use of the VHP4Safety platform might circumvent these issues by using a human based assessment, through the integration of in silico and in vitro models, to assess the effects of silychristin exposure on TH-mediated brain development in the fetus."
-        },
-        {
-          "headingtype": "p",
-          "section": "Silychristin case study overview",
-          "description": "The scope of this case study was mainly on the direct acute effects of silychristin on neurodevelopment in the fetus. Therefore, the influence of maternally derived TH perturbations are not yet taken into account for the risk assessment. We first derived a realistic exposure scenario for silychristin and subsequently used modelling approaches to determine how much silychristin reaches the fetal brain. Then a combination of in silico and in vitro models were employed to assess the potential hazard of silychristin. A bioactivity-exposure response (BER) was calculated to determine if silychristin concentrations in the fetal brain can interfere with MCT8-mediated TH transport. The predicted fetal brain silyhchristin concentrations were then used as input in a quantitative AOP (qAOP) to assess whether a realistic exposure to silychristin could trigger key events that might lead neurodevelopmental adverse effects. Finally, we compare the results from the qAOP to whole-organism adverse effects derived from in vivo data. An overview of the safety assessment workflow can be found in figure 1. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Safety%20Assessment%20overview.png?raw=true' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> Figure 1. An overview of the process flow of the thyroid hormone mediated developmental neurotoxicity safety assessment workflow for silychristin exposure through dietary herbal supplements. The safety assessment workflow steps are shown in purple with the case study specific (sub)steps shown in dashed green boxes. The blue boxes indicate the different methods used for the case study steps are shown in blue."
-        }
-      ]
+      "content": "<h2>Thyroid-related Regulatory Question 2</h2><p>[Filler] Content for regulatory question 2. More info coming soon.</p>"
     }
   },
   "step3Contents": {
     "Q1": {
-      "Chemical characteristics and Hazard Identification": {
-        "navTitle": "Chemical characteristics and Hazard Identification - Tools and Workflow (Q1)",
-        "navDescription": "",
+      "Chemical Characteristics": {
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Chemical characteristics for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
-            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "workflow step"
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
             "label": "Tool B - Short description",
-            "value": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "workflow step"
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-          }
-        ]
+        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
-      "Toxicokinetics": {
-        "navTitle": "Toxicokinetics - Tools and Workflow (Q1)",
-        "navDescription": "",
+      "External Exposure": {
+        "navTitle": "External Exposure - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] External exposure for Q1.",
         "tools": [
           {
             "label": "Tool A - Short description",
-            "description": "[Filler]",
-            "type": "workflow step"
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
             "label": "Tool B - Short description",
-            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below.",
-            "type": "workflow step"
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-          }
-        ]
+        "content": "<h2>External Exposure Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
-      "Toxicodynamics": {
-        "navTitle": "Toxicodynamics - Tools and Workflow (Q1)",
-        "navDescription": "",
-        "steps": [
+      "Kinetics": {
+        "navTitle": "Kinetics - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] Kinetics for Q1.",
+        "tools": [
           {
-            "label": "MIE activation",
-            "value": "MIE activation",
-            "type": "workflow-step"
+            "label": "Tool A - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           },
           {
-            "label": "Effects on key event relationships",
-            "value": "Effects on key event relationships",
-            "type": "workflow-step"
+            "label": "Tool B - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
         ],
-        "content": [
+        "content": "<h2>Kinetics Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
+      },
+      "AOP": {
+        "navTitle": "AOP - Tools and Workflow (Q1)",
+        "navDescription": "[Filler] AOP for Q1.",
+        "tools": [
           {
-            "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            "label": "Tool A - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
+          },
+          {
+            "label": "Tool B - Short description",
+            "description": "Longer description about the tool and what it does but not about it's application for this regulatory question, that's described below."
           }
-        ]
+        ],
+        "content": "<h2>AOP Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       },
       "Adverse Outcome": {
         "navTitle": "Adverse Outcome - Tools and Workflow (Q1)",
-        "navDescription": "",
-        "steps": [
-          {
-            "label": "Placeholder 1",
-            "value": "Placeholder 1",
-            "type": "workflow-step"
-          }
-        ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-          }
-        ]
+        "navDescription": "[Filler] Adverse outcome for Q1.",
+        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 1</h2><p>[Filler] Details coming soon.</p>"
       }
     },
     "Q2": {
-      "Exposure": {
-        "navTitle": "Exposure",
-        "navDescription": "",
-        "steps": [
+      "Chemical Characteristics": {
+        "navTitle": "Chemical Characteristics - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Chemical characteristics for Q2.",
+        "content": "<h2>Chemical Characteristics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
+      },
+      "External Exposure": {
+        "navTitle": "External Exposure - Tools and Workflow (Q2)",
+        "navDescription": "External exposure for Q2.",
+        "tools": [
           {
-            "label": "Exposure Scenario",
-            "value": "ExposureScenario",
-            "type": "workflow step"
-          }
-        ],
-        "content": [
-          {
-            "headingType": "p",
-            "section": "Establishing a realistic exposure scenario for Silychristin",
-            "description": "Silychristin is most commonly sold as part of the mixture silymarin present in Milk thistle Extracts, that are sold as dietary herbal supplements. The mayor route of silychristin exposure in humans will be therefore through oral ingestion of herbal supplements. To determine a realistic exposure scenario for silychristin, we therefore looked for various information sources that report on the intake of these herbal supplements, such as existing regulatory information and prescribed dosing recommendations from product leaflets. Subsequently, we performed a mixture analysis of silymarin mixtures to derive the associated silychristin content. This mixture analysis was based on literature data and experimental analysis of silymarin products. We then used this information to calculate a realistic exposure scenario of silychristin for women in their early pregnancies."
+            "label": "EMA documents",
+            "description": ""
           },
           {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Estimated daily intake of Silychristin</li><li><strong>Output:</strong> Silychristin exposure calculation</li></ul>"
+            "label": "Product info leaflets",
+            "description": "found via Google Search"
+          },
+          {
+            "label": "NIH dietary supplement label database",
+            "description": ""
+          },
+          {
+            "label": "Sysrev",
+            "description": "",
+            "id": ""
           }
-        ]
+        ],
+        "content": "<p>Silychristin is the second main constituent of the mixture silymarin, a crude extract obtained from the seeds of Milk Thistle (Silybum Marianum). Silymarin mixtures are primarily composed of several flavonolignans, including silybin (A + B), silychristin (A + B), isosilybin (A+B) and silydianin. Silymarin is often sold as an over the counter hepatoprotective agent or breast-feeding supplement and is one of the most widely used dietary supplements in the world. The mayor route of silychristin exposure in humans will therefore be through oral ingestion of food supplements. Existing information from the European Food Safety Authority (EFSA) and European Medicines Agency (EMA) were screened for information about exposure in humans. To estimate exposure from dietary food supplements a <b>google search</b> was conducted using the words “mariadistel” and “silybum marianum” to gather recommended intake and dose information from product leaflets and data from webshops. Additionally, the <b>NIH dietary supplement label database</b> was screened to retrieve recommended intake and dose information from leaflets. The values were used to calculate a recommended daily intake of silymarin (RDI) for pregnant women in mg/kg bw per day</p><br /><p>Most food supplements only report on the amount of silymarin or a percentage indication of silymarin with respect to total Milk Thistle extract weight, but not on the amount of silychristin itself. Therefore a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of silymarin capsules. These publications were used to estimate the silychristin content within silymarin mixtures. This mixture analysis was combined with the RDI’s calculated for silymarin to obtain specific RDC’s for silychristin and silybin.</p>"
       },
-      "Toxicokinetics": {
-        "navTitle": "Toxicokinetics",
-        "navDescription": "",
-        "steps": [
+      "Kinetics": {
+        "navTitle": "Kinetics - Tools and Workflow (Q2)",
+        "navDescription": "[Filler] Kinetics for Q2.",
+        "tools": [
           {
             "label": "Prediction of maternal systemic and fetail brain concentration",
-            "value": "Prediction of maternal systemic and fetail brain concentration",
-            "type": "workflow step"
+            "description": ""
           }
         ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "Prediction of maternal systemic concentration and concentration at MIE",
-            "description": "From an oral exposure, silychristin has to travel through the gut into the systemic circulation and towards the brain to exert a neurological effect. The local concentration of silychristin in the brain will eventually determine the toxic effect of silychristin. It is therefore imperative to predict how much silychristin will reach the brain. We employed physiological based kinetic (PBK) modelling to derive fetal brain concentration of silychristin using the estimated RDI’s from the exposure scenario. Literature data and in vitro data was used to parameterize the model."
-          },
-          {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Silychristin physicochemical and kinetic properties</li><li><strong>Output:</strong> Predicted maternal systemic concentration of Silychristin</li></ul>"
-          }
-        ]
+        "content": "<h2>Kinetics Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
       },
-      "Toxicodynamics": {
-        "navTitle": "Toxicodynamics",
-        "navDescription": "",
-        "steps": [
+      "AOP": {
+        "navTitle": "AOP",
+        "navDescription": "AOP Development for Q2",
+        "tools": [
           {
-            "label": "AOP Development",
-            "value": "AOP Development",
-            "type": "workflow step"
+            "label": "PubMed",
+            "description": ""
           },
           {
-            "label": "MIE activation",
-            "value": "MIE activation",
-            "type": "workflow step"
+            "label": "Scopus",
+            "description": ""
           },
           {
-            "label": "Effects on Key Event Relationships",
-            "value": "Effects on Key Event Relationships",
-            "type": "workflow step"
+            "label": "WikiPathways",
+            "description": ""
           },
           {
-            "label": "Exposure response relationship",
-            "value": "Exposure response relationship",
-            "type": "workflow step"
+            "label": "BridgeDb",
+            "description": ""
           }
         ],
-        "content": [
-          {
-            "headingType": "AOP",
-            "section": "How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity?",
-            "description": "Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. For this case study, a brain specific AOP was developed to describe the modulation of fetal TH homeostasis and how this interacts with biological targets leading to an adverse outcome. Using this AOP, we identified molecular initiation events (MIEs) and further downstream key events (KEs) relevant for thyroid hormone disruption mediated developmental neurotoxicity."
-          },
-          {
-            "headingType": "h2",
-            "section": "The thyroid hormone mediated developmental neurotoxicity AOP",
-            "description": "Based on literature data and molecular AOP mapping, a thyroid hormone mediated developmental neurotoxicity AOP was developed as depicted in figure 1. The MIEs underlying thyroid hormone disruption mediated developmental neurotoxicity can be grouped in three categories describing the effects of chemicals on TH transport (MCT8, OATP1C1 and other transporters), deiodinase (D2&3) activity and TH receptor (TRα1) activation. TRα1 is both a MIE as a further downstream key event in neuronal and oligodendrocyte cells. From reduced TRα1 activation, following key events include a decrease in BDNF expression, reduced synaptogenesis and reduced neuronal network formation ultimately leading to decreased cognitive function.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Figure 1.</strong> A schematic overview of the adverse outcome pathways for thyroid hormone mediated developmental neurotoxicity during pregnancy.</p><br/><img src='https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/main/Images/AOP.png' alt='AOP' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/>"
-          },
-          {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> AOP data</li><li><strong>Output:</strong> placeholder</li></ul>"
-          }
-        ]
+        "content": "<h2>AOP development: How can chemical exposure cause thyroid hormone disruption mediated developmental neurotoxicity? </h2><p>Adverse outcome pathways (AOPs) are biological pathways describing how effects on molecular targets can lead to adverse outcomes at a biological level of organization relevant to risk assessment. The development of AOP frameworks aid in the selection of relevant models and guide the integration of models for regulatory decision making. For this case study, a brain specific AOP was developed that describes how chemical exposure can lead to developmental neurotoxicity mediated by perturbed thyroid homeostasis in the brain. This AOP was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases.</p><p>A molecular AOP was constructed by mapping this AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the human neural progenitor test (hNPT), where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDb</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis.</p>"
       },
       "Adverse Outcome": {
-        "navTitle": "Adverse Outcome",
-        "navDescription": "",
-        "steps": [
+        "navTitle": "Adverse Outcome - Tools and Workflow (Q2)",
+        "navDescription": "Adverse outcome for Q2.",
+        "tools": [
           {
-            "label": "Silychristin in vivo data",
-            "value": "Silychristin in vivo data",
-            "description": "Relating silychristin effects to whole organism data",
-            "type": "workflow step",
-            "state": "disabled"
+            "label": "MCT8 deficient mutant clinical data",
+            "description": ""
           }
         ],
-        "content": [
-          {
-            "headingType": "h2",
-            "section": "How do the effects seen from in vitro and in silico compare to adverse outcomes in the organism?",
-            "description": "Understanding the biological effects of compounds like silychristin requires bridging the gap between in vitro findings and real-world organismal responses. Zebrafish, rodent and human clinical data are used to relate the effects of silychristin in the safety assessment workflow to observable adverse outcomes at the organism level. This comparison serves to validate the NAM-derived predictions, identifying discrepancies, and ensures our safety assessment workflow aligns with real-world biological responses."
-          },
-          {
-            "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong> Case study predictions from exposure, kinetics and AOP blocks</li><li><strong>Output:</strong> silychristin effects on organism level data (zebrafish, clinical data) to contextualize NAM prediction to in vivo effects</li></ul>"
-          }
-        ]
-      }
-    }
-  },
-  "step4Contents": {
-    "Q1": {
-      "step4content": "true",
-      "Toxicodynamics": {
-        "MIE activation": {
-          "navTitle": "MIE activation",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "Placeholder 2",
-              "value": "Placeholder 2",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 3",
-              "value": "Placeholder 3",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 4",
-              "value": "Placeholder 4",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 5",
-              "value": "Placeholder 5",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 6",
-              "value": "Placeholder 6",
-              "type": "workflow substep"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "Description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            }
-          ]
-        },
-        "Effects on Key Event Relationships": {
-          "navTitle": "Effects on Key Event Relationships",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "Placeholder 7",
-              "value": "Placeholder 7",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 8",
-              "value": "Placeholder 8",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Placeholder 9",
-              "value": "Placeholder 9",
-              "type": "workflow substep"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "Description",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            }
-          ]
-        }
-      },
-      "Adverse Outcome": {
-        "Placeholder 1": {
-          "navTitle": "Placeholder 1",
-          "navDescription": "placeholder 1",
-          "steps": [
-            {
-              "label": "Placeholder 10",
-              "value": "Placeholder 10",
-              "type": "tool"
-            }
-          ]
-        }
-      }
-    },
-    "Q2": {
-      "Exposure": {
-        "ExposureScenario": {
-          "navTitle": "Exposure Scenario",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "EMA documents",
-              "value": "EMA documents",
-              "id": "ema_documents",
-              "type": "tool"
-            },
-            {
-              "label": "Dose recommendations of silychristine",
-              "description": "Gathered from product leaflets of the DSLD and Dutch market products",
-              "id": "20289081",
-              "type": "data"
-            },
-            {
-              "label": "NIH dietary supplement label database",
-              "description": "US database containing dietary supplements product labels",
-              "id": "dsld",
-              "type": "tool"
-            },
-            {
-              "label": "Sysrev",
-              "description": "Software to support literature review",
-              "id": "sysrev",
-              "type": "tool"
-            },
-            {
-              "label": "Mixture analysis of silymarin supplements",
-              "description": "Literature data on the composition of silymarin mixtures",
-              "id": "19087369",
-              "type": "data"
-            },
-            {
-              "label": "Silychristin daily intake from measured products",
-              "description": "Derived from analytically measured silymarin products",
-              "id": "20289679",
-              "type": "data"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "p",
-              "section": "Existing information from European regulatory bodies",
-              "description": "Currently, no assessment on the safety of Silybum marianum has been prepared by the European Food Safety Authority (EFSA). There is an herbal monograph on Silybum marianum (L.) Gaertn., fructus for traditional use as a herbal medicine by <b>European Medicines Agency (EMA)</b>. There are different types of extracts registered as herbal medicine for traditional use and the posology of these herbal medicines is dependent on the type of extract. This only refers to traditional herbal medicines and not to herbal preparations (i.e. food supplements and herbal tea). Silybum marianum is available on the Dutch market as both, including powder for tea. "
-            },
-            {
-              "headingType": "p",
-              "section": "Information from product leaflets of herbal supplements. ",
-              "description": "Recommended use and dose information for food supplements and herbal tea can be found on leaflets and additional information as presented in web shops. Therefore, an online <b>Google search</b> was conducted on the words ‘mariadistel’ and ‘silybum marianum’ to identify web shops that sell food supplements containing Silybum marianum or powder to make herbal tea on the Dutch market. These web shops were visited to find use and dosing information on these food supplements. Additionally, leaflets are published and gathered in external databases, such as the <b>NIH Dietary Supplement label database</b>. These food supplements are intended for US markets, but many manufacturers also produce supplements for European markets. Information from over 100 leaflets from this database have been gathered to extract dosing information of silymarin supplements. This information can be found in the <b>dose recommendations from product leaflets</b> dataset. The recommended daily dose for silymarin derived from product leaflets on the Dutch Market varies from 15 to 400 mg. Also the recommended dose for silymarin per serving varies from 15 to 400 mg (due to differences between food supplements). The recommended daily dose for silymarin derived from product leaflets found in the DSLD varies from 8 to 840 mg. The recommended dose for silymarin per serving varies from 4 to 480 mg."
-            },
-            {
-              "headingType": "p",
-              "section": "Mixture analysis of silymarin supplements",
-              "description": "Flavonolignan contents can vary considerably between silymarin mixtures. Most product information of gathered silymarin supplements only report on the amount of silymarin itself and not on silychristin. In order to derive estimated intake of silycrhistin it was therefore necessary to estimate the amount of silychristin in silymarin mixtures. Therefore, a literature search was conducted using <b>Sysrev</b> to gather publications that analytically measured contents of commercially available silymarin capsules. The literature search included various combinations of the following search terms: “Silymarin”, “capsules”, “contents”, “constituents”, “active components”, “flavonolignan”, “mixture analysis”. The selection criteria of literature were based on relevance to the scientific questions and quality selection was done based on expert judgement. Reported silychristin contents in silymarin mixtures varied between literature sources, but could be categorized in three orders: low silychristin contents (~6% of total silymarin), average silychristin contents (~17% of total silymarin) and high silychristin contents (~31% of total silymarin). An overview of the gathered data from literature can be found in <b>mixture analysis of silymarin products</b>. Additionally, a selection of silymarin products were purchased from the Dutch Market and analytically measured using liquid chromotography-tandem mass spectrometry to compare the composition of silymarin mixtures derived from literature to commercially available silymarin products. This data can be found in the file <b>Silychristin daily intake from measured products</b>"
-            },
-            {
-              "headingType": "p",
-              "section": "Calculating a realistic exposure scenario for silychristin intake",
-              "description": "The estimated daily oral intake of silychristin was calculated by combining the mixture analysis of silymarin mixtures with the calculated recommended daily dose from product leaflets. The oral intake of silychristin was calculated in mg/kg/bw per day, assuming a pregnant woman at early pregnancy has a body weight close to the average women (64.1 kg, te Biesebeek et al., 2014). An overview of the estimated daily oral intake for silychristin products from the DSLD and from the Dutch Market can be found in figure 1. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Exposure%20Silychristin.png?raw=true’ alt='Daily intake silychristin from DSLD and Dutch Market products' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. The estimated RDI’s from silychristin-containing supplements derived from product leaflets in the DSLD and the Dutch Market. Each dot represents a single product for which the daily intake of silychristin was estimated for a low (red), moderate (green) and high (blue) silychristin product content. Summary statistics describe the mean, lowest (min) and highest (max) daily intake from the respective datasets. N = total amount products in each dataset.</p>In addition to the estimated oral daily intake, we also experimentally measured the silychristin contents of three commercially available silymarin products. Using the experimentally measured silychristin contents, we then calculated RDI’s for these product using the same method as for the estimated oral daily intake from the DSLD and Dutch Market dataset. The recommended dose, product weight, silychristin content and daily intake for the experimentally measured products can be found in table 1. Overall, the daily intake calculated from the experimentally measured products fell in the range of the moderate estimated daily oral intake range from the DSLD dataset and in the high estimated daily oral intake range from the Dutch Market dataset. Although, both the mean and max estimated daily oral take from both datasets were higher than the daily intake of the experimentally measured products, suggesting that we are slightly over-estimating the oral intake of silychristin. <br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Calculated daily intake of silychristin in mg/kg/bw from purchased silymarin dietary supplements.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">product</th><th style=\"border:1px solid black; padding:6px;\">dose</th><th style=\"border:1px solid black; padding:6px;\">total weight</th><th style=\"border:1px solid black; padding:6px;\">silychristin (in mg/g product)</th><th style=\"border:1px solid black; padding:6px;\">daily dose silychristin (mg)</th><th style=\"border:1px solid black; padding:6px;\">RDI (mg/kg/bw)</th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">Physalis</td><td style=\"border:1px solid black; padding:6px;\">1</td><td style=\"border:1px solid black; padding:6px;\">500</td><td style=\"border:1px solid black; padding:6px;\">0,049</td><td style=\"border:1px solid black; padding:6px;\">24,499</td><td style=\"border:1px solid black; padding:6px;\">0,382</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">AOV</td><td style=\"border:1px solid black; padding:6px;\">2</td><td style=\"border:1px solid black; padding:6px;\">450</td><td style=\"border:1px solid black; padding:6px;\">0,063</td><td style=\"border:1px solid black; padding:6px;\">56,492</td><td style=\"border:1px solid black; padding:6px;\">0,880</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">NOW Foods</td><td style=\"border:1px solid black; padding:6px;\">2</td><td style=\"border:1px solid black; padding:6px;\">1000</td><td style=\"border:1px solid black; padding:6px;\">0,017</td><td style=\"border:1px solid black; padding:6px;\">34,995</td><td style=\"border:1px solid black; padding:6px;\">0,546</td></tr></tbody></table>"
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Literature-based exposure information</li><li><strong>Output:</strong> Realistic Silychristin exposure calculation</li></ul>"
-            }
-          ]
-        }
-      },
-      "Toxicokinetics": {
-        "Prediction of maternal systemic and fetail brain concentration": {
-          "navTitle": "Prediction of maternal systemic and fetail brain concentration - Tools and Workflow (Q2)",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "PBK silychristin model",
-              "description": "PBK silychristin model",
-              "id": "",
-              "type": "tool"
-            },
-            {
-              "label": "inTESTine™ model",
-              "description": "Absorption over human gut tissue",
-              "id": "",
-              "type": "tool"
-            },
-            {
-              "label": "Human pharmacokinetic data",
-              "description": "Overview of human pharmacokinetic data of silychristin",
-              "id": "20308542",
-              "type": "data"
-            },
-            {
-              "label": "Estimated CfMax concentrations",
-              "description": "PBK modelled fetal brain concentrations",
-              "id": "20306850",
-              "type": "data"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "PBK Silychristin model",
-              "description": "A <b>silychristin specific PBK model</b> was constructed from a publicly available silybin based PBK model under the assumption that silychristin behaves similarly to silybin. The PBK model was built in R* and uses the rxode2 package to solve differential equations in the model. The PBK model was completely parameterized using in silico prediction tools and literature data, except for the gut absorption which was measured experimentally. The PBK model was validated used human pharmacokinetic data derived from literature."
-            },
-            {
-              "headingType": "p",
-              "section": "Parameterizatin of gut absorption",
-              "description": "The permeability of silychristin and silymarin across the human gut was experimentally measured using the inTESTine™ system, a two-compartment barrier model using ex vivo human jejunum tissue. Transport of pure silychristin compound and silychirstin when present in silymarin mixture over the human jejunum was assessed using liquid chromatography-tandem mass spectrophotometry and expressed as an apparent permeability (Papp) value. The Papp values from the pure silychristin compound were used to calculate a gut absorption factor using a well-stirred absorption-disposition method (Usanky et al. 2005). The PBK model was then reparametrized using this gut absorption factor."
-            },
-            {
-              "headingType": "p",
-              "section": "Validation of the silychristin PBK model",
-              "description": "Human pharmacokinetic data was obtained from three clinical studies in which blood plasma concentrations of silychristin were measured after 24 hours after oral administration of silymarin capsules. The PBK model was ran on a similar silychristin oral intake and exposure window as described in these clinical studies. The reported maximal blood concentration (Cmax) was compared to the predicted PBK Cmax from our model before and after reparameterization of the gut absorption. An overview of the reported and predicted Cmax values can be found in table 1. The predicted Cmax after adjusting the PBK model with the experimentally derived gut absorption factor closely resembled the reported Cmax, within a 5-fold difference."
-            },
-            {
-              "headingType": "p",
-              "section": "Modelling exposure scenarios with the PBK model",
-              "description": "We modelled the maximal fetal brain concentration (CfMax) with the adjusted siychristin PBK model using the previously estimated RDI’s of both the DSLD and the Dutch Market dataset as input data. We used an exposure window of two weeks with dose every 24 hours, which is the maximal recommended dosing regime provided on product leaflets. The resulting distributions, mean, 5th and 95th percentiles of the predicted CfMax in each exposure scenario (low, mid, high) for both the DSLD and Dutch Market dataset can be found in figure 1.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Modelledfetalbrain%20concentrations.png?raw=true’ alt='Daily intake silychristin from DSLD and Dutch Market products' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Distribution of the maximal predicted fetal brain concentrations (CfMax) of the DSLD and Dutch Market datasets. Distributions are shown for each exposure scenario indicating low (red), moderate (green) and high (blue) silychristin content of the supplements. Added tables contain the summary statistics describing the mean, 5th and 95th percentiles for the distributions. Each exposure scenario contained 114 datapoints for the DSLD and 8 data points for the Dutch Market distribution.</p>"
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> Prediction data</li></ul>"
-            }
-          ]
-        }
-      },
-      "Toxicodynamics": {
-        "AOP Development": {
-          "navTitle": "Toxicodynamics",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "PubMed",
-              "description": "American literature database",
-              "type": "tool"
-            },
-            {
-              "label": "hNPT transcriptomic data",
-              "description": "Effects of altered TH levels on hNPT",
-              "id": "S-VHPS20",
-              "type": "data"
-            },
-            {
-              "label": "WikiPathways",
-              "description": "Database with biological pathways",
-              "id": "wikipathways_aop",
-              "type": "tool"
-            },
-            {
-              "label": "BridgeDb",
-              "description": "Identifier mapping tool",
-              "id": "bridgedb",
-              "type": "tool"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "Development on AOP based on literature",
-              "description": "An AOP for thyroid hormone disruption mediated developmental neurotoxicity was developed from published literature collected from <b>PubMed</b> and <b>Scopus</b> databases. The literature search was conducted based various combinations of thyroid hormone related search terms as described in Dierichs et al. 2025."
-            },
-            {
-              "headingType": "h2",
-              "section": "Development of a molecular AOP",
-              "description": "A molecular AOP was constructed by mapping the thyroid hormone disruption mediated developmental neurotoxicity AOP framework to molecular pathways using <b>WikiPathways</b>. Transcriptomic data from the <b>human neural progenitor test (hNPT)</b>, where human neural progenitor cells are exposed to low and high T3 concentrations, was then integrated with this molecular AOP. Using <b>BridgeDB</b>, differentially expressed genes were mapped to biological process representing key events in the thyroid hormone disruption mediated developmental neurotoxicity AOP. This integration of transcriptomic data with molecular AOP allows for the identification of genes associated with key events within the AOP that are significantly perturbed by disrupting thyroid hormone homeostasis. "
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> AOP data</li><li><strong>Output:</strong> Evidence-based refined AOP</li></ul>"
-            }
-          ]
-        },
-        "MIE activation": {
-          "navTitle": "MIE activation",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "In silico predictions",
-              "value": "In silico predictions",
-              "description": "",
-              "type": "workflow substep"
-            },
-            {
-              "label": "MIE activation in in vitro models",
-              "value": "MIE activation in in vitro models",
-              "description": "",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Establishing in vitro point of departure",
-              "value": "Establishing in vitro point of departure",
-              "description": "",
-              "type": "workflow substep"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "Characterization of silychristin exposure to MIE activation",
-              "description": "Molecular initiation events (MIEs) describe the interaction between chemicals and biological targets at the molecular level. Activation of these MIEs by a chemical can start a cascade of key events that ultimately lead to adverse effect. The thyroid hormone disruption mediated developmental neurotoxicity AOP described in the previous step has identified several MIEs that could trigger the AOP. A combination of computational prediction tools and in vitro assays were used to assess which MIEs are triggered upon exposure to silychristin. Concentration-dependent effects of silychristin were established for these MIEs to derive in vitro PoD for relevant MIEs."
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Silychristin exposure</li><li><strong>Output:</strong> Experimental and computational evidence of silychristin-mediated MIE perturbation</li></ul>"
-            }
-          ]
-        },
-        "Effects on Key Event Relationships": {
-          "navTitle": "Effects on Key Event Relationships",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "Effect on KLF9 and BDNF gene expression",
-              "value": "Changes in KLF9 expression",
-              "description": "",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Changes in BDNF protein expression",
-              "value": "Changes in BDNF expression",
-              "description": "",
-              "type": "workflow substep"
-            },
-            {
-              "label": "Neuronal network formation",
-              "value": "Neuronal network formation",
-              "description": "",
-              "type": "workflow substep"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "Characterization of downstream key event effects of silychristin exposure",
-              "description": "A neuronal stem cell model, called the human neural progenitor test (hNPT), was used to further investigate the effect of decreasing TH concentrations on downstream key events in the neurodevelopmental AOP. Human embryonic stem cells were differentiated into a neuron-astrocyte coculture. Gene expression analysis using qPCR was performed on the hNPT after exposure to different concentrations of T3 to measure the expression of KLF9 and brain-derived neurotrophic factor (BDNF) expression. BDNF is a neurotropin that is essential for neuronal differentiation and plays a key role in synaptogenesis of neurons. Additionally, neuronal network activity was assessed in neuron-astrocyte coculture models using a multi-electrode array. The data generated from these in vitro assays served as the foundation to build a quantitative adverse ourcome pathway (qAOP) model. "
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Neuron-astrocyte model measurements</li><li><strong>Output:</strong> Mechanistic evidence linking silychristin to neurodevelopmental outcomes</li></ul>"
-            }
-          ]
-        },
-        "Exposure response relationship": {
-          "navTitle": "Exposure response relationship",
-          "navDescription": "",
-          "steps": [
-            {
-              "label": "qAOP Predictor Application",
-              "description": "",
-              "id": "qaop_app",
-              "type": "tool"
-            },
-            {
-              "label": "Bioactivity-exposure ratio",
-              "description": "Comparison between in vitro PoDs and fetal brain concentrations",
-              "id": "20306672",
-              "type": "data"
-            }
-          ],
-          "content": [
-            {
-              "headingType": "h2",
-              "section": "Bioactivity-exposure ratio calculations",
-              "description": "<b>Bioactivity-Exposure Ratios (BERs)</b> compare an in vitro bioactivity to a realistic exposure concentration to assess whether exposure to a compound can trigger MIEs. For silychristin, we calculated BERs by dividing MCT8/OATP1C1 PoDs from in vitro TH transport inhibition assays by fetal brain concentrations derived from the PBK modelling. A BER < 1 would imply that silychristin concentrations in the fetal brain could inhibit TH transport, potentially leading to adverse neurodevelopmental outcomes. Conversely, a BER > 1 suggests exposure is below the bioactive threshold and that silychristin most likely does not inhibit TH transport at realistic exposures. We randomly sampled from the in vitro PoD distributions of the MCT8 and OATP1C1 datasets and compared this to randomly sampled fetal brain concentrations in each exposure scenario. This resulted in a distribution of possible BERs from 10.000 combinations of randomly sampled in vitro PoD and fetal brain concentration. These BER distributions for both the DSLD and Dutch Market product data set are shown in figure 1. Overall, the results indicate that MCT8-mediated TH transport is predicted to be inhibited at realistic exposures of silychristin from both DSLD and Dutch Market products. OATP1C1-mediated TH transport is not predicted to be affected at realistic exposure scenarios of silychristin. As realistic exposures of silychristin can inhibit TH transport is it necessary to study how silychristin exposure effects further downstream key events.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/BER_simulations.png?raw=true’ alt='Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right)' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Distribution of the BER for MCT8 (left) and OATP1C1 (right) activation from realistic fetal brain concentrations of silychristin. Data shown the distribution for each exposure scenario of low, moderate and high amount of silychristin percentages per product. The black dashed line indicates a BER of 1.</p>"
-            },
-            {
-              "headingType": "h2",
-              "section": "Modelling silychristin effect on downstream key events using quantitative AOP",
-              "description": "A <b>quantitative adverse outcome pathways (qAOP) model</b> was used to predict whether the derived silychristin concentrations in the fetal brain after maternal exposure can form a potential risk to develop neurodevelopmental adverse effects. A qAOP provides a mathematical description of the MIE and downstream key events, which can be used to predict the possibility of an adverse outcome after chemical exposure. An ordinary differential equations (ODE) -based qAOP model was used to predict the time dependent effect of silychristin exposure to inhibition of TH uptake and the possibility to trigger downstream key events of KLF9 expression and synaptogenesis. The qAOP model demonstrated that silychristin initially inhibits the T3 accumulation in neuronal cells an causes a decrease in the expression of KLF9, however this effect quickly wanes and KLF9 expression was restored to control levels after 24 hours (Figure 2.). Silychristin was also predicted to have a marginal effect on synaptogenesis, only slightly decreasing the number of electrode bursts. Overall, these data indicate that while silychristin may inhibit the TH transport in neuronal cells, the effect on downstream KE is less severe and might not be significantly altered."
-            },
-            {
-              "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> qAOP</li><li><strong>Output:</strong> Predicted inhibition of TH uptake by Silychristin</li></ul>"
-            }
-          ]
-        }
-      }
-    }
-  },
-  "step5Contents": {
-    "Q1": {
-      "Toxicodynamics": {
-        "MIE activation": {
-          "Placeholder 2": {
-            "navTitle": "Placeholder 2",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "Placeholder 3": {
-            "navTitle": "Placeholder 3",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "Placeholder 4": {
-            "navTitle": "Placeholder 4",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          }
-        },
-        "Effects on key event relationships": {
-          "Placeholder 7": {
-            "navTitle": "Placeholder 7",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Placeholder text",
-                "value": "Placeholder text",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "Placeholder 8": {
-            "navTitle": "Placeholder 8",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Placeholder text",
-                "value": "Placeholder text",
-                "type": "tool"
-              },
-              {
-                "label": "Placeholder text",
-                "value": "Placeholder text",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          },
-          "Placeholder 9": {
-            "navTitle": "Placeholder 9",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "Placeholder text",
-                "value": "Placeholder text",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Description",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-              }
-            ]
-          }
-        }
-      }
-    },
-    "Q2": {
-      "Toxicodynamics": {
-        "MIE activation": {
-          "In silico predictions": {
-            "navTitle": "In silico predictions",
-            "navDescription": "In silico predictions",
-            "steps": [
-              {
-                "label": "QSPRpred",
-                "description": "Chemical activity prediction from QSAR models",
-                "id": "qsprpred",
-                "type": "tool"
-              },
-              {
-                "label": "O-QT",
-                "description": "OECD QSAR toolbox AI assistant",
-                "id": "oqt_assistant",
-                "type": "tool"
-              },
-              {
-                "label": "Endocrine disruptome",
-                "description": "Nuclear receptor molecular docking tool",
-                "id": "endocrine_disruptome",
-                "type": "tool"
-              },
-              {
-                "label": "MCT8-Docking app",
-                "description": "MCT8 inhibitor docking tool",
-                "value": "MCT8-Docking app",
-                "id": "mct8-dock",
-                "type": "tool"
-              },
-              {
-                "label": "Danish (Q)SAR database",
-                "description": "(Q)SAR database for in silico predictions",
-                "id": "danish_qsar_database",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "In silico prediction tools",
-                "description": "Multiple in silico tools were run to predict the interaction between silychristin and MIEs. The models were selected based on their relevance to the TH-specific MIEs and on their free public availability. All in silico tools were ran with the SMILES “COC1=C(C=CC(=C1)[C@H]2[C@@H](C3=C(O2)C(=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)O)CO)O”. The following in silico tools were selected for this case study."
-              },
-              {
-                "headingType": "p",
-                "section": "QSPRpred",
-                "description": "The QSPRpred app is designed to predict the activity of chemicals of interest to various biological targets. This prediction is done by target-specific, pretrained quantitative structure activity (QSAR) models. The QSPRpred app contains two models that have been used to predict the effect of silychristin on TRα1 and TRβ1. "
-              },
-              {
-                "headingType": "p",
-                "section": "O-QT",
-                "description": "The OECD QSAR toolbox AI assistant (O-QT) is a multi-agent AI system that automates the process of chemical analysis, hazard assessment, and read-across strategy development utilizing the OECD QSAR toolbox. It can generate concise report from running multiple prediction tools, such as VEGA QSARs, within the OECD QSAR toolbox based on chemical smiles and user-guided input."
-              },
-              {
-                "headingType": "p",
-                "section": "Endocrine Disruptome",
-                "description": "The Endocrine Disruptome is an open source prediction tool that uses molecular docking to assess the binding of chemicals to 14 different human nuclear receptors, including TRα1 and TRβ1. The tool uses AutoDock Vina for the molecular docking runs through an open source platform called Docking interface for Target Systems.  "
-              },
-              {
-                "headingType": "p",
-                "section": "Danish (Q)SAR database",
-                "description": "The Danish (Q)SAR database is a collection of structural information and QSAR predictions developed by the DTU National Food Institute. The database contains multiple QSAR prediction tools for TH-mediated developmental neurotoxicity MIEs, such as TRα1, TRβ1, DIO2 and DIO3. "
-              },
-              {
-                "headingType": "p",
-                "section": "MCT8-docking app",
-                "description": "The MCT8-docking app is a phyton-based notebook that performs a docking simulation of a user-provided ligand against a predicted structure of MCT8. It predicts the likelihood of a ligand binding to MCT8 with an affinity threshold of -9.0 kcal/mol for strong inhibitors."
-              },
-              {
-                "headingType": "p",
-                "section": "Results from the in silico prediction",
-                "description": "An overview of the in silico predictions is shown in table 1. Most models predicted no effect of silychristin on TR alpha (TRα1) or TR beta (TRβ1): both VEGA QSARs, retrieved from the O-QT agent, and the Endocrine Disruptome indicated no effect of silycrhistin on TRs. Silychristin fell outside the applicability domain for both QSPRpred and the Danish (Q)SAR database TR models, as well as for D2 in the latter model. However, the Danish (Q)SAR database did predict a positive interaction with D3. Additionally, the MCT8-docking APP indicated that silychristin can bind strongly to MCT8, with a binding affinity below the -9.0 kcal/mol threshold for strong inhibitors. Together, these results indicate that the major predicted biological targets of silychristin is on MCT8 and D3.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Summary of all in silico predictions for thyroid hormone MIE.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Model</th><th style=\"border:1px solid black; padding:6px;\">Target</th><th style=\"border:1px solid black; padding:6px;\">Effect</th><th style=\"border:1px solid black; padding:6px;\">Status</th><th style=\"border:1px solid black; padding:6px;\">Provenance</th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">QSPRpred</td><td style=\"border:1px solid black; padding:6px;\">TRα1</td><td style=\"border:1px solid black; padding:6px;\">-</td><td style=\"border:1px solid black; padding:6px;\">Out domain</td><td style=\"border:1px solid black; padding:6px;\">VHP4Safety</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">QSPRpred</td><td style=\"border:1px solid black; padding:6px;\">TRβ1</td><td style=\"border:1px solid black; padding:6px;\">-</td><td style=\"border:1px solid black; padding:6px;\">Out domain</td><td style=\"border:1px solid black; padding:6px;\">VHP4Safety</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">VEGA – TRα1</td><td style=\"border:1px solid black; padding:6px;\">TRα1</td><td style=\"border:1px solid black; padding:6px;\">No effect</td><td style=\"border:1px solid black; padding:6px;\">In domain</td><td style=\"border:1px solid black; padding:6px;\">NRMEA</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">VEGA – TRβ1</td><td style=\"border:1px solid black; padding:6px;\">TRβ1</td><td style=\"border:1px solid black; padding:6px;\">No effect</td><td style=\"border:1px solid black; padding:6px;\">In domain</td><td style=\"border:1px solid black; padding:6px;\">NRMEA</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">Endocrine Disruptome</td><td style=\"border:1px solid black; padding:6px;\">TRα1<br>TRβ1</td><td style=\"border:1px solid black; padding:6px;\">Inactive<br>Inactive</td><td style=\"border:1px solid black; padding:6px;\">In domain<br>In domain</td><td style=\"border:1px solid black; padding:6px;\">Endocrine Disruptome</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">TRα1 binding</td><td style=\"border:1px solid black; padding:6px;\">TRα1</td><td style=\"border:1px solid black; padding:6px;\">8268 µM</td><td style=\"border:1px solid black; padding:6px;\">Out domain</td><td style=\"border:1px solid black; padding:6px;\">Danish (Q)SAR Database</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">TRβ1 binding</td><td style=\"border:1px solid black; padding:6px;\">TRβ1</td><td style=\"border:1px solid black; padding:6px;\">633 µM</td><td style=\"border:1px solid black; padding:6px;\">Out domain</td><td style=\"border:1px solid black; padding:6px;\">Danish (Q)SAR Database</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">Deiodinase (D2) Inhibition</td><td style=\"border:1px solid black; padding:6px;\">D2</td><td style=\"border:1px solid black; padding:6px;\">Inconclusive</td><td style=\"border:1px solid black; padding:6px;\">Out domain</td><td style=\"border:1px solid black; padding:6px;\">Danish (Q)SAR Database</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">Deiodinase (D3) Inhibition</td><td style=\"border:1px solid black; padding:6px;\">D3</td><td style=\"border:1px solid black; padding:6px;\">Positive</td><td style=\"border:1px solid black; padding:6px;\">In domain</td><td style=\"border:1px solid black; padding:6px;\">Danish (Q)SAR Database</td></tr></tbody></table>"
-              }
-            ]
-          },
-          "MIE activation in in vitro models": {
-            "navTitle": "MIE activation in in vitro models",
-            "navDescription": "MIE activation in in vitro models",
-            "steps": [
-              {
-                "label": "Deiodinase activity",
-                "value": "Effect of silychristin on deiodinase activity in neural cell lines",
-                "id": "S-VHPS22",
-                "type": "data"
-              },
-              {
-                "label": "TH transport and TR activation",
-                "value": "Effect of silychristin on TH transport and TR activation in neural cell lines",
-                "id": "S-VHPS22",
-                "type": "data"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Using in vitro assays to assess MIE activation by silychristin ",
-                "description": "The effect of silychristin on MIE has been tested in three cell lines representing astrocytes (H4), neurons (SK-N-AS) and oligodendrocytes (MO3.13). A <b>TH uptake assay</b> is used to evaluate the effect of silychristin exposure on TH transport in these cell lines. In this assay, the uptake of radioactively labeled T3 and T4 is measured with and without the presence of different concentrations of silychristin. <b>Deiodinase activity</b> was assessed by measuring the transformation of radioactively labeled T3 into TH metabolites in both lysed cells and intact whole cells. <b>TH receptor activity</b> was determined by monitoring changes in the gene expression of KLF9 in SK-N-AS cells."
-              },
-              {
-                "headingType": "p",
-                "section": "Conclusions from the in vitro MIE activation assays",
-                "description": "An overview of the effects of 10 µM silychristin on TH-related MIEs in physiological relevant neuronal cells is shown in table 1. There was a significant inhibition of T3 transport in all cell models after exposure to silychristin, although the SK-N-AS cell line was less sensitive to silychristin compared to H4 and MO3.13 cells. No direct effect of silychristin was observed on D3 activity, but D3 activity was significant decrease in MO3.13 and SK-N-AS cells whole cell metabolism likely propagated through the decrease uptake of TH. Similarly, a significant decrease of KLF9 expression was observed after exposure to 10 µM silychristin, while no direct effect on TR activity was observed. These results indicate that the major MIE that is affected by silychristin is TH transport.<br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1.</strong> Summary of the effects of 10 µM silychristin on various TH related MIEs in neuronal cell models. Data taken from Dierichs et al. 2026a.</p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Assay</th><th style=\"border:1px solid black; padding:6px;\">H4</th><th style=\"border:1px solid black; padding:6px;\">MO3.13</th><th style=\"border:1px solid black; padding:6px;\">SK-N-AS</th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">T3 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~20%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">T4 transport</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (cell lysate)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td><td style=\"border:1px solid black; padding:6px;\">no significant effect</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">D3 activity (intact cells)</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td><td style=\"border:1px solid black; padding:6px;\">significant decrease (~50%)</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">KLF9 expression</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">not applicable</td><td style=\"border:1px solid black; padding:6px;\">significant decrease</td></tr></tbody></table></body></html>"
-              }
-            ]
-          },
-          "Establishing in vitro point of departure": {
-            "navTitle": "Establishing in vitro point of departure",
-            "navDescription": "Establishing in vitro point of departure",
-            "steps": [
-              {
-                "label": "MCT8-MDK1 TH uptake assay",
-                "value": "MCT8-MDK1 TH uptake assay",
-                "id": "S-VHPS21",
-                "type": "data"
-              },
-              {
-                "label": "OATP1C1 TH uptake assay",
-                "value": "OATP1C1 TH uptake assay",
-                "id": "S-VHPS26",
-                "type": "data"
-              },
-              {
-                "label": "MCT8 PoD Monte-Carlo simulation",
-                "description": "Simulated distributions of of PoD for MCT8 inhibition",
-                "id": "19089562",
-                "type": "data"
-              },
-              {
-                "label": "OATP1C1 PoD Monte-Carlo simulation",
-                "description": "Simulated distrubtions of PoD for OATP1C1 inhibition",
-                "id": "19090334",
-                "type": "data"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Generating concentration-response curves for TH uptake in overexpressing cell lines",
-                "description": "To derive relevant point of departure for silchristin specific effects on TH transport, concentration-dependent effects were measured in cell lines overexpressing specific TH transporters. An MCT8 and OATP1C1-overexpressing cell lines were generated and the TH transport in these assays was measured after exposure to multiple concentrations of silychristin. A benchmark concentration (BMC) was derived from these assays based on a benchmark response of 20%, i.e. the lowest observed effect concentration in the in vitro assays. These BMC20 values were then used together with a Monte-Carlo simulatin approach to generate a distribution of possible in vitro point of departures (PoDs)."
-              },
-              {
-                "headingType": "h2",
-                "section": "Silychristin effects on TH transport mediated by MCT8",
-                "description": "In this assay, the inhibition of triiodothyronine (T3) uptake via the MCT8 transporter by potential endocrine disrupting chemicals is measured. The assay uses MDCK1 cells stably transfected with human MCT8 combined with a non-radioactive TH uptake assay that utilizes the Sandell-Kolthoff reaction for indirect quantification of TH. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T3 uptake in MCT8-MDCK1 cells, see figure 1. This demonstrates that silychristin effectively inhibits MCT8-mediated T3 transport with a BMC20 (comparable to a LOAEL) of 0.14 µM. The results from this assay provide a possible point of departure for the MCT8-inhibiting capacity of silychristin.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/MCT8%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Concentration-response curves for silychristin inhibition on MCT8-mediated T3 uptake. The fraction of T3 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T3 uptake by 20%.</p>"
-              },
-              {
-                "headingType": "h2",
-                "section": "Silychristin effect on TH transport mediated by OATP1C1 ",
-                "description": "In this assay, the inhibition of thyroxine uptake via the OATP1C1 transporter by potential endocrine disrupting chemicals is measured. The uptake of radioactive labelled T4 isotopes is measured in CHOK1 cells stably transfected with human OATP1C1. Key findings from the assay indicate a dose-dependent inhibitory effect of silychristin on T4 uptake in OATP1C1-CHOK1 cells, see figure 2. This demonstrates that silychristin inhibits OATP1C1-mediated T4 transport in a dose-dependent manner with a BMC20 (comparable to a NOAEL) of 3.78 µM. Inhibition of OATP1C1-mediated T4 transport only occurred at high concentrations of silychristin, which indicates that silychristin is a weak inhibitor of OATP1C1-mediated T4 transport.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/OAPT1C1%20Silychristin%20concentration%20curve.png?raw=true’ alt='Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 2. Concentration-response curves for silychristin inhibition on OATP1C1-mediated T4 uptake. The fraction of T4 uptake is normalized to the solvent control (upper limit = 1.0) and to the positive control (lower limit = 0.0). Blue dots indicate the plate medians from three independent experiments tested in triplicates per plate. The black line indicates the best-fit concentrations response curve, the dotted line the corresponding 95% confidence interval, and the BMC20, the concentration that inhibits the T4 uptake by 20%.</p>"
-              },
-              {
-                "headingType": "h2",
-                "section": "Monte-carlo simulation of in vitro PoD distributions",
-                "description": "To propagate the uncertainty that exists within the in vitro assays, we performed a Monte-Carlo simulation of the BMC20 values to produce a distribution of possible in vitro PoDs. In this simulation 10.000 possible in vitro PoDs were sampled using a logistic distribution with the center and spread determined by the mean and 95% confidence intervals of the BMC20 values for each in vitro assays. The resulting distribution of in vitro Pods can be found in Figure 3. These distributions can be used to sample a range of possible in vitro PoDs, instead of a single value, preserving the uncertainty that is present in the vitro assays.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/PoD%20Distributions%20MCT8+OATP1C1.png?raw=true’ alt='Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation.' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 3. Distribution of in vitro PoDs for MCT8 and OATP1C1, derived from a Monte Carlo simulation. Each bar represents the frequency of sampled in vitro PoD values, with the x-axis displaying the concentration (µM) on a logarithmic scale. The median PoD is indicated by a dashed blue line, while the 5th and 95th percentiles are marked by red and purple dashed lines, respectively.</p>"
-              }
-            ]
-          }
-        },
-        "Effects on Key Event Relationships": {
-          "Changes in KLF9 expression": {
-            "navTitle": "Effect on KLF9 and BDNF gene expression",
-            "navDescription": "Effect on KLF9 and BDNF gene expression",
-            "steps": [
-              {
-                "label": "KLF9 and BDNF gene expression",
-                "description": "Dataset for qPCR in neuronal stem cells",
-                "id": "",
-                "type": "tool"
-              },
-              {
-                "label": "qPCR",
-                "value": "qPCR",
-                "type": "tool",
-                "id": "",
-                "route": "methods"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "KLF9 and BDNF gene expression",
-                "description": "To determine the direct effect of varying T3 concentrations on KLF9 and BDNF gene expression, KLF9 and BDNF expression in the NPT was measured using qPCR after exposure to 0-100 nM T3 for 10 days during differentiation. The changes in gene expression for KLF9 and BDNF can be found in figure 1. A concentration-response effect was observed for KLF9 with increasing expression of KLF9 at high concentrations of T3. No significant changes were observed for BDNF expression at any concentrations. The concentration-dependent effects of KLF9 gene expression were suitable to be used in the qAOP.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/KLF9%20BDNF%20gene%20expression.png?raw=true’ alt='Figure 1. Gene expression of KLF9 and BDNF in hNPT incubated with 0-100 nM T3 for 10 days.' style='width:100%; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Gene expression of KLF9 and BDNF in hNPT incubated with 0-100 nM T3 for 10 days. Data are normalized to the geometric mean of GUSB and HPRT1 and represented as fold change vs. solvent control as mean ± SD of one biological experiment with six technical replicates. Statistical analysis was performed using an one-way ANOVA with Dunnett’s multiple comparison test. ***p<0.001, ****p<0.0001.</p>"
-              }
-            ]
-          },
-          "Changes in BDNF expression": {
-            "navTitle": "Changes in BDNF protein expression",
-            "navDescription": "Changes in BDNF protein expression",
-            "steps": [
-              {
-                "label": "BDNF protein expression",
-                "description": "",
-                "id": "",
-                "type": "tool"
-              },
-              {
-                "label": "ELISA",
-                "value": "ELISA",
-                "type": "tool",
-                "id": "",
-                "route": "methods"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "h2",
-                "section": "Changes in BDNF protein expression",
-                "description": "Since BDNF did not show any concentration-dependent effects in gene expression after T3 exposure, the BDNF protein levels in the hNPT were measured using a human BDNF enzyme-linked immunosorbent assay (ELISA) kit. Protein levels of BDNF were significantly elevated after exposure to 0.3 and 3 nM T3 conditions in the hNPT, but not after exposure to the highest concentration 30 nM T3, see figure 2. Because there were no obvious concentration-dependent effects for BDNF expression, we decided not to include this KE in the eventual modelling of the qAOP.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/BDNF%20protein%20exprssion.png?raw=true’ alt='Figure 2. Protein levels of BDNF in hNPT protein extract after 10 days of differentiation corrected for the amount of DNA.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 2. Protein levels of BDNF in hNPT protein extract after 10 days of differentiation corrected for the amount of DNA. Data is represented as the distribution of replicates from one independent experiment. Statistical significance was tested using an one-way ANOVA with Dunnett’s multiple comparisons test (**p<0.01). </p>"
-              }
-            ]
-          },
-          "Neuronal network formation": {
-            "navTitle": "Neuronal network formation",
-            "navDescription": "",
-            "steps": [
-              {
-                "label": "MEA",
-                "value": "MEA",
-                "type": "tool",
-                "id": "",
-                "route": "methods"
-              },
-              {
-                "label": "Neuronal network activity",
-                "descriptions": "Generated MEA data of silychristin in neuronal stem cells",
-                "value": "Neuronal network activity",
-                "type": "tool"
-              }
-            ],
-            "content": [
-              {
-                "headingType": "p",
-                "section": "Description",
-                "description": "Neuronal network activity is used as a proxy to derive the effects of varying T3 concentrations on synaptogenesis as a downstream key event. To measure neuronal network activity human neuronal progenitor cells (NPCs) were cultured on a microelectrode array (MEA) plate, which contain small electrodes that can measure the spontaneous activity of neuronal cells. These NPCs were exposed to a concentration-range of 0-100 nM T3 during a differentiation period of 43 days. The neuronal network activity is measured as the mean spike ratio, which describes the activation of individual electrodes, and the mean burst ratio, which describes the activation of multiple electrodes at the same time. The area under the curve values of the mean spike rate showed an initial decrease in spontaneous activity after exposure to 0.3 nM T3. The spontaneous activity increased continuously from 0.3 nM T3 at higher concentration and was significantly higher than the control after exposure to 10, 30 and 100 nM T3. No significant differences were observed between concentrations for mean burst rate, but the mean burst rate did show the same trend as the MSR. The MEA data of the mean spike rate can therefore be used to model the effects of varying T3 concentrations in the qAOP.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/MEA%20data.png?raw=true’ alt='Figure 3. MEA measurements of the MSR (A) and the MBR (B) over time after exposure to 0-100 nM T3 in hNPT.' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 3. MEA measurements of the MSR (A) and the MBR (B) over time after exposure to 0-100 nM T3 in hNPT. Measurements were performed from day 3 until day 43. Results are from one independent experiment with 5-6 replicates per condition. Data is shown as the mean ± SD.</p>"
-              }
-            ]
-          }
-        }
+        "content": "<h2>Adverse Outcome Workflow for Regulatory Question 2</h2><p>[Filler] Details coming soon.</p>"
       }
     }
   }

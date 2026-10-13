@@ -556,7 +556,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> Prediction data</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> Prediction data: Estmation of fetal brain concentration (<a href=\"https://platform.vhp4safety.nl/data/20306850\">CfMax</a></li></ul>) PBK modelling of fetal venous blood concentrations for silychristin"
             }
           ]
         }

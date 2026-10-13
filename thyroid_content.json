@@ -540,7 +540,7 @@
             },
             {
               "headingType": "p",
-              "section": "Parameterizatin of gut absorption",
+              "section": "Parameterization of gut absorption",
               "description": "The permeability of silychristin and silymarin across the human gut was experimentally measured using the inTESTine™ system, a two-compartment barrier model using ex vivo human jejunum tissue. Transport of pure silychristin compound and silychirstin when present in silymarin mixture over the human jejunum was assessed using liquid chromatography-tandem mass spectrophotometry and expressed as an apparent permeability (Papp) value. The Papp values from the pure silychristin compound were used to calculate a gut absorption factor using a well-stirred absorption-disposition method (Usanky et al. 2005). The PBK model was then reparametrized using this gut absorption factor."
             },
             {

@@ -5,13 +5,13 @@
     "questions": [
       {
         "label": "Question 1: Hazard",
-        "description": "Can compound Dinoseb cause Parkinson’s Disease?",
+        "description": "Can pesticides cause Parkinson’s Disease?",
         "value": "Q1",
         "type": "regulatory-question"
       },
       {
         "label": "Question 2: Risk",
-        "description": "What level of exposure to compound Dinoseb leads to risk for developing Parkinson’s disease? ",
+        "description": "What level of exposure to the compound Dinoseb leads to risk for developing Parkinson’s disease? ",
         "value": "Q2",
         "type": "regulatory-question"
       }
@@ -19,9 +19,24 @@
     "content": [
       {
         "headingType": "h2",
-        "section": "Case Study Overview",
-        "description": "In this case study we studied life course exposure to pesticides by modelling neurodegeneration (i.e. Parkinson’s disease) in the VHP. Neurodegenerative diseases are a major cause of death in humans and have substantial impact on society, including health care costs and quality of life. Neurodegeneration cannot be adequately tested in animal studies, since the final health outcomes such as cognitive decline and motor function, are difficult to measure in rodents. Little is known on the effect of exposure to chemicals and the onset and progression of neurodegenerative disease in humans. For some compounds, including Paraquat, Rotenone and Mancozeb, there are indications of a causal relationship between exposure and neurodegenerative disease. This case study focussed on the putative relationship between pesticide exposure and Parkinson’s Disease, by mapping the critical pathways and mechanisms underlying the disease, as well as the exposure in human biomonitoring studies. Within the case study we created an AOP network for Parkinson’s disease and determined dose-response relationships for several pesticides in relevant in vitro models."
-      }
+        "section": "Parkinson's disease",
+        "description": "Neurodegenerative disorders, such as Parkinson’s and Alzheimer’s disease, are a major cause of death worldwide and impose a substantial burden on society through elevated health care costs and decreased quality of life in patients. Neurodegenerative diseases are characterized by progressive loss of specific neuronal populations in particular parts of the brain, with the affected brain region dictating the clinical presentation and progression of the disease. In Parkinson’s disease, the loss of dopaminergic neurons in the substantia nigra lead to motor dysfunction that characterize Parkinson’s disease. Although the onset of Parkinson’s disease is not known, it recognized as a multifactorial disorder influenced by genetic predisposition, age, lifestyle and environmental factors. Currently, occupational exposure to chemicals is becoming increasingly evident as a key risk factor for the onset of Parkinson’s disease."
+      },  
+      {
+        "headingType": "h2",
+        "section": "Parkinson’s disease and pesticide exposure",
+        "description": "An abundance of scientific studies supports the association between Parkinson’s disease and exposure to pesticides. Most of the evidence comes from epidemiological studies that have linked occupational exposure to pesticides to increased risk of developing Parkinson's disease. For some specific pesticides, including Paraquat, Rotenone and Mancozeb, there are also indications of a causal relationship between exposure and the onset of neurodegenerative diseases. Moreover, multiple different molecular mechanisms have been identified from which chemical exposure can lead to Parkinson’s disease."
+      }, 
+      {
+        "headingType": "h2",
+        "section": "Challenges in regulatory testing for neurodegenerative diseases",
+        "description": "Current regulatory requirements for safety assessment of pesticides are captured in regulation (EU) No.283/2013, which requires extensive acute and chronic animal studies to prove pesticides are safe for humans. Neurodegeneration is, however, captured poorly in these testing requirements even when specific neurotoxic tests are considered. The main challenge is that neurodegenerative adverse effects are difficult to measure in rodents and neurodegenerative-specific biomarkers are often not included in animal testing. Another challenge stems from the often-long exposure duration and late onset of disease associated with Parkinson’s disease, which are often not considered in standard animal tests. Finally, due to the uncertainty in the onset and disease progression in human, there is often a bias towards known neurodegenerative-causing chemicals and molecular mechanisms. These challenges make the safety assessment of chemicals towards neurodegenerative disease incredibly complex and difficult.  "
+      }, 
+      {
+        "headingType": "h2",
+        "section": "Aims of the Case Study",
+        "description": "In this case study, we studied life course exposure to pesticides by modelling neurodegeneration in the VHP. This case study focused on the putative relationship between pesticide exposure and Parkinson’s Disease. The first regulatory question focusses on characterizing hazard through mapping of the critical pathways and mechanisms underlying Parkinson’s disease, development of an adverse outcome pathway (AOP) network, and identifying genetic susceptibility. In the second regulatory question relevant pesticide exposures from human biomonitoring studies are linked to in vitro toxicity for a model pesticide compound, dinoseb. Both regulatory questions were posed to study if new approach-based methodologies can be used to further improve regulatory testing for neurodegenerative diseases."
+      } 
     ]
   },
   "step2Contents": {
@@ -60,23 +75,23 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Description",
-          "description": "Hazard characterization is an important first step towards risk assessment of pesticides. This step describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease."
+          "section": "Can pesticides cause Parkinson’s Disease?n",
+          "description": "Hazard characterization describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease. Hazard characterization is an important first step in the risk assessment of pesticide exposure and neurodegenerative disease to establish the potential hazard that pesticides exert. For this reason, we posed the regulatory question: “Can pesticides cause Parkinson’s Disease?” with the aim to provide a mechanism-based biological basis for neurodegenerative toxicity. With the foundation of this the development of an AOP network for pesticide exposure and Parkinson’s disease. This AOP served as a framework to select relevant chemicals addressing each of the molecular mechanisms underlying Parkinson’s disease that can be tested in in vitro models. Additionally, we also explored genetic susceptibility to Parkinson’s disease to identify sensitive populations."
         },
         {
           "headingType": "h3",
-          "section": "What endpoints (AOPs, adverse outcomes)",
-          "description": "Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons."
+          "section": "Establishing mode of actions associated with Parkinson’s disease",
+          "description": "Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on strict regulation of intracellular calcium levels for their function. An adverse outcome pathway revolving around disruption of calcium homeostasis was designed to map how chemical exposure can lead to malfunction, and ultimately death of dopaminergic neurons. Establishing an AOP network is important to provide a biological plausibility in the toxicity of chemicals."
         },
         {
           "headingType": "h3",
-          "section": "What compounds (chemical characteristics)",
-          "description": "Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models. Rotenone primarily disrupts mitochondrial function (Complex I inhibition), Dinoseb is known for inducing ER-stress (calcium release) and mitochondrial inhibition, Endosulfan is a known substrate for neurotransmitter receptors leading to overstimulation of neuronal networks, and Mancozeb is known as a source of oxidative stress and disruption of protein homeostasis. Of these, Dinoseb was chosen as model pesticide to answer question 1. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models."
+          "section": "Selection of relevant chemicals for in vitro models",
+          "description": "Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models. Rotenone primarily disrupts mitochondrial function (Complex I inhibition), Dinoseb is known for inducing ER-stress (calcium release) and mitochondrial inhibition, Endosulfan is a known substrate for neurotransmitter receptors leading to overstimulation of neuronal networks, and Mancozeb is known as a source of oxidative stress and disruption of protein homeostasis. For all pesticides, the hazard of these chemicals on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models."
         },
         {
           "headingType": "h3",
-          "section": "What exposure paradigm (kinetics, chemical characteristics)",
-          "description": "In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, this case study tested 5 different exposure paradigms ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure."
+          "section": "Groups of extra risk to develop Parkinson’s disease",
+          "description": "Certain genetic factors may define an individual or subpopulation at increased risk to develop pesticide-induced Parkinson's disease. Identified biological factors related to increased susceptibility can support New Approach Methodologies (NAMs)-based hazard and risk assessment while considering known sources of interindividual variability. For this case study, we therefore also tried to identify genetic predispositions that could increase risks of developing Parkinson’s disease for susceptible populations."
         }
       ]
     },
@@ -200,8 +215,8 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "molecular AOP development",
-            "value": "Molecular AOP development",
+            "label": "AOP development",
+            "value": "AOP development",
             "type": "workflow-step"
           },
           {
@@ -210,16 +225,35 @@
             "type": "workflow-step"
           },
           {
-            "label": "Effects on key event relationships",
-            "value": "Effects on key event relationships",
+            "label": "in vitro assays",
+            "value": "in vitro assays",
             "type": "workflow-step"
           }
         ],
         "content": [
           {
             "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+            "section": "Toxicodynamics",
+            "description": "Placeholder text soon to be added"
+          },
+          {
+            "headingType": "h2",
+            "section": "An adverse outcome pathway for chemical-induced Parkinson’s disease",
+            "description": "The proposed AOP demonstrates how exposure to pesticides can induce or accelerate parkinsonian motor symptoms, centering on calcium dysregulation as a central mechanistic driver. The adverse outcome for Parkinson’s disease is established on the death of dopaminergic neurons, as there is a direct correlation between cellular (death and loss of function of dopaminergic neurons) and organism (motor dysfunction) adverse effects. The unique susceptibility of dopaminergic neurons to disruption of intracellular calcium homeostasis has led to the adoption of increased intracellular calcium as an early key event. Several molecular initiating events have been identified that can trigger the disruption of intracellular calcium in dopaminergic neurons. Once intracellular calcium levels become excessively or persistently elevated, the AOP network branches into four primary downstream key event pathways that converge on dopaminergic neuronal death and motor impairment. A schematic overview of the proposed AOP can be found in figure 1. Although the proposed AOP framework depicts the pathology of chemically induced Parkinson’s disease in a linear way, it should be noted that there is likely an interplay between intracellular calcium homeostasis, mitochondrial dysfunction and oxidative stress and none of the key events act in isolation of each other. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Parkinson_AOP.png?raw=true' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Schematic overview of the proposed AOP Network. Green boxes represent the MIEs, blue boxes represent KEs, purple box represents the AO. IP3R: inositol 1,4,5-trisphosphate receptor; mGluR: metabotropic glutamate receptor; NMDAR: N-methyl-D-aspartate receptor; VGCC: voltage-gated calcium channel; GABAAR: γ-aminobutyric acid A receptor; [Ca2+]i: intracellular calcium levels; ALP: autophagy-lysosomal pathway; UPS: ubiquitin-proteasome system.</p>"
+          },
+          {
+            "headingType": "h2",
+            "section": "Molecular initiating events in the AOP",
+            "description": "The AOP network outlines five distinct Molecular Initiating Events (MIEs) through which chemical stressors can increase extracellular calcium influx across the plasma membrane or by induce calcium release from intracellular storage organelles like the endoplasmic reticulum (ER). 1) Extracellular influx can be initiated via direct or indirect opening of voltage-gated calcium channels (VGCCs). 2) Activation of N-methyl-D-aspartate receptors (NMDARs) permits direct extracellular calcium entry while simultaneously depolarizing the cell membrane, which further drives VGCC opening. 3) Inhibiting GABAa receptors prevents chloride ion influx, leading to membrane depolarization that indirectly triggers VGCC opening and subsequent calcium influx. Intracellular calcium efflux from the ER into the cytosol is primarily initiated through 4) direct activation of 1,4,5-trisphosphate (IP3) receptors or 5) by the activation of group I metabotropic glutamate receptors (mGluRs), which stimulate IP3 production."
+          },
+          {
+            "headingType": "h2",
+            "section": "Four downstream key events pathways following intracellular calcium disruption",
+            "description": "In the first pathway, elevated cytosolic calcium leads calpain activation, that cleave essential structural proteins, impair essential autophagic genes, and promote pro-apoptotic signaling (such as Bax cleavage and release of apoptosis-inducing factor), directly triggering apoptotic cell death of dopaminergic neurons. <br><br> The second pathway focusses on depletion of ER calcium stores through IP3 activation, which disrupts protein folding producing ER stress. ER stress triggers the Unfolded Protein Response (UPR) key event, which, when ER stress remain unresolved, initiates downstream caspase activation driving the cell into programmed apoptotic death. <br><br> In the third pathway, excess cytosolic calcium sequestered into mitochondria can form calcium precipitates that at high concentrations impair complex I activity and compromise electron transport chain function. The resulting mitochondrial dysfunction leads to a deficit in ATP production resulting in dysfunction of both the ubiquitin-proteasome system (UPS) and the autophagy-lysosomal pathway (ALP). This ALP/UPS dysfunction causes misfolded protein aggregation ultimately culminating in caspase activation and neuronal death. <br><br> The fourth pathway, at lower levels of mitochondrial calcium uptake stimulates the synthesis of ATP, which generates reactive oxygen species (ROS) and increases oxidative stress. Accumulated ROS causes oxidative damage to mitochondrial DNA, lipids, and membrane proteins resulting in structural mitochondrial damage. This mitochondrial damage triggers the release of cytochrome c into the cytosol, activating the intrinsic apoptotic caspase cascade and culminating in the loss of dopaminergic neurons. Furthermore, oxidative stress reinforces both ER stress and protein degradation dysfunction, creating synergistic feedback loops that further accelerate cell death."
+          },{
+            "headingType": "h2",
+            "section": "Discussion",
+            "description": "Placeholder text, soon to be added"
           },
           {
             "headingType": "h2",
@@ -382,32 +416,22 @@
     "Q1": {
       "step4content": "true",
       "Toxicodynamics": {
-        "Molecular AOP development": {
-          "navTitle": "Molecular AOP development",
+        "AOP development": {
+          "navTitle": "AOP development",
           "navDescription": "",
           "steps": [
             {
-              "label": "AOP-Wiki",
-              "value": "AOP-Wiki",
-              "type": "tool",
-              "id": "aopwikiapi"
-            },
-            {
-              "label": "Rotenone transcriptomic data (LUHMES cells)",
-              "value": "Rotenone transcriptomic data (LUHMES cells)",
-              "type": "tool"
+              "label": "AOP development",
+              "value": "AOP-development",
+              "description": "",
+              "type": "workflow substep"
             }
           ],
           "content": [
             {
               "headingType": "h2",
-              "section": "AOP-Wiki",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
-            },
-            {
-              "headingType": "p",
-              "section": "Rotenone transcriptomic data",
-              "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              "section": "AOP development",
+              "description": "This workflow step does not have a substep, please click the above link to proceed further within the case study."
             },
             {
               "headingType": "h2",
@@ -421,16 +445,16 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "mGLuR activation",
-              "value": "mGLuR activation",
+              "label": "MIE activation",
+              "value": "MIE-activation",
               "type": "workflow substep"
             }
           ],
           "content": [
             {
               "headingType": "p",
-              "section": "Description",
-              "description": "Data from in vitro assays, biomonitoring and modelling need to be connected and put in context. To do this, we need an overview of what are the human relevant biological mechanisms through which pesticides can induce or accelerate development of Parkinson's disease. For this the Adverse Outcome Pathway (AOP) concept is used, which starts from a molecular initiating event (MIE), proceeds through a number of Key Events (KE) towards the Adverse Outcome (AO). In this case study, an AOP for pesticide exposure leading to Parkinson's disease has been built from literature information and relevant papers using literature search tools such as EMBASE or Medline. The literature was collected in Sysrev, an online service to conduct literature review. Additionally, a machine learning component available in Sysrev was used to predict the inclusion of articles. The AOP developed for this case has been disseminated using the Adverse Outcome Pathway Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>. An overview of the AOP for pesticide exposure leading to Parkinson disease can be found below. This information can be used to determine relevant endpoints in further in vitro experiments."
+              "section": "MIE activation",
+              "description": "This workflow step does not have a substep, please click the above link to proceed further within the case study."
             },
             {
               "headingType": "h2",
@@ -439,8 +463,8 @@
             }
           ]
         },
-        "Effects on key event relationships": {
-          "navTitle": "Effects on key event relationships",
+        "In vitro assays": {
+          "navTitle": "in vitro assays",
           "navDescription": "",
           "steps": [
             {
@@ -462,8 +486,8 @@
           "content": [
             {
               "headingType": "h2",
-              "section": "Description",
-              "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb or other pesticides (endosulfan, folpet, mancozeb, pyraclostrobin, and rotenone) to assess the effects of pesticides on key molecular events that drive Parkinson's disease. These include the following subquestions: The effect of Dinoseb on mitochondrial dysfunction, which is determined by measuring ATP content using the CellTiter blue 2.0 assay. The effect of Dinoseb on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assayThe effect of Dinoseb on oxidative stress, for which an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay is used to measure reactive oxygen species production.The effect of Dinoseb on cytotoxicity, measured using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derived concentration-response curves, which are used to do perform benchmark dose modelling using PROAST to compare potencies between pesticides."
+              "section": "In vitro studies used in this case study to study key events",
+              "description": "The development of a Parkinson's AOP from pesticide exposure has identified several important molecular key events that drive the AOP. The effect of dinoseb on these molecular key events in neuronal cells needs to be assessed. Two cell-lines are used to obtain in vitro data, namely the LUHMES and SH-SY5Y cell lines, both of which are human cell lines that can be differentiated into dopamine-like neurons. These are exposed to various concentrations of Dinoseb to assess the effects of pesticides on key molecular events, mitochondrial dysfunction, oxidative stress and dopaminergic neuron cell death, that drive Parkinson's disease. The effect of Dinoseb on mitochondrial dysfunction is measured by two end points. One endpoint focuses on the mitochondrial function by measuring ATP content using the CellTiter blue 2.0 assay. The other endpoint focused on mitochondrial damage, measured as mitochondrial metabolic activity using the Alamar blue assay. The formation of reactive oxygen species, through an H2DCFDA (2',7'-dichlorodihydrofluorescein diacetate) assay, is used as a method to study the effects of Dinoseb on oxidative stress. Cytotoxic effects on Dinoseb on dopaminergic neurons is assessed using either the lactate dehydrogenase (LDH) assay or the carboxyfluorescein diacetate (CFDA) assay. Data from these in vitro experiments are used to derive concentration-response curves, which are used to do perform benchmark dose modelling using PROAST. The outputs from the PROAST modelling are used to compare in vitro effect levels with PBK-derived brain concentrations of dinoseb."
             },
             {
               "headingType": "h2",
@@ -580,8 +604,8 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "Mitochondrial activity",
-              "value": "Mitochondrial activity",
+              "label": "Mitochondrial dysfunction",
+              "value": "Mitochondrial dysfunction",
               "type": "workflow substep"
             },
             {
@@ -640,14 +664,78 @@
     "step5content": "true",
     "Q1": {
       "Toxicodynamics": {
+        "AOP development":{
+          "AOP-development":{
+          "navtitle": "AOP-development", 
+          "navDescription": "",
+          "steps":[
+            {
+              "label": "Sysrev",
+              "description": "Software to support literature review",
+              "id": "sysrev",
+              "type": "tool"
+            },
+            {
+              "label": "AOP-Wiki",
+              "description": "online repository for AOPs",
+              "id": "", 
+              "type": "tool"
+            },
+            {
+              "label": "WikiPathways",
+              "description": "open science platform for curatin biological pathways",
+              "id": "wikipathways_aop", 
+              "type": "tool"
+            },
+            {
+              "label": "Rotenone transcriptomic data",
+              "description": "Rotenone transcriptomic data set",
+              "id": "",
+              "type": "data"
+            }
+          ],
+          "content": [
+            {
+              "headingType": "h2",
+              "section": "Molecular AOP development",
+              "description": "Placeholder, text to be added"
+            },
+            {
+              "headingType": "h2",
+              "section": "AOP development from literature review",
+              "description": "To develop the AOP for chemically induced Parkinson’s disease, a semi-systematic literature review was conducted. This literature review was conducted by searching for literature in Embase and MEDLINE using terms related to Parkinson's disease, pesticides, and experimental models. A total of 3292 eligible articles were identified by in the initial search strategy of which a random 1000 articles were screened manually for title and abstract. The online tool Sysrev was then utilized to prioritize remaining studies based on machine learning capabilities for full text assessment. A final selection as then made based on initially set inclusion criteria and redundancy of the articles. In total, data from 66 manuscripts were used to develop the AOP."
+            },
+            {
+              "headingType": "h2",
+              "section": "AOP wiki",
+              "description": "Placeholder, text to be added. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>"
+            },
+            {
+              "headingType": "h2",
+              "section": "Genetic susceptibility to Parkinson's Disease",
+              "description": "<b>Literature review for genetic factors using Sysrev</b> <br> To identify (epi)genetic factors involved in pesticide-induced Parkinson’s disease, a literature search in Embase and PubMed was performed using key terms related to the disease, human data, (epi)genetics, and pesticides. A total of 2.559 unique articles were screened using the online tool Sysrev, which leverages large language models guided by boolean prompts based on specific inclusion and exclusion criteria. The prompt definitions were iteratively refined and evaluated against a subset of 614 manually screened articles, prioritizing sensitivity to minimizing false negatives. After running the model across the full library and conducting an additional manual review to remove false positives, 141 articles advanced to full-text assessment. Ultimately, 61 articles met all criteria and were selected for inclusion, including pesticide exposure rules tailored for in vitro and epidemiological studies.<br><b>Genetic factors increasing susceptibility towards Parkinson’s Disease</b><br> The literature review indicated several genetic predispositions that may influence the susceptibility of humans to pesticide-induced Parkinson’s disease. The identified gene covered pathways directly associated with known KE in the AOP pathways (proteostasis, mitochondrial functioning, redox balance, neurotransmission and neural integrity) and some indirect pathways (toxicokinetics and neuroinflammation).  Of the genes identified the most prominent gene-environmental interactions were present for mitochondrial DNA (mtDNA), ABCB1 and PINK1, while some studies also indicated a possible interaction for CYP2D6, GSTP1, GSTT1, DAT1, and SNCA. An overview of the genes mapped unto KEs in an AOP network for Parkinson’s disease can be found in figure 1.<img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/GeneticSusceptibility.png?raw=true' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Overview of genes for which a (tentative) gene-environment interaction is reported, mapped onto KEs of the AOP network combining AOP3, AOP464, and ADME as a separate KE. AOP network adapted from Meerman (2023) and (Delp et al., 2021)}. For transparent boxes, no gene-environment interactions is reported. For opaque boxes, a (tentative) gene environment is reported. ‘Neurotransmission’ cannot be categorized as a Key Event in the AOP network. As the function of DAT1 in neurotransmission is a characteristic feature of dopaminergic neurons, ‘Death dopaminergic neuron’ is opaque as a substitute.</p>"
+            },
+            {
+              "headingType": "h2",
+              "section": "Specific gene-environmental factors identified for each pathway",
+              "description": "Proteostasis (Protein Degradation & Aggregation): Mutations or variants in genes such as SNCA, LRRK2, and SKP1 disrupt normal protein clearance and folding pathways. This dysfunction leaves dopaminergic neurons far more vulnerable to toxic accumulation and pesticide-induced neurodegeneration. <br> Mitochondrial Functioning: Inherited mitochondrial traits and mutations in genes like GBA1 compromise cellular energy production and complex mitochondrial stability. When combined with pesticides that target mitochondria, such as rotenone, these genetic factors synergistically trigger accelerated cell death. <br> Neurotransmission and neural integrity: Key variants in genes like DAT1 and BDNF alter dopamine reuptake and reduce underlying neuroprotective support. These changes can increase toxin uptake directly into dopaminergic neurons, substantially amplifying pesticide-related risk. <br> Redox Balance & Antioxidant Response: Genetic alterations in pathways like NOS, SOD2, and APEX1 weaken the cell's natural defenses against oxidative stress and DNA damage. This diminished antioxidant capacity renders neurons unable to safely neutralize pesticide-induced reactive oxygen species. <br> Toxicokinetics: Genetic variations in enzymes and transporters like ABCB1, CYP2D6, and the GST family significantly alter how the body clears and detoxifies chemicals. Impairing these clearance mechanisms increases brain penetration and cellular susceptibility to pesticide toxicity, directly elevating Parkinson's disease risk. <br> Neuroinflammation: Variations in immune-related genes, including MHC-II and APOE, alter inflammatory responses to environmental toxins. These genetic risk factors synergize with pesticide exposure to trigger heightened neuroinflammation, promoting disease onset."
+            },
+            {
+              "headingType": "h2",
+              "section": "Molecular AOP from rotenone transcriptomic data",
+              "description": "Molecular AOPs (mAOPs) can further improve and validate established AOPs, by utilizing high-throughput omics data to map key events directly to specific biological pathways, increasing the mechanistical resolution of AOPs. Transcriptomics data from LUHMES cells exposed to different concentrations of rotenone (50 nM and 100 nM for 24 h) was used to map gene expression in an AOP for mitochondrial complex 1 inhibition leading to Parkinson’s disease <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://rdf.wikipathways.org/Pathway/WP4945.jsonld\">WP4945</a>. At lower concentration of rotenone (50 nM) only the KE888 (Binding of inhibitor, Complex I) and KE887 (Inhibition, Complex I) were linked to the \"Assembly of mitochondrial complex I\" pathway (WP4324). At 100 nM there were no individual KEs that reached statistically significant enrichment scores. However, qualitative network visualization showed a higher absolute number of gene expression changes in the downstream Adverse Outcome (AO), KE896 (Parkinsonian motor deficit), compared to the lower dose. Overall, the mAOP approach indicated that there might be a distinct threshold switch in the concentration-response profile. At 50 nM, cells demonstrated an abundant upregulation of genes in early KEs to counter complex I inhibition (an adaptive/recovery response), whereas 100 nM might trigger a transition toward downstream adverse progression. However, no quantitative molecular link could be established between early KEs and the adverse outcome, which might be related to the complex interplay of multiple KEs that affect downstream adverse outcomes in Parkinson’s disease."
+            }
+          ]
+        }
+      },
         "MIE activation": {
-          "mGLuR activation": {
-            "navTitle": "mGLuR activation",
+          "MIE activation": {
+            "navTitle": "MIE-activation",
             "navDescription": "",
             "steps": [
               {
-                "label": "QSPRpred",
-                "value": "QSPRpred",
+                "label": "Molecular docking",
+                "value": "Molecular docking through QSPRpred",
                 "id": "qsprpred",
                 "type": "tool"
               }
@@ -655,8 +743,13 @@
             "content": [
               {
                 "headingType": "h2",
-                "section": "QSPRpred",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "in silico prediction of MIE",
+                "description": "Placeholder, text to be added"
+              },
+              {
+                "headingType": "h2",
+                "section": "A structure-based platform for predicting chemically-induced Parkinson’s disease",
+                "description": "Placeholder, text to be added"
               },
               {
                 "headingType": "h2",
@@ -666,34 +759,34 @@
             ]
           }
         },
-        "Effects on key event relationships": {
-          "Mitochondrial activity": {
-            "navTitle": "Mitochondrial activity",
+        "in vitro assays": {
+          "Mitochondrial dysfunction": {
+            "navTitle": "Mitochondrial dysfunction",
             "navDescription": "",
             "steps": [
               {
-                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "id": "alamar_blue_assay_for_detection_of_mitochondrial_activity",
-                "route": "methods",
-                "type": "tool"
+                "label": "Mitochondrial dysfunction SHSY5Y cells",
+                "value": "Mitochondrial dysfunction SHSY5Y cells",
+                "id": "10.6019/S-VHPS16",
+                "type": "data"
               },
               {
-                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool"
+                "label": "Mitochondrial dysfunction LUHMES cells",
+                "value": "Mitochondrial dysfunction LUHMES cells",
+                "id": "10.6019/S-VHPS28",
+                "type": "data"
               }
             ],
             "content": [
               {
                 "headingType": "h2",
-                "section": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "in vitro assays used",
+                "description": "Placeholder, text to be added."
               },
               {
                 "headingType": "p",
-                "section": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "Mitochondrial dysfunction after exposure to pesticides",
+                "description": "Placeholder, text to be added"
               },
               {
                 "headingType": "h2",
@@ -707,18 +800,22 @@
             "navDescription": "",
             "steps": [
               {
-                "label": "ROS production LUHMES cells (H2DCFDA)",
-                "value": "ROS production LUHMES cells (H2DCFDA)",
-                "id": "h2dcfda_am_assay_for_detection_of_oxidative_stress_production",
-                "route": "methods",
-                "type": "tool"
+                "label": "ROS production LUHMES cells",
+                "value": "ROS production LUHMES cells",
+                "id": "10.6019/S-VHPS27",
+                "type": "data"
               }
             ],
             "content": [
               {
                 "headingType": "p",
-                "section": "H2DCFDA",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "ROS production using LUHMES cells",
+                "description": "Placeholder, text to be added"
+              },
+              {
+                "headingType": "p",
+                "section": "Oxidative stress after exposure",
+                "description": "Placeholder, text to be added"
               },
               {
                 "headingType": "h2",
@@ -732,30 +829,28 @@
             "navDescription": "",
             "steps": [
               {
-                "label": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "value": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "id": "5_cfda_assay_to_determine_cytotoxicity",
-                "route": "methods",
-                "type": "tool"
+                "label": "Cytotoxicity LUHMES cells",
+                "value": "Cytotoxicity LUHMES cells",
+                "id": "10.6019/S-VHPS27",
+                "type": "data"
               },
               {
-                "label": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "value": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "id": "cytotoxicity_detection_kitplusldh",
-                "route": "methods",
-                "type": "tool"
+                "label": "Cytotoxicity SHSY5Y cells",
+                "value": "Cytotoxicity SHSY5Y cells",
+                "id": "10.6019/S-VHPS16",
+                "type": "data"
               }
             ],
             "content": [
               {
                 "headingType": "h2",
-                "section": "Cytotoxicity LUHMES cells (LDH CFDA assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "Dopaminergic cell death",
+                "description": "Placeholder, text to be added."
               },
               {
                 "headingType": "p",
-                "section": "Cytotoxicity SHSY5Y cells (LDH assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "Dopaminergic cell death after exposure",
+                "description": "Placeholder, text to be added."
               },
               {
                 "headingType": "h2",

@@ -24,13 +24,13 @@
       },
       {
         "headingType": "p",
-        "section": "Safety Assessment of Thyroid Hormone System Disrupting Chemicals",
+        "section": "Safety Assessment of Thyroid-Hormone-System-Disrupting Chemicals",
         "description": "Internationally validated and accepted OECD test methods for TH system disrupting chemicals mainly consist of animal studies, which often only assess TH system disrupting effects through histopathological changes in the thyroid gland or changes in serum TH levels. However, TH system disrupting effects are not always reflected in these endpoints and these regulatory test methods currently lack the ability to test for specific molecular mechanisms of TH system disrupting effects. Moreover, species differences between rodents and humans hamper the evaluation of chemical safety for humans through the use of animal studies."
       },
       {
         "headingType": "p",
         "section": "Aims of the Case Study",
-        "description": "This case study focuses on assessing the neurodevelopmental effects of TH system disrupting chemicals. The aim of the case study was to develop a human based safety assessment for potential TH system disrupting chemicals that are difficult to assess using animal models. Two regulatory questions were formulated to demonstrate how the VHP can be used. In regulatory question 1 the vital information for regulatory bodies to advice women in their early pregnancy on the use of silychristin is gathered. Regulatory question 2 aims to develop a safety assessment for silychristin by integrating in silico and in vitro methods developed in the VHP."
+        "description": "<p>This case study focuses on assessing the neurodevelopmental effects of TH system disrupting chemicals, specifically <a href=\"https://compoundcloud.wikibase.cloud/wiki/Item:Q1881\">silychristin</a>. The aim of the case study was to develop a human based safety assessment for potential TH system disrupting chemicals that are difficult to assess using animal models. Two regulatory questions were formulated to demonstrate how the VHP can be used. <br>In <strong>regulatory question 1</strong>, the vital information for regulatory bodies to advice women in their early pregnancy on the use of silychristin is gathered. <br>Regulatory question 2 aims to develop a safety assessment for silychristin by integrating in silico and in vitro methods developed in the VHP.</p>"
       }
     ]
   },
@@ -522,7 +522,7 @@
             {
               "label": "Human pharmacokinetic data",
               "description": "Overview of human pharmacokinetic data of silychristin",
-              "id": "20308542",
+              "id": "22255634",
               "type": "data"
             },
             {
@@ -540,7 +540,7 @@
             },
             {
               "headingType": "p",
-              "section": "Parameterizatin of gut absorption",
+              "section": "Parameterization of gut absorption",
               "description": "The permeability of silychristin and silymarin across the human gut was experimentally measured using the inTESTine™ system, a two-compartment barrier model using ex vivo human jejunum tissue. Transport of pure silychristin compound and silychirstin when present in silymarin mixture over the human jejunum was assessed using liquid chromatography-tandem mass spectrophotometry and expressed as an apparent permeability (Papp) value. The Papp values from the pure silychristin compound were used to calculate a gut absorption factor using a well-stirred absorption-disposition method (Usanky et al. 2005). The PBK model was then reparametrized using this gut absorption factor."
             },
             {
@@ -556,7 +556,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> Prediction data</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> PBK model validation data: Literature studies based <a href=\"https://platform.vhp4safety.nl/data/22255634\">Human pharmacokinetic data</a> on silychristin exposure used to validate the silychristin PBK model. Prediction data: Estimation of fetal brain concentration (<a href=\"https://compoundcloud.wikibase.cloud/wiki/Item:Q1881\">CfMax</a>) using PBK modelling of fetal venous blood concentrations for silychristin.</li></ul>"
             }
           ]
         }

@@ -556,7 +556,7 @@
             {
               "headingType": "h2",
               "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> PBK model validation data: Literature studies based <a href=\"https://platform.vhp4safety.nl/data/22255634\">Human pharmacokinetic data</a> on silychristin exposure used to validate the silychristin PBK model. Prediction data: Estimation of fetal brain concentration (<a href=\"https://compoundcloud.wikibase.cloud/wiki/Item:Q1881\">CfMax</a>) using PBK modelling of fetal venous blood concentrations for silychristin.</li></ul>"
+              "description": "<ul><li><strong>Input:</strong> Computational models</li><li><strong>Output:</strong> PBK model validation data: Literature studies based <a href=\"https://platform.vhp4safety.nl/data/20306850\">Human pharmacokinetic data</a> on silychristin exposure used to validate the silychristin PBK model. Prediction data: Estimation of fetal brain concentration (<a href=\"https://compoundcloud.wikibase.cloud/wiki/Item:Q1881\">CfMax</a>) using PBK modelling of fetal venous blood concentrations for silychristin.</li></ul>"
             }
           ]
         }

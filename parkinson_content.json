@@ -66,7 +66,6 @@
         },
         {
           "label": "Adverse Outcome",
-          "state": "disabled",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
@@ -75,7 +74,7 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Can pesticides cause Parkinson’s Disease?",
+          "section": "Can pesticides cause Parkinson’s Disease?n",
           "description": "Hazard characterization describes the intrinsic potential of a substances (in this case a pesticide) to trigger mechanisms that can lead to development of a disease, in this case Parkinson’s disease. Hazard characterization is an important first step in the risk assessment of pesticide exposure and neurodegenerative disease to establish the potential hazard that pesticides exert. For this reason, we posed the regulatory question: “Can pesticides cause Parkinson’s Disease?” with the aim to provide a mechanism-based biological basis for neurodegenerative toxicity. With the foundation of this the development of an AOP network for pesticide exposure and Parkinson’s disease. This AOP served as a framework to select relevant chemicals addressing each of the molecular mechanisms underlying Parkinson’s disease that can be tested in in vitro models. Additionally, we also explored genetic susceptibility to Parkinson’s disease to identify sensitive populations."
         },
         {
@@ -126,7 +125,6 @@
         },
         {
           "label": "Adverse Outcome",
-          "state": "disabled",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
@@ -227,11 +225,6 @@
           {
             "label": "in vitro assays",
             "value": "in vitro assays",
-            "type": "workflow-step"
-          },
-          {
-            "label": "exposure-response modelling",
-            "value": "exposure-response modelling",
             "type": "workflow-step"
           }
         ],
@@ -369,23 +362,13 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "molecular AOP development",
-            "value": "molecular AOP development",
-            "type": "workflow-step"
-          },
-          {
             "label": "MIE activation",
             "value": "MIE activation",
             "type": "workflow-step"
           },
           {
-            "label": "In vitro assays",
-            "value": "In vitro assays",
-            "type": "workflow-step"
-          },
-          {
-            "label": "exposure-response modelling",
-            "value": "exposure-response modelling",
+            "label": "Effects on key event relationships",
+            "value": "Effects on key event relationships",
             "type": "workflow-step"
           }
         ],
@@ -393,22 +376,12 @@
           {
             "headingType": "h2",
             "section": "Description",
-            "description": "The proposed AOP demonstrates how exposure to pesticides can induce or accelerate parkinsonian motor symptoms, centering on calcium dysregulation as a central mechanistic driver. The adverse outcome for Parkinson’s disease is established on the death of dopaminergic neurons, as there is a direct correlation between cellular (death and loss of function of dopaminergic neurons) and organism (motor dysfunction) adverse effects. The unique susceptibility of dopaminergic neurons to disruption of intracellular calcium homeostasis has led to the adoption of increased intracellular calcium as an early key event. Several molecular initiating events have been identified that can trigger the disruption of intracellular calcium in dopaminergic neurons. Once intracellular calcium levels become excessively or persistently elevated, the AOP network branches into four primary downstream key event pathways that converge on dopaminergic neuronal death and motor impairment. A schematic overview of the proposed AOP can be found in figure 1. Although the proposed AOP framework depicts the pathology of chemically induced Parkinson’s disease in a linear way, it should be noted that there is likely an interplay between intracellular calcium homeostasis, mitochondrial dysfunction and oxidative stress and none of the key events act in isolation of each other. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/Parkinson_AOP.png?raw=true' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. Schematic overview of the proposed AOP Network. Green boxes represent the MIEs, blue boxes represent KEs, purple box represents the AO. IP3R: inositol 1,4,5-trisphosphate receptor; mGluR: metabotropic glutamate receptor; NMDAR: N-methyl-D-aspartate receptor; VGCC: voltage-gated calcium channel; GABAAR: γ-aminobutyric acid A receptor; [Ca2+]i: intracellular calcium levels; ALP: autophagy-lysosomal pathway; UPS: ubiquitin-proteasome system.</p>"
+            "description": "An AOP for chemically-induced Parkinson's disease has been developped within the VHP4Safety to identify key molecular initiating events and relevant key events. The full AOP can be viewed in the figure 1. Multiple molecular iniating events can be targeted by chemicals that lead into the Parkinson's disease AOP, including IP3R activation, activation of mGLUR receptors, NMDAR activation, GABAAR inhibition and opening of VGC channels. All these molecular iniating events converge into the key events of increased intracellular calcium concentrations in dopaminergic neuronal cells. If intracellular calcium concentration get too high this can result in ER stress responses, Calpain activation and mitochrondial dysfunction leading to dopaminergic cell death. In the case study for dinoseb, we focussed on the on the pathway of mitochrondial dysfunction and oxidative stress that leads to apoptopic dopaminergic neuronal cells."
           },
           {
             "headingType": "h2",
-            "section": "Molecular initiating events in the AOP",
-            "description": "The AOP network outlines five distinct Molecular Initiating Events (MIEs) through which chemical stressors, specifically dinoseb, can increase extracellular calcium influx across the plasma membrane or by induce calcium release from intracellular storage organelles like the endoplasmic reticulum (ER).<br> 1) Extracellular influx can be initiated via direct or indirect opening of voltage-gated calcium channels (VGCCs).<br> 2) Activation of N-methyl-D-aspartate receptors (NMDARs) permits direct extracellular calcium entry while simultaneously depolarizing the cell membrane, which further drives VGCC opening.<br> 3) Inhibiting GABAa receptors prevents chloride ion influx, leading to membrane depolarization that indirectly triggers VGCC opening and subsequent calcium influx. Intracellular calcium efflux from the ER into the cytosol is primarily initiated through<br> 4) direct activation of 1,4,5-trisphosphate (IP3) receptors or<br> 5) by the activation of group I metabotropic glutamate receptors (mGluRs), which stimulate IP3 production"
-          },
-          {
-            "headingType": "h2",
-            "section": "Four downstream key events pathways following intracellular calcium disruption",
-            "description": "In the first pathway, elevated cytosolic calcium leads calpain activation, that cleave essential structural proteins, impair essential autophagic genes, and promote pro-apoptotic signaling (such as Bax cleavage and release of apoptosis-inducing factor), directly triggering apoptotic cell death of dopaminergic neurons.<br>The second pathway focusses on depletion of ER calcium stores through IP3 activation, which disrupts protein folding producing ER stress. ER stress triggers the Unfolded Protein Response (UPR) key event, which, when ER stress remain unresolved, initiates downstream caspase activation driving the cell into programmed apoptotic death.<br>In the third pathway, excess cytosolic calcium sequestered into mitochondria can form calcium precipitates that at high concentrations impair complex I activity and compromise electron transport chain function. The resulting mitochondrial dysfunction leads to a deficit in ATP production resulting in dysfunction of both the ubiquitin-proteasome system (UPS) and the autophagy-lysosomal pathway (ALP). This ALP/UPS dysfunction causes misfolded protein aggregation ultimately culminating in caspase activation and neuronal death.<br>The fourth pathway, at lower levels of mitochondrial calcium uptake stimulates the synthesis of ATP, which generates reactive oxygen species (ROS) and increases oxidative stress. Accumulated ROS causes oxidative damage to mitochondrial DNA, lipids, and membrane proteins resulting in structural mitochondrial damage. This mitochondrial damage triggers the release of cytochrome c into the cytosol, activating the intrinsic apoptotic caspase cascade and culminating in the loss of dopaminergic neurons. Furthermore, oxidative stress reinforces both ER stress and protein degradation dysfunction, creating synergistic feedback loops that further accelerate cell death."
-          },
-          {
-            "headingType": "h2",
-            "section": "exposure response modelling",
-            "description": "The results from the exposure and PBK modelling assessment were compared to in vitro data, to see if relevant dinoseb concentrations in the brain overlap with known toxic concentrations in vitro. We directly compare the internal brain concentrations derived from the PhysB PBK model for a bystander and worker (worst case) scenario to the in vitro concentration-response curves generated for dinoseb exposure on mitochondrial dysfunction and cytotoxicity.  To this end, the publicly available PROAST webapp was used.  "
+            "section": "Input and resulting output",
+            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
           }
         ]
       },
@@ -733,7 +706,7 @@
             {
               "headingType": "h2",
               "section": "AOP wiki",
-              "description": "The current AOP network has been constructed based on the identified KERs and assessed using the Bradford Hill criteria modified for AOP evaluation including biological plausibility, essentiality, and empirical evidence. The proposed AOP has been disseminated using the AOP-Wiki as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>"
+              "description": "Placeholder, text to be added. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://aopwiki.org/aops/464\">AOP-464</a>"
             },
             {
               "headingType": "h2",
@@ -743,7 +716,7 @@
             {
               "headingType": "h2",
               "section": "Specific gene-environmental factors identified for each pathway",
-              "description": "<b>Proteostasis (Protein Degradation & Aggregation)</b>: Mutations or variants in genes such as SNCA, LRRK2, and SKP1 disrupt normal protein clearance and folding pathways. This dysfunction leaves dopaminergic neurons far more vulnerable to toxic accumulation and pesticide-induced neurodegeneration. <br> Mitochondrial Functioning: Inherited mitochondrial traits and mutations in genes like GBA1 compromise cellular energy production and complex mitochondrial stability. When combined with pesticides that target mitochondria, such as rotenone, these genetic factors synergistically trigger accelerated cell death. <br> <b>Neurotransmission and neural integrity</b>: Key variants in genes like DAT1 and BDNF alter dopamine reuptake and reduce underlying neuroprotective support. These changes can increase toxin uptake directly into dopaminergic neurons, substantially amplifying pesticide-related risk. <br> <b>Redox Balance & Antioxidant Response</b>: Genetic alterations in pathways like NOS, SOD2, and APEX1 weaken the cell's natural defenses against oxidative stress and DNA damage. This diminished antioxidant capacity renders neurons unable to safely neutralize pesticide-induced reactive oxygen species. <br> <b>Toxicokinetics</b>: Genetic variations in enzymes and transporters like ABCB1, CYP2D6, and the GST family significantly alter how the body clears and detoxifies chemicals. Impairing these clearance mechanisms increases brain penetration and cellular susceptibility to pesticide toxicity, directly elevating Parkinson's disease risk. <br> <b>Neuroinflammation</b>: Variations in immune-related genes, including MHC-II and APOE, alter inflammatory responses to environmental toxins. These genetic risk factors synergize with pesticide exposure to trigger heightened neuroinflammation, promoting disease onset."
+              "description": "Proteostasis (Protein Degradation & Aggregation): Mutations or variants in genes such as SNCA, LRRK2, and SKP1 disrupt normal protein clearance and folding pathways. This dysfunction leaves dopaminergic neurons far more vulnerable to toxic accumulation and pesticide-induced neurodegeneration. <br> Mitochondrial Functioning: Inherited mitochondrial traits and mutations in genes like GBA1 compromise cellular energy production and complex mitochondrial stability. When combined with pesticides that target mitochondria, such as rotenone, these genetic factors synergistically trigger accelerated cell death. <br> Neurotransmission and neural integrity: Key variants in genes like DAT1 and BDNF alter dopamine reuptake and reduce underlying neuroprotective support. These changes can increase toxin uptake directly into dopaminergic neurons, substantially amplifying pesticide-related risk. <br> Redox Balance & Antioxidant Response: Genetic alterations in pathways like NOS, SOD2, and APEX1 weaken the cell's natural defenses against oxidative stress and DNA damage. This diminished antioxidant capacity renders neurons unable to safely neutralize pesticide-induced reactive oxygen species. <br> Toxicokinetics: Genetic variations in enzymes and transporters like ABCB1, CYP2D6, and the GST family significantly alter how the body clears and detoxifies chemicals. Impairing these clearance mechanisms increases brain penetration and cellular susceptibility to pesticide toxicity, directly elevating Parkinson's disease risk. <br> Neuroinflammation: Variations in immune-related genes, including MHC-II and APOE, alter inflammatory responses to environmental toxins. These genetic risk factors synergize with pesticide exposure to trigger heightened neuroinflammation, promoting disease onset."
             },
             {
               "headingType": "h2",

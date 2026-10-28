@@ -461,7 +461,7 @@
             }
           ]
         },
-        "In vitro assays": {
+        "in vitro assays": {
           "navTitle": "in vitro assays",
           "navDescription": "",
           "steps": [
@@ -664,7 +664,7 @@
       "Toxicodynamics": {
         "AOP development":{
           "AOP-development":{
-          "navtitle": "AOP-development", 
+          "navTitle": "AOP-development", 
           "navDescription": "",
           "steps":[
             {

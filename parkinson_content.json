@@ -125,6 +125,7 @@
         },
         {
           "label": "Adverse Outcome",
+          "state": "disabled",
           "value": "Adverse Outcome",
           "glossaryUrl": "https://glossary.vhp4safety.nl/#VHP0000158",
           "type": "process-flow-step"
@@ -133,23 +134,28 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Description",
-          "description": "Risk assessment differs from hazard characterization as it also considers the external exposure to the chemical of interest. Clinical symptoms of Parkinson’s disease are dominated by motor dysfunction related to loss of dopaminergic neurons in the midbrain (substantia nigra). Dopaminergic neurons in general, and the dopaminergic centers in the midbrain in particular, rely on a strict regulation of intracellular calcium levels for their function. Based on this characteristic, an AOP network was designed that revolves around disruption of calcium homeostasis leading to malfunction, and ultimately death of dopaminergic neurons. Based on key mechanisms included in the AOP, pesticides were selected to be used as model compounds in the in vitro models (Rotenone, Dinoseb, Endosulfan and Mancozeb. For all pesticides, the impact of exposure on oxidative stress, mitochondrial dysfunction, and cell death was assessed in various neuronal and non-neuronal cell models. To better reflect human exposure, the study compared five exposure paradigms - acute, repeated, and chronic treatments - to assess how different exposure patterns influence outcomes in cell models."
+          "section": "What levels of exposure to Dinoseb lead to Parkinson’s disease in agricultural workers?",
+          "description": "Risk assessment differs from hazard characterization as it also considers the exposure to the chemical of interest. A major challenge in non-animal new approach methodology (NAM)-based risk assessment strategies lies in the difficulties of comparing exposure in humans to in vitro derived hazard effect levels. In this regulatory question, we try to explore how to combine human derived exposure concentrations to in vitro derived hazard effect levels in the context of pesticide-induced Parksinon’s disease.  Dinoseb, a known pesticide that induces ER stress and mitochondrial dysfunction, has been chosen as a model compound. Human exposure to dinoseb mainly occurs due to occupational exposure using dinoseb as a herbicide. Therefore, we framed the regulatory question “What levels of exposure to dinoseb lead to Parkinson’s disease in agricultural workers?” to explore how NAMs can be used in putative animal-free risk assessments."
         },
         {
           "headingType": "h3",
-          "section": "Different routes of exposure",
-          "description": "External exposure to a compound can lead to internal exposure via three routes: inhalation, dermal penetration or oral intake. The exposure assessment for pesticides considers all major routes of human exposure and includes the magnitude and duration of that exposure. A complete exposure assessment takes into account dietary and non-dietary exposure. These routes are used to calculate aggregate exposure and may also consider cumulative exposure to multiple pesticides with similar mechanisms of action. Special attention can be given to vulnerable groups such as occupationally exposed workers, and children, as their intake relative to body weight or frequency of contact may be higher, increasing potential risk. To answer question 2, occupational- and bystander exposure were considered, taking into account the inhalation and dermal route of exposure, as well as hand-to-mouth contact."
+          "section": "Deriving internal brain concentrations through modelling approaches",
+          "description": "Modelling approaches play an integral part to estimate internal organ concentrations after pesticide exposure and in the translation of in vitro findings to human effect levels. We used human biomonitoring data and sophisticated modelling approaches for external exposure assessment. Subsequently, these external exposures were extrapolated to internal brain concentrations using physiologically based kinetic (PBK) modelling. These internal brain concentrations represent the concentrations that cause effects in in  vitro systems. These internal brain concentrations should subsequently be extrapolated to concentrations that cause adverse outcome in vivo. To this end, additional quantitative-in vitro-in vivo-extrapolation (qIVIVE) steps are necessary."
         },
         {
           "headingType": "h3",
-          "section": "Modelling approaches",
-          "description": "Modelling approaches are required to translate in vitro findings to human effect levels. This includes quantitative-in vitro-in vivo-extrapolation (qIVIVE) and physiologically based kinetic (PBK) modelling."
+          "section": "Impact of in vitro exposure durations",
+          "description": "In contrast to standard exposure paradigms in in vitro systems (24h acute exposure), human real-life exposure is often repeated, or chronic. To assess whether the exposure paradigm impacts the outcome in in vitro systems, five different exposure paradigms were tested in this case study, ranging from acute, to repeated, and chronic, including the impact of a wash-out period following exposure."
         },
         {
           "headingType": "h3",
-          "section": "Groups of extra risk to develop Parkinson's Disease",
-          "description": "Certain genetic factors may define an individual or subpopulation at increased risk to develop pesticide-induced Parkinson's disease. Identified biological factors related to increased susceptibility can support New Approach Methodologies (NAMs)-based hazard and risk assessment while considering known sources of interindividual variability."
+          "section": "Overview of the regulatory questions",
+          "description": "Figure 1 provides a schematic overview of the safety assessment workflow for Parkinson’s disease case study. External exposure assessment was performed by combining various human biomonitoring datasets and sophisticated modelling approaches into a single tool called the exposome generator. The outputs of the exposome generator are used as inputs into the PhysB PBK model from which population-dependent internal brain concentration were generated. Biological activity of dinoseb was assessed based on an AOP network for pesticide exposure and Parkinson’s disease, see regulatory question 1. This AOP was used as a framework to identify relevant endpoints that can be tested in in vitro assays or predicted by in silico models. Benchmark responses of dinoseb derived from the in vitro assays were then compared to the predicted internal brain concentration from the PBK modelling. Using this approach, we try to predict the risk associated with pesticide exposure to the development of Parkinson disease. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/FW/ND/RQ2/Images/ND_workflow_overview.png?raw=true' alt='Overview' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <p>Figure 1. An overview of the workflow of the neurodegeneration case study for the effect of dinoseb exposure on development of Parkinson’s disease in agricultural workers. The safety assessment workflow steps are shown in purple with the case study specific (sub)steps shown in dashed green boxes. The blue boxes indicate the different methods used for the case study steps </p>"
+        },
+        {
+          "headingType": "h3",
+          "section": "Uncertainties in integration/limitations",
+          "description": "placeholder text to be added soon"
         }
       ]
     }
@@ -316,16 +322,26 @@
         "navDescription": "",
         "steps": [
           {
-            "label": "External exposure scenario",
-            "value": "External exposure scenario",
+            "label": "External exposure modelling",
+            "value": "External exposure modelling",
             "type": "workflow-step"
           }
         ],
         "content": [
           {
             "headingType": "h2",
-            "section": "Description",
-            "description": "External exposure to a compound can lead to internal exposure via three routes: inhalation, dermal penetration or oral intake. The exposure assessment for pesticides considers all major routes of human exposure and includes the magnitude and duration of that exposure. A complete exposure assessment takes into account dietary and non-dietary exposure. These routes are used to calculate aggregate exposure and may also consider cumulative exposure to multiple pesticides with similar mechanisms of action. Special attention can be given to vulnerable groups such as occupationally exposed workers, and children, as their intake relative to body weight or frequency of contact may be higher, increasing potential risk. To answer question 2, occupational- and bystander exposure were considered, taking into account the inhalation and dermal route of exposure, as well as hand-to-mouth contact."
+            "section": "Establishing exposure scenarios",
+            "description": "Pesticide exposure occurs when people come into contact with chemicals designed to kill or control pests. This contact can occur through multiple routes, including inhalation, dermal absorption, and dietary exposure, where the severity is determined by the magnitude and the duration of the exposure. Occupational workers who handle pesticides represent a particularly vulnerable group due to high acute and long-term exposure. Typically, these workers will take protective measures to minimize their risk to pesticide exposure. However, pesticide exposure can also occur to bystanders not working directly with pesticides. While this group only experiences short-term, transient exposure, they do not use the protective measures that occupational workers rely on. Considering both these exposure scenarios is important to adequately characterize the risk of pesticide exposure in the development of Parkinson's disease in human populations."
+          },
+          {
+            "headingType": "h2",
+            "section": "Exposure modelling for Dinoseb",
+            "description": "For this case study, two scenarios were developed to evaluate the occuptional and bystander exposure to the pesticide dinoseb. Computation modelling approaches were used to established a realistic external exposure scenarios for dinoseb in argicultural workers and bystanders. Datasets from existing and newly developed predictive models were combined to calculate pesticide mass per kilogram body weight. Most variables in the modelling were set to default values due to limited real-world data."
+          },
+          {
+            "headingType": "h2",
+            "section": "Target populations",
+            "description": "To capture physiological variability within individuals, populations of males and females representative of the Dutch population were sampled based on the ConsExpo general factsheet (te Biesebeek et al. 2014). For the bystander scenario, a total of 482 individuals between 1 and 70 years of age were sampled while accounting for correlations between age, weight and height. The reason for the maximum of 70 years is that no information was available on the general factsheet on individuals older than 70 years. For the occupational exposure scenario, individuals younger than 18 years, and older than 65 years were excluded from the simulation, resulting in a population of 508 individuals."
           },
           {
             "headingType": "h2",
@@ -524,13 +540,18 @@
     "Q2": {
       "step4content": "true",
       "Exposure": {
-        "External exposure scenario": {
-          "navTitle": "External exposure scenario",
+        "External exposure modelling": {
+          "navTitle": "External exposure modelling",
           "navDescription": "",
           "steps": [
             {
-              "label": "Exposome generator",
-              "value": "Exposome generator",
+              "label": "Occupational exposure",
+              "value": "Occupational exposure",
+              "type": "workflow substep"
+            },
+            {
+              "label": "Bystander exposure",
+              "value": "Bystander exposure",
               "type": "workflow substep"
             }
           ],
@@ -538,7 +559,7 @@
             {
               "headingType": "h2",
               "section": "Description",
-              "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways."
+              "description": ""
             },
             {
               "headingType": "h2",
@@ -864,57 +885,32 @@
       "step5content": "true",
       "Exposure": {
         "External exposure scenario": {
-          "Exposome generator": {
-            "navTitle": "Exposome generator",
+          "Occupational exposure": {
+            "navTitle": "Occupational exposure",
             "navDescription": "",
             "steps": [
-              {
-                "label": "Dietary exposure dataset for pesticides",
-                "value": "Dietary exposure dataset for pesticides",
-                "type": "tool"
-              },
               {
                 "label": "BROWSE software",
                 "value": "BROWSE software",
                 "type": "tool"
               },
               {
-                "label": "Guassian tilting plume model",
-                "value": "Guassian tilting plume model",
-                "type": "tool"
-              },
-              {
-                "label": "Environmental exposure dataset for pesticides",
-                "value": "Environmental exposure dataset for pesticides",
-                "type": "tool"
-              },
-              {
                 "label": "Occupational exposure dataset for pesticides",
                 "value": "Occupational exposure dataset for pesticides",
-                "type": "tool"
+                "type": "dataset"
               }
             ],
             "content": [
               {
                 "headingType": "p",
-                "section": "Exposome generator description",
-                "description": "The exposome generator has been developed to provide a comprehensive assessment of external human exposure to pesticides, integrating occupational, environmental, and dietary pathways. This tool combines existing models, newly developed computational approaches, and curated datasets to generate exposure distributions that can be used in risk assessment and further modeling within the VHP4S framework. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios."
+                "section": "routes of exposure",
+                "description": "Occupational exposure estimates were based on data from the Plant Protection Products Registry (CTGB 2024) and the Centraal Bureau voor de Statistiek (CBS 2020) regarding pesticide usage. Crop types reflect the most frequent crops in the datasets, and other variables were chosen from technical sheets of full product formulations. Two activities were assumed to be performed by the workers: 1) mixing and loading and 2) boom-spraying. Both activities resulting in exposure via three routes: inhalation, dermal deposition and oral ingestion."
               },
               {
                 "headingType": "h2",
-                "section": "Exposome generator input",
-                "description": "The exposome generator draws upon a wide range of input data relevant to different exposure routes. For occupational exposure, essential parameters include pesticide maximum application doses (kg/ha or L/ha), crop type, field size, meteorological conditions (e.g., wind speed, cloud cover), and levels of personal protection (low, medium, high). For dietary exposure, data sources include measured pesticide concentrations in Dutch food items (2011–2020) from the European monitoring program, as well as food consumption statistics across age groups and populations provided in the Raw Primary Commodity (RPC) database. Common environmental and occupational inputs also include information on pesticide use and application methods."
-              },
-              {
-                "headingType": "h2",
-                "section": "Modelling approaches in the exposome generator",
-                "description": "To transform input data into exposure estimates, a suite of established and custom-built models are applied. The BROWSE model is used to generate occupational exposure distributions, expressed as µg pesticide per kg bodyweight, using standardized application and protection scenarios. For environmental exposure, a Gaussian Plume Drift model implemented in R calculates atmospheric concentrations of pesticides (ng/m³), which are then converted to inhalation and dermal exposure estimates through deposition mechanisms and inhalation rates. For dietary exposure, a Monte Carlo simulation framework in R is applied to estimate daily intake distributions (µg/kg bodyweight) across different food types and consumer populations.The modeling is based on a combination of existing models, online datasets, and calculations generated within the VHP4 project. The BROWSE model is a well-established regulatory tool, while the Gaussian Plume and dietary Monte Carlo simulations have been tailored to the VHP4 context. Data on pesticide use (CBS, 2020), consumption (EFSA, 2019), and monitoring of residues (Zenodo repository) are publicly available, with processed datasets accessible on request. The exposome generator produces integrated estimates of external exposure for various pesticides under multiple scenarios."
-              },
-              {
-                "headingType": "h2",
-                "section": "Exposome generator outputs",
-                "description": "The exposome generator generates comprehensive datasets on the occupational, dietary and environmental exposure for pesticides. The occupational dataset contain occupational exposure levels (µg/kg bw) across protection levels and application practices. The environemtnal exposure dataset contain environmental exposure values at different distances from treated fields, expressed as µg/kg bw. The dietary exposure dataset contains dietary exposure distributions for different food categories and population subgroups, expressed as µg/kg bw per day. Specific exposure data sets for dinoseb exposure in argicultural workers was extracted from these datasets in order to estimate a relevant exposure"
-              },
+                "section": "Exposure modelling",
+                "description": "placeholder text"
+              }, 
               {
                 "headingType": "h2",
                 "section": "Input and resulting output",
@@ -923,6 +919,41 @@
             ]
           }
         }
+        "Bystander exposure": {
+            "navTitle": "Bystander exposure",
+            "navDescription": "",
+            "steps": [
+              {
+                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "type": "tool",
+                "id": "alamar_blue_assay_for_detection_of_mitochondrial_activity",
+                "route": "methods"
+              },
+              {
+                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
+                "type": "tool"
+              }
+            ],
+            "content": [
+              {
+                "headingType": "h2",
+                "section": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "p",
+                "section": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
+                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+              },
+              {
+                "headingType": "h2",
+                "section": "Input and resulting output",
+                "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+              }
+            ]
+          },
       },
       "Toxicokinetics": {
         "Internal exposure at target site": {

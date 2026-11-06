@@ -331,7 +331,7 @@
           {
             "headingType": "h2",
             "section": "Establishing exposure scenarios",
-            "description": "Pesticide exposure occurs when people come into contact with chemicals designed to kill or control pests. This contact can occur through multiple routes, including inhalation, dermal absorption, and dietary exposure, where the severity is determined by the magnitude and the duration of the exposure. Occupational workers who handle pesticides represent a particularly vulnerable group due to high acute and long-term exposure. Typically, these workers will take protective measures to minimize their risk to pesticide exposure. However, pesticide exposure can also occur to bystanders not working directly with pesticides. While this group only experiences short-term, transient exposure, they do not use the protective measures that occupational workers rely on. Considering both these exposure scenarios is important to adequately characterize the risk of pesticide exposure in the development of Parkinson's disease in human populations."
+            "description": "Pesticide exposure occurs when people come into contact with chemicals designed to kill or control pests. This contact can occur through multiple routes, including inhalation, dermal absorption, and dietary exposure, where the severity is determined by the magnitude and the duration of the exposure. Occupational workers who handle pesticides represent a particularly vulnerable group due to high acute and long-term exposure.  However, pesticide exposure can also occur to bystanders not working directly with pesticides. This group  will only experience short-term, transient exposure to pesticides. Considering both exposure scenarios is important to adequately characterize the risk of pesticide exposure in the development of Parkinson's disease in human populations."
           },
           {
             "headingType": "h2",
@@ -435,7 +435,7 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "AOP development",
+              "label": "AOP-development",
               "value": "AOP-development",
               "description": "",
               "type": "workflow substep"
@@ -459,7 +459,7 @@
           "navDescription": "",
           "steps": [
             {
-              "label": "MIE activation",
+              "label": "MIE-activation",
               "value": "MIE-activation",
               "type": "workflow substep"
             }
@@ -748,7 +748,7 @@
         }
       },
         "MIE activation": {
-          "MIE activation": {
+          "MIE-activation": {
             "navTitle": "MIE-activation",
             "navDescription": "",
             "steps": [
@@ -891,12 +891,26 @@
             "steps": [
               {
                 "label": "BROWSE software",
-                "value": "BROWSE software",
+                "description": "tool to assess occupational exposure",
+                "id": "",
                 "type": "tool"
               },
               {
+                "label": "BROWSE scientific publication",
+                "description": "scientific publication describing BROWSE tool",
+                "id": "",
+                "type": "tool"
+              },
+              {
+                "label": "Environmental air concentration dataset",
+                "description": "",
+                "id": "",
+                "type": "dataset"
+              },
+              {
                 "label": "Occupational exposure dataset for pesticides",
-                "value": "Occupational exposure dataset for pesticides",
+                "description": "",
+                "id": "",
                 "type": "dataset"
               }
             ],
@@ -909,7 +923,7 @@
               {
                 "headingType": "h2",
                 "section": "Exposure modelling",
-                "description": "placeholder text"
+                "description": "placeholder text. <br><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1. Exposure levels associated with the exposure scenarios considered in this study.</strong></p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Activity</th><th style=\"border:1px solid black; padding:6px;\">Air concentration <strong>(µg/m3)</strong></th><th style=\"border:1px solid black; padding:6px;\">Dermal deposition <strong>(µg)</strong></th><th style=\"border:1px solid black; padding:6px;\">Oral ingestion <strong>(µg/kg bw)</strong></th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">Mixing and loading<sup>1</sup></td><td style=\"border:1px solid black; padding:6px;\">4082</td><td style=\"border:1px solid black; padding:6px;\">64800</td><td style=\"border:1px solid black; padding:6px;\">31.9</td></tr><tr><td style=\"border:1px solid black; padding:6px;\">Boomspraying<sup>2</sup></td><td style=\"border:1px solid black; padding:6px;\">131</td><td style=\"border:1px solid black; padding:6px;\">44400</td><td style=\"border:1px solid black; padding:6px;\">20.7</td></tr></tbody></table><p style=\"text-align:left; margin-top:8px;\"><sup>1</sup> This activity was assumed to be performed for 5.5 minutes.<br><sup>2</sup> This activity was assumed to be performed for exactly an hour.</p>"
               }, 
               {
                 "headingType": "h2",
@@ -924,28 +938,22 @@
             "navDescription": "",
             "steps": [
               {
-                "label": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "value": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "type": "tool",
-                "id": "alamar_blue_assay_for_detection_of_mitochondrial_activity",
-                "route": "methods"
+                "label": "Environmental air concentration dataset",
+                "description": "",
+                "id": "",
+                "type": "dataset"
               },
-              {
-                "label": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "value": "Mitochondrial activity LUHMES cells (ATP content+ Alamar blue assay)",
-                "type": "tool"
-              }
             ],
             "content": [
               {
                 "headingType": "h2",
-                "section": "Mitochondrial activity SHSY5Y cells (Alamar blue assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "Routes of exposure",
+                "description": "Bystander exposure was assumed to occur via two main routes: inhalation of sprayed pesticides and dermal deposition. Oral ingestion was assumed to be zero in the bystander scenario."
               },
               {
                 "headingType": "p",
-                "section": "Mitochondrial activity LUHMES cells (ATP content + Alamar blue assay)",
-                "description": "Placeholder for WP2/WP3 description + connection to casestudy."
+                "section": "Exposure modelling",
+                "description": "<p>A Gaussian tilting plume model was applied in this study to evaluate air concentrations and exposure for bystanders located 10 meters away from the pesticide application field for the duration of 1 hour. The Gaussian tilting plume model used in the bystander external exposure calculation is given in Equation 1.</p><br><img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/FW/ND/RQ2/Images/Equation1.png?raw=true' alt='Equation 1: Gaussian tilting plume model' style='width:600px; max-width:100%; height:auto; display:block; margin:12px auto;'/><p><strong>Equation 1.</strong> Where:</p><ul style=\"margin-top:10px; margin-bottom:10px;\"><li><i>C</i><sub>tot</sub>: Total concentration at receptor (grams/m3 air)</li><li>app: Application rate (or another relevant parameter) (grams)</li><li>vegcover: Vegetation cover factor</li><li>exp: Exponential function</li><li>y: Horizontal distance along the perpendicular direction of the wind (m)</li><li>σ<sub>y</sub>: Standard deviation in the y-direction (m)</li><li>σ<sub>z</sub>: Standard deviation in the z-direction (m)</li><li>z: Receptor height (set at 1.5 m)</li><li>H<sub>s</sub>: Effective source height (m)</li><li>v<sub>p</sub>: Droplet settling velocity parameter (m/s)</li><li>x: Horizontal distance along the direction of the wind (m)</li><li>U<sub>adj</sub>: Adjusted wind speed using the power law approach (m/s)</li><li>π (pi): Approximately 3.14</li></ul><br><p>The model, utilizing meteorological data from 2011 to 2016, simulated realistic pesticide exposure scenarios assuming standard nozzle characteristics (no drift reduction scenarios). It accounted for wind speeds under the authorized limit of 5 m/s, along with seasonal and time-of-day variations, the size of the sprayed area, and different land-use types such as arable, idle, grassland, and natural areas. Over 70 million unique scenarios were generated, providing estimates of atmospheric pesticide concentrations and potential dermal deposition to evaluate bystander exposure. As a conservative estimate, the maximum atmospheric concentration at 10 m distance was used as input for the PBK modeling.</p><br><p>To determine dermal deposition in this bystander scenario, the estimated atmospheric concentrations were translated into deposited amounts on a bystander's skin surface. The resulting exposure estimates per route are given in Table 1.</p><br><p style=\"font-size:0.9em; margin-bottom:6px;\"><strong>Table 1. Exposure levels associated with the exposure scenarios considered in this study.</strong></p><table style=\"width:100%; border-collapse:collapse; text-align:center; border:1px solid black;\"><thead><tr><th style=\"border:1px solid black; padding:6px;\">Population</th><th style=\"border:1px solid black; padding:6px;\">Air concentration (µg/m3)</th><th style=\"border:1px solid black; padding:6px;\">Dermal deposition (µg)</th><th style=\"border:1px solid black; padding:6px;\">Oral ingestion (µg/kg bw)</th></tr></thead><tbody><tr><td style=\"border:1px solid black; padding:6px;\">Bystander</td><td style=\"border:1px solid black; padding:6px;\">0.172</td><td style=\"border:1px solid black; padding:6px;\">0.0275</td><td style=\"border:1px solid black; padding:6px;\">0</td></tr></tbody></table>"
               },
               {
                 "headingType": "h2",

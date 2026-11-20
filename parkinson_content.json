@@ -230,8 +230,8 @@
             "type": "workflow-step"
           },
           {
-            "label": "Key event quantification",
-            "value": "Key event quantification",
+            "label": "In vitro quantification",
+            "value": "In vitro quantification",
             "type": "workflow-step"
           }
         ],
@@ -389,8 +389,8 @@
             "type": "workflow-step"
           },
           {
-            "label": "Key event quantification",
-            "value": "Key event quantification",
+            "label": "In vitro quantification",
+            "value": "In vitro quantification",
             "type": "workflow-step"
           },
           {
@@ -507,8 +507,8 @@
             }
           ]
         },
-        "Key event quantification": {
-          "navTitle": "Key event quantification",
+        "In vitro quantification": {
+          "navTitle": "In vitro quantification",
           "navDescription": "",
           "steps": [
             {
@@ -672,8 +672,8 @@
             }
           ]
         },
-        "Key event quantification": {
-          "navTitle": "Key event quantification",
+        "In vitro quantification": {
+          "navTitle": "In vitro quantification",
           "navDescription": "",
           "steps": [
             {
@@ -856,7 +856,7 @@
             ]
           }
         },
-        "Key event quantification": {
+        "In vitro quantification": {
           "Mitochondrial dysfunction": {
             "navTitle": "Mitochondrial dysfunction",
             "navDescription": "",
@@ -1165,7 +1165,7 @@
             ]
           }
         },
-        "Key event quantification": {
+        "In vitro quantification": {
           "Mitochondrial dysfunction": {
             "navTitle": "Mitochondrial dysfunction",
             "navDescription": "",

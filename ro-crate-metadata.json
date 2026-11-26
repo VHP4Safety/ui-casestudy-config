@@ -17,7 +17,7 @@
       "@id": "./",
       "@type": "Dataset",
       "name": "VHP4Safety Case Studies",
-      "description": "Configuration data for the VHP4Safety case studies (kidney, Parkinson, thyroid) used to drive the case study UI.",
+      "description": "Configuration data for the VHP4Safety case studies (kidney, Parkinson, thyroid, cosmetics) used to drive the case study UI.",
       "datePublished": "2026-05-17",
       "dateModified": "2026-05-17",
       "version": "1.0.0",
@@ -41,6 +41,7 @@
         { "@id": "kidney_content.json" },
         { "@id": "parkinson_content.json" },
         { "@id": "thyroid_content.json" },
+        { "@id": "cosmetics_content.json" },
         { "@id": "Images/" },
         { "@id": "README.md" },
         { "@id": "transform_content.py" }
@@ -78,6 +79,16 @@
       "keywords": ["neurodevelopment", "age", "sex differences", "thyroid"],
       "about": { "@id": "snomed:14304000" },
       "contentUrl": "https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/refs/heads/main/thyroid_content.json"
+    },
+    {
+      "@id": "cosmetics_content.json",
+      "@type": "File",
+      "name": "Cosmetics case study",
+      "description": "To study how skin and liver metabolism determine the internal exposure to cosmetic ingredients, without animal data.",
+      "identifier": "cosmetics",
+      "encodingFormat": "application/json",
+      "keywords": ["cosmetics", "skin metabolism", "next generation risk assessment", "microphysiological systems"],
+      "contentUrl": "https://raw.githubusercontent.com/VHP4Safety/ui-casestudy-config/refs/heads/main/cosmetics_content.json"
     },
     {
       "@id": "Images/",

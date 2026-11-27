@@ -19,8 +19,18 @@
     "content": [
       {
         "headingType": "h2",
-        "section": "Introduction",
-        "description": "<b>Nephrotoxicity</b> refers to kidney damage or impaired kidney function caused by exposure to toxic substances, including certain medications. Since the kidneys play a central role in filtering waste products, regulating electrolytes, and maintaining overall fluid balance, any drug-induced kidney injury can significantly affect health. Moreover, as the kidneys are responsible for the excretion of many exogenous toxic compounds, they often are a primary target organ for drugs. Evaluating nephrotoxicity during drug development and treatment is crucial as exposure to pharmaceutical drugs is one of the leading causes of nephrotoxicity. However, the safety assessments on drugs induced nephrotoxicity remains challenging, mainly due a lack of understanding the pathological pathways, lack of suitable non-clinical models and intra- and individual pharmacokinetic differences. In this case study, we tried to improve the safety assessment of two well-known nephrotoxic pharmaceutical compounds, cisplatin and tacrolimus, using a variety of in vitro and in silico tools. "
+        "section": "Nephrotoxicity",
+        "description": "Drug-induced nephrotoxicity refers to kidney damage or impaired kidney function caused by exposure to medications. The kidneys are an important organ for the filtering of toxic compounds and maintaining a homeostatic chemistry balance in the body, so any drug-induced kidney injury can significantly affect health. As the kidneys play a central role in the clearance of exogenous toxic compounds and concentrate substances during excretion, they are exceptionally vulnerable to drug-induced toxicity. Drug-induced nephrotoxicity is a major contributor to acute kidney injury, which can develop into chronic kidney disease and end-stage renal failure. Impaired kidney function also alters the systemic clearance of toxic compounds, increasing the risk of secondary toxicities in other organs."
+      },
+      {
+        "headingType": "h2",
+        "section": "Challenges in clinical drug testing for nephrotoxicity",
+        "description": "Drug-induced nephrotoxicity is a common cause of early discontinuation of essential therapies, hampering the treatment of patients. Additionally, many highly effective pharmaceuticals operate in narrow therapeutic windows due to nephrotoxic side effects. Evaluating nephrotoxicity during drug development and treatment is therefore crucial to safeguarding patients from toxic side effects. However, predicting and detecting drug-induced nephrotoxicity remains challenging, mainly due to a lack of understanding of the pathological pathways, lack of suitable non-clinical models and intra- and inter-individual pharmacokinetic differences. Preclinical rodent models often fail to predict nephrotoxic effects for humans, due to species differences in kidney transporter expression and differences in kidney anatomy. Moreover, traditional biomarkers for nephrotoxicity are only available for late-stage kidney disease and cannot predict early onset of kidney damage. New approach methodologies (NAMs) might circumvent these issues by offering human-based assays and models that can detect early signs of kidney damage."
+      },
+      {
+        "headingType": "h2",
+        "section": "Aims of the case study",
+        "description": "In this case study, we explored how NAMs can be employed to improve the assessment of nephrotoxicity induced by two clinically relevant nephrotoxic pharmaceuticals, cisplatin and tacrolimus, addressing two distinct regulatory questions. The first case study focused on the application of NAMs to support the prediction of human-relevant renal exposure and the derivation of safe exposure levels for cisplatin in cancer patients. By integrating in vitro toxicity data with computational modelling approaches, we investigated how NAMs can contribute to more human-relevant dose predictions and support the assessment of therapeutic safety. The second case study investigated whether NAMs can reproduce key characteristics and molecular events associated with tacrolimus-induced nephrotoxicity. Using advanced in vitro kidney models, we assessed early cellular responses to tacrolimus exposure, including oxidative stress and mitochondrial alterations, and explored potential upstream molecular mechanisms of toxicity. Together, these case studies demonstrate complementary applications of NAMs in pharmaceutical safety assessment, highlighting their potential to support both quantitative human risk assessment and mechanistic characterization of drug-induced nephrotoxicity."
       }
     ]
   },
@@ -65,8 +75,18 @@
       "content": [
         {
           "headingType": "h2",
-          "section": "Description",
-          "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+          "section": "Cisplatin and its clinical relevance",
+          "description": "Cisplatin is a platinum-based chemotherapeutic agent that has been widely used in cancer treatment since its introduction into clinical practice in the late 1970s. It remains widely used to treat several cancers including testicular, ovarian, bladder, lung and head and neck cancers. Its antitumour activity is primarily mediated through the formation of DNA adducts and crosslinks, which interfere with DNA replication and transcription, ultimately triggering cell-cycle arrest and cell death. Despite its therapeutic effectiveness, the clinical application of cisplatin is limited primarily due to nephrotoxic side effects. Cisplatin-induced nephrotoxicity occurs in approximately 20–30% of treated patients and can manifest as acute kidney injury (AKI) and in some cases persistent renal impairment. The kidney is particularly susceptible because cisplatin accumulates in renal proximal tubular cells, partly through transporter-mediated uptake. Consequently, nephrotoxicity remains an important dose-limiting adverse effect that can compromise treatment delivery and patient outcomes. "
+        },
+        {
+          "headingType": "h2",
+          "section": " Limitations of current nephrotoxicity testing",
+          "description": "Despite extensive research, accurately predicting cisplatin-induced nephrotoxicity remains challenging. Animal models, particularly rodents, have provided valuable insights into the mechanisms underlying cisplatin-induced kidney injury. However, conventional models frequently rely on single, relatively high cisplatin doses to induce reproducible AKI, which may not adequately reflect the repeated treatment cycles and clinically relevant exposure patterns experienced by cancer patients. Furthermore, differences in renal physiology, drug transporters and immune responses between species can complicate the extrapolation of animal findings to humans. Variations in experimental protocols, including dose, administration schedule, animal strain and sampling time, further contribute to inconsistent outcomes. In addition, commonly used kidney function markers, such as serum creatinine and blood urea nitrogen, may not detect early or subclinical tubular injury. These limitations highlight the need for complementary approaches that better represent human renal exposure and capture early molecular events associated with nephrotoxicity. Human-relevant new approach methodologies (NAMs), combining in vitro experimental systems with computational modelling, offer an opportunity to improve predictive accuracy while reducing reliance on animal testing. "
+        },
+        {
+          "headingType": "h2",
+          "section": "Current set up of the workflow",
+          "description": "To address these limitations, two complementary NAM approaches have been developed to improve the prediction of cisplatin-induced nephrotoxicity. The first approach employs a human physiologically based kinetic (PBK) model to simulate cisplatin concentrations in plasma and kidney tissue, incorporating active renal secretion through the organic cation transporter OCT2. By integrating these predicted tissue concentrations with in vitro cytotoxicity data,  Quantitative in vitro to in vivo extrapolation (QIVIVE) can be used to estimate nephrotoxic dose levels in humans. The second approach uses quantitative adverse outcome pathway (qAOP) modelling to describe the progression of kidney injury through time-dependent molecular and cellular events. This combines time-course transcriptomic and cell death measurements from human renal proximal tubular epithelial cells (RPTEC/TERT1) with existing in vivo rat data, using mathematical modelling to establish relationships between key events and adverse outcomes. QIVIVE is then used to link the models and predict in vivo toxicity from in vitro measurements. Together, these approaches provide complementary frameworks for mechanistic understanding and human-relevant prediction of cisplatin-induced nephrotoxicity. "
         }
       ]
     },
@@ -133,8 +153,8 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            "section": "Farmacotherapeutisch Kompas",
+            "description": "Farmacotherapeutisch Kompas is the official Dutch national drug database managed by Zorginstituut Nederland, providing independent, evidence-based clinical guidance on drug dosages, indications, side effects, and pharmacokinetics for healthcare professionals. This database contains recommended prescription doses for cisplatin for indication-specific chemotherapy schedules typically ranging from 50-120 mg/m² bw  every 3-4 weeks for monotherapy, 20 mg/m² bw once every 3-4 weeks for combination chemotherapy and 40 mg/m² bw every 6 weeks for combination radiotherapy."
           },
           {
             "headingType": "h2",
@@ -163,13 +183,13 @@
         "content": [
           {
             "headingType": "h2",
-            "section": "Description",
-            "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+            "section": "QIVIVE approach using physiologically based kinetic modelling to predict nephrotoxic doses of cisplatin",
+            "description": "Human relevant safety assessment of chemicals generally rely on human-based in vitro cell-based assays to provide insights into drug-induced nephrotoxicity in humans. However, toxic concentration derived from in vitro bioassays need to extrapolated into human equivalent doses (HED) that cause toxicity in humans. Physiologically based kinetic (PBK) modelling-facilitated reverse-dosimetry can be used to extrapolate hazard effect concentrations from human-based in vitro assays into HED, a process called Quantitative in vitro to in vivo extrapolation (QIVIVE). Physiologically based kinetic (PBK) models simulate the kinetics of a chemical between an in tissue through differential equations and thereby describe the absorption, distribution, metabolism, and excretion (ADME) of chemicals. Here we developed a relevant PBK model for cisplatin-induced nephrotoxicity and used this model for QIVIVE using in vitro cytotoxicity data to predict human nephrotoxic doses of cisplatin. "
           },
           {
             "headingType": "h2",
-            "section": "Input and resulting output",
-            "description": "<ul><li><strong>Input:</strong>Placehholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+            "section": " Development of multi-compartmental kidney PBK model for nephrotoxicity of cisplatin",
+            "description": "Simple PBK models generally consider that renal clearance occurs exclusively via glomerular filtration, ignoring active transport and cellular accumulation. Cisplatin heavily relies on active uptake into the proximal tubule via organic cation transporter 2 (OCT2), making simple models inadequate for predicting its rapid plasma clearance. To address this, we developed a next-generation human PBK model featuring a multi-compartmental kidney that incorporates OCT2-mediated active renal secretion and a dedicated proximal tubule compartment. Predicted plasma concentrations of cisplatin were compared to measured human plasma concentrations of cisplatin from literature, to validate the two PBK models. "
           }
         ]
       },
@@ -422,13 +442,13 @@
           "content": [
             {
               "headingType": "p",
-              "section": "Description",
-              "description": "Placeholder for WP2's/WP3's description + connection to casestudy."
+              "section": "Multicompartmental kidney PBK model",
+              "description": "To simulate the pharmacokinetics of intravenous cisplatin in humans, a PBK model was developed featuring the multi-compartmental kidney structure as shown in Figure 1. Anatomical and physiological parameters were estimated from in vitro  or in silico-derived data as described in Romano et al. 205?. The multi-compartmental kidney PBK model describes clearance of cisplatin from the blood through glomerular filtration and active uptake into the proximal tubule cells by OCT2. Inclusion of a proximal tubule compartment and the OCT2 clearance mechanisms allow for more accurate predictions of time-dependent plasma concentrations in humans as demonstrated in Romano et al. 2026. The multi-compartmental kidney PBK model allows for the simulation of both forward and reverse dosimetry of intravenous cisplatin. In this case study, the multi-compartmental kidney PBK model was used to derive QIVIVE extrapolation from cisplatin in vitro cytotoxicity data. Figure 1 shows the overall safety assessment workflow applied in the kidney case study. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/kidneystep4toxicokinetics.png?raw=true' alt='Kidney safety assessment workflow' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <i>Figure 1. Schematic overview of the kidney safety assessment workflow, from exposure through in vitro and in silico evaluation.</i>"
             },
             {
               "headingType": "h2",
-              "section": "Input and resulting output",
-              "description": "<ul><li><strong>Input:</strong>Placeholder text</li><li><strong>Output:</strong>Placeholder text</li></ul>"
+              "section": " Deriving cytotoxic potency of cisplatin in vitro",
+              "description": "Concentration-response relationships from cisplatin-induced in vitro cytotoxicity data across various human renal cell lines were collected from literature as described in Romano et al. 2026. To account for chemical binding and cellular uptake of cisplatin in vitro, two additional cell-associated metrics, the maximum concentration in cells (Cmax,cells) and the area under the cell-associated concentration-time curve (AUC,cells), were calculated from this data using a cisplatin three-compartmental in vitro kinetic model for RPTEC/TERT1 cells describes in Wilmes et al. 2015. The maximum concentration in cells (Cmax,cells) represent the maximal intracellular concentration of cisplatin in the proximal tubule compartment. The area under the cell-associated concentration-time curve (AUC,cells) represents the total accumulative cisplatin concentration in the proximal tubule over time. The reconstituted concentration-response curves from the already reported nominal data and the estimated Cmax,cells and AUC, cells data from the cisplatin in vitro kidney cytotoxicity data are shown in figure 2.  These concentration-response concentrations can be used to extrapolate in vivo dose levels using the multi-compartmental kidney PBK model. <img src='https://github.com/VHP4Safety/ui-casestudy-config/blob/main/Images/kidneystep4toxicokinetics2.png?raw=true' alt='Kidney safety assessment plot' style='width:600px; max-width:100%; height:auto; display:block; margin:12px 0;'/> <i>Figure 2. In vitro cytotoxic concentration-response curves for cisplatin-induced effects on cell viability in human renal cell lines collected from literature: (a) Nominal concentrations in exposure medium versus percentage cell viability of the control, (b) calculated maximum concentrations in renal cells (Cmax,cells) versus percentage. cell viability of the control, and (c) calculated area under the cell-associated concentration-time curve (uM*h) in renal cells (AUCcells) versus percentage cell viability of the control. Cmax,cells and AUCcells were calculated using a three-compartmental in vitro distribution model described in Wilmes et al. (2015).</i>  "
             }
           ]
         },
